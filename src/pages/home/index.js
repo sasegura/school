@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Footer from '../../Components/Footer';
 import Header from '../../Components/Header/Header';
 
 const Home = () => {
@@ -1585,6 +1586,7 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
+				<Footer />
 			</body>
 		</Fragment>
 	);

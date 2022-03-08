@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Components/Footer';
 import Header from '../../Components/Header/Header';
 
 const Courses = () => {
@@ -380,6 +381,7 @@ const Courses = () => {
 						</div>
 					</div>
 				</section>
+				<Footer />
 			</body>
 		</div>
 	);
