@@ -2,6 +2,7 @@ export const courses = [
 	{
 		id: 1,
 		name: 'Master en Programación Web',
+		link: '/master',
 		price: 6000,
 		teacher: 'Isabel María ',
 		image: 'master.jpg',
@@ -11,6 +12,7 @@ export const courses = [
 	{
 		id: 2,
 		name: 'Diplomado en Programación Web',
+		link: '/diplomat',
 		price: 5000,
 		teacher: 'Isabel María ',
 		image: 'diplo.jpg',
@@ -20,6 +22,7 @@ export const courses = [
 	{
 		id: 3,
 		name: 'Postgrado en Programación Web',
+		link: '/postgrade',
 		price: 4000,
 		teacher: 'Isabel María ',
 		image: 'postgrado.jpg',
@@ -29,6 +32,7 @@ export const courses = [
 	{
 		id: 4,
 		name: 'Curso Front-End',
+		link: '/front-end',
 		price: 3000,
 		teacher: 'Isabel María ',
 		image: 'master1.jpg',
@@ -38,6 +42,7 @@ export const courses = [
 	{
 		id: 5,
 		name: 'Curso Back-End',
+		link: '/back-end',
 		price: 2500,
 		teacher: 'Isabel María ',
 		image: 'front.png',
@@ -48,6 +53,7 @@ export const courses = [
 	{
 		id: 6,
 		name: 'Curso Full Stack',
+		link: '/full-stack',
 		price: 4500,
 		teacher: 'Isabel María ',
 		image: 'backend.jpg',

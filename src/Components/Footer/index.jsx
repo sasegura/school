@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { courses } from '../../pages/home/utils/courses';
 
 const Footer = () => (
 	<Fragment>
@@ -13,8 +14,8 @@ const Footer = () => (
 								className='footer_logo img-fluid'
 							/>
 							<ul className='list-unstyled contact_info'>
-								<li>hello@ecotheme.com</li>
-								<li>Call: +88 7380 254 025</li>
+								<li>codercrackschool@gmail.com</li>
+								<li>Call: +34 652 41 51 09</li>
 							</ul>
 							<div className='social_wraper'>
 								<ul className='social-items d-flex list-unstyled'>
@@ -45,7 +46,7 @@ const Footer = () => (
 
 					<div className='col-12 col-sm-12 col-md-6 col-lg-3'>
 						<div className='footer_single footer_signle_item_2'>
-							<h3 className='footer_item_title'>Talk to Us</h3>
+							<h3 className='footer_item_title'>Nosotros</h3>
 							<ul className='list-unstyled'>
 								<li>
 									<a href='#'>About us</a>
@@ -68,28 +69,28 @@ const Footer = () => (
 
 					<div className='col-12 col-sm-12 col-md-6 col-lg-3'>
 						<div className='footer_single footer_signle_item_3'>
-							<h3 className='footer_item_title'>Popular Courses</h3>
+							<h3 className='footer_item_title'>Cursos Populares</h3>
 							<ul className='list-unstyled'>
 								<li>
-									<a href='#'>
-										Ecommerce Course
+									<a href={courses[0].link}>
+										{courses[0].name}
 										<br />
 									</a>
-									<span>Jony miah</span>
+									<span>{courses[0].teacher}</span>
 								</li>
 								<li>
-									<a href='#'>
-										Learn Ui/UX
+									<a href={courses[1].link}>
+										{courses[1].name}
 										<br />
 									</a>
-									<span>Nanson Dvil</span>
+									<span>{courses[1].teacher}</span>
 								</li>
 								<li>
-									<a href='#'>
-										Motion Design
+									<a href={courses[2].link}>
+										{courses[2].name}
 										<br />
 									</a>
-									<span>Alex Hope</span>
+									<span>{courses[2].teacher}</span>
 								</li>
 							</ul>
 						</div>
