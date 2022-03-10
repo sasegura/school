@@ -1,6 +1,10 @@
 import React, { Fragment } from 'react';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header/Header';
+import Course from './course';
+import NextEvent from './Events/NextEvent';
+import { courses } from './utils/courses';
+import { events } from './utils/events';
 
 const Home = () => {
 	return (
@@ -228,12 +232,10 @@ const Home = () => {
 									src='assets/images/aula.jpg'
 									alt='Sky'
 									className='rev-slidebg'
-									alt=''
 									data-bgposition='center center'
 									data-bgfit='cover'
 									data-bgrepeat='no-repeat'
 									data-bgparallax='10'
-									className='rev-slidebg'
 									data-no-retina
 								/>
 
@@ -620,197 +622,16 @@ const Home = () => {
 							<div className='col-12 col-sm-12 col-md-12 col-lg-12'>
 								<h2>Nuestros Cursos populares</h2>
 								<div id='latest_blog_carousel' className='owl-carousel'>
-									<div
-										className='review_singel wow fadeIn'
-										data-wow-duration='2s'
-										data-wow-delay='.1s'
-									>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/master.jpg'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Master en Programación Web
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Matricularse
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>5000€</span>
-											</div>
-										</div>
-									</div>
-
-									<div
-										className='review_singel wow fadeIn'
-										data-wow-duration='2s'
-										data-wow-delay='.3s'
-									>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/diplo.jpg'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Diplomado en Programación Web
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Apply Now
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>4400€</span>
-											</div>
-										</div>
-									</div>
-
-									<div
-										className='review_singel wow fadeIn'
-										data-wow-duration='2s'
-										data-wow-delay='.5s'
-									>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/postgrado.jpg'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Postgrado en Programación Web
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Apply Now
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>3800€</span>
-											</div>
-										</div>
-									</div>
-
-									<div className='review_singel'>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/front.png'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Curso de Programación Front-End
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Apply Now
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>3000€</span>
-											</div>
-										</div>
-									</div>
-
-									<div className='review_singel'>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/backend.jpg'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Curso de Programación Back-End
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Apply Now
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>2000€</span>
-											</div>
-										</div>
-									</div>
-
-									<div className='review_singel'>
-										<div className='blog-img'>
-											<img
-												src='assets/images/courses/full stack.png'
-												alt=''
-												className='img-fluid'
-											/>
-										</div>
-										<div className='blog-title'>
-											<div className='shape'></div>
-											<h3>
-												<a href='' title=''>
-													Curso de Programación Full Stack
-												</a>
-											</h3>
-											<span>Profesor- Isabel María</span>
-											<p>
-												Lorem ipsum dolor consectetur sed do tempor incididunt
-												ut laboris ut aliquip ex commodo conquat.
-											</p>
-											<div className='cources_btn d-flex justify-content-between'>
-												<a href='' title='' className='apply_btn'>
-													Apply Now
-													<i className='flaticon-angle-arrow-pointing-to-right'></i>
-												</a>
-												<span>1500€</span>
-											</div>
-										</div>
-									</div>
+									{courses.map((course) => (
+										<Course
+											key={course.id}
+											courseName={course.name}
+											teacher={course.teacher}
+											description={course.description}
+											price={course.price}
+											image={course.image}
+										/>
+									))}
 								</div>
 							</div>
 						</div>
@@ -906,142 +727,24 @@ const Home = () => {
 						<div className='row'>
 							<div className='col-12 col-sm-12 col-md-12 col-lg-12'>
 								<div className='title'>
-									<h2>Upcoming Events</h2>
+									<h2>Próximos Eventos</h2>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua.
+										En esta sección podrás encontrar nuestros próximos eventos y
+										cursos, apurate en obtener tu matrícula.
 									</p>
 								</div>
 							</div>
-							<div className='col-12 col-sm-12 col-md-6 col-lg-6 p-0'>
-								<div
-									className='event_single wow fadeIn'
-									data-wow-duration='2s'
-									data-wow-delay='.2s'
-								>
-									<div className='event_img'>
-										<img
-											src='assets/images/event/event-1.jpg'
-											alt=''
-											className='img-fluid'
-										/>
-										<div className='event_content'>
-											<div className='event_date'>
-												25 <span>Sep</span>
-											</div>
-											<div className='single_event_title'>
-												<h3>
-													<a href='' title=''>
-														Mobail Development
-													</a>
-												</h3>
-												<div className='shape'></div>
-											</div>
-											<p>
-												Friday, 3pm to 5pm <br />
-												Venu: Hobert center hall
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className='col-12 col-sm-12 col-md-6 col-lg-6 p-0'>
-								<div
-									className='event_single wow fadeIn'
-									data-wow-duration='2s'
-									data-wow-delay='.3s'
-								>
-									<div className='event_img'>
-										<img
-											src='assets/images/event/event-2.jpg'
-											alt=''
-											className='img-fluid'
-										/>
-										<div className='event_content'>
-											<div className='event_date'>
-												28 <span>Sep</span>
-											</div>
-											<div className='single_event_title'>
-												<h3>
-													<a href='' title=''>
-														UI/UX Research
-													</a>
-												</h3>
-												<div className='shape'></div>
-											</div>
-											<p>
-												Friday, 3pm to 5pm <br />
-												Venu: Hobert center hall
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className='col-12 col-sm-12 col-md-6 col-lg-6 p-0'>
-								<div
-									className='event_single wow fadeIn'
-									data-wow-duration='2s'
-									data-wow-delay='.4s'
-								>
-									<div className='event_img'>
-										<img
-											src='assets/images/event/event-3.jpg'
-											alt=''
-											className='img-fluid'
-										/>
-										<div className='event_content'>
-											<div className='event_date'>
-												20 <span>Aug</span>
-											</div>
-											<div className='single_event_title'>
-												<h3>
-													<a href='' title=''>
-														Typography tips
-													</a>
-												</h3>
-												<div className='shape'></div>
-											</div>
-											<p>
-												Friday, 3pm to 5pm <br />
-												Venu: Hobert center hall
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className='col-12 col-sm-12 col-md-6 col-lg-6 p-0'>
-								<div
-									className='event_single wow fadeIn'
-									data-wow-duration='2s'
-									data-wow-delay='.5s'
-								>
-									<div className='event_img'>
-										<img
-											src='assets/images/event/event-4.jpg'
-											alt=''
-											className='img-fluid'
-										/>
-										<div className='event_content'>
-											<div className='event_date'>
-												08 <span>Dec</span>
-											</div>
-											<div className='single_event_title'>
-												<h3>
-													<a href='' title=''>
-														Research of coffee
-													</a>
-												</h3>
-												<div className='shape'></div>
-											</div>
-											<p>
-												Friday, 3pm to 5pm <br />
-												Venu: Hobert center hall
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
+							{events.map((event) => (
+								<NextEvent
+									key={event.id}
+									name={event.name}
+									day={event.day}
+									month={event.month}
+									description={event.description}
+									image={event.image}
+									detail={event.detail}
+								/>
+							))}
 						</div>
 					</div>
 				</section>
