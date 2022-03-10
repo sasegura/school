@@ -52,7 +52,7 @@ const Header = ({ active }) => (
 				<div className='container'>
 					<nav className='navbar navbar-expand-md navbar-light bg-faded'>
 						<a className='navbar-brand' href='index.html'>
-							<img src='assets/images/icons/whiteLogo.jpeg' alt='logo' />
+							<img src='assets/images/icons/whiteLogo.png' alt='logo' />
 						</a>
 						<div
 							className='collapse navbar-collapse main-menu'
