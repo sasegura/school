@@ -7,7 +7,7 @@ export default function CourseDetail() {
 	// const { courseId } = match.params;
 	const { courseId } = useParams();
 	const course = courses[courseId - 1];
-	console.log(courseId);
+
 	return (
 		<div className='courses_details_body'>
 			<Header active={'events'} />
@@ -96,7 +96,7 @@ export default function CourseDetail() {
 															role='tab'
 															data-toggle='tab'
 														>
-															<i className='flaticon-info-sign'></i>Information
+															<i className='flaticon-info-sign'></i>Información
 														</a>
 													</li>
 													<li className='nav-item'>
@@ -106,7 +106,8 @@ export default function CourseDetail() {
 															role='tab'
 															data-toggle='tab'
 														>
-															<i className='flaticon-portfolio'></i>Curricularm
+															<i className='flaticon-portfolio'></i>Plan de
+															estudio
 														</a>
 													</li>
 													<li className='nav-item'>
@@ -116,7 +117,7 @@ export default function CourseDetail() {
 															role='tab'
 															data-toggle='tab'
 														>
-															<i className='flaticon-man-user'></i>Instructor
+															<i className='flaticon-man-user'></i>Profesor
 														</a>
 													</li>
 													<li className='nav-item'>
@@ -138,27 +139,9 @@ export default function CourseDetail() {
 													className='tab-pane fade in active show'
 													id='information'
 												>
-													<p>
-														"Lorem ipsum dolor sit amet, consectetur adipiscing
-														elit, sed do eiusmod tempor incididunt ut labore et
-														dolore magna aliqua. Ut enim ad minim veniam, quis
-														nostrud exercitation ullamco laboris nisi ut aliquip
-														ex ea commodo consequat. Duis aute irure dolor in
-														reprehenderit in voluptate velit esse cillum dolore
-														eu fugiat nulla pariatur. Excepteur sint occaecat
-														cupidatat non proident, sunt in culpa qui officia
-														deserunt mollit anim id est laborum."
-													</p>
-													<p>
-														Section 1.10.32 of "de Finibus Bonorum et Malorum",
-														written by Cicero in 45 BC" Sed ut perspiciatis unde
-														omnis iste natus error sit voluptatem accusantium{' '}
-													</p>
-													<p>
-														doloremque laudantium, totam rem aperiam, eaque ipsa
-														quae ab illo inventore veritatis et quasi architecto
-														beatae vitae dicta sunt explicabo.
-													</p>
+													{course?.completeInfo?.map((info) => (
+														<p key={info.id}>{info?.info}</p>
+													))}
 												</div>
 												<div
 													role='tabpanel'
@@ -402,7 +385,7 @@ export default function CourseDetail() {
 															<div className='tutor_pro'>
 																<a href='' title=''>
 																	<img
-																		src='images/team/team-07.jpg'
+																		src={course.teacherPhoto}
 																		alt=''
 																		className='img-fluid'
 																	/>
@@ -411,10 +394,10 @@ export default function CourseDetail() {
 															<div className='teachers_name'>
 																<h5>
 																	<a href='' title=''>
-																		Jonson Park
+																		{course.teacher}
 																	</a>
 																</h5>
-																<span>Associate Professor</span>
+																<span>{course.teacherOccupation}</span>
 															</div>
 														</div>
 													</div>

@@ -1,3 +1,5 @@
+import { introduction } from '../../../utils/courses/modules/introduction';
+
 export const courses = [
 	{
 		id: 1,
@@ -10,6 +12,8 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person1.jpg',
 		description:
 			'Obtendrás una formación completa y adaptada a las necesidades demandadas por el mercado laboral actual. Utilizarás una metodología eminentemente práctica con un proyecto de desarrollo que será tu carta de presentación ante las empresas.',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 	{
 		id: 2,
@@ -22,6 +26,8 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person8.jpg',
 		description:
 			'El Diplomado en programación Web tiene como objetivo formar profesionales integrales en el área de desarrollo web, capaces de manejar las tecnologías más actuales y utilizando las más avanzadas técnicas del sector.',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 	{
 		id: 3,
@@ -34,6 +40,8 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person3.jpg',
 		description:
 			'El posgrado en Desarrollo y Programación Web busca crear profesionales altamente capacitados para entrar en al campo laboral, desarrollando desde cero sitios web de alta calidad.',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 	{
 		id: 4,
@@ -46,6 +54,8 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person2.jpg',
 		description:
 			'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 	{
 		id: 5,
@@ -59,6 +69,8 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person5.jpg',
 		description:
 			'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 	{
 		id: 6,
@@ -72,5 +84,7 @@ export const courses = [
 		teacherPhoto: 'assets/images/team/person7.jpg',
 		description:
 			'Deseas convertirte en un desarrollador web capaz de crear productos digitales para internet de principio a fin, con el curso Full Stack estás a un paso de lograrlo.',
+		completeInfo: introduction?.info,
+		modules: [introduction],
 	},
 ];
