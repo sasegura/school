@@ -1,20 +1,16 @@
-const Course = ({ courseName, teacher, description, price, image }) => (
+const Course = ({ course, courseName, teacher, description, price, image }) => (
 	<div
 		className='review_singel wow fadeIn'
 		data-wow-duration='2s'
 		data-wow-delay='.5s'
 	>
 		<div className='blog-img'>
-			<img
-				src={`assets/images/courses/${image}`}
-				alt=''
-				className='img-fluid'
-			/>
+			<img src={`${image}`} alt='' className='img-fluid' />
 		</div>
 		<div className='blog-title'>
 			<div className='shape'></div>
 			<h3>
-				<a href='' title=''>
+				<a href={course.link} title=''>
 					{courseName}
 				</a>
 			</h3>

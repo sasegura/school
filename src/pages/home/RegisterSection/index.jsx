@@ -5,21 +5,20 @@ export default function RegisterSection() {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 col-sm-12 col-md-6 col-lg-7 form-content'>
-							<p
-								className=' wow fadeInUp'
-								data-wow-duration='2s'
-								data-wow-delay='.1s'
-							>
-								Joni to the Advance Workshop
-							</p>
 							<h2
 								className=' wow fadeInUp'
 								data-wow-duration='2s'
 								data-wow-delay='.2s'
 							>
-								Training in advance <br />
-								Networking
+								Coder Crack School <br />
 							</h2>
+							<p
+								className=' wow fadeInUp'
+								data-wow-duration='2s'
+								data-wow-delay='.1s'
+							>
+								Escuela Europea de Programación
+							</p>
 						</div>
 						<div className='col-12 col-sm-12 col-md-6 col-lg-5'>
 							<div className='row'>
@@ -29,7 +28,7 @@ export default function RegisterSection() {
 									data-wow-delay='.1s'
 								>
 									<div className='form_title'>
-										<h2>Apply Now</h2>
+										<h2>Contáctanos</h2>
 									</div>
 									<form>
 										<div className='register-form'>
@@ -39,7 +38,7 @@ export default function RegisterSection() {
 														<input
 															className='form-control'
 															name='name'
-															placeholder='Name'
+															placeholder='Nombre'
 															required=''
 															type='text'
 														/>
@@ -51,7 +50,7 @@ export default function RegisterSection() {
 														<input
 															className='form-control'
 															name='email'
-															placeholder='Email'
+															placeholder='Correo'
 															required=''
 															type='email'
 														/>
@@ -62,7 +61,7 @@ export default function RegisterSection() {
 														<input
 															className='form-control'
 															name='phone'
-															placeholder='Phone Number'
+															placeholder='Número de teléfono'
 															required=''
 															type='text'
 														/>
@@ -70,7 +69,7 @@ export default function RegisterSection() {
 												</div>
 												<div className='col-12 col-xs-12 col-md-12 register-btn-box'>
 													<button className='register-btn' type='submit'>
-														Register
+														Regístrate
 													</button>
 												</div>
 											</div>

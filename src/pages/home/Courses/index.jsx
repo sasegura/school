@@ -12,6 +12,7 @@ export default function Courses() {
 							{courses.map((course) => (
 								<Course
 									key={course.id}
+									course={course}
 									courseName={course.name}
 									teacher={course.teacher}
 									description={course.description}
