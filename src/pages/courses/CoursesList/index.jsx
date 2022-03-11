@@ -1,4 +1,4 @@
-import { courses } from '../../home/utils/courses';
+import { courses } from '../../../utils/courses/courses';
 import Course from '../Course';
 
 export default function CoursesList() {

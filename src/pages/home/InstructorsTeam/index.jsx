@@ -1,4 +1,4 @@
-import { courses } from '../utils/courses';
+import { courses } from '../../../utils/courses/courses';
 import Instructor from './instructor';
 
 export default function InstructorsTeam() {

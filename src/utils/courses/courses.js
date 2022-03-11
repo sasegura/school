@@ -1,4 +1,4 @@
-import { introduction } from '../../../utils/courses/modules/introduction';
+import { introduction } from './modules/introduction';
 
 export const courses = [
 	{

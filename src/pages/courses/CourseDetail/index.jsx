@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import Footer from '../../../Components/Footer';
 import Header from '../../../Components/Header/Header';
-import { courses } from '../../home/utils/courses';
+import { courses } from '../../../utils/courses/courses';
 
 export default function CourseDetail() {
 	// const { courseId } = match.params;

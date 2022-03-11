@@ -1,4 +1,4 @@
-import { events } from '../utils/events';
+import { events } from '../../../utils/events/events';
 import NextEvent from './NextEvent';
 
 export default function Events() {

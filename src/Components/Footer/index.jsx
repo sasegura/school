@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { courses } from '../../pages/home/utils/courses';
+import { courses } from '../../utils/courses/courses';
 
 const Footer = () => (
 	<Fragment>

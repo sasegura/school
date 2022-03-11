@@ -1,5 +1,5 @@
 import Course from './Course';
-import { courses } from '../utils/courses';
+import { courses } from '../../../utils/courses/courses';
 
 export default function Courses() {
 	return (
