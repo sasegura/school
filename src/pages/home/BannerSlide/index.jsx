@@ -55,23 +55,26 @@ export default function BannerSlide() {
 							data-lineheight="['70','70','70','50']"
 							data-width='none'
 							data-height='none'
-							data-whitespace='nowrap'
+							data-whitespace='wrap'
 							data-type='text'
 							data-responsive_offset='on'
 							data-frames='[{"from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":5,"to":"o:1;","delay":0,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 							data-textalign="['left','left','left','left']"
-							data-paddingtop='[10,10,10,10]'
+							data-paddingtop='[200,100,100,100]'
 							data-paddingright='[0,0,0,0]'
 							data-paddingbottom='[10,10,10,10]'
-							data-paddingleft='[0,0,0,0]'
+							data-paddingleft='[100,100,100,100]'
 							style={{
 								zIndex: '5',
 								whiteSpace: 'nowrap',
 								textTransform: 'left',
 								height: 500,
+								fontFamily: 'Unispace',
+								fontWeight: 600,
+								top: '150 px',
 							}}
 						>
-							Coder Crack School
+							Bienvenido a Coder Crack School
 						</div>
 
 						<div
@@ -82,15 +85,18 @@ export default function BannerSlide() {
 							data-voffset="['20','0','0','0']"
 							data-fontsize="['46','46','46','46']"
 							data-lineheight="['30','30','30','30']"
+							data-margintop='[-200,100,100,100]'
+							data-paddingleft='[100,100,100,100]'
 							data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":10,"to":"o:1;","delay":0,"split":"chars","splitdelay":0.05,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 							style={{
 								zIndex: '7',
 								color: '#fff',
-								fontFamily: 'Poppins, serif',
+								fontFamily: 'Unispace',
 								maxWidth: 'auto',
 								maxHeight: 'auto',
 								whiteSpace: 'nowrap',
 								fontWeight: '400',
+								top: '300 px',
 							}}
 						>
 							<p>Escuela Europea de programación</p>

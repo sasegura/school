@@ -487,10 +487,10 @@ header .eco_nav nav {
 	padding: 0;
 }
 header .eco_nav nav .navbar-brand img {
-	height: 115px;
-	width: auto;
+	height: auto;
+	width: 90%;
 	margin-bottom: -20px;
-	margin-top: -5px;
+	margin-top: -20px;
 }
 header .eco_nav nav .navbar-nav .single_nav {
 	position: relative;
@@ -511,7 +511,7 @@ header .eco_nav nav .navbar-nav li a {
 	font-weight: 600;
 	color: #2f2f2f !important;
 	font-size: 16px;
-	padding: 42px 0 !important;
+	padding: 32px 0 !important;
 	margin: 0 15px;
 	text-decoration: none;
 }
