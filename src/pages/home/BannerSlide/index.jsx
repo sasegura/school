@@ -60,7 +60,7 @@ export default function BannerSlide() {
 							data-responsive_offset='on'
 							data-frames='[{"from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":5,"to":"o:1;","delay":0,"split":"chars","splitdelay":0.05,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 							data-textalign="['left','left','left','left']"
-							data-paddingtop='[200,100,100,100]'
+							data-paddingtop='[30,30,30,30]'
 							data-paddingright='[0,0,0,0]'
 							data-paddingbottom='[10,10,10,10]'
 							data-paddingleft='[100,100,100,100]'
@@ -85,7 +85,7 @@ export default function BannerSlide() {
 							data-voffset="['20','0','0','0']"
 							data-fontsize="['46','46','46','46']"
 							data-lineheight="['30','30','30','30']"
-							data-margintop='[-200,100,100,100]'
+							data-margintop='[-550,-550,-550,-550]'
 							data-paddingleft='[100,100,100,100]'
 							data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":10,"to":"o:1;","delay":0,"split":"chars","splitdelay":0.05,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 							style={{
