@@ -4,7 +4,7 @@ export default function BannerSlide() {
 			<div
 				id='rev_slider_1'
 				className='rev_slider'
-				style={{ position: 'relative' }}
+				style={{ position: 'relative', height: '500px' }}
 			>
 				<ul>
 					<li
@@ -34,7 +34,7 @@ export default function BannerSlide() {
 						<div className='slider-overlay'></div>
 
 						<img
-							src='assets/images/edificio.jpg'
+							src='assets/images/BannerBlackAndWhite.gif'
 							alt='Sky'
 							className='rev-slidebg'
 							data-bgposition='center center'
@@ -68,6 +68,7 @@ export default function BannerSlide() {
 								zIndex: '5',
 								whiteSpace: 'nowrap',
 								textTransform: 'left',
+								height: 500,
 							}}
 						>
 							Coder Crack School
@@ -96,7 +97,7 @@ export default function BannerSlide() {
 						</div>
 					</li>
 
-					<li
+					{/* <li
 						data-index='rs-1707'
 						data-transition='fade'
 						data-slotamount='7'
@@ -279,7 +280,7 @@ export default function BannerSlide() {
 						>
 							superarte con nosotros
 						</div>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</div>

@@ -232,7 +232,7 @@ select {
 	top: 50%;
 	left: 50%;
 	margin-top: 50px;
-	background: #549cd8;
+	background: #50aceb;
 	border-radius: 0px;
 	height: 54px;
 	line-height: 54px;
@@ -307,7 +307,7 @@ select {
 	left: 0;
 	height: 3px;
 	width: 40px;
-	background: #549cd8;
+	background: #50aceb;
 	content: '';
 }
 .modal_sidebar_2 .recent_courses {
@@ -336,7 +336,7 @@ select {
 	background: #ffffff;
 }
 .modal_sidebar_2 .recent_courses .event_signle_3:hover .event_title h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .modal_sidebar_2 .recent_courses .event_signle_3 .corses_banner {
 	width: 22%;
@@ -381,10 +381,10 @@ select {
 	padding-top: 25px;
 }
 .modal_sidebar_2 .events_wrapper .event_signle_3:hover .event_title h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .modal_sidebar_2 .events_wrapper .event_signle_3 .event_date p {
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 30px;
 	font-weight: 600;
 	color: #ffffff;
@@ -474,7 +474,7 @@ header .header-top .header-top-right .social_wraper .social-items li a i {
 	transition: all 0.3s ease-in-out;
 }
 header .header-top .header-top-right .social_wraper .social-items li a i:hover {
-	color: #549cd8;
+	color: #50aceb;
 	padding: 0;
 	background: #ffffff;
 	border: 1px solid #ffffff;
@@ -519,7 +519,7 @@ header .eco_nav nav .navbar-nav li a.active,
 header .eco_nav nav .navbar-nav li a:hover {
 	background: transparent;
 	outline: none;
-	color: #549cd8 !important;
+	color: #50aceb !important;
 }
 header .eco_nav nav .navbar-nav li .nav_mega {
 	padding: 0 !important;
@@ -556,7 +556,7 @@ header .eco_nav nav .navbar-nav li ul li a {
 	font-size: 14px;
 }
 header .eco_nav nav .navbar-nav li ul li a:before {
-	color: #549cd8;
+	color: #50aceb;
 	position: absolute;
 	font-weight: 600;
 	font-family: 'Flaticon';
@@ -633,7 +633,7 @@ header .eco_nav nav .navbar-nav li ul li ul {
 	visibility: hidden !important;
 }
 header .eco_nav nav .sign-in-option .navbar-nav li .sign-in {
-	background: #549cd8;
+	background: #50aceb;
 	padding: 12px 30px !important;
 	margin: 22px 15px 22px 0;
 	color: #ffffff !important;
@@ -704,9 +704,9 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	transition: all 0.3s ease-in-out;
 }
 .eco_slider .nivo-caption .single_intro .intro_button a:hover {
-	border: 2px solid #549cd8;
+	border: 2px solid #50aceb;
 	color: #ffffff;
-	background: #549cd8;
+	background: #50aceb;
 }
 .eco_slider .nivo-caption .single_intro .intro_button a:hover span {
 	right: 20px;
@@ -729,8 +729,8 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	font-size: 15px;
 }
 .eco_slider .nivo-caption .single_intro .intro_button .active {
-	background: #549cd8;
-	border: 2px solid #549cd8;
+	background: #50aceb;
+	border: 2px solid #50aceb;
 }
 .eco_slider .nivo-controlNav {
 	text-align: left;
@@ -772,7 +772,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	z-index: -1;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 4px solid #549cd8;
+	border: 4px solid #50aceb;
 }
 .popular_cources {
 	padding: 200px 0;
@@ -801,7 +801,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	width: 28px;
 }
 .popular_cources #latest_blog_carousel .review_singel:hover .blog-title h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .popular_cources #latest_blog_carousel .review_singel .blog-img {
 	min-width: 275px;
@@ -830,7 +830,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	top: 0;
 	left: 0;
 	height: 4px;
-	background: #549cd8;
+	background: #50aceb;
 	width: 0px;
 	margin-bottom: 15px;
 	visibility: hidden;
@@ -931,7 +931,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	.blog-title
 	.cources_btn
 	span {
-	color: #549cd8;
+	color: #50aceb;
 }
 .popular_cources .owl-item.active {
 	transition: all 0.3s ease-in-out;
@@ -951,7 +951,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	margin: 0;
 	padding: 13px;
 	border-radius: 50%;
-	color: #549cd8;
+	color: #50aceb;
 	opacity: 0.5;
 	transition: all 0.3s ease-in-out;
 	font-size: 20px;
@@ -965,7 +965,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	opacity: 1;
 }
 .register_area {
-	background: #549cd8;
+	background: #50aceb;
 	min-height: 500px;
 	position: relative;
 	padding: 160px 0;
@@ -979,7 +979,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	position: absolute;
 	top: 0;
 	right: 0%;
-	width: 70%;
+	width: 100%;
 	z-index: 0;
 }
 .register_area:after {
@@ -1072,7 +1072,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	font-weight: 600;
 }
 .register_area .form-full-box .register-form .form-group input:focus {
-	border-color: #549cd8;
+	border-color: #50aceb;
 	outline: none;
 	box-shadow: none;
 }
@@ -1137,7 +1137,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	.register-form
 	.register-btn-box
 	.register-btn:hover {
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .popular_event {
@@ -1172,7 +1172,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	visibility: visible;
 }
 .popular_event .event_single:hover .event_img .event_content .event_date {
-	box-shadow: 6px 10px 60px 0px rgba(253, 25, 73, 0.22);
+	box-shadow: 6px 10px 60px 0px rgba(25, 188, 253, 0.22);
 }
 .popular_event
 	.event_single:hover
@@ -1229,7 +1229,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #549cd8;
+	background: #50aceb;
 	height: 80px;
 	text-align: center;
 	line-height: 80px;
@@ -1395,7 +1395,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	transition: all 0.3s ease 0s;
 }
 .our_instructors .team-single-item figure figcaption .social-links li a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .our_instructors .team-single-item figure:hover .member-img:before {
 	opacity: 0.2;
@@ -1404,7 +1404,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	transform: scale(1);
 }
 .our_instructors .team-single-item figure:hover figcaption .member-name h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .our_instructors .owl-controls {
 	margin-top: 50px;
@@ -1431,7 +1431,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	z-index: -1;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	border: 4px solid #549cd8;
+	border: 4px solid #50aceb;
 }
 .our_instructors .owl-item.active figure {
 	margin: 0px 35px 0;
@@ -1481,7 +1481,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 }
 .take_tour_1 .tour_video_content .video_wrapper .video-play-btn span a:hover i {
 	transform: scale(1.15);
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .take_tour_1 .tour_video_content .video_wrapper .video-play-btn span a i {
@@ -1489,22 +1489,22 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	width: 65px;
 	line-height: 65px;
 	font-size: 12px;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	border-radius: 50%;
 	transition: all 0.3s ease-in-out;
-	box-shadow: 5px 9px 20px 0px rgba(253, 25, 73, 0.2);
+	box-shadow: 5px 9px 20px 0px rgba(25, 150, 253, 0.2);
 }
 .take_tour_1 .tour_video_content .video_wrapper .video-play-btn span a span {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 56px;
-	color: #549cd8;
+	color: #50aceb;
 	padding-left: 25px;
 }
 .testimonial {
 	padding: 150px 0 0px 0;
-	background: #549cd8;
+	background: #50aceb;
 	position: relative;
 }
 .testimonial:before {
@@ -1595,7 +1595,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 }
 .testimonial .testimonial_single h4 {
 	font-size: 18px;
-	color: #549cd8;
+	color: #50aceb;
 	font-weight: 700;
 }
 .testimonial .testimonial_single span {
@@ -1646,7 +1646,7 @@ header .eco_nav nav .sign-in-option .navbar-nav li .sign-in:hover {
 	width: 17px;
 	background: transparent;
 	margin: 15px -4px;
-	border: 4px solid #549cd8;
+	border: 4px solid #50aceb;
 }
 .our_sponsor {
 	padding: 150px 0;
@@ -1724,7 +1724,7 @@ footer .social-items li a i {
 	transition: all 0.3s ease-in-out;
 }
 footer .social-items li a i:hover {
-	color: #549cd8;
+	color: #50aceb;
 	padding: 0;
 	background: #ffffff;
 	border: 1px solid #ffffff;
@@ -1745,7 +1745,7 @@ footer ul li a {
 	line-height: 24px;
 }
 footer ul li a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 footer ul li span {
 	font-size: 12px;
@@ -1783,7 +1783,7 @@ footer .copytight_info ul li a {
 	font-size: 14px;
 }
 footer .copytight_info ul li a:hover {
-	color: #549cd8;
+	color: #50aceb;
 	transition: all 0.1s ease-in-out;
 }
 /*====================== { Index 2 Style } ========================*/
@@ -1940,7 +1940,7 @@ footer .copytight_info ul li a:hover {
 	width: 187px;
 	font-size: 18px;
 	font-weight: 600;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	border: none;
 	border-radius: 5px;
@@ -1973,7 +1973,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .popular_cources_2 .courses_single:hover .courses_title h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .popular_cources_2 .courses_single .courses_banner_wrapper {
 	box-shadow: 10px 17px 70px 0px rgba(47, 47, 47, 0.16);
@@ -2041,22 +2041,22 @@ footer .copytight_info ul li a:hover {
 }
 .popular_cources_2 .courses_single .cources_rating ul li i:before {
 	font-size: 15px;
-	color: #549cd8;
+	color: #50aceb;
 	margin-left: 1px;
 }
 .popular_cources_2 .courses_single .cources_rating .courses_price {
 	font-weight: 700;
 	font-size: 18px;
-	color: #549cd8;
+	color: #50aceb;
 }
 .popular_cources_2 .view-more-btn {
 	height: 54px;
 	line-height: 52px;
-	border: 2px solid #549cd8;
+	border: 2px solid #50aceb;
 	padding: 0 20px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -2237,7 +2237,7 @@ footer .copytight_info ul li a:hover {
 	.social-links
 	li
 	a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .our_instructors_2 .team-single-item figure:hover:before {
 	transform: scaleX(1);
@@ -2251,7 +2251,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .our_instructors_2 .team-single-item figure:hover figcaption .member-name h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_2 {
 	background: url('../images/news-bg.jpg') no-repeat center center/cover;
@@ -2309,7 +2309,7 @@ footer .copytight_info ul li a:hover {
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 500;
-	background: #549cd8;
+	background: #50aceb;
 	padding: 15px 20px;
 	border-radius: 5px;
 	transition: all 0.3s ease-in-out;
@@ -2326,12 +2326,12 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .blog_2 .blog_2_single .blog_title h3 a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_2 .blog_2_single .blog_title span {
 	font-size: 18px;
 	font-weight: 700;
-	color: #549cd8;
+	color: #50aceb;
 	line-height: 40px;
 }
 /*====================== { Index 3 Style } ========================*/
@@ -2435,8 +2435,8 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .header_3 .intro_wrapper .intro-text .intro_button a:hover {
-	border: 2px solid #549cd8;
-	background: #549cd8;
+	border: 2px solid #50aceb;
+	background: #50aceb;
 }
 .header_3 .intro_wrapper .intro-text .intro_button a:hover span {
 	right: 20px;
@@ -2461,8 +2461,8 @@ footer .copytight_info ul li a:hover {
 	color: #ffffff;
 }
 .header_3 .intro_wrapper .intro-text .intro_button .active {
-	background: #549cd8;
-	border: 2px solid #549cd8;
+	background: #50aceb;
+	border: 2px solid #50aceb;
 	color: #ffffff;
 }
 .popular_event_3 {
@@ -2508,7 +2508,7 @@ footer .copytight_info ul li a:hover {
 	position: relative;
 }
 .popular_event_3 .event_single .event_img:before {
-	background: #549cd8;
+	background: #50aceb;
 	position: absolute;
 	content: '';
 	top: 0;
@@ -2628,13 +2628,13 @@ footer .copytight_info ul li a:hover {
 }
 .cources_categories_3 .courses_single:hover .courses_banner a {
 	color: #ffffff;
-	background: #549cd8;
+	background: #50aceb;
 }
 .cources_categories_3 .courses_single:hover .courses_title {
 	padding: 25px 20px;
 }
 .cources_categories_3 .courses_single:hover .courses_title h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .cources_categories_3 .courses_single .courses_banner {
 	overflow: hidden;
@@ -2645,7 +2645,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .cources_categories_3 .courses_single .courses_banner a {
-	color: #549cd8;
+	color: #50aceb;
 	padding: 12px 25px;
 	background: #ffffff;
 	position: absolute;
@@ -2763,10 +2763,10 @@ footer .copytight_info ul li a:hover {
 	cursor: pointer;
 }
 .videoPoster:hover:before {
-	border-color: #549cd8;
+	border-color: #50aceb;
 }
 .videoPoster:hover:after {
-	border-left-color: #549cd8;
+	border-left-color: #50aceb;
 }
 .videoPoster .video_caption {
 	content: '';
@@ -2787,7 +2787,7 @@ footer .copytight_info ul li a:hover {
 .videoPoster .video_caption .video_btn:hover i {
 	transform: scale(1.15);
 	background: #ffffff;
-	color: #549cd8;
+	color: #50aceb;
 }
 .videoPoster .video_caption .video_btn:before {
 	background: rgba(255, 255, 255, 0.5);
@@ -2808,15 +2808,15 @@ footer .copytight_info ul li a:hover {
 	line-height: 56px;
 	font-size: 12px;
 	background: #ffffff;
-	color: #549cd8;
+	color: #50aceb;
 	border-radius: 50%;
 	transition: all 0.3s ease-in-out;
 }
 .videoPoster:focus:before {
-	border-color: #549cd8;
+	border-color: #50aceb;
 }
 .videoPoster:focus:after {
-	border-left-color: #549cd8;
+	border-left-color: #50aceb;
 }
 .videoWrapperActive .videoPoster {
 	opacity: 0;
@@ -2845,13 +2845,13 @@ footer .copytight_info ul li a:hover {
 	padding-top: 25px;
 }
 .upcoming_blogs_3 .events_wrapper .event_signle_3:hover .event_title h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .upcoming_blogs_3 .events_wrapper .event_signle_3:first-child {
 	margin-top: 35px;
 }
 .upcoming_blogs_3 .events_wrapper .event_signle_3 .event_date p {
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 30px;
 	font-weight: 600;
 	color: #ffffff;
@@ -2890,7 +2890,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0;
 }
 .upcoming_blogs_3 .blog_wrapper .blog3_title {
-	background: #549cd8;
+	background: #50aceb;
 	padding: 35px 0 32px;
 }
 .upcoming_blogs_3 .blog_wrapper .blog3_title h2 {
@@ -2906,7 +2906,7 @@ footer .copytight_info ul li a:hover {
 .upcoming_blogs_3 .blog_wrapper .single_blog_3 .blog_content .posit_date {
 	font-size: 14px;
 	font-weight: 600;
-	color: #549cd8;
+	color: #50aceb;
 }
 .upcoming_blogs_3 .blog_wrapper .single_blog_3 .blog_content h3 {
 	font-size: 24px;
@@ -3000,7 +3000,7 @@ footer .copytight_info ul li a:hover {
 	font-weight: 500;
 }
 .upcoming_blogs_3 .suscribe_wrapper .register-form .form-group input:focus {
-	border-color: #549cd8;
+	border-color: #50aceb;
 	outline: none;
 	box-shadow: none;
 }
@@ -3056,7 +3056,7 @@ footer .copytight_info ul li a:hover {
 	.register-form
 	.register-btn-box
 	.register-btn {
-	background: #549cd8;
+	background: #50aceb;
 	color: white;
 	width: 140px;
 	color: #ffffff;
@@ -3072,7 +3072,7 @@ footer .copytight_info ul li a:hover {
 	.register-form
 	.register-btn-box
 	.register-btn:hover {
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .testimonial_3 {
@@ -3108,7 +3108,7 @@ footer .copytight_info ul li a:hover {
 	position: relative;
 }
 .testimonial_3 .carousel_images:before {
-	background: #549cd8;
+	background: #50aceb;
 	content: '';
 	height: 240px;
 	position: absolute;
@@ -3192,17 +3192,17 @@ footer .copytight_info ul li a:hover {
 }
 .header_4 .eco_nav nav .navbar-nav li a.active,
 .header_4 .eco_nav nav .navbar-nav li a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .header_4 .eco_nav nav .navbar-nav li ul li a {
 	color: #2f2f2f !important;
 }
 .header_4 .eco_nav nav .navbar-nav li ul li a.active,
 .header_4 .eco_nav nav .navbar-nav li ul li a:hover {
-	color: #549cd8 !important;
+	color: #50aceb !important;
 }
 .header_4 .eco_nav nav .sign-in-option .navbar-nav li .sign-in {
-	background: #549cd8;
+	background: #50aceb;
 	padding: 12px 30px !important;
 	margin: 22px 15px 22px 0;
 	color: #ffffff !important;
@@ -3268,8 +3268,8 @@ footer .copytight_info ul li a:hover {
 	color: #2f2f2f;
 }
 .header_wrapper_4 .intro_wrapper_4 .intro-text .intro_button a:hover {
-	border: 1px solid #549cd8;
-	background: #549cd8;
+	border: 1px solid #50aceb;
+	background: #50aceb;
 }
 .header_wrapper_4 .intro_wrapper_4 .intro-text .intro_button a:hover span {
 	right: 20px;
@@ -3298,8 +3298,8 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .header_wrapper_4 .intro_wrapper_4 .intro-text .intro_button .active {
-	background: #549cd8;
-	border: 1px solid #549cd8;
+	background: #50aceb;
+	border: 1px solid #50aceb;
 }
 .header_wrapper_4 .intro_wrapper_4 .intro-text .intro_button .active span {
 	color: #ffffff;
@@ -3347,7 +3347,7 @@ footer .copytight_info ul li a:hover {
 }
 .about_4 .about_top_wrapper .title a {
 	width: 185px;
-	background: #549cd8;
+	background: #50aceb;
 	height: 72px;
 	padding: 0;
 	text-align: center;
@@ -3436,7 +3436,7 @@ footer .copytight_info ul li a:hover {
 	i {
 	transform: scale(1.15);
 	background: #ffffff;
-	color: #549cd8;
+	color: #50aceb;
 }
 .about_4 .about_top_wrapper .video_wrapper .video_play .video-play-btn a i {
 	height: 72px;
@@ -3444,7 +3444,7 @@ footer .copytight_info ul li a:hover {
 	line-height: 72px;
 	font-size: 15px;
 	background: #ffffff;
-	color: #549cd8;
+	color: #50aceb;
 	border-radius: 50%;
 	transition: all 0.3s ease-in-out;
 }
@@ -3495,7 +3495,7 @@ footer .copytight_info ul li a:hover {
 .about_4 .about_bottom_wrapepr .info_courses_single_3:before,
 .about_4 .about_bottom_wrapepr .info_courses_single_4:before {
 	position: absolute;
-	background: #549cd8;
+	background: #50aceb;
 	content: '';
 	height: 100%;
 	width: 100%;
@@ -3574,7 +3574,7 @@ footer .copytight_info ul li a:hover {
 }
 .about_4 .about_bottom_wrapepr .info_courses_single i:before {
 	font-size: 60px;
-	color: #549cd8;
+	color: #50aceb;
 	text-align: center;
 	transition: all 0.3s ease-in-out;
 	margin: 0px auto;
@@ -3739,7 +3739,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .publications_4 .single_publications:hover .publications_btn {
-	background: #549cd8;
+	background: #50aceb;
 }
 .publications_4 .single_publications .pubications_bannar {
 	overflow: hidden;
@@ -3768,7 +3768,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .publications_4 .single_publications .publications_title h4 a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .publications_4 .single_publications .publications_btn {
 	width: 100%;
@@ -3836,7 +3836,7 @@ footer .copytight_info ul li a:hover {
 	a:hover
 	i {
 	transform: scale(1.15);
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .take_tour .about_top_wrapper .title .video_wrapper .video-play-btn span a i {
@@ -3844,7 +3844,7 @@ footer .copytight_info ul li a:hover {
 	width: 65px;
 	line-height: 65px;
 	font-size: 12px;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	border-radius: 50%;
 	transition: all 0.3s ease-in-out;
@@ -3860,7 +3860,7 @@ footer .copytight_info ul li a:hover {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 56px;
-	color: #549cd8;
+	color: #50aceb;
 	padding-left: 25px;
 }
 .take_tour .about_top_wrapper .take_tour_banner {
@@ -3877,7 +3877,7 @@ footer .copytight_info ul li a:hover {
 	z-index: 1;
 }
 .testimonial_4:before {
-	color: #549cd8;
+	color: #50aceb;
 	position: absolute;
 	font-weight: 600;
 	font-family: 'Flaticon';
@@ -3927,7 +3927,7 @@ footer .copytight_info ul li a:hover {
 }
 .testimonial_4 .testimonial_single h4 {
 	font-size: 18px;
-	color: #549cd8;
+	color: #50aceb;
 	font-weight: 700;
 }
 .testimonial_4 .testimonial_single span {
@@ -3963,7 +3963,7 @@ footer .copytight_info ul li a:hover {
 	width: 18px;
 	background: #2f2f2f;
 	margin: 15px -4px;
-	border: 4px solid #549cd8;
+	border: 4px solid #50aceb;
 }
 .inner_page .header-top .header-top-right .social_wraper {
 	float: left;
@@ -4051,7 +4051,7 @@ footer .copytight_info ul li a:hover {
 	display: none;
 }
 .sub_header_banner .intro_text a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .sub_header_banner .intro_text .active:hover {
 	color: #ffffff;
@@ -4133,7 +4133,7 @@ footer .copytight_info ul li a:hover {
 	ul
 	li
 	a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_details_body
 	.courses_apply_wrapper
@@ -4154,7 +4154,7 @@ footer .copytight_info ul li a:hover {
 .courses_details_body .courses_apply_wrapper .courses_apply .apply_btn a {
 	padding: 20px 33px;
 	color: #ffffff;
-	background: #549cd8;
+	background: #50aceb;
 	font-weight: 600;
 	font-size: 18px;
 	transition: all 0.3s ease-in-out;
@@ -4187,7 +4187,7 @@ footer .copytight_info ul li a:hover {
 	.event_title
 	h4
 	a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_details_body
 	.courses_details_wrapper
@@ -4195,7 +4195,7 @@ footer .copytight_info ul li a:hover {
 	.event_signle_3
 	.event_date
 	p {
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 30px;
 	font-weight: 600;
 	color: #ffffff;
@@ -4296,7 +4296,7 @@ footer .copytight_info ul li a:hover {
 	a
 	i:before {
 	font-size: 16px;
-	color: #549cd8;
+	color: #50aceb;
 	margin-right: 15px;
 	margin-left: 0;
 }
@@ -4470,7 +4470,7 @@ footer .copytight_info ul li a:hover {
 	.panel
 	.panel-title
 	a.collapsed:before {
-	color: #549cd8;
+	color: #50aceb;
 	position: absolute;
 	content: '\f103';
 	font-family: 'Flaticon';
@@ -4494,7 +4494,7 @@ footer .copytight_info ul li a:hover {
 	.panel
 	.panel-title
 	a:before {
-	color: #549cd8;
+	color: #50aceb;
 	position: absolute;
 	content: '\f11b';
 	font-family: 'Flaticon';
@@ -4578,7 +4578,7 @@ footer .copytight_info ul li a:hover {
 	.curriculum-single
 	.lecture
 	i {
-	color: #549cd8;
+	color: #50aceb;
 	font-size: 18px;
 	padding-right: 10px;
 }
@@ -4599,7 +4599,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0px 15px;
 	text-decoration: none;
 	color: #2f2f2f;
-	border: 1px solid #549cd8;
+	border: 1px solid #50aceb;
 	font-weight: 600;
 	transition: all 0.3s ease-in-out;
 }
@@ -4615,7 +4615,7 @@ footer .copytight_info ul li a:hover {
 	.panel-body
 	.curriculum-single
 	a:hover {
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .courses_details_body
@@ -4663,7 +4663,7 @@ footer .copytight_info ul li a:hover {
 	.teachers_name
 	h5
 	a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_details_body
 	.courses_details_wrapper
@@ -4799,7 +4799,7 @@ footer .copytight_info ul li a:hover {
 	.rating_box_count
 	ul
 	li {
-	color: #549cd8;
+	color: #50aceb;
 	display: inline-block;
 }
 .courses_details_body
@@ -5124,7 +5124,7 @@ footer .copytight_info ul li a:hover {
 	li
 	i:before {
 	font-size: 14px;
-	color: #549cd8;
+	color: #50aceb;
 	margin-left: 0px;
 }
 .courses_details_body
@@ -5174,7 +5174,7 @@ footer .copytight_info ul li a:hover {
 	background: #ffffff;
 }
 .courses_details_body .recent_courses .event_signle_3:hover .event_title h4 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_details_body .recent_courses .event_signle_3 .corses_banner {
 	width: 22%;
@@ -5216,7 +5216,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .event_slider .cources_slider .events-single-box:hover .event-info h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_slider .cources_slider .events-single-box .event_banner {
 	overflow: hidden;
@@ -5289,7 +5289,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .event_slider .cources_slider .events-single-box .event-info .apply_btn:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_slider
 	.cources_slider
@@ -5307,7 +5307,7 @@ footer .copytight_info ul li a:hover {
 	.event-info
 	.apply_btn:hover
 	i:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_slider .owl-buttons {
 	margin-top: 40px;
@@ -5327,7 +5327,7 @@ footer .copytight_info ul li a:hover {
 .event_slider .owl-buttons .owl-prev:hover i:before,
 .event_slider .owl-buttons .owl-next:hover i:before {
 	opacity: 1;
-	color: #549cd8;
+	color: #50aceb;
 }
 /*=======[ Events Details Page ]========*/
 
@@ -5361,7 +5361,7 @@ footer .copytight_info ul li a:hover {
 	.post_content
 	.post_by
 	.date_event {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_details_page
 	.event_details_wrapper
@@ -5481,7 +5481,7 @@ footer .copytight_info ul li a:hover {
 	ul
 	li
 	.hall_location {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_details_page
 	.event_details_wrapper
@@ -5542,7 +5542,7 @@ footer .copytight_info ul li a:hover {
 	.event_title
 	h4
 	a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_details_page
 	.event_details_wrapper
@@ -5550,7 +5550,7 @@ footer .copytight_info ul li a:hover {
 	.event_signle_3
 	.event_date
 	p {
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 30px;
 	font-weight: 600;
 	color: #ffffff;
@@ -5619,7 +5619,7 @@ footer .copytight_info ul li a:hover {
 .event_details_page .event_details_wrapper .instagram_post_wrapper h2 {
 	font-size: 24px;
 	font-weight: 700;
-	color: #549cd8;
+	color: #50aceb;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -5653,7 +5653,7 @@ footer .copytight_info ul li a:hover {
 	.event_details_wrapper
 	a.slick-arrow
 	.flaticon-angle-pointing-to-left:hover:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_details_page
 	.event_details_wrapper
@@ -5676,7 +5676,7 @@ footer .copytight_info ul li a:hover {
 	.event_details_wrapper
 	a.slick-arrow
 	.flaticon-angle-arrow-pointing-to-right:hover:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_details_page .event_details_wrapper .slick-list {
 	margin: 0;
@@ -5704,7 +5704,7 @@ footer .copytight_info ul li a:hover {
 	margin-bottom: 0;
 }
 .blog_wrapper .single_blog:hover h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .single_blog:hover .blog_banner img {
 	transform: scale(1);
@@ -5739,7 +5739,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .blog_wrapper .single_blog .post_by span a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .single_blog p {
 	margin-bottom: 40px;
@@ -5769,8 +5769,8 @@ footer .copytight_info ul li a:hover {
 .blog_wrapper .single_blog .social-items li a i:hover {
 	color: #ffffff;
 	padding: 0;
-	background: #549cd8;
-	border: 1px solid #549cd8;
+	background: #50aceb;
+	border: 1px solid #50aceb;
 }
 .blog_wrapper .pagination_blog {
 	display: flex;
@@ -5786,10 +5786,10 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .blog_wrapper .pagination_blog .pagination_btn a i:hover:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .pagination_blog .pagination_btn .active i:before {
-	color: #549cd8;
+	color: #50aceb;
 	font-size: 16px;
 	margin: 0;
 }
@@ -5829,7 +5829,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .blog_wrapper .blog_post .post_by span a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .blog_post .blog_post_content p {
 	margin-bottom: 30px;
@@ -5880,8 +5880,8 @@ footer .copytight_info ul li a:hover {
 .blog_wrapper .blog_post .social-items li a i:hover {
 	color: #ffffff;
 	padding: 0;
-	background: #549cd8;
-	border: 1px solid #549cd8;
+	background: #50aceb;
+	border: 1px solid #50aceb;
 }
 .blog_wrapper .blog_post .commnet-wrapper {
 	background: #ffffff;
@@ -6056,7 +6056,7 @@ footer .copytight_info ul li a:hover {
 	.comment-text
 	.reply-comment
 	a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .blog_post .leave_comment_wrapper {
 	margin-top: 50px;
@@ -6196,7 +6196,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 20px;
 	font-size: 16px;
 	font-weight: 600;
-	background: #549cd8;
+	background: #50aceb;
 	border: none;
 	border-radius: 0px;
 	cursor: pointer;
@@ -6314,7 +6314,7 @@ footer .copytight_info ul li a:hover {
 	span {
 	font-weight: 500;
 	font-size: 14px;
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper
 	.blog_wrapper_right
@@ -6368,7 +6368,7 @@ footer .copytight_info ul li a:hover {
 	.twitter-title
 	i {
 	font-size: 18px;
-	color: #549cd8;
+	color: #50aceb;
 	line-height: 24px;
 	margin-right: 10px;
 }
@@ -6395,7 +6395,7 @@ footer .copytight_info ul li a:hover {
 	.twitter-title
 	p
 	a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper
 	.blog_wrapper_right
@@ -6450,7 +6450,7 @@ footer .copytight_info ul li a:hover {
 	li
 	a:hover {
 	background: rgba(255, 25, 73, 0.1);
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper .blog_wrapper_right .blog-right-items .archives .items-title {
 	margin-bottom: 20px;
@@ -6506,7 +6506,7 @@ footer .copytight_info ul li a:hover {
 	ul
 	li
 	a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .blog_wrapper
 	.blog_wrapper_right
@@ -6516,7 +6516,7 @@ footer .copytight_info ul li a:hover {
 	ul
 	li
 	a:hover:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 /*=======[ Teachars Page ]========*/
 
@@ -6681,7 +6681,7 @@ footer .copytight_info ul li a:hover {
 	.social-links
 	li
 	a:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .our_instructors_1
 	.single-wrapper
@@ -6709,7 +6709,7 @@ footer .copytight_info ul li a:hover {
 	.member-name
 	h4
 	a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .our_instructors_1 .view-more-btn {
 	height: 54px;
@@ -6717,7 +6717,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 20px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -6725,7 +6725,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .our_instructors_1 .view-more-btn:hover {
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .instructor_page_2 .sub_header_banner {
@@ -6754,7 +6754,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .teachers_2 .teacher-single .teacher-body:hover .teachars-info h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .teachers_2 .teacher-single .teacher-body .teacher_pro {
 	overflow: hidden;
@@ -6807,7 +6807,7 @@ footer .copytight_info ul li a:hover {
 .teachers_2 .teacher-single .teacher-body .teachars-info ul li a i:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .teachers_2 .view-more-btn {
@@ -6816,7 +6816,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -6915,7 +6915,7 @@ footer .copytight_info ul li a:hover {
 	i:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .become_a_instructor {
@@ -6951,7 +6951,7 @@ footer .copytight_info ul li a:hover {
 }
 .become_a_instructor .video_img .video_wrapper .video-play-btn span a:hover i {
 	transform: scale(1.15);
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 .become_a_instructor .video_img .video_wrapper .video-play-btn span a i {
@@ -6959,7 +6959,7 @@ footer .copytight_info ul li a:hover {
 	width: 65px;
 	line-height: 65px;
 	font-size: 12px;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	border-radius: 50%;
 	transition: all 0.3s ease-in-out;
@@ -6969,7 +6969,7 @@ footer .copytight_info ul li a:hover {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 56px;
-	color: #549cd8;
+	color: #50aceb;
 	padding-left: 25px;
 }
 .become_a_instructor .apply_instructor {
@@ -7011,7 +7011,7 @@ footer .copytight_info ul li a:hover {
 }
 .become_a_instructor .apply_instructor form .form-group input:focus,
 .become_a_instructor .apply_instructor form .form-group textarea:focus {
-	border: 1px solid #549cd8;
+	border: 1px solid #50aceb;
 	outline: none;
 }
 .become_a_instructor
@@ -7073,7 +7073,7 @@ footer .copytight_info ul li a:hover {
 .become_a_instructor .apply_instructor form .submit_btn {
 	width: 100%;
 	height: 48px;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 600;
@@ -7252,7 +7252,7 @@ footer .copytight_info ul li a:hover {
 	ul
 	li
 	.hall_location {
-	color: #549cd8;
+	color: #50aceb;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -7426,7 +7426,7 @@ footer .copytight_info ul li a:hover {
 	position: relative;
 	z-index: 1;
 	outline: none;
-	color: #549cd8;
+	color: #50aceb;
 	margin-top: 15px;
 	transition: all 0.3s ease-in-out;
 }
@@ -7436,7 +7436,7 @@ footer .copytight_info ul li a:hover {
 	.leave_comment
 	.submit-btn
 	button:hover {
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 }
 /* ================================
@@ -7506,8 +7506,8 @@ footer .copytight_info ul li a:hover {
 	i:hover {
 	color: #ffffff;
 	padding: 0;
-	background: #549cd8;
-	border: 1px solid #549cd8;
+	background: #50aceb;
+	border: 1px solid #50aceb;
 }
 .teachers_profile
 	.teacher-details-wrapper
@@ -7546,7 +7546,7 @@ footer .copytight_info ul li a:hover {
 	span
 	.skills_lavel {
 	display: inline;
-	color: #549cd8;
+	color: #50aceb;
 }
 .teachers_profile
 	.teacher-details-wrapper
@@ -7643,7 +7643,7 @@ footer .copytight_info ul li a:hover {
 	h2 {
 	margin: 0;
 	padding: 30px 0;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	font-size: 22px;
 	font-weight: 700;
@@ -7680,7 +7680,7 @@ footer .copytight_info ul li a:hover {
 	.teacher-contact
 	form
 	input:focus {
-	border: 1px solid #549cd8;
+	border: 1px solid #50aceb;
 	outline: none;
 }
 .teachers_profile
@@ -7750,7 +7750,7 @@ footer .copytight_info ul li a:hover {
 	.teacher-contact
 	form
 	button:hover {
-	background: #549cd8;
+	background: #50aceb;
 }
 .teachers_profile
 	.teacher-details-wrapper
@@ -7804,7 +7804,7 @@ footer .copytight_info ul li a:hover {
 	a
 	i:before {
 	font-size: 16px;
-	color: #549cd8;
+	color: #50aceb;
 	margin-right: 15px;
 	margin-left: 0;
 }
@@ -7859,7 +7859,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .courses_1 .popular_cources_1 .courses_single:hover .blog-title h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_1 .popular_cources_1 .courses_single .blog-img {
 	min-width: 275px;
@@ -7951,7 +7951,7 @@ footer .copytight_info ul li a:hover {
 	opacity: 1;
 }
 .courses_1 .popular_cources_1 .courses_single .blog-title .cources_btn span {
-	color: #549cd8;
+	color: #50aceb;
 }
 .courses_1 .popular_cources_1 .view-more-btn {
 	height: 54px;
@@ -7959,7 +7959,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -7983,7 +7983,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -8018,7 +8018,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 40px;
@@ -8062,7 +8062,7 @@ footer .copytight_info ul li a:hover {
 .courses_4_carousel .owl-buttons .owl-prev:hover i:before,
 .courses_4_carousel .owl-buttons .owl-next:hover i:before {
 	opacity: 1;
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_grid_2 .sub_header_banner {
 	background: transparent url('../images/register-bg.jpg') no-repeat center
@@ -8077,7 +8077,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 70px;
@@ -8109,7 +8109,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .event_list_1 .popular_event .events-single-box:hover .event-info h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_1 .popular_event .events-single-box .event_banner {
 	overflow: hidden;
@@ -8182,7 +8182,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .event_list_1 .popular_event .events-single-box .event-info .apply_btn:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_1 .popular_event .events-single-box .event-info .apply_btn:hover i {
 	right: -30px;
@@ -8195,7 +8195,7 @@ footer .copytight_info ul li a:hover {
 	.event-info
 	.apply_btn:hover
 	i:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_1 .view-more-btn {
 	height: 54px;
@@ -8203,7 +8203,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 70px;
@@ -8257,7 +8257,7 @@ footer .copytight_info ul li a:hover {
 	transform: scale(1);
 }
 .event_list_3 .popular_event .events-single-box:hover .event-info h3 a {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_3 .popular_event .events-single-box .date_event {
 	position: relative;
@@ -8271,7 +8271,7 @@ footer .copytight_info ul li a:hover {
 	transform: translate(-50%, -50%);
 	font-size: 35px;
 	font-weight: 700;
-	color: #549cd8;
+	color: #50aceb;
 	width: 100%;
 }
 .event_list_3 .popular_event .events-single-box .event_banner {
@@ -8345,7 +8345,7 @@ footer .copytight_info ul li a:hover {
 	transition: all 0.3s ease-in-out;
 }
 .event_list_3 .popular_event .events-single-box .event-info .apply_btn:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_3 .popular_event .events-single-box .event-info .apply_btn:hover i {
 	right: -30px;
@@ -8358,7 +8358,7 @@ footer .copytight_info ul li a:hover {
 	.event-info
 	.apply_btn:hover
 	i:before {
-	color: #549cd8;
+	color: #50aceb;
 }
 .event_list_3 .view-more-btn {
 	height: 54px;
@@ -8366,7 +8366,7 @@ footer .copytight_info ul li a:hover {
 	padding: 0 35px;
 	font-size: 18px;
 	font-weight: 700;
-	background: #549cd8;
+	background: #50aceb;
 	color: #ffffff;
 	text-decoration: none;
 	margin-top: 70px;
@@ -8390,7 +8390,7 @@ footer .copytight_info ul li a:hover {
 }
 #scroll-top .to-top a {
 	box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.05);
-	background: #549cd8;
+	background: #50aceb;
 	border-radius: 50%;
 	color: #ffffff;
 	font-size: 20px;
@@ -8479,7 +8479,7 @@ footer .copytight_info ul li a:hover {
 }
 .login_signup_option .login_option_btn .nav-tabs .nav-item .nav-link.active,
 .login_signup_option .login_option_btn .nav-tabs .nav-item .nav-link:hover {
-	color: #549cd8;
+	color: #50aceb;
 }
 .login_signup_option .tab-content {
 	border: none;
@@ -8517,7 +8517,7 @@ footer .copytight_info ul li a:hover {
 	font-weight: 400;
 }
 .login_signup_option .login_modal_body form .form-group input:focus {
-	border-color: #549cd8;
+	border-color: #50aceb;
 	outline: none;
 	box-shadow: none;
 }
@@ -8561,7 +8561,7 @@ footer .copytight_info ul li a:hover {
 	margin-top: 15px;
 }
 .login_signup_option .login_modal_body form .login_option .forget_pass {
-	color: #549cd8;
+	color: #50aceb;
 	font-size: 16px;
 	font-weight: 600;
 	padding: 0 !important;
@@ -8572,7 +8572,7 @@ footer .copytight_info ul li a:hover {
 	height: 54px;
 	padding: 0 35px;
 	border-radius: 0;
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 18px;
 	font-weight: 600;
 	color: #ffffff;
@@ -8711,7 +8711,7 @@ footer .copytight_info ul li a:hover {
 	font-weight: 400;
 }
 .forgot_pass .forgot_wrapper form .form-group input:focus {
-	border-color: #549cd8;
+	border-color: #50aceb;
 	outline: none;
 	box-shadow: none;
 }
@@ -8745,7 +8745,7 @@ footer .copytight_info ul li a:hover {
 	line-height: 54px;
 	border: none;
 	border-radius: 0;
-	background: #549cd8;
+	background: #50aceb;
 	font-size: 18px;
 	font-weight: 600;
 	color: #ffffff;
