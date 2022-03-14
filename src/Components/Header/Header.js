@@ -110,9 +110,12 @@ const Header = ({ active }) => (
 								</li>
 
 								<li className='nav-item'>
-									<a href='contact.html' className='nav-link'>
+									<Link
+										to='/contact'
+										className={`nav-link ${active === 'contact' && 'active'}`}
+									>
 										Contact
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>

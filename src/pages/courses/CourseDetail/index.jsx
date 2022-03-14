@@ -75,7 +75,7 @@ export default function CourseDetail() {
 			<section className='courses_details_wrapper'>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-12 col-sm-12 col-md-12 col-lg-8'>
+						<div className='col-12 col-sm-12 col-md-12 col-lg-12'>
 							<div className='row'>
 								<div className='col-12 col-sm-12 col-md-12 col-lg-12 '>
 									<div className='courses_info_content'>
@@ -585,7 +585,7 @@ export default function CourseDetail() {
 								</div>
 							</div>
 						</div>
-						<div className='col-12 col-sm-12 col-md-12 col-lg-4'>
+						{/* <div className='col-12 col-sm-12 col-md-12 col-lg-4'>
 							<div className='row'>
 								<div className='col-12 col-sm-12 col-md-6 col-lg-12'>
 									<div className='recent_courses'>
@@ -741,7 +741,7 @@ export default function CourseDetail() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
@@ -750,8 +750,33 @@ export default function CourseDetail() {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 col-sm-12 col-md-12 col-lg-12'>
-							<h2>Similar Courses</h2>
+							<h2>Otros Cursos</h2>
 							<div id='latest_blog_carousel' className='owl-carousel'>
+								{courses.map((curso) => (
+									<div
+										key={curso.id}
+										className='review_singel wow fadeIn'
+										data-wow-duration='2s'
+										data-wow-delay='.1s'
+									>
+										<div className='blog-img'>
+											<img src={curso.image} alt='' className='img-fluid' />
+										</div>
+										<div className='blog-title'>
+											<div className='shape'></div>
+											<h3>{curso.name}</h3>
+											<span>Profesor- {curso.teacher}</span>
+											<p>{curso.description}</p>
+											<div className='cources_btn d-flex justify-content-between'>
+												<a href={curso.link} title='' className='apply_btn'>
+													Ver más
+													<i className='flaticon-angle-arrow-pointing-to-right'></i>
+												</a>
+												<span>{curso.price}</span>
+											</div>
+										</div>
+									</div>
+								))}
 								<div
 									className='review_singel wow fadeIn'
 									data-wow-duration='2s'

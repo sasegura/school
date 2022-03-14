@@ -5,6 +5,7 @@ import Teachers from './pages/teachers';
 import Courses from './pages/courses';
 import Events from './pages/event';
 import CourseDetail from './pages/courses/CourseDetail';
+import AboutUs from './pages/AboutUs';
 
 const PageRoutes = () => {
 	return (
@@ -15,6 +16,7 @@ const PageRoutes = () => {
 					<Route path='/courses' element={<Courses />} />
 					<Route path='/teachers' element={<Teachers />} />
 					<Route path='/events' element={<Events />} />
+					<Route path='/contact' element={<AboutUs />} />
 					<Route path='/course/:courseId' element={<CourseDetail />} />
 				</Routes>
 			</Router>

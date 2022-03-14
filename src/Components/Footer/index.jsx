@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import { courses } from '../../utils/courses/courses';
 
 const Footer = () => (
@@ -61,7 +62,9 @@ const Footer = () => (
 									<a href='#'>Events</a>
 								</li>
 								<li>
-									<a href='#'>Contact</a>
+									<Link to='/contact' className={`nav-link `}>
+										Contact
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -121,7 +124,7 @@ const Footer = () => (
 				<div className='container'>
 					<div className='row'>
 						<div className='col-12 col-md-12 col-lg-12 d-flex justify-content-between'>
-							<p>Copyright &copy; Getnajmul 2018</p>
+							<p>Copyright &copy; Coder Crack School 2022</p>
 							<ul className='nav navbar list-unstyled'>
 								<li>
 									<a href='#'>Terms</a>
