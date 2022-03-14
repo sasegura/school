@@ -7,7 +7,7 @@ export default function Courses() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-12 col-sm-12 col-md-12 col-lg-12'>
-						<h2>Nuestros Cursos populares</h2>
+						<h2>Conoce nuestros cursos</h2>
 						<div id='latest_blog_carousel' className='owl-carousel'>
 							{courses.map((course) => (
 								<Course

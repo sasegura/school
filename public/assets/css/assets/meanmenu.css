@@ -1,4 +1,3 @@
-
 /*! #######################################################################
 
 	MeanMenu 2.0.7
@@ -18,22 +17,22 @@ a.meanmenu-reveal {
 	float: left;
 	width: 100%;
 	position: absolute;
-	background: #292929;
+	background: #fff;
 	padding: 4px 0;
 	min-height: 42px;
 	z-index: 999;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .mean-container .mean-bar::before {
-    background: url("../../images/logo2.png") no-repeat center center / cover;
-    height: 17px;
-    width: 84px;
-    content: "";
-    left: 20px;
-    position: absolute;
-    text-transform: uppercase;
-    top: 22px;
-    z-index: 1;
+	background: url('../../images/logo2.png') no-repeat center center / cover;
+	height: 25px;
+	width: 84px;
+	content: '';
+	left: 20px;
+	position: absolute;
+	text-transform: uppercase;
+	top: 13px;
+	z-index: 1;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -90,7 +89,7 @@ a.meanmenu-reveal {
 	text-align: left;
 	color: #fff;
 	border-top: 1px solid #383838;
-	border-top: 1px solid rgba(255,255,255,0.5);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 }
 
@@ -98,7 +97,7 @@ a.meanmenu-reveal {
 	width: 80%;
 	padding: 1em 10%;
 	border-top: 1px solid #f1f1f1;
-	border-top: 1px solid rgba(255,255,255,0.25);
+	border-top: 1px solid rgba(255, 255, 255, 0.25);
 	opacity: 1;
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
@@ -129,7 +128,7 @@ a.meanmenu-reveal {
 
 .mean-container .mean-nav ul li a:hover {
 	background: #252525;
-	background: rgba(255,255,255,0.1);
+	background: rgba(255, 255, 255, 0.1);
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -137,7 +136,7 @@ a.meanmenu-reveal {
 	width: 100%;
 	height: 24px;
 	padding: 12px !important;
-	text-align: right ;
+	text-align: right;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -146,7 +145,6 @@ a.meanmenu-reveal {
 	background: transparent;
 	border: none !important;
 }
-
 
 .mean-container .mean-push {
 	float: left;
@@ -163,12 +161,12 @@ a.meanmenu-reveal {
 }
 
 /* Fix for box sizing on Foundation Framework etc. */
-.mean-container .mean-bar, .mean-container .mean-bar * {
+.mean-container .mean-bar,
+.mean-container .mean-bar * {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
-
 
 .mean-remove {
 	display: none !important;
