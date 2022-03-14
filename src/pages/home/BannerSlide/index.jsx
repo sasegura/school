@@ -50,7 +50,7 @@ export default function BannerSlide() {
 							data-x="['left','center','center','center']"
 							data-hoffset="['0','0','0','0']"
 							data-y="['middle','middle','middle','middle']"
-							data-voffset="['-150','0','0','0']"
+							data-voffset="['-70','0','0','0']"
 							data-fontsize="['70','70','70','45']"
 							data-lineheight="['70','70','70','50']"
 							data-width='none'
@@ -85,7 +85,7 @@ export default function BannerSlide() {
 							data-voffset="['20','0','0','0']"
 							data-fontsize="['46','46','46','46']"
 							data-lineheight="['30','30','30','30']"
-							data-margintop='[-550,-550,-550,-550]'
+							data-margintop='[-400,-450,-450,-450]'
 							data-paddingleft='[100,100,100,100]'
 							data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":10,"to":"o:1;","delay":0,"split":"chars","splitdelay":0.05,"ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 							style={{

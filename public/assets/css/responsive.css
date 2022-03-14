@@ -161,7 +161,12 @@
 		bottom: 90px;
 		left: 25px;
 	}
-	.popular_event .event_single .event_img .event_content .single_event_title h3 {
+	.popular_event
+		.event_single
+		.event_img
+		.event_content
+		.single_event_title
+		h3 {
 		font-size: 24px;
 	}
 	.popular_event .event_single .event_img .event_content p {
@@ -227,14 +232,29 @@
 	.courses_details_body .courses_apply_wrapper .courses_apply {
 		padding: 20px 15px 20px 15px;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info .teacher_pro {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		.teacher_pro {
 		height: auto;
 		width: 80px;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info ul li {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		ul
+		li {
 		font-size: 16px;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info ul li a {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		ul
+		li
+		a {
 		font-size: 16px;
 	}
 	.courses_details_body .courses_apply_wrapper .courses_apply .apply_btn a {
@@ -400,8 +420,18 @@
 	.popular_cources #latest_blog_carousel .review_singel .blog-title h3 {
 		font-size: 20px;
 	}
-	.popular_cources #latest_blog_carousel .review_singel .blog-title .cources_btn a,
-	.popular_cources #latest_blog_carousel .review_singel .blog-title .cources_btn span {
+	.popular_cources
+		#latest_blog_carousel
+		.review_singel
+		.blog-title
+		.cources_btn
+		a,
+	.popular_cources
+		#latest_blog_carousel
+		.review_singel
+		.blog-title
+		.cources_btn
+		span {
 		font-size: 15px;
 	}
 	.register_area {
@@ -448,7 +478,12 @@
 		bottom: 90px;
 		left: 25px;
 	}
-	.popular_event .event_single .event_img .event_content .single_event_title h3 {
+	.popular_event
+		.event_single
+		.event_img
+		.event_content
+		.single_event_title
+		h3 {
 		font-size: 24px;
 	}
 	.popular_event .event_single .event_img .event_content p {
@@ -524,7 +559,12 @@
 	.header_intro_2 .intro-wrapper_2 .intro-text_2 form {
 		display: inline;
 	}
-	.header_intro_2 .intro-wrapper_2 .intro-text_2 .search-option .form-group input {
+	.header_intro_2
+		.intro-wrapper_2
+		.intro-text_2
+		.search-option
+		.form-group
+		input {
 		height: 77px;
 		padding: 0 15px 0 15px;
 		width: 100%;
@@ -643,7 +683,7 @@
 	}
 	.header_4 .banner_4::before {
 		background: rgba(47, 47, 47, 0.5);
-		content: "";
+		content: '';
 		height: 100%;
 		left: 0;
 		position: absolute;
@@ -766,20 +806,50 @@
 	.blog_wrapper .blog_wrapper_right {
 		padding-left: 15px;
 	}
-	.blog_wrapper .blog_wrapper_right .blog-right-items .recent_post_wrapper .single-post .post_title {
+	.blog_wrapper
+		.blog_wrapper_right
+		.blog-right-items
+		.recent_post_wrapper
+		.single-post
+		.post_title {
 		padding: 15px 0px 15px 15px;
 	}
-	.blog_wrapper .blog_wrapper_right .blog-right-items .recent_post_wrapper .single-post .post_title a {
+	.blog_wrapper
+		.blog_wrapper_right
+		.blog-right-items
+		.recent_post_wrapper
+		.single-post
+		.post_title
+		a {
 		font-size: 15px;
 	}
-	.blog_wrapper .blog_wrapper_right .blog-right-items .twitter_post_wrapper .twitter-single .twitter-post {
+	.blog_wrapper
+		.blog_wrapper_right
+		.blog-right-items
+		.twitter_post_wrapper
+		.twitter-single
+		.twitter-post {
 		padding: 0;
 	}
-	.blog_wrapper .blog_wrapper_right .blog-right-items .popular_tags .tags-items ul li a {
+	.blog_wrapper
+		.blog_wrapper_right
+		.blog-right-items
+		.popular_tags
+		.tags-items
+		ul
+		li
+		a {
 		padding: 6px 20px;
 		font-size: 14px;
 	}
-	.blog_wrapper .blog_wrapper_right .blog-right-items .archives .archives-items ul li a {
+	.blog_wrapper
+		.blog_wrapper_right
+		.blog-right-items
+		.archives
+		.archives-items
+		ul
+		li
+		a {
 		font-size: 14px;
 	}
 	/*		blog Post Page ------------------- */
@@ -792,24 +862,53 @@
 		font-size: 15px;
 		line-height: 24px;
 	}
-	.blog_wrapper .blog_post .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+	.blog_wrapper
+		.blog_post
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list {
 		display: inline;
 	}
-	.blog_wrapper .blog_post .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .commnet_img {
+	.blog_wrapper
+		.blog_post
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list
+		.commnet_img {
 		width: 20%;
 		margin-bottom: 15px;
 	}
-	.blog_wrapper .blog_post .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text {
+	.blog_wrapper
+		.blog_post
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list
+		.comment-text {
 		padding: 0;
 		width: 100%;
 	}
-	.blog_wrapper .blog_post .commnet-wrapper .comment-list-items .comment-list-wrapper .reply_comment_text .comment-text {
+	.blog_wrapper
+		.blog_post
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.reply_comment_text
+		.comment-text {
 		padding: 0;
 		width: 100%;
 		margin-left: 30px;
 		padding-right: 30px;
 	}
-	.blog_wrapper .blog_post .commnet-wrapper .comment-list-items .comment-list-wrapper .reply_comment_text .commnet_img {
+	.blog_wrapper
+		.blog_post
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.reply_comment_text
+		.commnet_img {
 		margin-left: 30px;
 	}
 	/*-========={ Popular Courses }========*/
@@ -846,13 +945,28 @@
 	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info ul {
 		display: inline;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info .teacher_pro {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		.teacher_pro {
 		margin: 0px auto;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info ul li:first-child {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		ul
+		li:first-child {
 		margin-left: 0;
 	}
-	.courses_details_body .courses_apply_wrapper .courses_apply .teacher_info ul li a {
+	.courses_details_body
+		.courses_apply_wrapper
+		.courses_apply
+		.teacher_info
+		ul
+		li
+		a {
 		margin-right: 0;
 	}
 	.courses_details_body .courses_apply_wrapper .courses_apply {
@@ -865,90 +979,290 @@
 	.courses_details_body .courses_apply_wrapper .courses_apply .apply_btn {
 		margin-top: 30px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper {
 		padding: 35px 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .tab-pane p {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.tab-pane
+		p {
 		font-size: 14px;
 		line-height: 24px;
 		margin-bottom: 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-title {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-title {
 		padding: 0 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-title span {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-title
+		span {
 		font-size: 14px;
 		padding-right: 0;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-title a {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-title
+		a {
 		font-size: 16px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-title a.collapsed:before {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-title
+		a.collapsed:before {
 		font-size: 12px;
 		top: 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-title a:before {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-title
+		a:before {
 		font-size: 12px;
 		top: 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-body {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-body {
 		padding: 35px 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single a {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-body
+		.curriculum-single
+		a {
 		font-size: 8px;
 		padding: 0px 5px;
 		height: 18px;
 		line-height: 18px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single .lecture {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-body
+		.curriculum-single
+		.lecture {
 		line-height: 12px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single .lecture span {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-body
+		.curriculum-single
+		.lecture
+		span {
 		padding-right: 5px;
 		font-size: 10px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single .lecture span {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.curriculum-text-box
+		.curriculum-section
+		.panel-group
+		.panel
+		.panel-body
+		.curriculum-single
+		.lecture
+		span {
 		padding-right: 5px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .courses_teacher .tutor_signle {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.courses_teacher
+		.tutor_signle {
 		padding: 15px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .courses_teacher .tutor_signle .tutor_pro {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.courses_teacher
+		.tutor_signle
+		.tutor_pro {
 		margin-right: 10px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content {
 		display: inline;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content .five-star-rating {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content
+		.five-star-rating {
 		width: 200px;
 		float: none;
 		margin: 0px auto;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content .rating-box {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content
+		.rating-box {
 		width: 65%;
 		margin: 0px auto;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content .rating-box .detailed-rating .stars {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content
+		.rating-box
+		.detailed-rating
+		.stars {
 		padding: 0 0px 16px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content .rating-box .detailed-rating .stars .bar {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content
+		.rating-box
+		.detailed-rating
+		.stars
+		.bar {
 		width: 150px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .review-content .rating-box .detailed-rating .stars .key {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.review-content
+		.rating-box
+		.detailed-rating
+		.stars
+		.key {
 		min-width: 65px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list {
 		display: inline;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .commnet_img {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list
+		.commnet_img {
 		width: 25%;
 		margin: 0px auto 30px;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .commnet-wrapper .comment-list-items .comment-list-wrapper .comment-list .comment-text {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.commnet-wrapper
+		.comment-list-items
+		.comment-list-wrapper
+		.comment-list
+		.comment-text {
 		padding: 0;
 		width: 100%;
 	}
-	.courses_details_body .courses_details_wrapper .courses_info_content .courses_tab_wrapper .tab_contents .commnet-wrapper {
+	.courses_details_body
+		.courses_details_wrapper
+		.courses_info_content
+		.courses_tab_wrapper
+		.tab_contents
+		.commnet-wrapper {
 		margin-top: 50px;
 	}
 	.courses_details_body .recent_courses .event_signle_3 .event_title h4 {
@@ -959,15 +1273,31 @@
 		font-size: 14px;
 		line-height: 16px;
 	}
-	.courses_details_body .courses_details_wrapper .events_wrapper .event_signle_3 .event_title h4 {
+	.courses_details_body
+		.courses_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_title
+		h4 {
 		font-size: 16px;
 	}
-	.courses_details_body .courses_details_wrapper .events_wrapper .event_signle_3 .event_date p {
+	.courses_details_body
+		.courses_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_date
+		p {
 		font-size: 22px;
 		height: 80px;
 		width: 90px;
 	}
-	.courses_details_body .courses_details_wrapper .events_wrapper .event_signle_3 .event_date p span {
+	.courses_details_body
+		.courses_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_date
+		p
+		span {
 		font-size: 14px;
 	}
 	/*-------------- Event Pages-------------- */
@@ -983,15 +1313,30 @@
 	.event_details_page .event_details_wrapper .event_intro .post_content {
 		padding: 15px;
 	}
-	.event_details_page .event_details_wrapper .event_intro .post_content .post_by span {
+	.event_details_page
+		.event_details_wrapper
+		.event_intro
+		.post_content
+		.post_by
+		span {
 		font-size: 12px;
 	}
-	.event_details_page .event_details_wrapper .event_intro .post_content .blog_post_content p {
+	.event_details_page
+		.event_details_wrapper
+		.event_intro
+		.post_content
+		.blog_post_content
+		p {
 		margin-bottom: 15px;
 		font-size: 14px;
 		line-height: 24px;
 	}
-	.event_details_page .event_details_wrapper .events_wrapper .event_signle_3 .event_date p {
+	.event_details_page
+		.event_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_date
+		p {
 		font-size: 22px;
 		height: 80px;
 		width: 90px;
@@ -1000,30 +1345,63 @@
 	.event_slider .cources_slider .events-single-box .event-info {
 		padding: 15px;
 	}
-	.event_details_page .event_details_wrapper .events_wrapper .event_signle_3 .event_date p span {
+	.event_details_page
+		.event_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_date
+		p
+		span {
 		font-size: 14px;
 	}
-	.event_details_page .event_details_wrapper .events_wrapper .event_signle_3 .event_title h4 {
+	.event_details_page
+		.event_details_wrapper
+		.events_wrapper
+		.event_signle_3
+		.event_title
+		h4 {
 		font-size: 16px;
 	}
-	.event_details_page .event_details_wrapper .instagram_post_wrapper .instagram_post a img {
+	.event_details_page
+		.event_details_wrapper
+		.instagram_post_wrapper
+		.instagram_post
+		a
+		img {
 		width: 31.5%;
 	}
 	.event_details_page .event_details_wrapper .location_bottom_wrapper {
 		display: inline;
 	}
-	.event_details_page .event_details_wrapper .location_bottom_wrapper .event_details .event_location_info {
+	.event_details_page
+		.event_details_wrapper
+		.location_bottom_wrapper
+		.event_details
+		.event_location_info {
 		padding: 50px 30px 0;
 		display: inherit;
 		width: 100%;
 	}
-	.event_details_page .event_details_wrapper .location_bottom_wrapper .event_details .event_location_info ul {
+	.event_details_page
+		.event_details_wrapper
+		.location_bottom_wrapper
+		.event_details
+		.event_location_info
+		ul {
 		padding-bottom: 60px;
 	}
-	.event_details_page .event_details_wrapper .location_bottom_wrapper .event_location_map {
+	.event_details_page
+		.event_details_wrapper
+		.location_bottom_wrapper
+		.event_location_map {
 		padding-left: 0;
 	}
-	.event_details_page .event_details_wrapper .location_bottom_wrapper .event_location_map .google_map #map {
+	.event_details_page
+		.event_details_wrapper
+		.location_bottom_wrapper
+		.event_location_map
+		.google_map
+		#map {
 		width: 100%;
 	}
 	.contact_page .contact_info_wrapper {
@@ -1052,7 +1430,11 @@
 	.contact_page .contact_form {
 		padding-bottom: 100px;
 	}
-	.contact_page .contact_info_wrapper .event_details .event_location_info img.contact__info_shpae {
+	.contact_page
+		.contact_info_wrapper
+		.event_details
+		.event_location_info
+		img.contact__info_shpae {
 		display: none;
 	}
 	/*		instructor Style
