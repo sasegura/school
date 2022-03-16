@@ -1,11 +1,15 @@
 {
+  "homepage": "https://sasegura.github.io",
   "name": "meipaly-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
@@ -20,5 +24,8 @@
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^6.4.6",
     "typeface-oswald": "^1.1.13"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
