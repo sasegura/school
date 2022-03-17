@@ -5,7 +5,7 @@ const BlogSidebar = () => {
     <Fragment>
       <aside className="widget search-widget">
         <form method="post" action="#" className="searchform">
-          <input type="search" placeholder="Search here..." name="s" id="s" />
+          <input type="search" placeholder="Buscar..." name="s" id="s" />
         </form>
       </aside>
       <aside className="widget recent_posts">

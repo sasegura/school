@@ -25,7 +25,7 @@ const SearchPopup = () => {
                     type="text"
                     name="s"
                     className="searchField"
-                    placeholder="Search here..."
+                    placeholder="Buscar..."
                   />
                   <button type="submit">
                     <i className="fa fa-search"></i>

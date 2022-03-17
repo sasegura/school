@@ -28,7 +28,7 @@ const ContactForm = () => {
                     type="text"
                     name="f_name"
                     id="f_name"
-                    placeholder="First Name"
+                    placeholder="Nombre"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
@@ -37,7 +37,7 @@ const ContactForm = () => {
                     type="text"
                     name="l_name"
                     id="l_name"
-                    placeholder="Last Name"
+                    placeholder="Apellidos"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
@@ -46,7 +46,7 @@ const ContactForm = () => {
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="Email Address"
+                    placeholder="Email"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
@@ -55,7 +55,7 @@ const ContactForm = () => {
                     type="text"
                     name="phone"
                     id="phone"
-                    placeholder="Phone Number"
+                    placeholder="Teléfono"
                   />
                 </div>
                 <div className="col-lg-12 col-sm-12">
@@ -63,7 +63,7 @@ const ContactForm = () => {
                     className="input-form required"
                     name="con_message"
                     id="con_message"
-                    placeholder="Write Message"
+                    placeholder="Escribe un mensaje"
                   ></textarea>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const ContactForm = () => {
                 type="submit"
                 id="con_submit"
               >
-                <span>Send Message</span>
+                <span>Enviar mensaje</span>
               </button>
             </form>
           </div>

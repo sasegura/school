@@ -14,7 +14,7 @@ const ContactPage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Contact Page">
           <HeaderOne />
-          <PageBanner title="Contact Us" name="Contact" />
+          <PageBanner title="Contáctanos" name="Contáctanos" />
           <ContactForm />
           <GoogleMap extraClass="contact-page" />
           <ContactInfos />

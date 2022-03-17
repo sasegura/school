@@ -13,24 +13,28 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                Welcome to our web design agency. Lorem ipsum is simply free
+                {/* Welcome to our web design agency. Lorem ipsum is simply free
                 text dolor sit amet consectetur adipisicing elit. Tempore
                 corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+                mpedit fugit laudantium. */}
+                Bienvenidos a nuestra escuela de desarrollo de aplicaciones web.
+                Podrás desarrollarte en un mundo lleno de nuevas oportunidades.
+
+
               </p>
             </aside>
           </div>
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside className="widget contact_widgets">
-              <h3 className="widget_title">contact</h3>
+              <h3 className="widget_title">Contáctanos</h3>
               <p>
-                66 Broklyn Street, New York
+                Avenida de la ALbufera, Vallecas
                 <br />
-                United States of America
+                Madrid, España
               </p>
-              <p>P: 666 888 000</p>
+              <p>+34 652 415 109</p>
               <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+                  <a href="#">codercrack@gmail.com</a>
               </p>
             </aside>
           </div>
@@ -57,14 +61,14 @@ const Footer = () => {
             </aside>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-12 col-sm-12 text-center">
             <div className="copyright">
               © copyright {new Date().getFullYear()} by{" "}
               <a href="#">Layerdrops.com</a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

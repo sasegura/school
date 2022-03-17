@@ -313,7 +313,8 @@ License URI:
 .icon_box_1 .front i {
   font-size: 64px;
   line-height: 1;
-  color: #aaaaaa;
+  color: #fff;
+  /*color: #aaaaaa;*/
   display: block;
   margin-bottom: 17px;
   transition: all ease 400ms;
@@ -326,7 +327,8 @@ License URI:
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #fff;
+  /*color: #aaaaaa;*/
   margin: 0;
   transition: all ease 400ms;
   -moz-transition: all ease 400ms;
@@ -338,6 +340,7 @@ License URI:
   -ms-transform-origin: 100% 213.5px;
   transform-origin: 100% 213.5px;
 }
+
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -383,6 +386,7 @@ License URI:
   border: 2px solid rgba(27, 27, 27, 1);
   padding: 48px 45px 45px;
   width: 100%;
+  
 }
 .vertical .back {
   -webkit-transform: rotateX(180deg);
@@ -506,6 +510,7 @@ License URI:
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
+  display: none;
 }
 .play_video a.video_popup {
   display: inline-block;
@@ -611,7 +616,7 @@ License URI:
   -webkit-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
 }
-.singlefolio .folioHover a.cate {
+.singlefolio .folioHover p.cate {
   font-size: 12px;
   line-height: 32px;
   color: #fff;
@@ -630,12 +635,14 @@ License URI:
   letter-spacing: 0.8px;
   margin: 0;
   text-transform: uppercase;
+  width: 300px;
 }
 .singlefolio .folioHover h4 a {
   color: #fff;
   transition: all ease 400ms;
   -webkit-transition: all ease 400ms;
   -moz-transition: all ease 400ms;
+  line-height: 1.5;
 }
 .singlefolio:hover img {
   transform: scale(1.1) rotate(2deg);
@@ -654,10 +661,10 @@ License URI:
 .singlefolio:hover:after {
   width: 100%;
 }
-.singlefolio .folioHover a.cate:hover,
+/* .singlefolio .folioHover p.cate:hover,
 .singlefolio .folioHover h4 a:hover {
   color: #000;
-}
+} */
 
 /*----------------------------------------------------
 / 7. Fun Fact Section

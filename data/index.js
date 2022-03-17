@@ -8,7 +8,7 @@ export const LogoImage = {
 
 export const NavLinks = [
   {
-    name: "Home",
+    name: "Inicio",
     url: "/",
     subItems: [
       {
@@ -26,19 +26,31 @@ export const NavLinks = [
     ]
   },
   {
-    name: "About",
+    name: "Conócenos",
     url: "/about"
   },
   {
-    name: "Services",
+    name: "Cursos",
     url: "/service",
     subItems: [
       {
-        name: "Services",
-        url: "/service"
+        name: "Máster en desarrollo de aplicaciones web Full Stack",
+        url: "/service-details"
       },
       {
-        name: "Service Details",
+        name: "Máster en desarrollo de aplicaciones web Front-end",
+        url: "/service-details"
+      },
+      {
+        name: "Máster en desarrollo de aplicaciones web Back-end",
+        url: "/service-details"
+      },
+      {
+        name: "Curso de desarrollo de aplicaciones web Front-end",
+        url: "/service-details"
+      },
+      {
+        name: "Curso de desarrollo de aplicaciones web Back-end",
         url: "/service-details"
       }
     ]
@@ -59,28 +71,28 @@ export const NavLinks = [
   },
   {
     name: "Blog",
-    url: "/blog",
-    subItems: [
-      {
-        name: "Blog 01",
-        url: "/blog"
-      },
-      {
-        name: "Blog 02",
-        url: "/blog-2"
-      },
-      {
-        name: "Blog 03",
-        url: "/blog-3"
-      },
-      {
-        name: "Blog Details",
-        url: "/blog-single"
-      }
-    ]
+    url: "/blog-2",
+    // subItems: [
+    //   {
+    //     name: "Blog 01",
+    //     url: "/blog"
+    //   },
+    //   {
+    //     name: "Blog 02",
+    //     url: "/blog-2"
+    //   },
+    //   {
+    //     name: "Blog 03",
+    //     url: "/blog-3"
+    //   },
+    //   {
+    //     name: "Blog Details",
+    //     url: "/blog-single"
+    //   }
+    // ]
   },
   {
-    name: "Contact",
+    name: "Contáctanos",
     url: "/contact"
   }
 ];
@@ -91,7 +103,7 @@ import sliderOne02 from "@/images/slider/1_2.jpg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "BIENBENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
+    subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
     title: "CODER CRACK \n SCHOOL",
     button: {
       label: "SABER MÁS",
@@ -234,10 +246,10 @@ export const ContactInfosList = [
 ];
 
 export const ContactFormTitle = {
-  subTitle: "Contact with us",
-  title: "write us a message",
+  subTitle: "Contacta con nosotros",
+  title: "Escríbenos un mensaje",
   description:
-    "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. "
+    "Recibiremos tu mensaje y pondremos a un asesor \n      a tu disposición "
 };
 
 import blogImage1 from "@/images/blog/1.jpg";
@@ -394,41 +406,41 @@ import portfolio06 from "@/images/portfolio/6.jpg";
 
 export const PortfolioData = [
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "Máster en desarrollo de aplicaciones web \n Full Stack",
+    categories: ["Octubre 2022"],
     image: portfolio01,
     url: "/portfolio-details"
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "Máster en desarrollo de aplicaciones web \n Front-end",
+    categories: ["Octubre 2022"],
     image: portfolio02,
     url: "/portfolio-details"
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "Máster en desarrollo de aplicaciones web \n Back-end",
+    categories: ["Octubre 2022"],
     image: portfolio03,
     url: "/portfolio-details"
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "Curso de desarrollo de aplicaciones web \n Front-end",
+    categories: ["Enero 2023"],
     image: portfolio04,
     url: "/portfolio-details"
   },
   {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
+    title: "Curso de desarrollo de aplicaciones web \n Back-end",
+    categories: ["Marzo 2023"],
     image: portfolio05,
     url: "/portfolio-details"
   },
-  {
-    title: "Design Styles",
-    categories: ["all", "graphic"],
-    image: portfolio06,
-    url: "/portfolio-details"
-  }
+  // {
+  //   title: "Design Styles",
+  //   categories: ["all", "graphic"],
+  //   image: portfolio06,
+  //   url: "/portfolio-details"
+  // }
 ];
 
 export const PortfolioFilters = [
@@ -515,35 +527,34 @@ export const ServiceHomeThreeData = {
 
 export const ServicePostTwoData = {
   sectionContent: {
-    title: "We design digital products that \n help grow businesses.",
-    subTitle: "Services we are offering",
-    text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+    subTitle: "Conviértete en un Crack de la programación web",
+    title: "Nuestros cursos",
+    text: "Te ofrecemos la oportunidad de aprender una de las profesiones más demandadas del mercado laboral"
   },
   posts: [
     {
-      title: "Máster en desarrollo web Full Stack",
-      iconName: "mei-web-design",
-      url: "/service-details"
-    },
-    {
-      title: "Máster en desarrollo web Full Stack",
-      iconName: "mei-computer-graphic",
-      url: "/service-details"
-    },
-    {
-      title: "Máster en desarrollo web Full Stack",
+      title: "Máster en desarrollo de aplicaciones web \n Full Stack",
       iconName: "mei-development-1",
       url: "/service-details"
     },
     {
-      title: "Máster en desarrollo web Full Stack",
-      iconName: "mei-development",
+      title: "Máster en desarrollo de aplicaciones web \n Front-end",
+      iconName: "mei-computer-graphic",
       url: "/service-details"
     },
     {
-      title: "Máster en desarrollo web Full Stack",
+      title: "Máster en desarrollo de aplicaciones web \n Back-end",
+      iconName: "mei-web-design",
+      url: "/service-details"
+    },
+    {
+      title: "Curso de desarrollo de aplicaciones web \n Front-end",
       iconName: "mei-app-development",
+      url: "/service-details"
+    },
+    {
+      title: "Curso de desarrollo de aplicaciones web \n Back-end",
+      iconName: "mei-development",
       url: "/service-details"
     }
   ]
@@ -995,7 +1006,7 @@ export const PortfolioHomeData = {
   }
 };
 
-import video02 from "@/images/home_1/3.jpg";
+import video02 from "@/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
