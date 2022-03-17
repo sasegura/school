@@ -2,8 +2,8 @@ import React, { Fragment, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import { VideoOneData } from "@/data";
-import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.min.css";
+//import ModalVideo from "react-modal-video";
+//import "react-modal-video/css/modal-video.min.css";
 
 const VideoOne = () => {
   const [isOpen, setOpen] = useState(false);
@@ -38,13 +38,7 @@ const VideoOne = () => {
           </Row>
         </Container>
       </section>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId={video.ID}
-        onClose={() => setOpen(false)}
-      />
+      <div></div>
     </Fragment>
   );
 };
