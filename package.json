@@ -6,12 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
-    
+    "export": "next export"    
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "gh-pages": "^3.2.3",
     "next": "^10.0.0",
     "next-images": "^1.7.0",
     "react": "17.0.1",
