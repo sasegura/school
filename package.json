@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mywebsite.com' > ./out/CNAME"
+    "static": "next build && next export && echo 'www.mywebsite.com' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "gh-pages": "^3.2.3",
     "next": "^10.0.0",
     "next-images": "^1.7.0",
     "react": "17.0.1",
