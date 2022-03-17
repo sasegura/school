@@ -91,10 +91,10 @@ import sliderOne02 from "@/images/slider/1_2.jpg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "BIENBENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
+    title: "CODER CRACK \n SCHOOL",
     button: {
-      label: "DISCOVER MORE",
+      label: "SABER MÁS",
       url: "/about"
     }
   },
@@ -522,27 +522,27 @@ export const ServicePostTwoData = {
   },
   posts: [
     {
-      title: "Website Development",
+      title: "Máster en desarrollo web Full Stack",
       iconName: "mei-web-design",
       url: "/service-details"
     },
     {
-      title: "Graphic Designing",
+      title: "Máster en desarrollo web Full Stack",
       iconName: "mei-computer-graphic",
       url: "/service-details"
     },
     {
-      title: "Digital Marketing",
+      title: "Máster en desarrollo web Full Stack",
       iconName: "mei-development-1",
       url: "/service-details"
     },
     {
-      title: "SEo & Content Writing",
+      title: "Máster en desarrollo web Full Stack",
       iconName: "mei-development",
       url: "/service-details"
     },
     {
-      title: "App Development",
+      title: "Máster en desarrollo web Full Stack",
       iconName: "mei-app-development",
       url: "/service-details"
     }

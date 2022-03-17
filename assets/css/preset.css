@@ -134,7 +134,7 @@ ul li{
     padding: 28px 40.5px;
 }
 .common_btn.red_bg:after{
-    background: #e62b4a;
+    background: rgba(80, 172, 235, 1);
 }
 .common_btn.red_bg:hover:after{
     width: 100%;
@@ -177,7 +177,7 @@ ul li{
     white-space: pre-line;
 }
 .red_color{
-    color: #e62b4a;
+    color: rgba(80, 172, 235, 1);
 }
 .white{
     color: #ffffff;
