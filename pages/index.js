@@ -19,6 +19,9 @@ import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
 
+import FloatingWhatsApp from "react-floating-whatsapp";
+//import "react-floating-whatsapp/dist/index.css";
+
 const HomeOne = () => {
   return (
     <MenuContextProvider>
@@ -32,6 +35,19 @@ const HomeOne = () => {
           <VideoTwo />
           <SubscribeForm />          
           <PortfolioHome />
+          <div style={{left:20}}><FloatingWhatsApp 
+            phoneNumber="+34640672424" 
+            styles={{zIndex:300}} 
+            accountName={"Coder Crack"} 
+            statusMessage={"Responde en menos de 1 hora"}
+            chatMessage={"Hola, ¿cómo puedo ayudarte?"}
+            placeholder={"Escribe un mensaje"}
+            allowClickAway={true}
+            allowEsc={true}
+            className={"whatsApp"}
+            notification={true}
+
+          /></div>
           <FunfactOne />
           <TrustedClient />
           <TeamCarousel />
