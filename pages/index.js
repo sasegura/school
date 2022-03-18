@@ -1,5 +1,4 @@
 import React from "react";
-import FloatingWhatsApp from "react-floating-whatsapp";
 import Layout from "@/components/layout";
 import CallToActionOne from "@/components/call-to-action-one";
 import Footer from "@/components/footer";
@@ -34,20 +33,7 @@ const HomeOne = () => {
           <AboutTwo />
           <VideoTwo />
           <SubscribeForm />          
-          <PortfolioHome />
-          <div style={{left:20}}><FloatingWhatsApp 
-            phoneNumber="+34640672424" 
-            styles={{zIndex:300}} 
-            accountName={"Coder Crack"} 
-            statusMessage={"Responde en menos de 1 hora"}
-            chatMessage={"Hola, ¿cómo puedo ayudarte?"}
-            placeholder={"Escribe un mensaje"}
-            allowClickAway={true}
-            allowEsc={true}
-            className={"whatsApp"}
-            notification={true}
-
-          /></div>
+          <PortfolioHome />          
           <FunfactOne />
           <TrustedClient />
           <TeamCarousel />
