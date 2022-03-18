@@ -58,11 +58,11 @@
 .mei-settings:before { content: '\e800'; } /* '' */
 .mei-team:before { content: '\e801'; } /* '' */
 .mei-transfer:before { content: '\e802'; } /* '' */
-.mei-web-design:before { content: '\e803'; } /* '' */
-.mei-app-development:before { content: '\e804'; } /* '' */
-.mei-computer-graphic:before { content: '\e805'; } /* '' */
-.mei-development-1:before { content: '\e806'; } /* '' */
-.mei-development:before { content: url("../images/icons/1.svg"); margin-left: -120px; margin-top: -50px;} /* '' */
+.mei-web-design:before { content: url("../images/icons/3.svg"); margin-left: -160px; margin-top: -50px; margin-bottom: -20px;} /* '' */
+.mei-app-development:before { content: url("../images/icons/1.svg"); margin-left: -160px; margin-top: -50px; margin-bottom: -20px;} /* '' */
+.mei-computer-graphic:before { content: url("../images/icons/2.svg"); margin-left: -160px; margin-top: -50px; margin-bottom: -20px;} /* '' */
+.mei-development-1:before { content: url("../images/icons/1.svg"); margin-left: -160px; margin-top: -50px; margin-bottom: -20px;} /* '' */
+.mei-development:before { content: url("../images/icons/1.svg"); margin-left: -160px; margin-top: -50px; margin-bottom: -20px;} /* '' */
 .mei-pie-chart:before { content: '\e808'; } /* '' */
 .mei-menu:before { content: '\e809'; } /* '' */
 .mei-production:before { content: '\e80a'; } /* '' */

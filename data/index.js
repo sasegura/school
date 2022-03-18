@@ -1059,7 +1059,7 @@ export const FeatureTwoData = {
   },
   posts: [
     {
-      title: "No necesitas conocientos previos",
+      title: "No necesitas conocimientos previos",
       text:
         "There are many variations of passages of lorem ipsum available"
     },
