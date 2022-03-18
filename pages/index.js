@@ -1,4 +1,5 @@
 import React from "react";
+import FloatingWhatsApp from "react-floating-whatsapp";
 import Layout from "@/components/layout";
 import CallToActionOne from "@/components/call-to-action-one";
 import Footer from "@/components/footer";
@@ -19,7 +20,7 @@ import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
 
-import FloatingWhatsApp from "react-floating-whatsapp";
+
 
 const HomeOne = () => {
   return (
