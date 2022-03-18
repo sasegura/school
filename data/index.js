@@ -806,8 +806,8 @@ export const VideoOneData = {
 
 export const SubscribeFormData = {
   sectionContent: {
-    title: "Subscribe us",
-    subTitle: "don’t miss out our latest updates"
+    title: "Suscríbete",
+    subTitle: "no te pierdas nuestras últimas actualizaciones"
   }
 };
 
@@ -999,10 +999,10 @@ export const ParallaxOneData = {
 
 export const PortfolioHomeData = {
   sectionContent: {
-    title: "work showcase",
-    subTitle: "our portfolio",
+    title: "Próximas ediciones",
+    subTitle: "¿Cuándo comienzan los cursos en Coder Crack?",
     text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+      "Incríbete en la edición que más te guste"
   }
 };
 
@@ -1043,30 +1043,29 @@ import featureTwo01 from "@/images/home_1/5.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {
-    title: "real experience",
     subTitle: "our core features",
-    text:
-      " We are committed to providing our customers with exceptional service while offering our employees the best training. "
+    title: "¿Por qué estudiar en Coder Crack?",    
+    text: "fddfg"
   },
   posts: [
     {
-      title: "No Coding Skills Require",
+      title: "No necesitas conocientos previos",
+      text:
+        "There are many variations of passages of lorem ipsum available"
+    },
+    {
+      title: "Te ayudamos con tus trámites",
       text:
         "There are many variations of passages of lorem ipsum available, but the majority have suffered."
     },
     {
-      title: "Online Documentation",
-      text:
-        "There are many variations of passages of lorem ipsum available, but the majority have suffered."
-    },
-    {
-      title: "SEO Optimized",
+      title: "Sector con alta demanda",
       text:
         "There are many variations of passages of lorem ipsum available, but the majority have suffered."
     }
   ],
   image: {
-    text: "Total design freedom \n for everyone.",
+    text: "Oportunidades \n al alcance de todos",
     path: featureTwo01
   }
 };

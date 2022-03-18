@@ -14,9 +14,9 @@ const SubscribeForm = () => {
           </Col>
           <Col lg={8}>
             <form action="" method="post" className="subscribefrom">
-              <input type="email" placeholder="Enter your email" name="email" />
+              <input type="email" placeholder="Introduce tu email" name="email" />
               <button className="common_btn red_bg" type="submit" name="submit">
-                <span>Subscribe now</span>
+                <span>Suscríbete ahora</span>
               </button>
             </form>
           </Col>
