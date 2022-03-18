@@ -71,7 +71,7 @@ const HeaderOne = () => {
                         <ul className="sub-menu">
                           {links.subItems.map((subLinks, index) => (
                             <li key={index}>
-                              <Link href={subLinks.url}>
+                              <Link href={{pathname: subLinks.url, query: { id: subLinks.id }}}>
                                 <a>{subLinks.name}</a>
                               </Link>
                             </li>

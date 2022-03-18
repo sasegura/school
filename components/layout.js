@@ -30,7 +30,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>
-          {PageTitle} - Meipaly - Fine One Page Parallax NextJS Template
+          {PageTitle} - Coder Crack School
         </title>
       </Head>
       <div id="wrapper">{children}</div>
