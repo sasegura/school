@@ -20,7 +20,6 @@ import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
 
 import FloatingWhatsApp from "react-floating-whatsapp";
-//import "react-floating-whatsapp/dist/index.css";
 
 const HomeOne = () => {
   return (
