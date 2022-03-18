@@ -19,7 +19,6 @@ import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
 
-//import FloatingWhatsApp from "react-floating-whatsapp";
 
 const HomeOne = () => {
   return (
