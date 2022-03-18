@@ -117,10 +117,10 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
-    subTitle: "WELCOME TO MEIPALY AGENCY",
-    title: "SMART WEB \n DESIGN AGENCY.",
+    subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
+    title: "CODER CRACK \n SCHOOL",
     button: {
-      label: "DISCOVER MORE",
+      label: "SABER MÁS",
       url: "/about"
     }
   }
