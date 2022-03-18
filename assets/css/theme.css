@@ -3443,18 +3443,18 @@ textarea.input-form:focus {
 ------------------------------------------------------*/
 .showit {
   background: rgba(80, 172, 235, 1);;
-  bottom: 60px;
   color: #ffffff;
   font-size: 20px;
   height: 40px;
   line-height: 0.8;
   padding: 10px 12px;
   position: fixed;
-  right: 60px;
   text-align: center;
   width: 40px;
   z-index: 99;
   cursor: pointer;
+  right: 45px;
+  bottom: 120px;
 }
 .showit:hover {
   background: #000;
@@ -3701,3 +3701,9 @@ textarea.input-form:focus {
 .main-slider__two .main-slider__title {
   color: #000000;
 }
+
+.styles-module_whatsappChatBox__P75uz{
+  z-index: 300;
+}
+
+

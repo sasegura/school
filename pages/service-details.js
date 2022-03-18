@@ -8,13 +8,13 @@ import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
 
-const ServiceDetailsPage = () => {
+const ServiceDetailsPage = ({id}) => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
         <Layout PageTitle="Service Details Page">
           <HeaderOne />
-          <PageBanner title="Service Details" name="Service" />
+          <PageBanner title={`${id}Service Details`} name="Service" />
           <ServiceDetails />
           <CallToActionOne extraClassName="ready" />
           <Footer />
@@ -23,5 +23,10 @@ const ServiceDetailsPage = () => {
     </MenuContextProvider>
   );
 };
+
+ServiceDetailsPage.getInitialProps = async ({ query }) => {
+  const {id} = query
+  return {id}
+}
 
 export default ServiceDetailsPage;

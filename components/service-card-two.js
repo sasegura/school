@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 const ServiceCardTwo = ({ data }) => {
-  const { url, iconName, title } = data;
+  const { url, iconName, title, id } = data;
   return (
-    <Link href={url}>
+    <Link href={{pathname: url, query: { id: id }}}>
       <a className="icon_box_1 text-center">
         <div className="flipper">
           <div className="front">
@@ -20,5 +20,7 @@ const ServiceCardTwo = ({ data }) => {
     </Link>
   );
 };
+
+
 
 export default ServiceCardTwo;

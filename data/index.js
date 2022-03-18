@@ -35,23 +35,28 @@ export const NavLinks = [
     subItems: [
       {
         name: "Máster en desarrollo de aplicaciones web Full Stack",
-        url: "/service-details"
+        url: "/service-details",
+        id:1
       },
       {
         name: "Máster en desarrollo de aplicaciones web Front-end",
-        url: "/service-details"
+        url: "/service-details",
+        id:2
       },
       {
         name: "Máster en desarrollo de aplicaciones web Back-end",
-        url: "/service-details"
+        url: "/service-details",
+        id:3
       },
       {
         name: "Curso de desarrollo de aplicaciones web Front-end",
-        url: "/service-details"
+        url: "/service-details",
+        id:4
       },
       {
         name: "Curso de desarrollo de aplicaciones web Back-end",
-        url: "/service-details"
+        url: "/service-details",
+        id:5
       }
     ]
   },
@@ -535,27 +540,32 @@ export const ServicePostTwoData = {
     {
       title: "Máster en desarrollo de aplicaciones web \n Full Stack",
       iconName: "mei-development-1",
-      url: "/service-details"
+      url: "/service-details",
+      id:1
     },
     {
       title: "Máster en desarrollo de aplicaciones web \n Front-end",
       iconName: "mei-computer-graphic",
-      url: "/service-details"
+      url: "/service-details",
+      id:2
     },
     {
       title: "Máster en desarrollo de aplicaciones web \n Back-end",
       iconName: "mei-web-design",
-      url: "/service-details"
+      url: "/service-details",
+      id:3
     },
     {
       title: "Curso de desarrollo de aplicaciones web \n Front-end",
       iconName: "mei-app-development",
-      url: "/service-details"
+      url: "/service-details",
+      id:4
     },
     {
       title: "Curso de desarrollo de aplicaciones web \n Back-end",
       iconName: "mei-development",
-      url: "/service-details"
+      url: "/service-details",
+      id:5
     }
   ]
 };
