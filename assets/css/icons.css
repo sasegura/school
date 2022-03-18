@@ -62,7 +62,7 @@
 .mei-app-development:before { content: '\e804'; } /* '' */
 .mei-computer-graphic:before { content: '\e805'; } /* '' */
 .mei-development-1:before { content: '\e806'; } /* '' */
-.mei-development:before { content: '\e807'; } /* '' */
+.mei-development:before { content: url("../images/icons/1.svg"); margin-left: -120px; margin-top: -50px;} /* '' */
 .mei-pie-chart:before { content: '\e808'; } /* '' */
 .mei-menu:before { content: '\e809'; } /* '' */
 .mei-production:before { content: '\e80a'; } /* '' */
