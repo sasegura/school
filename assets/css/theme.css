@@ -3702,8 +3702,7 @@ textarea.input-form:focus {
   color: #000000;
 }
 
-.styles-module_whatsappChatBox__P75uz{
-  z-index: 300;
+._2iWL7, ._1bpcM{
+  z-index: 300 !important;
+  position: fixed !important;
 }
-
-

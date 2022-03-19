@@ -26,7 +26,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Coder Crack School Inicio">
+        <Layout PageTitle="Inicio">
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />
