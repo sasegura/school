@@ -18,9 +18,7 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
-import WhatsAppWidget from 'react-whatsapp-widget'
-import 'react-whatsapp-widget/dist/index.css'
-
+import WhatsappLink from "@/components/whatsapp-link";
 
 const HomeOne = () => {
   return (
@@ -35,7 +33,7 @@ const HomeOne = () => {
           <VideoTwo />
           <SubscribeForm />          
           <PortfolioHome />
-          <WhatsAppWidget phoneNumber='XXXXXXXX' />        
+          <WhatsappLink />            
           <FunfactOne />
           <TrustedClient />
           <TeamCarousel />

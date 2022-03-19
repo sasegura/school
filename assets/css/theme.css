@@ -3705,4 +3705,5 @@ textarea.input-form:focus {
 ._2iWL7, ._1bpcM{
   z-index: 300 !important;
   position: fixed !important;
+  left: 20px;
 }
