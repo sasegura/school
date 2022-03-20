@@ -817,7 +817,10 @@ export const VideoOneData = {
 export const SubscribeFormData = {
   sectionContent: {
     title: "Suscríbete",
-    subTitle: "no te pierdas nuestras últimas actualizaciones"
+    subTitle: "no te pierdas nuestras últimas actualizaciones",
+    titleSub: "Gracias por inscribirte",
+    subTitleSUb: "Te enviaremos todas las actualizaciones a tu email",
+
   }
 };
 
