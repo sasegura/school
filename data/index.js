@@ -498,27 +498,27 @@ export const ServicePostData = [
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-settings",
-    url1: "/service-details",
-    url2: "/service-details",
-    url3: "/service-details"
+    url1: "https://www.linkedin.com/jobs/search?keywords=React&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
+    url2: "https://www.tecnoempleo.com/busqueda-empleo.php?cp=&busc_paises=1&te=react&pr=",
+    url3: "https://es.indeed.com/jobs?q=react&l=Espa%C3%B1a&vjk=5bb6a7ec7e6ac123"
   },
   {
-    title: "Desarrollador front-end",
+    title: "Desarrollador back-end",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-transfer",
-    url1: "/service-details",
-    url2: "/service-details",
-    url3: "/service-details"
+    url1: "https://www.linkedin.com/jobs/search?keywords=node.js&location=Espa%C3%B1a&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
+    url2: "https://www.tecnoempleo.com/busqueda-empleo.php?te=node.js&pr=#buscador-ofertas",
+    url3: "https://es.indeed.com/jobs?q=node.js&l=Espa%C3%B1a&vjk=5eabebf716fb883c"
   },
   {
     title: "Desarrollador Full Stack",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-pie-chart",
-    url1: "/service-details",
-    url2: "/service-details",
-    url3: "/service-details"
+    url1: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
+    url2: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas",
+    url3: "https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc"
   }
 ];
 
