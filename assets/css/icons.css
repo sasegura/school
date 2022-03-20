@@ -55,11 +55,11 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.mei-development-1:before { content: url("../images/icons/7.svg"); margin-left: -75%; margin-top: -30%; margin-bottom: -20%;} /* '' */
-.mei-computer-graphic:before { content: url("../images/icons/1.svg"); margin-left: -75%; margin-top: -30%; margin-bottom: -20%;} /* '' */
-.mei-web-design:before { content: url("../images/icons/4.svg"); margin-left: -75%; margin-top: -30%; margin-bottom: -20%;} /* '' */
-.mei-app-development:before { content: url("../images/icons/6.svg"); margin-left: -75%; margin-top: -30%; margin-bottom: -20%;} /* '' */
-.mei-development:before { content: url("../images/icons/2.svg"); margin-left: -75%; margin-top: -30%; margin-bottom: -20%;} /* '' */
+.mei-development-1:before { content: url("../images/icons/7.svg"); margin-left: -90px; margin-top: -30px; margin-bottom: -20px;} /* '' */
+.mei-computer-graphic:before { content: url("../images/icons/1.svg"); margin-left: -90px; margin-top: -30px; margin-bottom: -20px;} /* '' */
+.mei-web-design:before { content: url("../images/icons/4.svg"); margin-left: -90px; margin-top: -30px; margin-bottom: -20px;} /* '' */
+.mei-app-development:before { content: url("../images/icons/6.svg"); margin-left: -90px; margin-top: -30px; margin-bottom: -20px;} /* '' */
+.mei-development:before { content: url("../images/icons/2.svg"); margin-left: -90px; margin-top: -30px; margin-bottom: -20px;} /* '' */
  
 .mei-settings:before { content: '\e800'; } /* '' */
 .mei-team:before { content: '\e801'; } /* '' */
