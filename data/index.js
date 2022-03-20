@@ -494,33 +494,39 @@ export const PortfolioDetailsData = {
 
 export const ServicePostData = [
   {
-    title: "Modren Design",
+    title: "Desarrollador front-end",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-settings",
-    url: "/service-details"
+    url1: "/service-details",
+    url2: "/service-details",
+    url3: "/service-details"
   },
   {
-    title: "Digital products",
+    title: "Desarrollador front-end",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-transfer",
-    url: "/service-details"
+    url1: "/service-details",
+    url2: "/service-details",
+    url3: "/service-details"
   },
   {
-    title: "Marketing Strategy",
+    title: "Desarrollador Full Stack",
     text:
       "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
     iconName: "mei-pie-chart",
-    url: "/service-details"
+    url1: "/service-details",
+    url2: "/service-details",
+    url3: "/service-details"
   }
 ];
 
 export const ServiceHomeTwoData = {
-  subTitle: "welcome to smart meipaly web agency",
+  subTitle: "Conoce tu futuro empleo",
   title: "Ofertas de empleo",
   text:
-    "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+  "Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack"
 };
 
 export const ServiceHomeThreeData = {
@@ -690,15 +696,15 @@ import team05 from "@/images/team/5.jpg";
 export const TeamOneData = {
   sectionContent: {
     title: "Nuestro equipo",
-    subTitle: "Conoce tu futuro empleo",
+    subTitle: "Conoce nuestros profesores",
     text:
-      "Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack"
+      "Nuestro objetivo es que te sientas a gusto con nuestro personal"
   },
   posts: [
     {
       image: team04,
       name: "Isabel García Hilarión",
-      designation: "Profesor",
+      designation: "Profesora",
       url: "#",
       socials: [
         {
@@ -717,40 +723,40 @@ export const TeamOneData = {
     },
     {
       image: team01,
-      name: "Desarrollador Back-end",
-      designation: "España",
+      name: "Sergio Segura Fernández",
+      designation: "Profesor",
       url: "#",
       socials: [
         {
-          name: "Linkedin",
+          name: "Facebook",
           url: "https://www.linkedin.com/jobs/search?keywords=node.js&location=Espa%C3%B1a&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
         },
         {
-          name: "Tecnoempleo",
+          name: "Twitter",
           url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=node.js&pr=#buscador-ofertas"
         },
         {
-          name: "Indeed",
+          name: "Linkedin",
           url: "https://es.indeed.com/jobs?q=node.js&l=Espa%C3%B1a&vjk=5eabebf716fb883c"
         }
       ]
     },
     {
       image: team02,
-      name: "Desarrollador Full Stack",
-      designation: "España",
+      name: "Gregorio",
+      designation: "Profesor",
       url: "",
       socials: [
         {
-          name: "Linkedin",
+          name: "Facebook",
           url: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
         },
         {
-          name: "Tecnoempleo",
+          name: "Twitter",
           url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas"
         },
         {
-          name: "Indeed",
+          name: "Linkedin",
           url: "https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc"
         }
       ]
@@ -983,8 +989,8 @@ import video02 from "@/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
-    title: "Digital Experience",
-    subTitle: "how do we works",
+    title: "Experiencia digital",
+    subTitle: "¿Cómo es nuestra escuela?",
     text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
   },
   video: {

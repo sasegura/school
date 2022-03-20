@@ -1385,7 +1385,7 @@ License URI:
   width: 100%;
   background: #fff;
   border: 2px solid #f4f4f4;
-  padding: 50px 65px 50px;
+  padding: 50px 60px 50px;
   transition: all ease 500ms;
   -moz-transition: all ease 500ms;
   -webkit-transition: all ease 500ms;
@@ -1449,7 +1449,7 @@ License URI:
   color: #000;
   line-height: 0.8;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 10px;
 }
 .icon_box_2 a:hover {
   color: rgba(80, 172, 235, 1);;

@@ -14,9 +14,9 @@ const TeamCard = ({ data }) => {
               </a>
             ))}
           </div>
-          <a href={url} target="_blank" className="common_btn">
+          {/* <a href={url} target="_blank" className="common_btn">
             <span>learn more</span>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="detail_TM">
