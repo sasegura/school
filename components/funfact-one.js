@@ -5,14 +5,15 @@ import VisibilitySensor from "react-visibility-sensor";
 import { FunfactData } from "@/data";
 
 const FunfactOne = () => {
-  const [counter, setCounter] = useState({
-    startCounter: false
-  });
+  
+  const [counter, setCounter] = useState({startCounter: false});
+  
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
       setCounter({ startCounter: true });
     }
   };
+  
   return (
     <section className="commonSection funfact">
       <Container>
