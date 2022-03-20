@@ -1523,8 +1523,8 @@ License URI:
   overflow: hidden;
 }
 .features_img img {
-
-  width: 110%;
+  width: 120%;
+  height: 100%;
   margin-left: -80px;
 
 }
