@@ -9,12 +9,12 @@ const TeamCard = ({ data }) => {
         <div className="tm_overlay">
           <div className="team_social">
             {socials.map(({ name, url }, index) => (
-              <a key={index} href={url}>
+              <a key={index} href={url} target="_blank">
                 <span>{name}</span>
               </a>
             ))}
           </div>
-          <a href={url} className="common_btn">
+          <a href={url} target="_blank" className="common_btn">
             <span>learn more</span>
           </a>
         </div>

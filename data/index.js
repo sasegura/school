@@ -689,109 +689,69 @@ import team05 from "@/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
-    title: "expert people",
-    subTitle: "meet the team",
+    title: "Ofertas de empleo",
+    subTitle: "Conoce tu futuro empleo",
     text:
-      "We are committed to providing our customers with exceptional service \n while offering our employees the best training."
+      "Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack"
   },
   posts: [
     {
-      image: team01,
-      name: "Herman Fisher",
-      designation: "General Manager",
+      image: team04,
+      name: "Desarrollador front-end",
+      designation: "España",
       url: "#",
       socials: [
         {
-          name: "Facebook",
-          url: "#"
+          name: "Linkedin",
+          url: "https://www.linkedin.com/jobs/search?keywords=React&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
         },
         {
-          name: "Twitter",
-          url: "#"
+          name: "Tecnoempleo",
+          url: "https://www.tecnoempleo.com/busqueda-empleo.php?cp=&busc_paises=1&te=react&pr="
         },
+        {
+          name: "Indeed",
+          url: "https://es.indeed.com/jobs?q=react&l=Espa%C3%B1a&vjk=5bb6a7ec7e6ac123"
+        }
+      ]
+    },
+    {
+      image: team01,
+      name: "Desarrollador Back-end",
+      designation: "España",
+      url: "#",
+      socials: [
         {
           name: "Linkedin",
-          url: "#"
+          url: "https://www.linkedin.com/jobs/search?keywords=node.js&location=Espa%C3%B1a&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
+        },
+        {
+          name: "Tecnoempleo",
+          url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=node.js&pr=#buscador-ofertas"
+        },
+        {
+          name: "Indeed",
+          url: "https://es.indeed.com/jobs?q=node.js&l=Espa%C3%B1a&vjk=5eabebf716fb883c"
         }
       ]
     },
     {
       image: team02,
-      name: "Charlie Kennedy",
-      designation: "Brand Designer",
+      name: "Desarrollador Full Stack",
+      designation: "España",
       url: "",
       socials: [
         {
-          name: "Facebook",
-          url: "#"
-        },
-        {
-          name: "Twitter",
-          url: "#"
-        },
-        {
           name: "Linkedin",
-          url: "#"
-        }
-      ]
-    },
-    {
-      image: team03,
-      name: "Helena Adkins",
-      designation: "Seinor Designer",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#"
+          url: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
         },
         {
-          name: "Twitter",
-          url: "#"
+          name: "Tecnoempleo",
+          url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas"
         },
         {
-          name: "Linkedin",
-          url: "#"
-        }
-      ]
-    },
-    {
-      image: team04,
-      name: "Virginia Farmer",
-      designation: "Marketing Manager",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#"
-        },
-        {
-          name: "Twitter",
-          url: "#"
-        },
-        {
-          name: "Linkedin",
-          url: "#"
-        }
-      ]
-    },
-    {
-      image: team05,
-      name: "Philip Hansen",
-      designation: "Co Founder",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#"
-        },
-        {
-          name: "Twitter",
-          url: "#"
-        },
-        {
-          name: "Linkedin",
-          url: "#"
+          name: "Indeed",
+          url: "https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc"
         }
       ]
     }

@@ -14,7 +14,7 @@ const TeamCarousel = () => {
   const { sectionContent, posts } = TeamOneData;
   const carouselOptions = {
     spaceBetween: 0,
-    loop: true,
+    loop: false,
     slidesPerView: 1,
     pagination: {
       el: "#team-carousel-pagination",
@@ -60,26 +60,7 @@ const TeamCarousel = () => {
             <TeamCard data={post} />
           </SwiperSlide>
         ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}{" "}
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}
+
         <div className="swiper-pagination" id="team-carousel-pagination"></div>
       </Swiper>
     </section>
