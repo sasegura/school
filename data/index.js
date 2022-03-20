@@ -518,7 +518,7 @@ export const ServicePostData = [
 
 export const ServiceHomeTwoData = {
   subTitle: "welcome to smart meipaly web agency",
-  title: "We design digital products that \n help grow businesses.",
+  title: "Ofertas de empleo",
   text:
     "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
 };
@@ -689,7 +689,7 @@ import team05 from "@/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
-    title: "Ofertas de empleo",
+    title: "Nuestro equipo",
     subTitle: "Conoce tu futuro empleo",
     text:
       "Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack"

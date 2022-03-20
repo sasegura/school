@@ -18,6 +18,7 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
+import ServiceHomeTwo from "@/components/service-home-two";
 
 const HomeOne = () => {
   return (
@@ -26,16 +27,23 @@ const HomeOne = () => {
         <Layout PageTitle="Inicio">
           <HeaderOne />
           <SliderOne />
-          <ServiceTwo />
           <FeatureTwo/>
-          <AboutTwo />
-          <VideoTwo />
-          <SubscribeForm />          
+          
+          <ServiceTwo />
           <PortfolioHome />
-          <FunfactOne />
-          <TrustedClient />
+          <VideoTwo />
+          <SubscribeForm />
+          
+          
+          <ServiceHomeTwo />
+          
+                    
+          
+          {/*<FunfactOne />*/}
+          {/*<TrustedClient />*/}
+          <ClientCarouselOne />  
           <TeamCarousel />
-          <ClientCarouselOne />          
+
           <ParallaxOne />
           <BlogHome />
           <CallToActionOne extraClassName="ready" />
