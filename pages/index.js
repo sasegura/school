@@ -18,7 +18,6 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
-import WhatsappLink from "@/components/whatsapp-link";
 
 const HomeOne = () => {
   return (
@@ -33,7 +32,6 @@ const HomeOne = () => {
           <VideoTwo />
           <SubscribeForm />          
           <PortfolioHome />
-          <WhatsappLink />            
           <FunfactOne />
           <TrustedClient />
           <TeamCarousel />
