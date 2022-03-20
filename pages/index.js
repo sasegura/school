@@ -27,9 +27,10 @@ const HomeOne = () => {
         <Layout PageTitle="Inicio">
           <HeaderOne />
           <SliderOne />
+          <ServiceTwo />
           <FeatureTwo/>
           
-          <ServiceTwo />
+          
           <PortfolioHome />
           <VideoTwo />
           <SubscribeForm />

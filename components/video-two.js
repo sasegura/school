@@ -1,13 +1,35 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { VideoTwoData } from "@/data";
 //import ModalVideo from "react-modal-video";
 import SectionTitle from "@/components/section-title";
 //import "react-modal-video/css/modal-video.min.css";
 import { Col, Container, Row } from "react-bootstrap";
 
+import video02 from "@/images/home_1/3.gif";
+import video03 from "@/images/home_1/3aa.gif"
+
+
+
 const VideoTwo = () => {
   const [isOpen, setOpen] = useState(false);
-  const { sectionContent, video } = VideoTwoData;
+  const [video, setVideo] = useState(false);
+
+  const { sectionContent} = VideoTwoData;
+
+  useEffect(() => {    
+    let x = window.matchMedia("(max-width: 700px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction)    
+  }, [])
+
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      setVideo(video03);
+    } else {
+      setVideo(video02);
+    }
+  }
+  
   return (
     <Fragment>
       <section className="commonSection what_wedo pb-0 border-bottom-0">
@@ -20,7 +42,7 @@ const VideoTwo = () => {
           <Row>
             <Col lg={12}>
               <div className="videoWrap mb-0">
-                <img src={video.image} alt="" />
+                <img src={video} alt="" />
                 <div className="play_video">
                   <a
                     className="video_popup"
@@ -32,7 +54,7 @@ const VideoTwo = () => {
                   >
                     <i className="fa fa-play"></i>
                   </a>
-                  <h2>{video.title}</h2>
+                  <h2>{"asdasd"}</h2>
                 </div>
               </div>
             </Col>

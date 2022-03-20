@@ -1523,9 +1523,10 @@ License URI:
   overflow: hidden;
 }
 .features_img img {
-  width: 150%;
-  height: 100%;
-  margin-left: -100px;
+
+  width: 110%;
+  margin-left: -80px;
+
 }
 .img_details {
   background: rgba(80, 172, 235, 1);;
@@ -1952,6 +1953,15 @@ License URI:
 .subscribe {
   padding: 100px 0 72px;
   border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
+  background-color: #000;
+  margin-top: 120px;
+}
+.subscribe .sec_title{
+  color:#fff
+}
+.subscribe .common_btn, .subscribe input {
+  border: 2px solid rgba(27, 27, 27, 1) !important;
 }
 .our_work {
   background: #f4f4f4;

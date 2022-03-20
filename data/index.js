@@ -778,7 +778,7 @@ export const SubscribeFormData = {
   sectionContent: {
     title: "Suscríbete",
     subTitle: "no te pierdas nuestras últimas actualizaciones",
-    titleSub: "Gracias por inscribirte",
+    titleSub: "Gracias por suscribirte",
     subTitleSUb: "Te enviaremos todas las actualizaciones a tu email",
 
   }
@@ -985,8 +985,7 @@ export const VideoTwoData = {
   sectionContent: {
     title: "Digital Experience",
     subTitle: "how do we works",
-    text:
-      "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
+    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training."
   },
   video: {
     title: "Watch Video",
