@@ -42,12 +42,13 @@ const HomeOne = () => {
           
           {/*<FunfactOne />*/}
           {/*<TrustedClient />*/}
-          <ClientCarouselOne />  
           <TeamCarousel />
 
           <ParallaxOne />
           <BlogHome />
           <CallToActionOne extraClassName="ready" />
+          <ClientCarouselOne />  
+
           <Footer />
         </Layout>
       </SearchContextProvider>

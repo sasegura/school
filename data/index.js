@@ -697,20 +697,20 @@ export const TeamOneData = {
   posts: [
     {
       image: team04,
-      name: "Desarrollador front-end",
-      designation: "España",
+      name: "Isabel García Hilarión",
+      designation: "Profesor",
       url: "#",
       socials: [
         {
-          name: "Linkedin",
+          name: "Facebook",
           url: "https://www.linkedin.com/jobs/search?keywords=React&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
         },
         {
-          name: "Tecnoempleo",
+          name: "Twitter",
           url: "https://www.tecnoempleo.com/busqueda-empleo.php?cp=&busc_paises=1&te=react&pr="
         },
         {
-          name: "Indeed",
+          name: "Linkedin",
           url: "https://es.indeed.com/jobs?q=react&l=Espa%C3%B1a&vjk=5bb6a7ec7e6ac123"
         }
       ]
