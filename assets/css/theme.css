@@ -1958,8 +1958,10 @@ License URI:
   margin-top: 120px;
 }
 .subscribe .sec_title{
-  color:#fff
+  color:#fff;
+  transition: all ease 900ms;
 }
+
 .subscribe .common_btn, .subscribe input {
   border: 2px solid rgba(27, 27, 27, 1) !important;
 }
