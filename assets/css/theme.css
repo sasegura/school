@@ -1520,6 +1520,12 @@ License URI:
 }
 .features_img {
   position: relative;
+  overflow: hidden;
+}
+.features_img img {
+  width: 150%;
+  height: 100%;
+  margin-left: -100px;
 }
 .img_details {
   background: rgba(80, 172, 235, 1);;

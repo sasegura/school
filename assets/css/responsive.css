@@ -332,7 +332,9 @@ License URI:
     padding-right: 15px;
   }
   .features_img img {
-    width: 100%;
+    width: 150%;
+    height: 100%;
+    margin-left: -100px;
   }
   .img_details {
     padding: 15px;
