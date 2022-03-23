@@ -11,5 +11,5 @@ export const coderCrackInfo ={
   province: 'Madrid',
   country:'España',
   images: [home_1,home_2,home_3],
-  email:'codercrackschool@gmail.com'
+  email:'codercrack@gmail.com'
 }

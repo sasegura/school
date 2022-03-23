@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { coderCrackInfo } from "@/information";
 import CountUp from "react-countup";
+import Link from "react-scroll/modules/components/Link";
 
 const ServiceSidebar = ({data}) => {
   const [counter, setCounter] = useState(data?.price);
@@ -87,6 +88,14 @@ const ServiceSidebar = ({data}) => {
           </ul>
           <h1 className="timer">
           Precio: <CountUp end={counter} />€</h1>
+
+              <div className=" text-right padding10">
+                  
+                    <a href="/apply" className={`width100 common_btn`}>
+                      <span>Aplicar</span>
+                    </a>
+                  
+                </div>
         </div>
         
       </aside>
@@ -96,8 +105,8 @@ const ServiceSidebar = ({data}) => {
           <p>
             Si prefieres hablar con personas antes de llenar el formulario puedes contactarnos y un miembro de nuestro equipo te ayudará.
           </p>
-          <h2>{`${coderCrackInfo.phoneCountryCode} ${coderCrackInfo.phone}`}</h2>
-          <p> {`${coderCrackInfo.email}`}</p>
+          <h2>{`${coderCrackInfo?.phoneCountryCode} ${coderCrackInfo?.phone}`}</h2>
+          <p> {`${coderCrackInfo?.email}`}</p>
         </div>
       </aside>
     </Fragment>
