@@ -29,8 +29,7 @@ const HomeOne = () => {
           <SliderOne />
           <ServiceTwo />
           <FeatureTwo />
-
-          <PortfolioHome />
+          <AboutTwo />
           <VideoTwo />
           <SubscribeForm />
           <TeamCarousel />

@@ -3763,10 +3763,8 @@ textarea.input-form:focus {
   bottom: 2rem;
   right: 2rem;
   cursor: pointer;
-  /*background-color: #fafafa;*/
   border-radius: 50%;
   user-select: none;
-  /*box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;*/
 }
 
 .botonWhatsUpBack {
@@ -3779,10 +3777,8 @@ textarea.input-form:focus {
   position: fixed;
   bottom: 43px;
   right: 43px;
-  /*background-color: #fafafa;*/
   border-radius: 50%;
   user-select: none;
-  /*box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;*/
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   animation-duration: 1.2s;
   animation-name: _pulse;
@@ -3842,3 +3838,6 @@ textarea.input-form:focus {
   animation-iteration-count: infinite;
   animation-delay: 1s;
 } */
+.marging-right-10 {
+  margin-right: 10px;
+}
