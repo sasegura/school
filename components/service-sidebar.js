@@ -96,8 +96,8 @@ const ServiceSidebar = ({data}) => {
           <p>
             Si prefieres hablar con personas antes de llenar el formulario puedes contactarnos y un miembro de nuestro equipo te ayudará.
           </p>
-          <h2>{`${coderCrackInfo.phoneCountryCode} ${coderCrackInfo.phone}`}</h2>
-          <p> {`${coderCrackInfo.email}`}</p>
+          <h2>{`${coderCrackInfo?.phoneCountryCode} ${coderCrackInfo?.phone}`}</h2>
+          <p> {`${coderCrackInfo?.email}`}</p>
         </div>
       </aside>
     </Fragment>

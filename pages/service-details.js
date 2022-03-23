@@ -12,7 +12,7 @@ import { CoursesList } from "@/courses";
 import ServiceTwo from "@/components/service-two";
 
 const ServiceDetailsPage = ({id}) => {
-  const courses=CoursesList.courses
+  const courses=CoursesList?.courses
   const course=courses.find((courseItem)=>courseItem.id==id)
   return (
     <MenuContextProvider>
