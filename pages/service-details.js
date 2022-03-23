@@ -13,13 +13,13 @@ import ServiceTwo from "@/components/service-two";
 
 const ServiceDetailsPage = ({id}) => {
   const courses=CoursesList.courses
-  const course=courses.find((cours)=>cours.id==id)
+  const course=courses.find((courseItem)=>courseItem.id==id)
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle={`Curso-${course.name}`}>
+        <Layout PageTitle={`Curso-${course?.name}`}>
           <HeaderOne />
-          <PageBanner title={`${course.name}`} name="Curso" />
+          <PageBanner title={`${course?.name}`} name="Curso" />
           
           <ServiceDetails data={course}/>
           

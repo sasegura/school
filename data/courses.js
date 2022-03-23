@@ -5,7 +5,7 @@ import portfolio04 from "@/images/portfolio/4.jpg";
 import portfolio05 from "@/images/portfolio/5.jpg";
 
 export const requirements= ['Ordenador portátil','Conocimientos básicos de ofimática.','Entrevista personal.'];
-export const discounts= ['friend','onePay'];
+export const discounts= ['friend','onePay','priorKnowledge'];
 
 export const CoursesList = {
     name: "Cursos",
