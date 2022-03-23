@@ -33,17 +33,17 @@ const HomeOne = () => {
           <PortfolioHome />
           <VideoTwo />
           <SubscribeForm />
-
-          <ServiceHomeTwo />
+          <TeamCarousel />
 
           {/*<FunfactOne />*/}
           {/*<TrustedClient />*/}
-          <TeamCarousel />
 
           <ParallaxOne />
           <BlogHome />
+          <ServiceHomeTwo />
+
           <CallToActionOne extraClassName="ready" />
-          <ClientCarouselOne />
+          {/* <ClientCarouselOne /> */}
 
           <Footer />
         </Layout>

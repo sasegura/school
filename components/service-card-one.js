@@ -10,15 +10,15 @@ const ServiceCardOne = ({ data }) => {
       <div className="iconWrap">
         <i className={iconName}></i>
       </div>
-      
+
       <Link href={url1}>
-        <a>Linkedin</a>
+        <a target="_blank">Linkedin</a>
       </Link>
       <Link href={url2}>
-        <a>Tecnoempleo</a>
+        <a target="_blank">Tecnoempleo</a>
       </Link>
       <Link href={url3}>
-        <a>Indeed</a>
+        <a target="_blank">Indeed</a>
       </Link>
     </div>
   );
