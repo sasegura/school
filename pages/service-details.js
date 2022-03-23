@@ -7,15 +7,24 @@ import CallToActionOne from "@/components/call-to-action-one";
 import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
+import FeatureTabCourse from "@/components/feature-tab-course";
+import { CoursesList } from "@/courses";
+import ServiceTwo from "@/components/service-two";
 
 const ServiceDetailsPage = ({id}) => {
+  const courses=CoursesList.courses
+  const course=courses.find((cours)=>cours.id==id)
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Service Details Page">
+        <Layout PageTitle={`Curso-${course.name}`}>
           <HeaderOne />
-          <PageBanner title={`${id}Service Details`} name="Service" />
-          <ServiceDetails />
+          <PageBanner title={`${course.name}`} name="Curso" />
+          
+          <ServiceDetails data={course}/>
+          
+          <FeatureTabCourse course={course} />
+          <ServiceTwo />
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>

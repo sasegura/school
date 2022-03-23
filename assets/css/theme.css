@@ -3724,3 +3724,7 @@ textarea.input-form:focus {
 .team_slider .swiper-wrapper{
   justify-content: center !important;
 }
+
+.marging-right-10{
+  margin-right: 10px;
+}

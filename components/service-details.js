@@ -3,16 +3,16 @@ import { Col, Container, Row } from "react-bootstrap";
 import ServiceSidebar from "@/components/service-sidebar";
 import ServiceDetailsContent from "@/components/service-details-content";
 
-const ServiceDetails = () => {
+const ServiceDetails = ({data}) => {
   return (
     <section className="commonSection service_detail">
       <Container>
         <Row>
           <Col lg={8} md={12}>
-            <ServiceDetailsContent />
+            <ServiceDetailsContent data={data}/>
           </Col>
           <Col lg={4} md={12} className="sidebar">
-            <ServiceSidebar />
+            <ServiceSidebar data={data}/>
           </Col>
         </Row>
       </Container>
