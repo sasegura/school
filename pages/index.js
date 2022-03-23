@@ -28,18 +28,14 @@ const HomeOne = () => {
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />
-          <FeatureTwo/>
-          
-          
+          <FeatureTwo />
+
           <PortfolioHome />
           <VideoTwo />
           <SubscribeForm />
-          
-          
+
           <ServiceHomeTwo />
-          
-                    
-          
+
           {/*<FunfactOne />*/}
           {/*<TrustedClient />*/}
           <TeamCarousel />
@@ -47,7 +43,7 @@ const HomeOne = () => {
           <ParallaxOne />
           <BlogHome />
           <CallToActionOne extraClassName="ready" />
-          <ClientCarouselOne />  
+          <ClientCarouselOne />
 
           <Footer />
         </Layout>

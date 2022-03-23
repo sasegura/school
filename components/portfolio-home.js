@@ -20,13 +20,13 @@ const PortfolioHome = () => {
             <Row>
               {PortfolioData.map((post, index) => (
                 <VisibilitySensor
-                onChange={() => console.log(8)}
-                offset={{ top: 10 }}
-                delayedCall
-              >
-                <Col lg={4} md={6} sm={12} key={index}>
-                  <PortfolioCard data={post} />
-                </Col>
+                  onChange={() => console.log(8)}
+                  offset={{ top: 10 }}
+                  delayedCall
+                >
+                  <Col lg={4} md={6} sm={12} key={index}>
+                    <PortfolioCard key={index} data={post} />
+                  </Col>
                 </VisibilitySensor>
               ))}
             </Row>
