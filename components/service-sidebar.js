@@ -3,7 +3,7 @@ import { coderCrackInfo } from "@/information";
 import CountUp from "react-countup";
 
 const ServiceSidebar = ({data}) => {
-  const [counter, setCounter] = useState(data.price);
+  const [counter, setCounter] = useState(data?.price);
   const [checkedOnePay, setCheckedOnePay] = React.useState(false);
   const [checkedFriend, setCheckedFriend] = React.useState(false);
   const [checkedPriorKnowledge, setCheckedPriorKnowledge] = React.useState(false);
@@ -12,9 +12,9 @@ const ServiceSidebar = ({data}) => {
   const [showPriorKnowledge, setShowPriorKnowledge]=useState(false)
 
   useEffect(()=>{
-    const isOnePayOption=data.discounts.find((discount)=>discount=='onePay')
-    const isFriendOption=data.discounts.find((discount)=>discount=='friend')
-    const isPriorKnowledgeOption=data.discounts.find((discount)=>discount=='priorKnowledge')
+    const isOnePayOption=data?.discounts?.find((discount)=>discount=='onePay')
+    const isFriendOption=data?.discounts?.find((discount)=>discount=='friend')
+    const isPriorKnowledgeOption=data?.discounts?.find((discount)=>discount=='priorKnowledge')
 
     if(isOnePayOption.length>0){
       setShowOnePay(true)
@@ -28,18 +28,18 @@ const ServiceSidebar = ({data}) => {
   },[])
 
   useEffect(()=>{
-    setCounter(data.price)
+    setCounter(data?.price)
     setCheckedOnePay(false)
     setCheckedFriend(false)
     setCheckedPriorKnowledge(false)
-  },[data.price])
+  },[data?.price])
 
   const percent=(condition,discount)=>{
     let count=counter;
     if(condition){
-      count=counter+(data.price*discount/100)
+      count=counter+(data?.price*discount/100)
     }else{
-      count=counter-(data.price*discount/100)
+      count=counter-(data?.price*discount/100)
     }
     return count
   }
@@ -58,7 +58,7 @@ const ServiceSidebar = ({data}) => {
     setCounter(()=>percent(checkedPriorKnowledge,10))
     setCheckedPriorKnowledge(!checkedPriorKnowledge);
   };
-  
+
   return (
     <Fragment>
       <aside className="widget categories">
