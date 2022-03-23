@@ -7,9 +7,7 @@ const PageBanner = ({ title, name }) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="banner_content text-center">
-              <h4>
-                <a href="/">Inicio</a> - {name}
-              </h4>
+              
               <h2>{title}</h2>
             </div>
           </div>

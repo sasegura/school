@@ -3,6 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/data": ["data/index"],
+      "@/courses": ["data/courses"],
+      "@/information": ["data/information"],
       "@/components/*": ["components/*"],
       "@/context/*": ["context/*"],
       "@/css/*": ["assets/css/*"],
