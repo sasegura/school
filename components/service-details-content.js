@@ -7,16 +7,16 @@ const ServiceDetailsContent = ({data}) => {
     <div className="serviceArea">
       
       <p>
-        {data.description}
+        {data?.description}
       </p>
       <div className="row gaping">
         <div className="col-lg-6 col-sm-12 col-md-6">
-          <img src={data.image} alt="" />
+          <img src={data?.image} alt="" />
         </div>
         <div className="col-lg-6 col-sm-12 col-md-6">
           <h4>Requisitos de acceso y material necesario.</h4>
           <ul>
-            {data.requirements.map((requirement)=>(
+            {data?.requirements?.map((requirement)=>(
               <li>
                 <i className="fa fa-check-square"></i>{requirement}
             </li>
