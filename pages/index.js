@@ -28,32 +28,21 @@ const HomeOne = () => {
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />
-          <FeatureTwo/>
+          <FeatureTwo />
           <AboutTwo />
           <VideoTwo />
-          <SubscribeForm />          
-          <PortfolioHome />
-          {/* <div style={{left:20}}><FloatingWhatsApp 
-            phoneNumber="34640672424" 
-            styles={{zIndex:300}} 
-            accountName={"Coder Crack"} 
-            statusMessage={"Responde en menos de 1 hora"}
-            chatMessage={"Hola, ¿cómo puedo ayudarte?"}
-            placeholder={"Escribe un mensaje"}
-            allowClickAway={true}
-            allowEsc={true}
-            className={"whatsApp"}
-            notification={true}
-
-          /></div> */}
-          <FunfactOne />
-          <TrustedClient />
+          <SubscribeForm />
           <TeamCarousel />
+
+          {/*<FunfactOne />*/}
+          {/*<TrustedClient />*/}
 
           <ParallaxOne />
           <BlogHome />
+          <ServiceHomeTwo />
+
           <CallToActionOne extraClassName="ready" />
-          <ClientCarouselOne />
+          {/* <ClientCarouselOne /> */}
 
           <Footer />
         </Layout>

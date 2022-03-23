@@ -3475,8 +3475,8 @@ textarea.input-form:focus {
   width: 40px;
   z-index: 99;
   cursor: pointer;
-  right: 45px;
-  bottom: 120px;
+  right: 42px;
+  bottom: 100px;
 }
 .showit:hover {
   background: #000;
@@ -3739,7 +3739,106 @@ textarea.input-form:focus {
   left: 970px;
 }
 
-.marging-right-10{
+/*--------Whatsapp gris--------*/
+@keyframes _pulse {
+  0% {
+    box-shadow: 0 0 0 0 #939a9d;
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px #939a9d;
+    opacity: 0;
+  }
+}
+.botonWhatsUp {
+  background: url("assets/images/whatsapp/wapp3.png") no-repeat center/70%;
+  z-index: 450;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.botonWhatsUpBack {
+  z-index: 400;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 43px;
+  right: 43px;
+  border-radius: 50%;
+  user-select: none;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 1.2s;
+  animation-name: _pulse;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+/*--------Whatsapp verde--------*/
+
+/* @keyframes _pulse {
+  0% {
+    box-shadow: 0 0 0 0 #25d366;
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px #25d366;
+    opacity: 0;
+  }
+} */
+
+/* .botonWhatsUp {
+  background: url("assets/images/whatsapp/wapp1.png") no-repeat center/70%;
+  z-index: 450;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  background-color: #25d366;
+  border-radius: 50%;
+  user-select: none;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
+}
+
+.botonWhatsUpBack {
+  z-index: 400;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #25d366;
+  border-radius: 50%;
+  user-select: none;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 1.2s;
+  animation-name: _pulse;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+} */
+.marging-right-10 {
   margin-right: 10px;
 }
 

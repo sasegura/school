@@ -5,6 +5,7 @@ import { MenuContext } from "@/context/menu-context";
 import SearchPopup from "@/components/search-popup";
 import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
+import WhatsUp from "./whatsUp";
 
 const Layout = ({ PageTitle, children }) => {
   const { searchStatus } = useContext(SearchContext);
@@ -29,11 +30,10 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Head>
-        <title>
-          {PageTitle} - Coder Crack School
-        </title>
+        <title>{PageTitle} - Coder Crack </title>
       </Head>
       <div id="wrapper">{children}</div>
+      <WhatsUp />
       {true === searchStatus ? <SearchPopup /> : null}
       {true === menuStatus ? <PopupMenu /> : null}
 
