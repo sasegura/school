@@ -3841,3 +3841,10 @@ textarea.input-form:focus {
 .marging-right-10 {
   margin-right: 10px;
 }
+
+.padding10{
+  padding: 10px;
+}
+.width100{
+  width: 100%;
+}
