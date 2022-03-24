@@ -12,26 +12,28 @@ import FeatureTabOne from "@/components/feature-tab-1";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
+import { CoursesList } from "@/courses";
+import ApplyForm from "@/components/apply-form";
+import ContactInfos from "@/components/contact-infos";
 
-const AboutPage = () => {
+const ApplyPage = ({id}) => {
+  const courses=CoursesList?.courses
+  const course=courses.find((courseItem)=>courseItem.id==id)
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
-        <Layout PageTitle="About Us Page">
-          <HeaderOne />
-          <PageBanner title="About Us" name="About" />
-          <AboutOne />
-          <TestimonialsOneCarousel />
-          <SubscribeForm />
-          <TeamCarousel />
-          <VideoOne />
-          <FeatureTabOne />
-          <CallToActionOne extraClassName="ready" />
-          <Footer />
-        </Layout>
-      </SearchContextProvider>
-    </MenuContextProvider>
+    <SearchContextProvider>
+      <Layout PageTitle="Aplicar">
+        <HeaderOne />
+        <PageBanner title="Aplicar" name="Contáctanos" />
+        <ApplyForm course={course}/>
+        <Footer />
+      </Layout>
+    </SearchContextProvider>
+  </MenuContextProvider>
   );
 };
-
-export default AboutPage;
+ApplyPage.getInitialProps = async ({ query }) => {
+  const {id} = query
+  return {id}
+}
+export default ApplyPage;

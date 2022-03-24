@@ -257,6 +257,13 @@ export const ContactFormTitle = {
     "Recibiremos tu mensaje y pondremos a un asesor \n      a tu disposición ",
 };
 
+export const ApplyFormTitle = {
+  subTitle: "Para matricularte en el curso",
+  title: "Haznos llegar tus datos",
+  description:
+    "Recibiremos tu información y pondremos a un asesor \n      a tu disposición ",
+};
+
 import blogImage1 from "@/images/blog/1.jpg";
 import blogImage2 from "@/images/blog/2.jpg";
 import blogImage3 from "@/images/blog/3.jpg";

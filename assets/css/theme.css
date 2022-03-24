@@ -3848,3 +3848,7 @@ textarea.input-form:focus {
 .width100{
   width: 100%;
 }
+
+.white-space{
+  white-space: pre-line;
+}
