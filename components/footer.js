@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer_1">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 col-sm-6 col-md-5">
+          <div className="col-lg-5 col-sm-5 col-md-5">
             <aside className="widget aboutwidget">
               <a href="/">
                 <img src={light} alt="" />
@@ -19,12 +19,10 @@ const Footer = () => {
                 mpedit fugit laudantium. */}
                 Bienvenidos a nuestra escuela de desarrollo de aplicaciones web.
                 Podrás desarrollarte en un mundo lleno de nuevas oportunidades.
-
-
               </p>
             </aside>
           </div>
-          <div className="col-lg-4 col-sm-4 col-md-4">
+          <div className="col-lg-4 col-sm-4 col-md-4 col-7">
             <aside className="widget contact_widgets">
               <h3 className="widget_title">Contáctanos</h3>
               <p>
@@ -34,11 +32,11 @@ const Footer = () => {
               </p>
               <p>+34 652 415 109</p>
               <p>
-                  <a href="#">codercrack@gmail.com</a>
+                <a href="#">codercrack@gmail.com</a>
               </p>
             </aside>
           </div>
-          <div className="col-lg-3 col-sm-2 col-md-3">
+          <div className="col-lg-3 col-sm-3 col-md-3 col-4">
             <aside className="widget social_widget">
               <h3 className="widget_title">social</h3>
               <ul>

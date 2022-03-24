@@ -18,7 +18,7 @@ const FeatureTwo = () => {
     <section className="commonSection featured">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 col-sm-12  col-md-5">
+          <div className="col-lg-5 col-sm-12 col-md-12">
             <div className="features_content">
               <SectionTitle data={sectionContent} />
               {posts.map(({ title, text }, index) => {
@@ -32,7 +32,7 @@ const FeatureTwo = () => {
               })}
             </div>
           </div>
-          <div className="col-lg-7 col-sm-12 col-md-7 noPaddingRight">
+          <div className="col-lg-7 col-sm-12 col-md-12 noPaddingRight">
             <div className="features_img">
               <img src={image.path} alt="" />
               <div className="img_details">

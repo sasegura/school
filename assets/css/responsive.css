@@ -495,7 +495,20 @@ License URI:
 
   .showit {
     right: 20px;
+    bottom: 70px;
+  }
+  .team_slider .swiper-wrapper {
+    justify-content: left !important;
+  }
+
+  .botonWhatsUp {
+    bottom: 9px;
+    right: 9px;
+  }
+
+  .botonWhatsUpBack {
     bottom: 20px;
+    right: 20px;
   }
 }
 
@@ -514,6 +527,9 @@ License URI:
   }
   .banner_content h2 {
     font-size: 44px;
+  }
+  .team_slider .swiper-wrapper {
+    justify-content: left !important;
   }
 }
 
@@ -773,6 +789,9 @@ License URI:
   .testi_con p {
     font-size: 18px;
     line-height: 32px;
+  }
+  .team_slider .swiper-wrapper {
+    justify-content: left !important;
   }
 }
 
