@@ -10,6 +10,7 @@ import HeaderOne from "@/components/header-one";
 import FeatureTabCourse from "@/components/feature-tab-course";
 import { CoursesList } from "@/courses";
 import ServiceTwo from "@/components/service-two";
+import PortfolioHome from "@/components/portfolio-home";
 
 const ServiceDetailsPage = ({id}) => {
   const courses=CoursesList?.courses
@@ -22,9 +23,8 @@ const ServiceDetailsPage = ({id}) => {
           <PageBanner title={`${course?.name}`} name="Curso" />
           
           <ServiceDetails data={course}/>
+          <PortfolioHome />
           
-          <FeatureTabCourse course={course} />
-          <ServiceTwo />
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>

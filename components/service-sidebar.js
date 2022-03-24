@@ -87,15 +87,17 @@ const ServiceSidebar = ({data}) => {
             </li>}
           </ul>
           <h1 className="timer">
-          Precio: <CountUp end={counter} />€</h1>
-
-              <div className=" text-right padding10">
-                  
-                    <a href="/apply" className={`width100 common_btn`}>
-                      <span>Aplicar</span>
-                    </a>
-                  
-                </div>
+            Precio: 
+            <CountUp end={counter} />
+            €
+          </h1>
+          <div className=" text-right padding10">                  
+            <a href={`/apply?id=${data.id}` } className={`width100 common_btn`}>
+              
+                <span>Aplicar</span>
+                 
+            </a>               
+          </div>
         </div>
         
       </aside>

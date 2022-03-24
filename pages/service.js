@@ -11,6 +11,7 @@ import ClientCarouselOne from "@/components/client-carousel-one";
 import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
+import PortfolioOne from "@/components/portfolio-one";
 
 const ServicePage = () => {
   return (
@@ -19,12 +20,14 @@ const ServicePage = () => {
         <Layout PageTitle="Services Page">
           <HeaderOne />
           <PageBanner title="Services" name="Services" />
-          <ServiceOne />
           <ServiceTwo />
-          <ServiceThree />
-          <FunfactOne />
-          <TrustedClient extraClassName="pb_120" />
-          <ClientCarouselOne />
+          <PortfolioOne />
+          {/* <ServiceOne /> */}
+          
+          {/* <ServiceThree /> */}
+          {/* <FunfactOne /> */}
+          {/* <TrustedClient extraClassName="pb_120" /> */}
+          {/* <ClientCarouselOne /> */}
           <Footer />
         </Layout>
       </SearchContextProvider>

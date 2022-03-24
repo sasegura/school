@@ -10,20 +10,6 @@ export const NavLinks = [
   {
     name: "Inicio",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/",
-      },
-      {
-        name: "Home 02",
-        url: "/index-2",
-      },
-      {
-        name: "Home 03",
-        url: "/index-3",
-      },
-    ],
   },
   {
     name: "Conócenos",
@@ -60,20 +46,11 @@ export const NavLinks = [
       },
     ],
   },
-  {
-    name: "Portfolio",
-    url: "/portfolio",
-    subItems: [
-      {
-        name: "Portfolio 01",
-        url: "/portfolio",
-      },
-      {
-        name: "Portfolio Details",
-        url: "/portfolio-details",
-      },
-    ],
-  },
+  // {
+  //   name: "Próximas Ediciones",
+  //   url: "/portfolio",
+    
+  // },
   {
     name: "Blog",
     url: "/blog-2",
@@ -255,6 +232,13 @@ export const ContactFormTitle = {
   title: "Escríbenos un mensaje",
   description:
     "Recibiremos tu mensaje y pondremos a un asesor \n      a tu disposición ",
+};
+
+export const ApplyFormTitle = {
+  subTitle: "Para matricularte en el curso",
+  title: "Haznos llegar tus datos",
+  description:
+    "Recibiremos tu información y pondremos a un asesor \n      a tu disposición ",
 };
 
 import blogImage1 from "@/images/blog/1.jpg";
