@@ -16,7 +16,7 @@ const ApplyForm = ({course}) => {
             <h4 className="sub_title">{subTitle}</h4>
             <h2 className="sec_title">{title}</h2>
             <p className="white-space">{description}</p>
-            <h3 className="">{course.name}</h3>
+            <h3 className="">{course?.name}</h3>
           </div>
         </div>
         <div className="row">

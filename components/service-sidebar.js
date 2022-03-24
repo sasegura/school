@@ -92,7 +92,7 @@ const ServiceSidebar = ({data}) => {
             €
           </h1>
           <div className=" text-right padding10">                  
-            <a href={`/apply?id=${data.id}` } className={`width100 common_btn`}>
+            <a href={`/apply?id=${data?.id}` } className={`width100 common_btn`}>
               
                 <span>Aplicar</span>
                  
