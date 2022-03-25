@@ -7,7 +7,7 @@ import { CoursesList } from "@/courses";
 const BlogSidebar = ({blog}) => {
 
   const [posts, setPosts]=useState(BlogsList.blogs)
-  const [searchCriteria, setSearchCriteria]=useState(BlogsList.blogs)
+  const [searchCriteria, setSearchCriteria]=useState('')
   const router = useRouter();
 
   async function navigate(url, id) {
