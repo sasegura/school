@@ -4,6 +4,7 @@
     "paths": {
       "@/data": ["data/index"],
       "@/courses": ["data/courses"],
+      "@/blogs": ["data/blogs"],
       "@/information": ["data/information"],
       "@/components/*": ["components/*"],
       "@/context/*": ["context/*"],

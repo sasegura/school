@@ -13,9 +13,9 @@ const BlogTwoPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Blog Page">
+        <Layout PageTitle="Blog">
           <HeaderOne />
-          <CustomPageBanner title="Blog" name="Blog" image={imageBanner}/>
+          <CustomPageBanner title="Blogs" name="Blog" image={imageBanner}/>
           <BlogTwo />
           <Footer />
         </Layout>
