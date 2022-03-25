@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { coderCrackInfo } from "@/information";
 import CountUp from "react-countup";
 import Link from "react-scroll/modules/components/Link";
+import { useRouter } from 'next/router'
 
 const ServiceSidebar = ({data}) => {
   const [counter, setCounter] = useState(data?.price);
@@ -60,6 +61,15 @@ const ServiceSidebar = ({data}) => {
     setCheckedPriorKnowledge(!checkedPriorKnowledge);
   };
 
+  const router = useRouter();
+
+  async function navigate() {
+    router.push({
+      pathname: '/apply',
+      query: {id: data?.id },
+    }, undefined, { scroll: true });
+  }
+
   return (
     <Fragment>
       <aside className="widget categories">
@@ -91,13 +101,13 @@ const ServiceSidebar = ({data}) => {
             <CountUp end={counter} />
             €
           </h1>
-          <div className=" text-right padding10">                  
-            <a href={`/apply?id=${data?.id}` } className={`width100 common_btn`}>
+          
+          <div className={`width100 common_btn`} onClick={()=>navigate()} >Aplicar</div>
+          {/* <a href={`/apply?id=${data?.id}` } >
               
                 <span>Aplicar</span>
                  
-            </a>               
-          </div>
+            </a>   */}
         </div>
         
       </aside>
