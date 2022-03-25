@@ -14,7 +14,7 @@ const ContactPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Contact Page">
+        <Layout PageTitle="Contáctanos">
           <HeaderOne />
           <CustomPageBanner title="Contáctanos" name="Contáctanos"  image={imageBanner}/>
           <ContactForm />

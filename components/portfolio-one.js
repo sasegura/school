@@ -18,13 +18,13 @@ const PortfolioOne = () => {
             </Row>
           </div>
         </Row>
-        <Row>
+        {/* <Row>
           <Col lg={12} className="text-center">
             <a className="common_btn red_bg" href="#">
               <span>Load More</span>
             </a>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   );
