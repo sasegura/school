@@ -31,7 +31,7 @@ const BlogCard = ({ data }) => {
         </h2>
         
         <Link href={'#'}>
-          <a onClick={(e)=>{e.preventDefault; navigate()}} className="learnM">Learn More</a>
+          <a onClick={(e)=>{e.preventDefault; navigate()}} className="learnM">Leer más</a>
         </Link>
       </div>
     </div>

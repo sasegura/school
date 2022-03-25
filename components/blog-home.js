@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import BlogCard from "@/components/blog-card";
-import { BlogHomeSection, BlogData } from "@/data";
+import {  BlogData } from "@/data";
+import { BlogHomeSection, BlogsList } from "data/blogs";
 
 const BlogHome = () => {
   return (
@@ -14,7 +15,7 @@ const BlogHome = () => {
           </Col>
         </Row>
         <Row>
-          {BlogData.slice(0, 3).map((post, index) => (
+          {BlogsList?.blogs?.slice(0, 3).map((post, index) => (
             <Col lg={4} sm={12} md={6} key={index}>
               <BlogCard data={post} />
             </Col>

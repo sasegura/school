@@ -3,6 +3,12 @@ import blog1Banner from "@/images/blog/blog1-banner.jpg";
 import blog2 from "@/images/blog/blog2.jpg";
 import blog2Banner from "@/images/blog/blog2-banner.jpg";
 
+export const BlogHomeSection = {
+  subTitle: "últimas noticias y blogs",
+  title: "Últimos posts",
+  text: "Mantente informado con nuestros blogs.",
+};
+
 export const BlogsList = {
   name: "Blogs",
   url: "/blog",
