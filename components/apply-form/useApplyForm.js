@@ -1,7 +1,10 @@
+import { CoursesList } from '@/courses';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 export default function useApplyForm({course}) {
-
+	const [selectedCourse, setSelectedCourse]=useState(course)
+	const courses=CoursesList.courses
   const defaultValues = {
 		id: 1,
 		name: '',
@@ -16,5 +19,5 @@ export default function useApplyForm({course}) {
 		resetForm();
 	};
 
-  return {handleSubmit, control,onSubmit }
+  return {selectedCourse, courses, handleSubmit, control,onSubmit }
 }
