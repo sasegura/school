@@ -1,25 +1,59 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { BlogSidebarPost } from "@/data";
-const BlogSidebar = () => {
+import { useRouter } from 'next/router';
+import { BlogsList } from "@/blogs";
+import Link from "next/link";
+import { CoursesList } from "@/courses";
+const BlogSidebar = ({blog}) => {
+
+  const [posts, setPosts]=useState(BlogsList.blogs)
+  const [searchCriteria, setSearchCriteria]=useState(BlogsList.blogs)
+  const router = useRouter();
+
+  async function navigate(url, id) {
+    router.push({
+      pathname: url,
+      query: {id: id },
+    }, undefined, { scroll: true });
+  }
+
+  const searchPosts=(value)=>{
+    const criteria=value.target.value
+    setSearchCriteria(criteria)
+    const searched=BlogsList.blogs.filter(course=>course.title.includes(criteria));
+    setPosts(searched)
+  }
   return (
     <Fragment>
       <aside className="widget search-widget">
         <form method="post" action="#" className="searchform">
-          <input type="search" placeholder="Buscar..." name="s" id="s" />
+          <input type="search" onChange={searchPosts} placeholder="Buscar posts..." name="s" id="s" />
         </form>
       </aside>
+      {searchCriteria.length>0?
       <aside className="widget recent_posts">
-        <h3 className="widget_title">Latest Posts</h3>
+        <h3 className="widget_title">Resultado de la búsqueda</h3>
         <div className="meipaly_post_widget">
-          {BlogSidebarPost.map(({ title, image, url }, index) => (
+          {posts?.map(({ title, image, url, id }, index) => (
             <div className="mpw_item" key={index}>
               <img src={image} alt="" />
-              <a href={url}>{title}</a>
+              <Link href={'#'}><a onClick={(e)=>{e.preventDefault; navigate(url, id)}}>{title}</a></Link>
+            </div>
+          ))}
+        </div>
+      </aside>:null}
+      <aside className="widget recent_posts">
+        <h3 className="widget_title">Últimos Posts</h3>
+        <div className="meipaly_post_widget">
+          {BlogsList?.blogs?.map(({ title, image, url, id }, index) => (
+            <div className="mpw_item" key={index}>
+              <img src={image} alt="" />
+              <Link href={'#'}><a onClick={(e)=>{e.preventDefault; navigate(url, id)}}>{title}</a></Link>
             </div>
           ))}
         </div>
       </aside>
-      <aside className="widget categories">
+      {/* <aside className="widget categories">
         <h3 className="widget_title">Categories</h3>
         <div className="meipaly_categorie_widget">
           <ul>
@@ -43,15 +77,16 @@ const BlogSidebar = () => {
             </li>
           </ul>
         </div>
-      </aside>
+      </aside> */}
       <aside className="widget">
-        <h3 className="widget_title">Tags:</h3>
+        <h3 className="widget_title">Cursos:</h3>
         <div className="meipaly_tagcloude_widget">
-          <a href="#">Business,</a> <a href="#">Agency,</a>{" "}
-          <a href="#">Digital,</a> <a href="#">Technology,</a>
-          <a href="#">Parallax,</a> <a href="#">Innovative,</a>{" "}
-          <a href="#">Professional,</a>
-          <a href="#">Experience,</a>
+          {CoursesList?.courses?.map(({url, id, name, image,index})=>
+          <div className="mpw_item" key={index}>
+            <Link href={'#'}>
+              <a onClick={(e)=>{e.preventDefault; navigate(url, id)}}><img src={image} alt="" /><small>{name}</small></a>
+            </Link>
+          </div>)}
         </div>
       </aside>
     </Fragment>

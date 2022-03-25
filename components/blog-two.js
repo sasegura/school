@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { BlogTwoData } from "@/data";
+import { BlogsList } from "@/blogs";
 import BlogCard from "@/components/blog-card";
 import Paginations from "@/components/paginations";
 
@@ -9,7 +9,7 @@ const BlogTwo = () => {
     <section className="commonSection blogPage">
       <Container>
         <Row>
-          {BlogTwoData.map((post, index) => {
+          {BlogsList?.blogs?.map((post, index) => {
             return 0 === index || 0 === index % 5 ? (
               <Col lg={8} md={6} sm={12} key={index}>
                 <BlogCard data={post} />
@@ -21,7 +21,7 @@ const BlogTwo = () => {
             );
           })}
         </Row>
-        <Paginations />
+        {/* <Paginations /> */}
       </Container>
     </section>
   );

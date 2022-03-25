@@ -1877,6 +1877,13 @@ License URI:
   background: url(../images/bg/8.jpg) no-repeat center center / cover;
   padding-top: 224px;
 }
+
+.customPageBanner {
+  position: relative;
+  min-height: 465px;
+  padding-top: 224px;
+}
+
 .banner_content {
   position: relative;
 }

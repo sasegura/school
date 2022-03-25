@@ -3,6 +3,11 @@ import portfolio02 from "@/images/portfolio/2.jpg";
 import portfolio03 from "@/images/portfolio/3.jpg";
 import portfolio04 from "@/images/portfolio/4.jpg";
 import portfolio05 from "@/images/portfolio/5.jpg";
+import bannerImg1 from "@/images/bg/course1.jpg";
+import bannerImg2 from "@/images/bg/course2.jpg";
+import bannerImg3 from "@/images/bg/course3.jpg";
+import bannerImg4 from "@/images/bg/course4.jpg";
+import bannerImg5 from "@/images/bg/course5.jpg";
 
 export const requirements= ['Ordenador portátil','Conocimientos básicos de ofimática.','Entrevista personal'];
 export const discounts= ['friend','onePay','priorKnowledge'];
@@ -20,6 +25,7 @@ export const CoursesList = {
         price:7000,
         requirements:requirements,
         discounts:discounts,
+        bannerImg:bannerImg1,
         description:'Este Máster en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Ingeniero Web Full Stack, un desarrollador completo, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web.  Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección. El enfoque práctico de la metodología utilizada durante el curso, te permitirá aplicar los conocimientos aprendidos para desarrollar un proyecto que formará parte de tu carta de presentación ante las empresas. Nuestros profesores son expertos en activo del sector, que se encuentran en constante superación. Esto permite a nuestros estudiantes graduarse con una preparación que cumple con las exigencias del mercado laboral actual.',
         secondDescription:[<p>El enfoque práctico de la metodología utilizada durante el curso, te permitirá aplicar los conocimientos aprendidos para desarrollar un proyecto que formará parte de tu carta de presentación ante las empresas.</p>,
                             <p>Nuestros profesores son expertos en activo del sector, que se encuentran en constante superación. Esto permite a nuestros estudiantes graduarse con una preparación que cumple con las exigencias del mercado laboral actual.</p>,
@@ -48,7 +54,7 @@ export const CoursesList = {
         price:6500,
         requirements:requirements,
         discounts:discounts,
-
+        bannerImg:bannerImg2,
         description:'Con el máster en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este máster, el alumno podrá desarrollar toda clase de software para dispositivos web.',
         secondDescription:[<p>Una maestría en programación web brinda al profesional los conocimientos necesarios para convertirse en desarrollador web para cualquier sistema operativo.</p>,
                             <p>Con este máster, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado.</p>,
@@ -63,6 +69,7 @@ export const CoursesList = {
         price:6500,
         requirements:requirements,
         discounts:discounts,
+        bannerImg:bannerImg3,
         description:'Un desarrollador Backend se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Por lo tanto, un desarrollador Backend es responsable de la programación del sitio en todos sus componentes.',
         secondDescription:[
             <p>Curso que permite introducirse en el mundo del desarrollo web en el lado servidor o backend. Se trata de un curso muy práctico en el que se trabaja sobre una pila AMP (Apache, MySQL, PHP). Dirigido a profesionales que quieran aprender a desarrollar aplicaciones web sofisticadas de forma ágil y eficaz.</p>,
@@ -83,6 +90,7 @@ export const CoursesList = {
         price:5000,
         requirements:requirements,
         discounts:discounts,
+        bannerImg:bannerImg4,
         description:'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
         secondDescription:[
             <h4>¿Buscas una nueva y emocionante trayectoria profesional como desarrollador web front-end?</h4>,
@@ -103,6 +111,7 @@ export const CoursesList = {
         price:5000,
         requirements:requirements,
         discounts:discounts,
+        bannerImg:bannerImg5,
         description:'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
         secondDescription:[
             <p>En el Curso en desarrollo de aplicaciones web Back-End, el alumno aprenderá a crear aplicaciones en tiempo real, desde cero y paso a paso, desarrollando varios proyectos reales que nos permitirán aplicar los conocimientos obtenidos durante las clases. Además, el programa del Curso de Desarrollo Back-end está diseñado para que los alumnos descubran la bases y fundamentos del desarrollo en el lado del servidor y adquieran las capacidades necesarias para automatizar tareas del día a día como la minificación y el testing. Los alumnos aprenderán, también, todos los conceptos fundamentales del desarrollo con APIs modernas para compartir datos con otros de una manera eficiente (AJAX server-side), el uso de la terminal y la asincronía</p>,

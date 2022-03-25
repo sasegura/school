@@ -102,7 +102,7 @@ const ServiceSidebar = ({data}) => {
             €
           </h1>
           
-          <div className={`width100 common_btn`} onClick={()=>navigate()} >Aplicar</div>
+          <div className={`width100 common_btn`} onClick={()=>navigate()} ><span>Aplicar</span></div>
           {/* <a href={`/apply?id=${data?.id}` } >
               
                 <span>Aplicar</span>
