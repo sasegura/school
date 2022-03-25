@@ -14,7 +14,8 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import { CoursesList } from "@/courses";
 import ApplyForm from "@/components/apply-form";
-import ContactInfos from "@/components/contact-infos";
+import CustomPageBanner from "@/components/custom-page-banner";
+import imageBanner from "@/images/bg/apply_banner.jpg";
 
 const ApplyPage = ({id}) => {
   const courses=CoursesList?.courses
@@ -24,7 +25,7 @@ const ApplyPage = ({id}) => {
     <SearchContextProvider>
       <Layout PageTitle="Aplicar">
         <HeaderOne />
-        <PageBanner title="Aplicar" name="Contáctanos" />
+        <CustomPageBanner title="Aplicar" name="Contáctanos" image={imageBanner}/>
         <ApplyForm course={course}/>
         <Footer />
       </Layout>

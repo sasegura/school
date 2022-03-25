@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "@/components/footer";
 import Layout from "@/components/layout";
-import PageBanner from "@/components/page-banner";
 import AboutOne from "@/components/about-one";
 import CallToActionOne from "@/components/call-to-action-one";
 import TeamCarousel from "@/components/team-carousel";
@@ -12,6 +11,8 @@ import FeatureTabOne from "@/components/feature-tab-1";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
+import CustomPageBanner from "@/components/custom-page-banner";
+import imageBanner from "@/images/bg/about_banner.jpg";
 
 const AboutPage = () => {
   return (
@@ -19,7 +20,7 @@ const AboutPage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Conócenos">
           <HeaderOne />
-          <PageBanner title="Conócenos" name="Conocenos" />
+          <CustomPageBanner title="Conócenos" name="Conocenos" image={imageBanner}/>
           <AboutOne />
           <TestimonialsOneCarousel />
           <SubscribeForm />
