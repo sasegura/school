@@ -23,7 +23,9 @@ const ServiceDetailsPage = ({id}) => {
           <PageBanner title={`${course?.name}`} name="Curso" />
           
           <ServiceDetails data={course}/>
-          <PortfolioHome />
+          <div className="sectionPadding-120">
+            <PortfolioHome />
+          </div>
           
           <CallToActionOne extraClassName="ready" />
           <Footer />
