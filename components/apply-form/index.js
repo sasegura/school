@@ -3,9 +3,8 @@ import { ApplyFormTitle } from "@/data";
 import useApplyForm from "./useApplyForm";
 
 const ApplyForm = ({course}) => {
-  console.log(course)
-
-  const {handleSubmit, control,onSubmit}=useApplyForm({course})
+  
+  const {selectedCourse, courses,handleSubmit, control,onSubmit}=useApplyForm({course})
 
   const { subTitle, title, description } = ApplyFormTitle;
   return (
@@ -16,7 +15,13 @@ const ApplyForm = ({course}) => {
             <h4 className="sub_title">{subTitle}</h4>
             <h2 className="sec_title">{title}</h2>
             <p className="white-space">{description}</p>
-            <h3 className="">{course?.name}</h3>
+            
+            <h3 className="">Seleccione un curso</h3>
+            <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
+              <select name="select" className="input-form">
+                {courses.map((cour)=><option value={cour?.id} selected={cour?.id===selectedCourse?.id?true:false}>{cour?.name}</option>)}              
+              </select>
+            </div>
           </div>
         </div>
         <div className="row">
