@@ -940,9 +940,9 @@ export const FeatureTabData = {
 
 export const ParallaxOneData = {
   iconName: "mei-team",
-  title: "Great things in business are never done by one person.",
-  specialText: "They’re done by a team of people.",
-  text: "We are committed to providing our customers with exceptional service while \n offering our employees the best training.",
+  title: "Las personas y el trabajo en equipo:",
+  specialText: " son las fuerzas impulsoras detrás de cada negocio exitoso.",
+  text: "El trabajo en equipo es la habilidad para trabajar juntos hacia una visión común. Es el combustible que permite a la gente común conseguir resultados poco comunes.",
 };
 
 export const PortfolioHomeData = {
