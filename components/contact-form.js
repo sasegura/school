@@ -1,8 +1,22 @@
 import React from "react";
 import { ContactFormTitle } from "@/data";
-
+import { useForm } from 'react-hook-form';
+import { sendMessage } from "connection/Api";
 const ContactForm = () => {
   const { subTitle, title, description } = ContactFormTitle;
+
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  
+
+  const onSubmit =async  data => {
+    try {
+      const response = await sendMessage({ payload: data });
+      if (response.status === 200)  console.log(data);
+    } catch (e) {
+      console.log(e.message)
+    }
+  };
+
   return (
     <section className="commonSection ContactPage">
       <div className="container">
@@ -15,54 +29,29 @@ const ContactForm = () => {
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
-            <form
-              action="#"
-              method="post"
-              className="contactFrom"
-              id="contactForm"
-            >
+          <form onSubmit={handleSubmit(onSubmit)}>
+
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="text"
-                    name="f_name"
-                    id="f_name"
-                    placeholder="Nombre"
-                  />
+                <input type="text" className="input-form required" placeholder="First name" {...register("name", {required: true, maxLength: 80})} />
+     
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="text"
-                    name="l_name"
-                    id="l_name"
-                    placeholder="Apellidos"
-                  />
+                <input type="text" className="input-form required" placeholder="Last name" {...register("lastname", {required: true, maxLength: 100})} />
+
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
+                  <input type="text" className="input-form required" placeholder="Email" {...register("email", {required: true, pattern: /^\S+@\S+$/i})} />
+      
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form"
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Teléfono"
-                  />
+                <input type="tel" className="input-form required" placeholder="Mobile number" {...register("phone", {required: true, minLength: 6, maxLength: 12})} />
+
                 </div>
                 <div className="col-lg-12 col-sm-12">
                   <textarea
                     className="input-form required"
-                    name="con_message"
-                    id="con_message"
+                    {...register("message", {required: true, })}
                     placeholder="Escribe un mensaje"
                   ></textarea>
                 </div>
