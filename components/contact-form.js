@@ -33,11 +33,11 @@ const ContactForm = () => {
 
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
-                <input type="text" className="input-form required" placeholder="First name" {...register("name", {required: true, maxLength: 80})} />
+                <input type="text" className="input-form required" placeholder="Nombre" {...register("name", {required: true, maxLength: 80})} />
      
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                <input type="text" className="input-form required" placeholder="Last name" {...register("lastname", {required: true, maxLength: 100})} />
+                <input type="text" className="input-form required" placeholder="Apellidos" {...register("lastname", {required: true, maxLength: 100})} />
 
                 </div>
                 <div className="col-lg-6 col-sm-6">
@@ -45,7 +45,7 @@ const ContactForm = () => {
       
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                <input type="tel" className="input-form required" placeholder="Mobile number" {...register("phone", {required: true, minLength: 6, maxLength: 12})} />
+                <input type="tel" className="input-form required" placeholder="Teléfono" {...register("phone", {required: true, minLength: 6, maxLength: 12})} />
 
                 </div>
                 <div className="col-lg-12 col-sm-12">

@@ -13,10 +13,6 @@ export async function sendMessage({ payload}) {
 	try {
 		return await AxiosWrapper.post(url,JSON.stringify(payload));
 	} catch (e) {	
-		console.log(e)
-		console.log(e.message)	
-		console.log(e.status)	
-
 		if (e?.message) {
 			throw new ApiException(e?.message);
 		}
