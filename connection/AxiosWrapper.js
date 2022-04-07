@@ -10,8 +10,6 @@ const axiosWrapper = () => {
 			accept: 'application/json',
 
 			'Content-Type': 'application/json',
-			'Access-Control-Allow-Origin' : '*',
-			'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
 			// 'x-api-key': process.env.REACT_APP_x_api_key_config,
 		},
 	};
