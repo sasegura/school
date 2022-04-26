@@ -12,21 +12,27 @@ import ServiceTwo from "@/components/service-two";
 import PortfolioHome from "@/components/portfolio-home";
 import CustomPageBanner from "@/components/custom-page-banner";
 
-const ServiceDetailsPage = ({id}) => {
-  const courses=CoursesList?.courses
-  const course=courses.find((courseItem)=>courseItem.id==id)
+const ServiceDetailsPage = ({ id }) => {
+  const courses = CoursesList?.courses;
+  const course = courses.find((courseItem) => courseItem.id == id);
   return (
     <MenuContextProvider>
       <SearchContextProvider>
         <Layout PageTitle={`Curso-${course?.name}`}>
           <HeaderOne />
-          <CustomPageBanner title={`${course?.name}`} name="Curso" image={course?.bannerImg}/>
-          
-          <ServiceDetails data={course}/>
+          <CustomPageBanner
+            title={`${course?.name}`}
+            name="Curso"
+            image={course?.bannerImg}
+          />
+
+          <ServiceDetails data={course} />
           <div className="sectionPadding-120">
             <PortfolioHome />
           </div>
-          
+
+          <FeatureTabCourse course={course} />
+          <ServiceTwo colorWhite={true} />
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>
@@ -36,8 +42,8 @@ const ServiceDetailsPage = ({id}) => {
 };
 
 ServiceDetailsPage.getInitialProps = async ({ query }) => {
-  const {id} = query
-  return {id}
-}
+  const { id } = query;
+  return { id };
+};
 
 export default ServiceDetailsPage;

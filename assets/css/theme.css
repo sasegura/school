@@ -387,6 +387,10 @@ License URI:
   padding: 48px 45px 45px;
   width: 100%;
 }
+.frontBlue {
+  background: rgb(74, 168, 231);
+  border: none;
+}
 .vertical .back {
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
@@ -1467,6 +1471,11 @@ License URI:
   visibility: visible;
   opacity: 1;
   height: 101%;
+}
+.timerPrice {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 /*----------------------------------------------------
@@ -3849,17 +3858,17 @@ textarea.input-form:focus {
   margin-right: 10px;
 }
 
-.padding10{
+.padding10 {
   padding: 10px;
 }
-.width100{
+.width100 {
   width: 100%;
 }
 
-.white-space{
+.white-space {
   white-space: pre-line;
 }
 
-.sectionPadding-120{
+.sectionPadding-120 {
   margin-top: -120px;
 }

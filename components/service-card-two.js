@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 
-const ServiceCardTwo = ({ data }) => {
+const ServiceCardTwo = ({ data, colorWhite }) => {
   const { url, iconName, title, id } = data;
   return (
-    <Link href={{pathname: url, query: { id: id }}}>
+    <Link href={{ pathname: url, query: { id: id } }}>
       <a className="icon_box_1 text-center">
         <div className="flipper">
-          <div className="front">
+          <div className={`front ${colorWhite && "frontBlue"}`}>
             <i className={iconName}></i>
             <h3>{title}</h3>
           </div>
@@ -20,7 +20,5 @@ const ServiceCardTwo = ({ data }) => {
     </Link>
   );
 };
-
-
 
 export default ServiceCardTwo;
