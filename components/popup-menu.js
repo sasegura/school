@@ -94,9 +94,7 @@ const PopupMenu = () => {
               <ul className="footer__contacts">
                 <li>Teléfono: +34 652 415 109</li>
                 <li>Email: codercrack@gmail.com</li>
-                <li>
-                  Dirección: Avenida de la Albufera 45, Madrid, España
-                </li>
+                <li>Dirección: Avenida de la Albufera 321, Madrid, España</li>
               </ul>
             </div>
             <div className="col-lg-6 col-sm-12">

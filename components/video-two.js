@@ -6,7 +6,7 @@ import SectionTitle from "@/components/section-title";
 import { Col, Container, Row } from "react-bootstrap";
 import video02 from "@/images/home_1/3.gif";
 import video03 from "@/images/home_1/3aa.gif";
-import Link from "react-scroll/modules/components/Link";
+import Link from "next/link";
 
 const VideoTwo = () => {
   const [isOpen, setOpen] = useState(false);
@@ -41,7 +41,11 @@ const VideoTwo = () => {
           <Row>
             <Col lg={12}>
               <div className="videoWrap mb-0">
-                <img src={video} alt="" />
+                <Link href="/about">
+                  <a>
+                    <img src={video} alt="" />
+                  </a>
+                </Link>
                 <a href="/about" className={`common_btn imageGif`}>
                   <span>Saber más</span>
                 </a>

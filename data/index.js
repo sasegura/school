@@ -85,8 +85,8 @@ import sliderOne02 from "@/images/slider/1_2.jpg";
 export const SliderOneData = [
   {
     image: sliderOne01,
-    subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
-    title: "CODER CRACK",
+    subTitle: "CON NOSOTROS CAMBIA TU FUTURO",
+    title: "ESCUELA EUROPEA \n DE PROGRAMACIÓN WEB",
     button: {
       label: "SABER MÁS",
       url: "/about",
@@ -94,8 +94,8 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
-    subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
-    title: "CODER CRACK",
+    subTitle: "CON NOSOTROS CAMBIA TU FUTURO",
+    title: "ESCUELA EUROPEA \n DE PROGRAMACIÓN WEB",
     button: {
       label: "SABER MÁS",
       url: "/about",
@@ -508,8 +508,8 @@ export const ServicePostData = [
 ];
 
 export const ServiceHomeTwoData = {
-  subTitle: "Conoce tu futuro empleo",
-  title: "Ofertas de empleo",
+  //subTitle: "Conoce tu futuro empleo",
+  title: "OFERTAS DE EMPLEO PARA DESARROLLADORES",
   text: "Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack",
 };
 
@@ -522,7 +522,7 @@ export const ServiceHomeThreeData = {
 export const ServicePostTwoData = {
   sectionContent: {
     subTitle: "Conviértete en un Crack de la programación web",
-    title: "Nuestros cursos",
+    title: "Cursos 2022-2023",
     text: "Te ofrecemos la oportunidad de aprender una de las profesiones más demandadas del mercado laboral",
   },
   posts: [
@@ -675,9 +675,9 @@ import team05 from "@/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
-    title: "Nuestro equipo",
-    subTitle: "Conoce nuestros profesores",
-    text: "Nuestro objetivo es que te sientas a gusto con nuestro personal",
+    title: "EQUIPO DE CODERCRACK",
+    //subTitle: "Conoce nuestros profesores",
+    text: "No buscamos que tengas un título, te ayudamos a encontrar un trabajo",
   },
   posts: [
     {
@@ -988,14 +988,14 @@ export const ParallaxOneData = {
   iconName: "mei-team",
   title: "Las personas y el trabajo en equipo:",
   specialText: " son las fuerzas impulsoras detrás de cada negocio exitoso.",
-  text: "El trabajo en equipo es la habilidad para trabajar juntos hacia una visión común. Es el combustible que permite a la gente común conseguir resultados poco comunes.",
+  text: "Te acompañamos en todas las faceta, académica, alojamiento, inmigración. Con nuestra ayuda te será más fácil tu estancia en España y conseguir tus objetivos.",
 };
 
 export const PortfolioHomeData = {
   sectionContent: {
     title: "Próximas ediciones",
-    subTitle: "¿Cuándo comienzan los cursos en Coder Crack?",
-    text: "Incríbete en la edición que más te guste",
+    //subTitle: "¿Cuándo comienzan los cursos en Coder Crack?",
+    text: "Inscríbete en la edición que más te guste, si no encuentras una fecha contáctanos y te ayudamos",
   },
 };
 
@@ -1003,9 +1003,9 @@ import video02 from "@/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
-    title: "Experiencia digital",
-    subTitle: "¿Cómo es nuestra escuela?",
-    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+    //title: "Experiencia digital",
+    //subTitle: "¿Cómo es nuestra escuela?",
+    //text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
   },
   video: {
     title: "Watch Video",
@@ -1034,22 +1034,23 @@ import featureTwo01 from "@/images/home_1/5.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {
-    subTitle: "our core features",
+    //subTitle: "our core features",
     title: "¿Por qué estudiar en Coder Crack?",
-    text: "fddfg",
+    //text: "fddfg",
   },
   posts: [
     {
-      title: "No necesitas conocimientos previos",
-      text: "There are many variations of passages of lorem ipsum available",
+      title: "No necesitas conocimientos previos en programación web",
+      text: "La escuela está diseñada para brindar acceso a alumnos que provengan de otras especialidades, ya que cuenta con un curso preparatorio.",
     },
     {
-      title: "Te ayudamos con tus trámites",
-      text: "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+      title:
+        "TE AYUDAMOS CON TUS TRÁMITES PARA VENIR A MADRID Y DURANTE TUS ESTUDIOS",
+      text: "Asesoramiento basado en experiencias personales para los trámites, tanto en la solicitud de visado como los trámites de residencia por prácticas una vez en España. (Tarjeta de Identificación de extranjero TIE, Padrón Municipal, Contratación en Prácticas Profesionales, Certificado Digital, Tarjeta y Abono Individual del Transporte Público, etc).",
     },
     {
       title: "Sector con alta demanda",
-      text: "There are many variations of passages of lorem ipsum available, but the majority have suffered.",
+      text: "Se trata de un sector en el que la demanda es muy alta y la oferta es más bien baja. Aproximadamente el 60% de las empresas se quedan sin cubrir todos los puestos tecnológicos que necesitaban y esto no hace más que crecer con el desarrollo de nuevas aplicaciones enlazadas en todos los procesos empresariales.",
     },
   ],
   image: {
