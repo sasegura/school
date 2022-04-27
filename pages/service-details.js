@@ -27,11 +27,11 @@ const ServiceDetailsPage = ({ id }) => {
           />
 
           <ServiceDetails data={course} />
-          <div className="sectionPadding-120">
+          {/*<div className="sectionPadding-120">
             <PortfolioHome />
-          </div>
+          </div>*/}
 
-          <FeatureTabCourse course={course} />
+          {/*<FeatureTabCourse course={course} />*/}
           <ServiceTwo colorWhite={true} />
           <CallToActionOne extraClassName="ready" />
           <Footer />

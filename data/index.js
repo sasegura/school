@@ -49,7 +49,7 @@ export const NavLinks = [
   // {
   //   name: "Próximas Ediciones",
   //   url: "/portfolio",
-    
+
   // },
   {
     name: "Blog",
@@ -423,6 +423,12 @@ export const PortfolioData = [
     image: portfolio05,
     url: "/portfolio-details",
   },
+  {
+    title: "Máster en desarrollo de aplicaciones web \n Full Stack",
+    categories: ["Marzo 2023"],
+    image: portfolio06,
+    url: "/portfolio-details",
+  },
   // {
   //   title: "Design Styles",
   //   categories: ["all", "graphic"],
@@ -675,7 +681,7 @@ export const TeamOneData = {
   },
   posts: [
     {
-      image: team04,
+      image: team01,
       name: "Isabel García Hilarión",
       designation: "Profesora",
       url: "#",
@@ -695,7 +701,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team01,
+      image: team05,
       name: "Sergio Segura Fernández",
       designation: "Profesor",
       url: "#",
@@ -716,6 +722,46 @@ export const TeamOneData = {
     },
     {
       image: team02,
+      name: "Andrés",
+      designation: "Profesor",
+      url: "",
+      socials: [
+        {
+          name: "Facebook",
+          url: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
+        },
+        {
+          name: "Twitter",
+          url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas",
+        },
+        {
+          name: "Linkedin",
+          url: "https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc",
+        },
+      ],
+    },
+    {
+      image: team03,
+      name: "Liset",
+      designation: "Profesor",
+      url: "",
+      socials: [
+        {
+          name: "Facebook",
+          url: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
+        },
+        {
+          name: "Twitter",
+          url: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas",
+        },
+        {
+          name: "Linkedin",
+          url: "https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc",
+        },
+      ],
+    },
+    {
+      image: team04,
       name: "Gregorio",
       designation: "Profesor",
       url: "",
