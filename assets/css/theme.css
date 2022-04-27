@@ -750,6 +750,8 @@ License URI:
 ------------------------------------------------------*/
 .team {
   padding-bottom: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .slick-list {
   -moz-user-select: none;
