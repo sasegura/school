@@ -392,47 +392,48 @@ import portfolio04 from "@/images/portfolio/4.jpg";
 import portfolio05 from "@/images/portfolio/5.jpg";
 import portfolio06 from "@/images/portfolio/6.jpg";
 
+const apply_url = "/apply";
 export const PortfolioData = [
   {
     title: "Máster en desarrollo de aplicaciones web \n Full Stack",
     categories: ["Octubre 2022"],
     image: portfolio01,
-    url: "/apply",
+    url: apply_url,
     id: 1,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Front-end",
     categories: ["Octubre 2022"],
     image: portfolio02,
-    url: "/apply",
+    url: apply_url,
     id: 2,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Back-end",
     categories: ["Octubre 2022"],
     image: portfolio03,
-    url: "/apply",
+    url: apply_url,
     id: 3,
   },
   {
     title: "Curso de desarrollo de aplicaciones web \n Front-end",
     categories: ["Enero 2023"],
     image: portfolio04,
-    url: "/apply?",
+    url: apply_url,
     id: 4,
   },
   {
     title: "Curso de desarrollo de aplicaciones web \n Back-end",
     categories: ["Marzo 2023"],
     image: portfolio05,
-    url: "/apply",
+    url: apply_url,
     id: 5,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Full Stack",
     categories: ["Marzo 2023"],
     image: portfolio06,
-    url: "/apply",
+    url: apply_url,
     id: 1,
   },
   // {
