@@ -1,7 +1,16 @@
 import React from "react";
 import { AboutOneData } from "@/data";
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from "react-image-gallery";
+
 const AboutOne = () => {
-  const { sectionContent, gallery, counter } = AboutOneData;
+  const { sectionContent, gallery, carrousel } = AboutOneData;
+
+  const images = carrousel.map((image) => ({
+    original: image,
+    thumbnail: image,
+  }));
+
   return (
     <section className="commonSection">
       <div className="container">
@@ -20,8 +29,8 @@ const AboutOne = () => {
               <img src={gallery[1]} alt="" />
             </div>
             <div className="compay_date">
-              <h5>{counter.title}</h5>
-              <h2>{counter.number}</h2>
+              {/* <h5>{counter.title}</h5>
+              <h2>{counter.number}</h2> */}
             </div>
           </div>
         </div>

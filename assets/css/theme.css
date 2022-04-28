@@ -1937,6 +1937,7 @@ License URI:
 .agency_img1 {
   position: relative;
   text-align: right;
+  cursor: pointer;
 }
 .agency_img1:after {
   position: absolute;
@@ -1953,6 +1954,7 @@ License URI:
   text-align: left;
   z-index: 4;
   margin-top: -184px;
+  cursor: pointer;
 }
 .agency_img2 img,
 .agency_img1 img {
@@ -1988,7 +1990,6 @@ License URI:
   border-bottom: 1px solid #e7e7e7;
   border-top: 1px solid #e7e7e7;
   background-color: #000;
-  margin-top: 120px;
 }
 .subscribe .sec_title {
   color: #fff;
@@ -2029,6 +2030,10 @@ License URI:
 }
 .ab_detail_wrap .sec_desc {
   line-height: 36px;
+}
+.image_gallery_content {
+  padding: 100px 100px;
+  background-color: #000;
 }
 
 /*----------------------------------------------------

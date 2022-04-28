@@ -13,6 +13,7 @@ import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import CustomPageBanner from "@/components/custom-page-banner";
 import imageBanner from "@/images/bg/about_banner.jpg";
+import ImageGalleries from "@/components/gallery-image";
 
 const AboutPage = () => {
   return (
@@ -20,11 +21,17 @@ const AboutPage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Conócenos">
           <HeaderOne />
-          <CustomPageBanner title="Conócenos" name="Conocenos" image={imageBanner}/>
+          <CustomPageBanner
+            title="Conócenos"
+            name="Conocenos"
+            image={imageBanner}
+          />
           <AboutOne />
-          <TestimonialsOneCarousel />
-          <SubscribeForm />
+          <ImageGalleries />
+          {/* <TestimonialsOneCarousel /> */}
           <TeamCarousel />
+          <SubscribeForm />
+
           <VideoOne />
           <FeatureTabOne />
           <CallToActionOne extraClassName="ready" />

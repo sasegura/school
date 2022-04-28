@@ -654,13 +654,51 @@ export const ClientCarouselData = {
 
 import aboutOne01 from "@/images/about/1.jpg";
 import aboutOne02 from "@/images/about/2.jpg";
+import aboutOne03 from "@/images/about/3.jpg";
+import aboutOne04 from "@/images/about/5.jpg";
+import aboutOne05 from "@/images/about/6.jpg";
+import aboutOne06 from "@/images/about/7.jpg";
+import aboutOne07 from "@/images/about/8.jpg";
+import aboutOne08 from "@/images/about/9.jpg";
+import aboutOne09 from "@/images/about/10.jpg";
+import aboutOne10 from "@/images/about/11.jpg";
+import aboutOne11 from "@/images/about/12.jpg";
+import aboutOne12 from "@/images/about/13.jpg";
+import aboutOne13 from "@/images/about/14.jpg";
+import aboutOne14 from "@/images/about/15.jpg";
+import aboutOne15 from "@/images/about/16.jpg";
+import aboutOne16 from "@/images/about/17.jpg";
+import aboutOne17 from "@/images/about/18.jpg";
+import aboutOne18 from "@/images/about/19.jpg";
+import aboutOne19 from "@/images/about/20.jpg";
+import aboutOne20 from "@/images/about/21.jpg";
 
 export const AboutOneData = {
   sectionContent: {
     title: "build better website alot quicker with meipaly agency",
     subTitle: "get to know us",
+    subTitleGallery: "Conoce nuestras instalaciones",
   },
   gallery: [aboutOne01, aboutOne02],
+  carrousel: [
+    aboutOne04,
+    aboutOne05,
+    aboutOne06,
+    aboutOne07,
+    aboutOne08,
+    aboutOne09,
+    aboutOne10,
+    aboutOne11,
+    aboutOne12,
+    aboutOne13,
+    aboutOne14,
+    aboutOne15,
+    aboutOne16,
+    aboutOne17,
+    aboutOne18,
+    aboutOne19,
+    aboutOne20,
+  ],
   counter: {
     title: "Company Started",
     number: 1990,

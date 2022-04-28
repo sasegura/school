@@ -18,19 +18,19 @@ const TestimonialsOneCarousel = () => {
     pagination: {
       el: "#testimonials-carousel-pagination",
       type: "bullets",
-      clickable: true
+      clickable: true,
     },
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
   const testimonialsOptions = {
     speed: 1400,
     mousewheel: true,
     slidesPerView: 1,
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
   const { sectionContent, posts } = TestimonialsOneData;
   return (
