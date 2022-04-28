@@ -94,12 +94,12 @@ export const SliderOneData = [
   },
   {
     image: sliderOne02,
-    subTitle: "CON NOSOTROS CAMBIA TU FUTURO",
-    title: "ESCUELA EUROPEA \n DE PROGRAMACIÓN WEB",
-    button: {
-      label: "SABER MÁS",
-      url: "/about",
-    },
+    // subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
+    // title: "CODER CRACK",
+    // button: {
+    //   label: "SABER MÁS",
+    //   url: "/about",
+    // },
   },
 ];
 
