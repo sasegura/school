@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation, EffectFade } from "swiper";
@@ -6,6 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { SliderOneData } from "@/data";
 SwiperCore.use([Autoplay, Navigation, EffectFade]);
 const SliderOne = () => {
+  const [animate, setAnimate] = useState(false);
   const mainSlideOptions = {
     slidesPerView: 1,
     loop: true,
@@ -20,26 +21,50 @@ const SliderOne = () => {
   };
   return (
     <section className="main-slider">
-      <Swiper {...mainSlideOptions}>
-        {SliderOneData.map(({ image, subTitle, title, button }, index) => (
+      <Swiper {...mainSlideOptions} onInit={() => setTimeout(() => setAnimate(true), 250)}>
+        <div className={animate ? "swiper-slide-active" : ""} style={
+          {
+            position: "absolute",
+            top: "0px",
+            height: "100vh",
+            width: "100vw",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center"
+          }}>
+          <Container>
+            <Row>
+              <Col lg={12} className="text-center">
+                <p className={"main-slider__subtext"}>{SliderOneData[0].subTitle}</p>
+                <h3 className={"main-slider__title"}>{SliderOneData[0].title}</h3>
+                <Link href={SliderOneData[0].button.url}>
+                  <a className={"common_btn"}>
+                    <span>{SliderOneData[0].button.label}</span>
+                  </a>
+                </Link>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        {SliderOneData.map(({image}, index) => (
           <SwiperSlide key={index}>
             <div
               className="image-layer"
-              style={{ backgroundImage: `url(${image})` }}
-            ></div>
-            <Container>
-              <Row>
-                <Col lg={12} className="text-center">
-                  <p className="main-slider__subtext">{subTitle}</p>
-                  <h3 className="main-slider__title">{title}</h3>
-                  <Link href={button.url}>
-                    <a className={`common_btn`}>
-                      <span>{button.label}</span>
-                    </a>
-                  </Link>
-                </Col>
-              </Row>
-            </Container>
+              style={{backgroundImage: `url(${image})`}}
+            />
+            {/*<Container>*/}
+            {/*  <Row>*/}
+            {/*    <Col lg={12} className="text-center">*/}
+            {/*      <p className={ "main-slider__subtext" + (animate ? " main-slider__subtext-animate" : "")}>{subTitle}</p>*/}
+            {/*      <h3 className={ "main-slider__title" + (animate ? " main-slider__title-animate" : "")}>{title}</h3>*/}
+            {/*      <Link href={button.url}>*/}
+            {/*        <a className={ "common_btn" + (animate ? " common_btn-animate" : "")}>*/}
+            {/*          <span>{button.label}</span>*/}
+            {/*        </a>*/}
+            {/*      </Link>*/}
+            {/*    </Col>*/}
+            {/*  </Row>*/}
+            {/*</Container>*/}
           </SwiperSlide>
         ))}
         <div className="swiper-button-prev" id="main-slider-prev">

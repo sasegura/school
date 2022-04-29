@@ -133,9 +133,9 @@ const ServiceSidebar = ({ data }) => {
             <CountUp end={counter} />€
           </h1>
 
-          <div className={`width100 common_btn`} onClick={() => navigate()}>
+          <button className={`width100 common_btn red_bg`} onClick={() => navigate()}>
             <span>Aplicar</span>
-          </div>
+          </button>
           {/* <a href={`/apply?id=${data?.id}` } >
               
                 <span>Aplicar</span>
