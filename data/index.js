@@ -506,7 +506,7 @@ export const ServicePostData = [
   },
   {
     title: "Desarrollador Full Stack",
-    text: "Un desarrollador Full Stack maneja cada uno de los aspectos de una aplicación web. Es fundamental que tenga conocimientos en desarrollo Front-End y Back-End",
+    text: "Un desarrollador Full Stack maneja tanto el trabajo de Front-end como de Back-end. Debe tener muchas habilidades y la capacidad de adaptarse a cualquier cosa",
     iconName: "mei-pie-chart",
     url1: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
     url2: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas",
@@ -684,8 +684,8 @@ export const AboutOneData = {
   sectionContent: {
     subTitle:
       "Nuestra escuela se encuentra situada en el segundo nivel de un edificio de negocios, cuenta con áreas comunes de office, zona de vending y coworking. Está comunicado con la línea 1 del metro y el cercanías a solo 15min del centro de Madrid",
-    //title: "get to know us",
-    subTitleGallery: "Conoce nuestras instalaciones",
+    title: "Conócenos",
+    subTitleGallery: "Nuestras instalaciones",
   },
   gallery: [aboutOne01, aboutOne02],
   carrousel: [
@@ -833,15 +833,34 @@ import video01 from "@/images/about/3.jpg";
 
 export const VideoOneData = {
   sectionContent: {
-    title: "Make amazing websites without touching cod",
-    subTitle: "the only design you need",
-    text: "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolors sit amet elit magnis amet ultrices purus aliquet.",
+    title: "Comunidad y objetivos de CODERCRACK",
+    //subTitle: "the only design you need",
+    text: "En nuestra escuela encontrarás personas con edades y orígenes diferentes, tanto si quieres trabajar en España como si quieres volver a tu país, te damos las herramientas necesarias para que tengas éxito en tu futuro profesional.Te acompañamos en todas las facetas: académica, alojamiento, inmigración. Con nuestra ayuda te será más fácil tu estancia en España y  conseguir tus objetivos",
   },
   video: {
     image: video01,
     ID: "y2Eqx6ys1hQ",
     title: "Watch Video",
   },
+  carrousel: [
+    aboutOne04,
+    aboutOne05,
+    aboutOne06,
+    aboutOne07,
+    aboutOne08,
+    aboutOne09,
+    aboutOne10,
+    aboutOne11,
+    aboutOne12,
+    aboutOne13,
+    aboutOne14,
+    aboutOne15,
+    aboutOne16,
+    aboutOne17,
+    aboutOne18,
+    aboutOne19,
+    aboutOne20,
+  ],
 };
 
 export const SubscribeFormData = {
@@ -944,41 +963,41 @@ import featureTab03 from "@/images/home_1/c3.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
-    title: "why choose us",
-    subTitle: "our benefits",
-    text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
+    title: "Por qué elegir a CODERCRACK",
+    //subTitle: "our benefits",
+    text: "Solo tú puedes cambiar tu futuro. Nosotros, te ayudamos",
   },
   posts: [
     {
-      title: "Latest technology",
-      content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+      title: "SECTOR CON ALTA DEMANDA en el mercado laboral europeo",
+      content: `Se trata de un sector en el que la demanda es muy alta y la oferta es más bien baja. Aproximadamente el 60% de las empresas se quedan sin cubrir todos los puestos tecnológicos que necesitaban y esto no hace más que crecer con el desarrollo de nuevas aplicaciones enlazadas en todos los procesos empresariales.
+        \n Al culminar tus estudios podrás encontrar empleo como:`,
       image: featureTab01,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Desarrollador web front-end",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Desarrollador web back-end",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Desarrollador web fullstack",
         },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
+        // {
+        //   item: "Employee self-enrollment",
+        // },
+        // {
+        //   item: "Payroll integration",
+        // },
+        // {
+        //   item: "Built-in backup camera to verify failed punches",
+        // },
       ],
     },
     {
-      title: "Awesome Support",
+      title: "NO NECESITAS CONOCIMIENTOS PREVIOS EN PROGRAMACIÓN WEB",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "La escuela está diseñada para brindar acceso a alumnos que provengan de otras especialidades, ya que cuenta con un curso preparatorio.",
       image: featureTab02,
       lists: [
         {
@@ -1002,28 +1021,29 @@ export const FeatureTabData = {
       ],
     },
     {
-      title: "1 Click demo install",
+      title:
+        "TE asesoramos CON TUS TRÁMITES PARA VENIR A MADRID Y DURANTE tu estancia ",
       content:
-        "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
+        "Asesoramiento basado en experiencias personales para los trámites, tanto en la solicitud de visado como los trámites de residencia por prácticas una vez te encuentres en España.",
       image: featureTab03,
       lists: [
         {
-          item: "Self-contained, state-of-the-art time clock",
+          item: "Visado de entrada a España (si necesitas en tu país de origen)",
         },
         {
-          item: "Scalability of up to 500 employees per time clock",
+          item: "Tarjeta de Identificación de extranjero TIE",
         },
         {
-          item: "The ability to connect up to 32 time clocks",
+          item: "Padrón Municipal",
         },
         {
-          item: "Employee self-enrollment",
+          item: "Contratación en Prácticas Profesionales",
         },
         {
-          item: "Payroll integration",
+          item: "Certificado Digital",
         },
         {
-          item: "Built-in backup camera to verify failed punches",
+          item: "Tarjeta y Abono Individual del Transporte Público",
         },
       ],
     },
@@ -1049,7 +1069,7 @@ import video02 from "@/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
-    subTitle: `En CODERCRAK buscamos que nuestros cursos y master sean una experiencia única y completa. \n 
+    subTitle: `En CODERCRACK buscamos que nuestros cursos y master sean una experiencia única y completa. \n 
       Somos conscientes de que cada persona tiene un talento y unas metas diferentes, por eso nos adaptamos a ti para ayudarte a conseguir tus objetivos"`,
     //title: "¿Cómo es nuestra escuela?",
     //text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
@@ -1087,6 +1107,10 @@ export const FeatureTwoData = {
   },
   posts: [
     {
+      title: "Sector con alta demanda en el mercado laboral europeo",
+      text: "Se trata de un sector en el que la demanda es muy alta y la oferta es más bien baja. Aproximadamente el 60% de las empresas se quedan sin cubrir todos los puestos tecnológicos que necesitaban y esto no hace más que crecer con el desarrollo de nuevas aplicaciones enlazadas en todos los procesos empresariales.",
+    },
+    {
       title: "No necesitas conocimientos previos en programación web",
       text: "La escuela está diseñada para brindar acceso a alumnos que provengan de otras especialidades, ya que cuenta con un curso preparatorio.",
     },
@@ -1094,10 +1118,6 @@ export const FeatureTwoData = {
       title:
         "TE AYUDAMOS CON TUS TRÁMITES PARA VENIR A MADRID Y DURANTE TUS ESTUDIOS",
       text: "Asesoramiento basado en experiencias personales para los trámites, tanto en la solicitud de visado como los trámites de residencia por prácticas una vez en España. (Tarjeta de Identificación de extranjero TIE, Padrón Municipal, Contratación en Prácticas Profesionales, Certificado Digital, Tarjeta y Abono Individual del Transporte Público, etc).",
-    },
-    {
-      title: "Sector con alta demanda",
-      text: "Se trata de un sector en el que la demanda es muy alta y la oferta es más bien baja. Aproximadamente el 60% de las empresas se quedan sin cubrir todos los puestos tecnológicos que necesitaban y esto no hace más que crecer con el desarrollo de nuevas aplicaciones enlazadas en todos los procesos empresariales.",
     },
   ],
   image: {

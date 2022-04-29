@@ -1733,14 +1733,17 @@ License URI:
 .chooseUs_title li a {
   display: block;
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 1.5;
   color: #000000;
   letter-spacing: 0.8px;
   background: #f4f4f4;
-  padding: 49px 0;
+  padding: 0 20px;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  height: 130px;
+  display: flex;
+  align-items: center;
 }
 .chooseUs_title li:hover a,
 .chooseUs_title li.active a {
@@ -2007,7 +2010,7 @@ License URI:
 .our_work {
   background: #f4f4f4;
   overflow: hidden;
-  padding-bottom: 59px;
+  padding: 0;
   position: relative;
 }
 .videoWrap_2 {
@@ -2018,6 +2021,8 @@ License URI:
   margin: auto 0;
   width: 50%;
   z-index: 10;
+  display: flex;
+  align-items: center;
 }
 .videoWrap_2 .play_video h2 {
   color: #fff;
@@ -2028,12 +2033,18 @@ License URI:
 }
 .ab_detail_wrap {
   padding-left: 90px;
+  padding-top: 0;
+  padding-right: 90px;
 }
 .ab_detail_wrap .sec_title {
   margin-bottom: 46px;
 }
 .ab_detail_wrap .sec_desc {
   line-height: 36px;
+}
+.ab_detail_wrap_col {
+  display: flex;
+  align-items: center;
 }
 .image_gallery_content {
   padding: 100px 100px;
@@ -2044,6 +2055,10 @@ License URI:
   margin-top: 30px;
   width: 90%;
   line-height: 1.8;
+}
+.title_about {
+  position: absolute;
+  top: -50px;
 }
 /*----------------------------------------------------
 / 22. Service Page

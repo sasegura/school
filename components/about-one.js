@@ -1,7 +1,6 @@
 import React from "react";
 import { AboutOneData } from "@/data";
 import "react-image-gallery/styles/css/image-gallery.css";
-import ImageGallery from "react-image-gallery";
 
 const AboutOne = () => {
   const { sectionContent, gallery, carrousel } = AboutOneData;
@@ -14,7 +13,7 @@ const AboutOne = () => {
             <h4 className="sub_title sub_title_about">
               {sectionContent.subTitle}
             </h4>
-            <h2 className="sec_title">{sectionContent.title}</h2>
+            <h2 className="sec_title title_about">{sectionContent.title}</h2>
           </div>
           <div className="col-lg-6 col-sm-12 col-md-6">
             <div className="agency_img1">

@@ -34,7 +34,7 @@ export const BlogsList = {
         <p>
           Ahora te preguntas ¿Qué hago para trabajar como desarrollador web?
           Trabajar como desarrollador web es sencillo, si sigues los consejos de
-          esta guía. Pero antes, te explico qué es un desarrollador web y que
+          esta guía. Pero antes, te explico qué es un desarrollador web y qué
           hace.
         </p>,
         <h4>Elije una especialización como desarrollador web</h4>,
@@ -89,7 +89,7 @@ export const BlogsList = {
       date: "22 marzo",
       imageBanner: blog2Banner,
       image: blog2,
-      title: "¿Qué es un desarrollador de páginas web?",
+      title: "¿Qué es un desarrollador de aplicaciones web?",
       tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
       content: [
         <p>

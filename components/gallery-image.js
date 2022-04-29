@@ -4,7 +4,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 
 const ImageGalleries = () => {
-  const { sectionContent, gallery, carrousel } = AboutOneData;
+  const { sectionContent, carrousel } = AboutOneData;
 
   const images = carrousel.map((image) => ({
     original: image,

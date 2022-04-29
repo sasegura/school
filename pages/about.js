@@ -21,11 +21,7 @@ const AboutPage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Conócenos">
           <HeaderOne />
-          <CustomPageBanner
-            title="Conócenos"
-            name="Conocenos"
-            image={imageBanner}
-          />
+          <CustomPageBanner title="" name="Conocenos" image={imageBanner} />
           <AboutOne />
           <ImageGalleries />
           {/* <TestimonialsOneCarousel /> */}
