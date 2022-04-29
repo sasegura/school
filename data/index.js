@@ -482,16 +482,16 @@ export const PortfolioDetailsData = {
 
 export const ServicePostData = [
   {
-    title: "Desarrollador front-end",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    title: "Desarrollador Front-end",
+    text: "Un desarrollador front-end trabaja la interfaz de usuario desde el punto de vista del código, se encarga de la parte visual de la web haciendo que su diseño sea intuitivo y atractivo.",
     iconName: "mei-settings",
     url1: "https://www.linkedin.com/jobs/search?keywords=React&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
     url2: "https://www.tecnoempleo.com/busqueda-empleo.php?cp=&busc_paises=1&te=react&pr=",
     url3: "https://es.indeed.com/jobs?q=react&l=Espa%C3%B1a&vjk=5bb6a7ec7e6ac123",
   },
   {
-    title: "Desarrollador back-end",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    title: "Desarrollador Back-end",
+    text: "El desarrollador Back End procesa toda la información y relaciona los datos en el interior del sitio web o aplicación web, con las capas visuales que se han creado en el front-end.",
     iconName: "mei-transfer",
     url1: "https://www.linkedin.com/jobs/search?keywords=node.js&location=Espa%C3%B1a&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
     url2: "https://www.tecnoempleo.com/busqueda-empleo.php?te=node.js&pr=#buscador-ofertas",
@@ -499,7 +499,7 @@ export const ServicePostData = [
   },
   {
     title: "Desarrollador Full Stack",
-    text: "Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.",
+    text: "Un desarrollador Full Stack maneja cada uno de los aspectos de una aplicación web. Es fundamental que tenga conocimientos en desarrollo Front-End y Back-End",
     iconName: "mei-pie-chart",
     url1: "https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0",
     url2: "https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas",
@@ -675,8 +675,9 @@ import aboutOne20 from "@/images/about/21.jpg";
 
 export const AboutOneData = {
   sectionContent: {
-    title: "build better website alot quicker with meipaly agency",
-    subTitle: "get to know us",
+    subTitle:
+      "Nuestra escuela se encuentra situada en el segundo nivel de un edificio de negocios, cuenta con áreas comunes de office, zona de vending y coworking. Está comunicado con la línea 1 del metro y el cercanías a solo 15min del centro de Madrid",
+    //title: "get to know us",
     subTitleGallery: "Conoce nuestras instalaciones",
   },
   gallery: [aboutOne01, aboutOne02],

@@ -486,6 +486,7 @@ License URI:
   position: relative;
   border-bottom: 1px solid #e7e7e7;
   padding-bottom: 72px;
+  padding-top: 72px;
 }
 .what_wedo h4 {
   font-size: 20px;
@@ -1197,8 +1198,8 @@ License URI:
   position: relative;
 }
 .lbi_thumb img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 210px;
 }
 .lbi_details {
   text-align: left;
@@ -2038,7 +2039,12 @@ License URI:
   padding: 100px 100px;
   background-color: #000;
 }
-
+.sub_title_about {
+  font-size: 20px;
+  margin-top: 30px;
+  width: 90%;
+  line-height: 1.8;
+}
 /*----------------------------------------------------
 / 22. Service Page
 ------------------------------------------------------*/

@@ -6,17 +6,14 @@ import ImageGallery from "react-image-gallery";
 const AboutOne = () => {
   const { sectionContent, gallery, carrousel } = AboutOneData;
 
-  const images = carrousel.map((image) => ({
-    original: image,
-    thumbnail: image,
-  }));
-
   return (
     <section className="commonSection">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-sm-12 col-md-6">
-            <h4 className="sub_title">{sectionContent.subTitle}</h4>
+            <h4 className="sub_title sub_title_about">
+              {sectionContent.subTitle}
+            </h4>
             <h2 className="sec_title">{sectionContent.title}</h2>
           </div>
           <div className="col-lg-6 col-sm-12 col-md-6">
