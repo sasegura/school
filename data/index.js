@@ -1026,7 +1026,7 @@ export const ParallaxOneData = {
   iconName: "mei-team",
   title: "Las personas y el trabajo en equipo:",
   specialText: " son las fuerzas impulsoras detrás de cada negocio exitoso.",
-  text: "Te acompañamos en todas las faceta, académica, alojamiento, inmigración. Con nuestra ayuda te será más fácil tu estancia en España y conseguir tus objetivos.",
+  text: "Te acompañamos en todas las facetas: académica, alojamiento, extranjería e inmigración \n Con nuestra ayuda te será más fácil tu estancia en España y conseguir tus objetivos",
 };
 
 export const PortfolioHomeData = {
@@ -1041,8 +1041,9 @@ import video02 from "@/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
-    //title: "Experiencia digital",
-    //subTitle: "¿Cómo es nuestra escuela?",
+    subTitle: `En CODERCRAK buscamos que nuestros cursos y master sean una experiencia única y completa. \n 
+      Somos conscientes de que cada persona tiene un talento y unas metas diferentes, por eso nos adaptamos a ti para ayudarte a conseguir tus objetivos"`,
+    //title: "¿Cómo es nuestra escuela?",
     //text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
   },
   video: {
