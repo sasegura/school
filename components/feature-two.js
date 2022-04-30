@@ -26,7 +26,10 @@ const FeatureTwo = () => {
                   <div className="singleFeature" key={index}>
                     <div className="f_count">{zeroPad(index + 1, 2)}</div>
                     <h3>{title}</h3>
-                    <p className="featureText">{text}</p>
+                    <p className="featureText">
+                      {text}
+                      <a href={"/about#why_us"} className={"read-more learnM"}>ver más</a>
+                    </p>
                   </div>
                 );
               })}

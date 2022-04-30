@@ -1504,7 +1504,7 @@ License URI:
   top: 58px;
   content: "";
   width: 2px;
-  height: 95px;
+  height: 90%;
   background: #000;
 }
 .singleFeature:last-child:after {
@@ -1560,7 +1560,7 @@ License URI:
   white-space: pre-line;
 }
 .featureText {
-  max-height: 60px;
+  max-height: 4rem;
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
@@ -1570,6 +1570,12 @@ License URI:
   -webkit-box-orient: vertical;
   line-height: 2rem;
   text-overflow: -o-ellipsis-lastline;
+}
+
+.featureText .read-more {
+  position: absolute;
+  bottom: -1.5rem;
+  right: 0;
 }
 
 /*----------------------------------------------------
