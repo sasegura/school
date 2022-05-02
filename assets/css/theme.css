@@ -754,7 +754,7 @@ License URI:
   padding-right: 10px;
 }
 .slick-list {
-  -moz-user-select: none;
+  -moz-user-f: none;
   box-sizing: border-box;
   display: block;
   position: relative;
@@ -2641,7 +2641,11 @@ textarea.input-form::-webkit-input-placeholder {
 .commentForm .common_btn.red_bg {
   padding: 28px 42.5px;
 }
+select.input-form {
+  appearance: none;
+}
 input.input-form:focus,
+select.input-form:focus,
 textarea.input-form:focus {
   -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);

@@ -35,21 +35,21 @@ const ApplyForm = ({courseList, editionList, course, edition}) => {
               <div className="row">
                 <div className="col-lg-8 col-sm-12">
                   {/*<h6 className="">Seleccione un curso</h6>*/}
-                  <div className="input-form required">
-                    <select name="select" className="input-form" >
-                      <option value="" disabled selected> Curso </option>
+                  {/*<div className="input-form required">*/}
+                    <select name="select" className="input-form required" >
+                      <option value="" disabled selected> Seleccione un Curso </option>
                       {courseList.map((cour)=><option value={cour?.id} selected={cour?.id === selectedCourse?.id}>{cour?.name}</option>)}
                     </select>
-                  </div>
+                  {/*</div>*/}
                 </div>
                 <div className="col-lg-4 col-sm-12">
                   {/*<h6 className="">Edición</h6>*/}
-                  <div className="input-form required">
-                    <select name="select" className="input-form">
+                  {/*<div className="input-form required">*/}
+                    <select name="select" className="input-form required">
                       <option value="" disabled selected> Edición </option>
                       {editionList.map((edit)=><option value={edit?.id} selected={edit?.id === selectedEdition?.id}>{edit?.name}</option>)}
                     </select>
-                  </div>
+                  {/*</div>*/}
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
