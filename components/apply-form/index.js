@@ -2,9 +2,9 @@ import React from "react";
 import { ApplyFormTitle } from "@/data";
 import useApplyForm from "./useApplyForm";
 
-const ApplyForm = ({course}) => {
+const ApplyForm = ({courseList, editionList, course, edition}) => {
   
-  const {selectedCourse, courses,handleSubmit, control,onSubmit}=useApplyForm({course})
+  const {selectedCourse, setSelectedCourse, selectedEdition, setSelectedEdition, handleSubmit, control,onSubmit}=useApplyForm({course, edition})
 
   const { subTitle, title, description } = ApplyFormTitle;
   return (
@@ -16,12 +16,12 @@ const ApplyForm = ({course}) => {
             <h2 className="sec_title">{title}</h2>
             <p className="white-space">{description}</p>
             
-            <h3 className="">Seleccione un curso</h3>
-            <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
-              <select name="select" className="input-form">
-                {courses.map((cour)=><option value={cour?.id} selected={cour?.id===selectedCourse?.id?true:false}>{cour?.name}</option>)}              
-              </select>
-            </div>
+            {/*<h3 className="">Seleccione un curso</h3>*/}
+            {/*<div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">*/}
+            {/*  <select name="select" className="input-form">*/}
+            {/*    {courses.map((cour)=><option value={cour?.id} selected={cour?.id===selectedCourse?.id?true:false}>{cour?.name}</option>)}*/}
+            {/*  </select>*/}
+            {/*</div>*/}
           </div>
         </div>
         <div className="row">
@@ -33,6 +33,25 @@ const ApplyForm = ({course}) => {
               id="contactForm"
             >
               <div className="row">
+                <div className="col-lg-8 col-sm-12">
+                  {/*<h6 className="">Seleccione un curso</h6>*/}
+                  <div className="input-form required">
+                    <select name="select" className="input-form" >
+                      <option value="" disabled selected> Curso </option>
+                      {courseList.map((cour)=><option value={cour?.id} selected={cour?.id === selectedCourse?.id}>{cour?.name}</option>)}
+                    </select>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-12">
+                  {/*<h6 className="">Edición</h6>*/}
+                  <div className="input-form required">
+                    <select name="select" className="input-form">
+                      <option value="" disabled selected> Edición </option>
+                      {editionList.map((edit)=><option value={edit?.id} selected={edit?.id === selectedEdition?.id}>{edit?.name}</option>)}
+                    </select>
+                  </div>
+                </div>
+
                 <div className="col-lg-6 col-sm-6">
                   <input
                     className="input-form required"

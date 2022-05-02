@@ -244,6 +244,11 @@ export const CoursesList = {
       ],
     },
   ],
+  editions: [
+    {id: 1, name: "Octubre 2022",},
+    {id: 2, name: "Enero 2023",},
+    {id: 3, name: "Marzo 2023",},
+  ],
   tabs: [
     { name: "información" },
     { name: "información" },

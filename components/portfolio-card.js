@@ -1,6 +1,6 @@
 import React from "react";
 const PortfolioCard = ({ data }) => {
-  const { image, title, categories, url, id } = data;
+  const { image, title, categories, url, id, edition } = data;
 
   return (
     <div className={`singlefolio`}>
@@ -10,7 +10,7 @@ const PortfolioCard = ({ data }) => {
           {categories.map((cat) => cat + "")}
         </p>
         <h4>
-          <a href={`${url}?id=${id}`}>{title}</a>
+          <a href={`${url}?course=${id}&edition=${edition}`}>{title}</a>
         </h4>
       </div>
     </div>

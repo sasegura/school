@@ -400,6 +400,7 @@ export const PortfolioData = [
     image: portfolio01,
     url: apply_url,
     id: 1,
+    edition: 1,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Front-end",
@@ -407,6 +408,7 @@ export const PortfolioData = [
     image: portfolio02,
     url: apply_url,
     id: 2,
+    edition: 1,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Back-end",
@@ -414,6 +416,7 @@ export const PortfolioData = [
     image: portfolio03,
     url: apply_url,
     id: 3,
+    edition: 1,
   },
   {
     title: "Curso de desarrollo de aplicaciones web \n Front-end",
@@ -421,6 +424,7 @@ export const PortfolioData = [
     image: portfolio04,
     url: apply_url,
     id: 4,
+    edition: 2,
   },
   {
     title: "Curso de desarrollo de aplicaciones web \n Back-end",
@@ -428,6 +432,7 @@ export const PortfolioData = [
     image: portfolio05,
     url: apply_url,
     id: 5,
+    edition: 3,
   },
   {
     title: "Máster en desarrollo de aplicaciones web \n Full Stack",
@@ -435,6 +440,7 @@ export const PortfolioData = [
     image: portfolio06,
     url: apply_url,
     id: 1,
+    edition: 3,
   },
   // {
   //   title: "Design Styles",

@@ -17,16 +17,19 @@ import ApplyForm from "@/components/apply-form";
 import CustomPageBanner from "@/components/custom-page-banner";
 import imageBanner from "@/images/bg/apply_banner.jpg";
 
-const ApplyPage = ({id}) => {
-  const courses=CoursesList?.courses
-  const course=courses.find((courseItem)=>courseItem.id==id)
+const ApplyPage = ({cid, eid}) => {
+  const courses=CoursesList?.courses;
+  const editions = CoursesList?.editions;
+  const course = courses.find((courseItem) => courseItem.id == cid);
+  const edition = editions.find((editionItem) => editionItem.id == eid);
+
   return (
     <MenuContextProvider>
     <SearchContextProvider>
       <Layout PageTitle="Aplicar">
         <HeaderOne />
         <CustomPageBanner title="Aplicar" name="Contáctanos" image={imageBanner}/>
-        <ApplyForm course={course}/>
+        <ApplyForm course={course} edition={edition} courseList={courses} editionList={editions}/>
         <Footer />
       </Layout>
     </SearchContextProvider>
@@ -34,7 +37,7 @@ const ApplyPage = ({id}) => {
   );
 };
 ApplyPage.getInitialProps = async ({ query }) => {
-  const {id} = query
-  return {id}
+  const {course, edition} = query
+  return {cid: course, eid: edition}
 }
 export default ApplyPage;
