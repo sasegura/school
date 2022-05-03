@@ -2,6 +2,7 @@ import blog1 from "@/images/blog/blog1.jpg";
 import blog1Banner from "@/images/blog/blog1-banner.jpg";
 import blog2 from "@/images/blog/blog2.jpg";
 import blog2Banner from "@/images/blog/blog2-banner.jpg";
+import blog3 from "@/images/blog/blog3.jpg";
 
 export const BlogHomeSection = {
   //subTitle: "últimas noticias y blogs",
@@ -33,7 +34,7 @@ export const BlogsList = {
         <p>
           Ahora te preguntas ¿Qué hago para trabajar como desarrollador web?
           Trabajar como desarrollador web es sencillo, si sigues los consejos de
-          esta guía. Pero antes, te explico qué es un desarrollador web y que
+          esta guía. Pero antes, te explico qué es un desarrollador web y qué
           hace.
         </p>,
         <h4>Elije una especialización como desarrollador web</h4>,
@@ -88,7 +89,7 @@ export const BlogsList = {
       date: "22 marzo",
       imageBanner: blog2Banner,
       image: blog2,
-      title: "¿Qué es un desarrollador de páginas web?",
+      title: "¿Qué es un desarrollador de aplicaciones web?",
       tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
       content: [
         <p>
@@ -169,28 +170,28 @@ export const BlogsList = {
       title: "basic rules of running web agency business",
       date: "20 abril",
       url: "/blog-single",
-      image: blog2,
+      image: blog3,
       id: 3,
       imageBanner: blog2Banner,
       tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
     },
-    {
-      title: "basic rules of running web agency business",
-      date: "20 junio",
-      url: "/blog-single",
-      image: blog2,
-      id: 4,
-      imageBanner: blog2Banner,
-      tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
-    },
-    {
-      title: "basic rules of running web agency business",
-      date: "20 anero",
-      url: "/blog-single",
-      image: blog2,
-      id: 5,
-      imageBanner: blog2Banner,
-      tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
-    },
+    // {
+    //   title: "basic rules of running web agency business",
+    //   date: "20 junio",
+    //   url: "/blog-single",
+    //   image: blog2,
+    //   id: 4,
+    //   imageBanner: blog2Banner,
+    //   tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
+    // },
+    // {
+    //   title: "basic rules of running web agency business",
+    //   date: "20 anero",
+    //   url: "/blog-single",
+    //   image: blog2,
+    //   id: 5,
+    //   imageBanner: blog2Banner,
+    //   tags: ["Desarrollador web", "Fornt-End", "Back-End", "Full-Stack"],
+    // },
   ],
 };

@@ -31,7 +31,7 @@ const VideoTwo = () => {
 
   return (
     <Fragment>
-      <section className="commonSection what_wedo pb-0 border-bottom-0">
+      <section className="commonSection what_wedo border-bottom-0">
         <Container>
           <Row>
             <Col lg={12} className="text-center">
