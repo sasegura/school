@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 const PortfolioCard = ({ data }) => {
   const { image, title, categories, url, id, edition } = data;
 
@@ -10,7 +11,9 @@ const PortfolioCard = ({ data }) => {
           {categories.map((cat) => cat + "")}
         </p>
         <h4>
-          <a href={`${url}?course=${id}&edition=${edition}`}>{title}</a>
+          <Link href={`${url}?course=${id}&edition=${edition}`}>
+            <a>{title}</a>
+          </Link>
         </h4>
       </div>
     </div>

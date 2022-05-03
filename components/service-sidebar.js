@@ -74,7 +74,7 @@ const ServiceSidebar = ({ data }) => {
     router.push(
       {
         pathname: "/apply",
-        query: { id: data?.id },
+        query: { course: data?.id },
       },
       undefined,
       { scroll: true }
