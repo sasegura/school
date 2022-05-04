@@ -71,7 +71,7 @@ const ServiceSidebar = ({ data }) => {
   const router = useRouter();
 
   async function navigate() {
-    router.push(
+    await router.push(
       {
         pathname: "/apply",
         query: { course: data?.id },
