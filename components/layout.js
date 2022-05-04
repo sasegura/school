@@ -30,6 +30,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Head>
+        <meta property="og:image" content={"" + window.location.origin + "/favicon.ico"}/>
         <title>{PageTitle} - Coder Crack </title>
       </Head>
       <div id="wrapper">{children}</div>
