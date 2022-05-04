@@ -114,8 +114,8 @@ License URI:
 .mainmenu ul ul.sub-menu {
   background: #000;
   width: 200px;
-  z-index: 9;
-  text-align: center;
+  /*z-index: 9;*/
+  /*text-align: center;*/
   padding: 25px 30px 13px;
   transition: all ease 400ms;
   -webkit-transition: all ease 400ms;
@@ -2053,8 +2053,10 @@ License URI:
   align-items: center;
 }
 .image_gallery_content {
-  padding: 100px 100px;
   background-color: #000;
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(65vh) !important;
 }
 .sub_title_about {
   font-size: 20px;

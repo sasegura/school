@@ -13,11 +13,13 @@ const ImageGalleries = () => {
 
   return (
     <section className="commonSection image_gallery_content">
-      <div className="text-center col-lg-12">
-        <h2 className="sec_title white">{sectionContent.subTitleGallery}</h2>
-        {/* <h4 className="sub_title color_aaa">{sectionContent.subTitle}</h4> */}
+      <div className="container">
+        <div className="text-center col-lg-12">
+          <h2 className="sec_title white">{sectionContent.subTitleGallery}</h2>
+          {/* <h4 className="sub_title color_aaa">{sectionContent.subTitle}</h4> */}
+        </div>
+        <ImageGallery items={images}/>
       </div>
-      <ImageGallery items={images} />
     </section>
   );
 };
