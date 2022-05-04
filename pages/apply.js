@@ -16,9 +16,12 @@ import { CoursesList } from "@/courses";
 import ApplyForm from "@/components/apply-form";
 import CustomPageBanner from "@/components/custom-page-banner";
 import imageBanner from "@/images/bg/apply_banner.jpg";
+import {useRouter} from "next/router";
 
-const ApplyPage = ({cid, eid}) => {
-  const courses=CoursesList?.courses;
+const ApplyPage = () => {
+  const router = useRouter();
+  const {course: cid, edition: eid} = router.query;
+  const courses = CoursesList?.courses;
   const editions = CoursesList?.editions;
   const course = courses.find((courseItem) => courseItem.id == cid);
   const edition = editions.find((editionItem) => editionItem.id == eid);
@@ -36,8 +39,4 @@ const ApplyPage = ({cid, eid}) => {
   </MenuContextProvider>
   );
 };
-ApplyPage.getInitialProps = async ({ query }) => {
-  const {course, edition} = query
-  return {cid: course, eid: edition}
-}
 export default ApplyPage;
