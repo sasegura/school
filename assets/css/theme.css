@@ -3823,7 +3823,7 @@ textarea.input-form:focus {
   }
 }
 .botonWhatsUp {
-  background: url("assets/images/whatsapp/wapp3.jpg") no-repeat center/70%;
+  background: url("assets/images/whatsapp/wapp3.png") no-repeat center/70%;
   z-index: 450;
   width: 60px;
   height: 60px;
@@ -3846,8 +3846,8 @@ textarea.input-form:focus {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 43px;
-  right: 43px;
+  bottom: 50px;
+  right: 50px;
   border-radius: 50%;
   user-select: none;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
