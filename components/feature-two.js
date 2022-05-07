@@ -1,6 +1,7 @@
 import React from "react";
 import { FeatureTwoData } from "@/data";
 import SectionTitle from "./section-title";
+import Link from "next/link";
 
 const FeatureTwo = () => {
   const { sectionContent, posts, image } = FeatureTwoData;
@@ -28,7 +29,9 @@ const FeatureTwo = () => {
                     <h3>{title}</h3>
                     <p className="featureText">
                       {text}
-                      <a href={"/about#why_us"} className={"read-more learnM"}>ver más</a>
+                      <Link href={"/about?tab=" + index + "#why_us"}>
+                        <a className={"read-more learnM"}>ver más</a>
+                      </Link>
                     </p>
                   </div>
                 );
