@@ -735,7 +735,7 @@ export const TeamOneData = {
     {
       image: team01,
       name: "Isabel García Hilarión",
-      designation: "Profesora",
+      designation: "",
       url: "#",
       socials: [
         {
@@ -755,7 +755,7 @@ export const TeamOneData = {
     {
       image: team05,
       name: "Sergio Segura Fernández",
-      designation: "Profesor",
+      designation: "",
       url: "#",
       socials: [
         {
@@ -774,8 +774,8 @@ export const TeamOneData = {
     },
     {
       image: team02,
-      name: "Andrés",
-      designation: "Profesor",
+      name: "Andrés González Carmenates",
+      designation: "",
       url: "",
       socials: [
         {
@@ -794,8 +794,8 @@ export const TeamOneData = {
     },
     {
       image: team03,
-      name: "Liset",
-      designation: "Profesor",
+      name: "Liset Bichili Hernández",
+      designation: "",
       url: "",
       socials: [
         {
@@ -814,8 +814,8 @@ export const TeamOneData = {
     },
     {
       image: team04,
-      name: "Gregorio",
-      designation: "Profesor",
+      name: "Juan Gregorio Lombardo Fernández",
+      designation: "",
       url: "",
       socials: [
         {
