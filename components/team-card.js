@@ -6,7 +6,7 @@ const TeamCard = ({ data }) => {
     <div className="singleTM">
       <div className="tm_img">
         <img src={image} alt={name} />
-        <div className="tm_overlay">
+        {/* <div className="tm_overlay">
           <div className="team_social">
             {socials.map(({ name, url }, index) => (
               <a key={index} href={url} target="_blank">
@@ -16,8 +16,8 @@ const TeamCard = ({ data }) => {
           </div>
           {/* <a href={url} target="_blank" className="common_btn">
             <span>learn more</span>
-          </a> */}
-        </div>
+          </a> 
+        </div> */}
       </div>
       <div className="detail_TM">
         <h5>{name}</h5>

@@ -2,9 +2,14 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import { FeatureTabData } from "@/data";
+import {useRouter} from "next/router";
 
 const FeatureTabOne = () => {
-  const [active, setActive] = useState(0);
+  const router = useRouter();
+  const {tab} = router.query;
+  let tabI = parseInt(tab) || 0;
+  if ( tabI < 0 || tabI > 2) tabI = 0;
+  const [active, setActive] = useState(tabI);
   const { sectionContent, posts } = FeatureTabData;
   return (
     <section className="commonSection chooseUs" id="why_us">

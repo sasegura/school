@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 import ServiceHomeTwo from "@/components/service-home-two";
 import BlogHome from "@/components/blog-home";
 import ContactInfos from "@/components/contact-infos";
-import ServiceThree from "@/components/service-three";
+// import ServiceThree from "@/components/service-three";
 import ParallaxOne from "@/components/parallax-1";
 import GoogleMap from "@/components/google-map";
 import TestimonialsOneCarousel from "@/components/testimonials-carousel";
@@ -31,7 +31,6 @@ const HomeTwo = () => {
           <PortfolioHome />
           <TestimonialsOneCarousel />
           <FeatureTabOne />
-          <ServiceThree />
           <ParallaxOne />
           <BlogHome />
           <GoogleMap extraClass="contact-page" />
