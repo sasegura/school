@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { coderCrackInfo } from "@/information";
 import CountUp from "react-countup";
-import Link from "react-scroll/modules/components/Link";
 import { useRouter } from "next/router";
 
 const ServiceSidebar = ({ data }) => {
@@ -132,7 +131,8 @@ const ServiceSidebar = ({ data }) => {
             Precio:
             <CountUp end={counter} />€
           </h1>
-
+              <span className={'red'}>Contáctanos ahora, contamos con BECAS personalizadas.</span>
+              <p></p>
           <button className={`width100 common_btn red_bg`} onClick={() => navigate()}>
             <span>Aplicar</span>
           </button>

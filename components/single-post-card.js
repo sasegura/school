@@ -1,7 +1,4 @@
 import React, { Fragment } from "react";
-import AuthorCard from "@/components/author-card";
-import Comments from "@/components/comments";
-import blogDetailsImage from "@/images/blog/7.jpg";
 
 const SinglePostCard = ({blog}) => {
   return (

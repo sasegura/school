@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import BlogCard from "@/components/blog-card";
-import {  BlogData } from "@/data";
 import { BlogHomeSection, BlogsList } from "data/blogs";
 
 const BlogHome = () => {
