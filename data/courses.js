@@ -31,7 +31,7 @@ export const CoursesList = {
       discounts: discounts,
       bannerImg: bannerImg1,
       description:
-        "Este Máster en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Ingeniero Web Full Stack, un desarrollador completo, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web.  Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección. El enfoque práctico de la metodología utilizada durante el curso, te permitirá aplicar los conocimientos aprendidos para desarrollar un proyecto que formará parte de tu carta de presentación ante las empresas. Nuestros profesores son expertos en activo del sector, que se encuentran en constante superación. Esto permite a nuestros estudiantes graduarse con una preparación que cumple con las exigencias del mercado laboral actual.",
+        "Este Máster en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.",
       secondDescription: [
         <p>
           El enfoque práctico de la metodología utilizada durante el curso, te
@@ -50,29 +50,21 @@ export const CoursesList = {
         <li>Programador Front-End</li>,
         <li>Programador Back-End</li>,
         <br />,
-        <p>
-          Aprenderás en grupos reducidos, con atención personalizada y una
-          metodología práctica con un proyecto de desarrollo que será tu carta
-          de presentación ante las empresas.
-        </p>,
-        <p>
-          Adquirirás sólidos conocimientos en el desarrollo de aplicaciones web
-          usando los distintos lenguajes de programación, necesarios para formar
-          parte de una industria en constante expansión.
-        </p>,
-        <p>
-          Aprenderás de grandes profesionales en el desarrollo de Aplicaciones
-          Web que guiarán de cerca tu formación y fomentarán tu talento
-        </p>,
-        "Tras cursar este Ciclo Formativo saldrás con la especialización más demandada y completa del mercado para desempeñar tareas de",
-        <li>Desarrollador de aplicaciones en entornos Web</li>,
-        <li>Asesor o consultor en desarrollo web</li>,
-        <li>Programador full-stack</li>,
-        <br />,
+        
+        
+       
+        
         <p>
           Al finalizar tendrás un perfil diferencial que potenciará tu inserción
           en el mercado laboral de forma cualificada y competente.
         </p>,
+        <h5>Bloques principales que conforman este master</h5>,
+        <li>Fundamentos de la programación</li>,
+        <li>Desarrollo Front - End</li>,
+        <li>Desarrollo Back - End</li>,
+        <li>Proyectos en ambiente laboral</li>,
+        <li>Mentoring profesional</li>
+
       ],
     },
     {
@@ -88,21 +80,30 @@ export const CoursesList = {
       description:
         "Con el máster en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este máster, el alumno podrá desarrollar toda clase de software para dispositivos web.",
       secondDescription: [
-        <p>
-          Una maestría en programación web brinda al profesional los
-          conocimientos necesarios para convertirse en desarrollador web para
-          cualquier sistema operativo.
-        </p>,
-        <p>
-          Con este máster, el estudiante podrá dominar las nuevas técnicas, para
-          diferentes plataformas, y desarrollar webs que marquen tendencia en el
-          mercado.
-        </p>,
+       
         <p>
           Un desarrollador web siempre será necesario en esta época, en la que
           lo digital es la regla. Con este máster, el profesional desarrollará
           y/ó reforzará sus conocimientos en el desarrollo web.
         </p>,
+        <p>
+        Nuestro curso de desarrollador web front-end se basa principalmente en
+        la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,
+        HTML, JavaScript y otras tecnologías y frameworks modernos como React
+        o NodeJS. Tratamos todos los conocimientos fundamentales y habilidades
+        necesarias para que te conviertas en un experto del desarrollo web
+        front-end. Al final del curso, podrás diseñar fantásticas aplicaciones
+        web y fáciles de usar. Nuestros programas incluyen ejercicios reales.
+        Adquirirás rápidamente los conceptos básicos del desarrollo web
+        front-end para que puedas comenzar en tu primer trabajo y destacar.
+        Nuestros horarios también son flexibles, hay opciones de formación
+        disponibles entre semana y los fines de semana.
+      </p>,
+        <h5>Bloques principales que conforman este master</h5>,
+        <li>Fundamentos de la programación</li>,
+        <li>Desarrollo Front - End</li>,
+        <li>Proyectos en ambiente laboral</li>,
+        <li>Mentoring profesional</li>
       ],
     },
     {
@@ -120,14 +121,12 @@ export const CoursesList = {
       secondDescription: [
         <p>
           Curso que permite introducirse en el mundo del desarrollo web en el
-          lado servidor o backend. Se trata de un curso muy práctico en el que
-          se trabaja sobre una pila AMP (Apache, MySQL, PHP). Dirigido a
+          lado servidor o backend. Se trata de un curso muy práctico dirigido a
           profesionales que quieran aprender a desarrollar aplicaciones web
           sofisticadas de forma ágil y eficaz.
         </p>,
-        <h1>Objetivos</h1>,
         <p>
-          Los objetivos didácticos de este curso son los siguientes: aprender a
+          El objetivo de este curso es que aprendas a
           desarrollar aplicaciones web sofisticadas de forma ágil y eficaz.
         </p>,
         <p>
@@ -139,9 +138,7 @@ export const CoursesList = {
         <p>
           Los desarrolladores Backend deben conocer los lenguajes de
           programación, las librerías y frameworks más utilizados en este tipo
-          de desarrollos. Cada vez es más común que también tengan conocimientos
-          en Frontend, ya que cada vez se requiere este perfil para desarrollar
-          aplicaciones completas
+          de desarrollos.
         </p>,
         <p>
           Los programadores web continúan siendo uno de los profesionales
@@ -152,6 +149,11 @@ export const CoursesList = {
           encuentren entre los que más rápidamente crecen pues para captar
           talento muchas compañías recurren a aumentos salariales.
         </p>,
+        <h5>Bloques principales que conforman este master</h5>,
+        <li>Fundamentos de la programación</li>,
+        <li>Desarrollo Back - End</li>,
+        <li>Proyectos en ambiente laboral</li>,
+        <li>Mentoring profesional</li>
       ],
     },
     {
@@ -167,10 +169,7 @@ export const CoursesList = {
       description:
         "Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.",
       secondDescription: [
-        <h4>
-          ¿Buscas una nueva y emocionante trayectoria profesional como
-          desarrollador web front-end?
-        </h4>,
+        
         <p>
           Coder Crack School ofrece un curso de desarrollo web front-end actual
           y diseñado para enseñarte rápidamente a programar o a cambiar de
@@ -184,17 +183,14 @@ export const CoursesList = {
           programación de este curso sea muy flexible junto con precios
           competitivos y múltiples opciones de pago.
         </p>,
-        <h4>
-          ¿El objetivo final? ¡Ayudarte a conseguir tu primer trabajo como
-          desarrollador web front-end!
-        </h4>,
-        <p>
-          Obtén más información sobre nuestro curso de desarrollo web front-end.
-          ¡Si te inscribes hoy, te convertirás inmediatamente en parte de
-          nuestra familia Coder Crack y te ayudaremos a alcanzar todas tus metas
-          profesionales! Elija entre realizar el curso en un campus de manera
-          presencial o de forma remota, según tus necesidades.
-        </p>,
+        
+        // <p>
+        //   Obtén más información sobre nuestro curso de desarrollo web front-end.
+        //   ¡Si te inscribes hoy, te convertirás inmediatamente en parte de
+        //   nuestra familia Coder Crack y te ayudaremos a alcanzar todas tus metas
+        //   profesionales! Elija entre realizar el curso en un campus de manera
+        //   presencial o de forma remota, según tus necesidades.
+        // </p>,
         <p>
           Nuestro curso de desarrollador web front-end se basa principalmente en
           la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,

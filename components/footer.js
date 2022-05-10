@@ -1,5 +1,6 @@
 import React from "react";
 import { LogoImage } from "@/data";
+import { coderCrackInfo } from "@/information";
 
 const Footer = () => {
   const { light } = LogoImage;
@@ -30,7 +31,7 @@ const Footer = () => {
                 <br />
                 Madrid, España
               </p>
-              <p>+34 652 415 109</p>
+              <p>+34 {coderCrackInfo.phoneLabel}</p>
               <p>
                 <a href="#">codercrack@gmail.com</a>
               </p>

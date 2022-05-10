@@ -185,9 +185,16 @@ ul li {
 .red_color {
   color: rgba(80, 172, 235, 1);
 }
+
 .white {
   color: #ffffff;
 }
+
+.red {
+  color: red;
+}
+
+
 .sec_desc {
   margin: 0 0 54px;
   white-space: pre-line;

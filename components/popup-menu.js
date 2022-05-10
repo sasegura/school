@@ -2,6 +2,7 @@ import React, { useContext, Fragment, useRef } from "react";
 import Link from "next/link";
 import { MenuContext } from "@/context/menu-context";
 import { LogoImage, NavLinks } from "@/data";
+import { coderCrackInfo } from "@/information";
 
 const PopupMenu = () => {
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
@@ -92,7 +93,7 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Teléfono: +34 652 415 109</li>
+                <li>Teléfono: +34 {coderCrackInfo.phoneLabel}</li>
                 <li>Email: codercrack@gmail.com</li>
                 <li>Dirección: Avenida de la Albufera 321, Madrid, España</li>
               </ul>

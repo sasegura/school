@@ -4,7 +4,8 @@ import home_3 from "@/images/home_1/3.jpg";
 
 export const coderCrackInfo = {
   name: "Coder Crack",
-  phone: "652415109",
+  phone: "615729195",
+  phoneLabel: "615 729 195",
   phoneCountryCode: "+34",
   address: "Avenida de la ALbufera 321, Vallecas",
   fullAddress: "Avenida de la ALbufera 321, Vallecas Madrid, España",
