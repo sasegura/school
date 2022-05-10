@@ -245,8 +245,8 @@ import blogImage1 from "@/images/blog/1.jpg";
 import blogImage2 from "@/images/blog/2.jpg";
 import blogImage3 from "@/images/blog/3.jpg";
 import blogImage4 from "@/images/blog/4.jpg";
-import blogImage5 from "";
-import blogImage6 from "";
+import blogImage5 from "@/images/blog/5.jpg";
+import blogImage6 from "@/images/blog/6.jpg";
 
 export const BlogData = [
   {
@@ -572,9 +572,9 @@ export const ServicePostTwoData = {
   ],
 };
 
-import serviceOne01 from "@/images/home_1/1.jpg";
-import serviceOne02 from "@/images/home_1/1.jpg";
-import serviceOne03 from "@/images/home_1/1.jpg";
+import serviceOne01 from "@/images/home_1/6.jpg";
+import serviceOne02 from "@/images/home_1/7.jpg";
+import serviceOne03 from "@/images/home_1/8.jpg";
 
 export const ServicePostThreeData = {
   sectionContent: {
@@ -620,7 +620,7 @@ export const FunfactData = [
   },
 ];
 
-import trustClient01 from "@/images/home_1/1.jpg";
+import trustClient01 from "@/images/home_1/4.jpg";
 
 export const TrustClientData = {
   image: trustClient01,
@@ -629,11 +629,11 @@ export const TrustClientData = {
   url: "/about",
 };
 
-// import ClientCarousel01 from "@/images/client/1.png";
-// import ClientCarousel02 from "@/images/client/2.png";
-// import ClientCarousel03 from "@/images/client/3.png";
-// import ClientCarousel04 from "@/images/client/4.png";
-// import ClientCarousel05 from "@/images/client/5.png";
+import ClientCarousel01 from "@/images/client/1.png";
+import ClientCarousel02 from "@/images/client/2.png";
+import ClientCarousel03 from "@/images/client/3.png";
+import ClientCarousel04 from "@/images/client/4.png";
+import ClientCarousel05 from "@/images/client/5.png";
 
 export const ClientCarouselData = {
   sectionContent: {
@@ -644,23 +644,23 @@ export const ClientCarouselData = {
   items: [
     {
       url: "#",
-      image: 'ClientCarousel01',
+      image: ClientCarousel01,
     },
     {
       url: "#",
-      image: 'ClientCarousel02',
+      image: ClientCarousel02,
     },
     {
       url: "#",
-      image: 'ClientCarousel03',
+      image: ClientCarousel03,
     },
     {
       url: "#",
-      image: 'ClientCarousel04',
+      image: ClientCarousel04,
     },
     {
       url: "#",
-      image: 'ClientCarousel05',
+      image: ClientCarousel05,
     },
   ],
 };
@@ -735,7 +735,7 @@ export const TeamOneData = {
     {
       image: team01,
       name: "Isabel García Hilarión",
-      designation: "",
+      designation: "Profesora",
       url: "#",
       socials: [
         {
@@ -755,7 +755,7 @@ export const TeamOneData = {
     {
       image: team05,
       name: "Sergio Segura Fernández",
-      designation: "",
+      designation: "Profesor",
       url: "#",
       socials: [
         {
@@ -774,8 +774,8 @@ export const TeamOneData = {
     },
     {
       image: team02,
-      name: "Andrés González Carmenates",
-      designation: "",
+      name: "Andrés",
+      designation: "Profesor",
       url: "",
       socials: [
         {
@@ -794,8 +794,8 @@ export const TeamOneData = {
     },
     {
       image: team03,
-      name: "Liset Bichili Hernández",
-      designation: "",
+      name: "Liset",
+      designation: "Profesor",
       url: "",
       socials: [
         {
@@ -814,8 +814,8 @@ export const TeamOneData = {
     },
     {
       image: team04,
-      name: "Juan Gregorio Lombardo Fernández",
-      designation: "",
+      name: "Gregorio",
+      designation: "Profesor",
       url: "",
       socials: [
         {
@@ -1087,7 +1087,7 @@ export const VideoTwoData = {
   },
 };
 
-import aboutTwo01 from "@/images/home_1/5.jpg";
+import aboutTwo01 from "@/images/home_1/2.jpg";
 import aboutTwo02 from "@/images/home_1/1.jpg";
 
 export const AboutTwoData = {
