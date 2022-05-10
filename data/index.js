@@ -1006,24 +1006,24 @@ export const FeatureTabData = {
         "La escuela está diseñada para brindar acceso a alumnos que provengan de otras especialidades, ya que cuenta con un curso preparatorio.",
       image: featureTab02,
       lists: [
-        {
-          item: "Self-contained, state-of-the-art time clock",
-        },
-        {
-          item: "Scalability of up to 500 employees per time clock",
-        },
-        {
-          item: "The ability to connect up to 32 time clocks",
-        },
-        {
-          item: "Employee self-enrollment",
-        },
-        {
-          item: "Payroll integration",
-        },
-        {
-          item: "Built-in backup camera to verify failed punches",
-        },
+        // {
+        //   item: "Self-contained, state-of-the-art time clock",
+        // },
+        // {
+        //   item: "Scalability of up to 500 employees per time clock",
+        // },
+        // {
+        //   item: "The ability to connect up to 32 time clocks",
+        // },
+        // {
+        //   item: "Employee self-enrollment",
+        // },
+        // {
+        //   item: "Payroll integration",
+        // },
+        // {
+        //   item: "Built-in backup camera to verify failed punches",
+        // },
       ],
     },
     {
