@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BlogsList } from "@/blogs";
 import BlogCard from "@/components/blog-card";
-import Paginations from "@/components/paginations";
+// import Paginations from "@/components/paginations";
 
 const BlogTwo = () => {
   return (

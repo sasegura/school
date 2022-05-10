@@ -37,7 +37,7 @@ const Footer = () => {
               </p>
             </aside>
           </div>
-          <div className="col-lg-3 col-sm-3 col-md-3 col-4">
+          {/* <div className="col-lg-3 col-sm-3 col-md-3 col-4">
             <aside className="widget social_widget">
               <h3 className="widget_title">social</h3>
               <ul>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </li>
               </ul>
             </aside>
-          </div>
+          </div> */}
         </div>
         {/* <div className="row">
           <div className="col-lg-12 col-sm-12 text-center">
