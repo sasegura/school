@@ -28,9 +28,9 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
-  const getUrl = () => {
-    return window.location.href;
-  }
+  // const getUrl = () => {
+  //   return window.location.href;
+  // }
 
   return (
     <Fragment>
@@ -38,7 +38,7 @@ const Layout = ({ PageTitle, children }) => {
         <title>{PageTitle} - Coder Crack </title>
         <meta name="description" content="escuela europea de programación web"/>
         <meta property="og:title" content="Coder Crack School" />
-        <meta property="og:url" content={getUrl()} />
+        <meta property="og:url" content={"https://codercrack.es/"} />
         <meta property="og:description" content="escuela europea de programación web" />
         <meta property="og:image" content={"/_next/static/images/LogoFb.jpg"} />
       </Head>
