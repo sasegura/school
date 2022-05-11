@@ -6,6 +6,7 @@ import SearchPopup from "@/components/search-popup";
 import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
 import WhatsUp from "./whatsUp";
+// import LogoFb from "@/images/LogoFb.jpg";
 
 const Layout = ({ PageTitle, children }) => {
   const { searchStatus } = useContext(SearchContext);
@@ -27,10 +28,19 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
+  const getUrl = () => {
+    return window.location.href;
+  }
+
   return (
     <Fragment>
       <Head>
         <title>{PageTitle} - Coder Crack </title>
+        <meta name="description" content="escuela europea de programación web"/>
+        <meta property="og:title" content="Coder Crack School" />
+        <meta property="og:url" content={getUrl()} />
+        <meta property="og:description" content="escuela europea de programación web" />
+        <meta property="og:image" content={"/_next/static/images/LogoFb.jpg"} />
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
