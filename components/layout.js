@@ -6,7 +6,6 @@ import SearchPopup from "@/components/search-popup";
 import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
 import WhatsUp from "./whatsUp";
-// import LogoFb from "@/images/LogoFb.jpg";
 
 const Layout = ({ PageTitle, children }) => {
   const { searchStatus } = useContext(SearchContext);
@@ -41,7 +40,7 @@ const Layout = ({ PageTitle, children }) => {
         <meta property="og:title" content="Coder Crack School" />
         <meta property="og:url" content={origin} />
         <meta property="og:description" content="escuela europea de programación web" />
-        <meta property="og:image" content={origin+"/_next/static/images/logo.png"} />
+        <meta property="og:image" content={"https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png"} />
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
