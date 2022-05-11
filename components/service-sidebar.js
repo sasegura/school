@@ -24,15 +24,18 @@ const ServiceSidebar = ({ data }) => {
       (discount) => discount == "priorKnowledge"
     );
 
-    if (isOnePayOption.length > 0) {
-      setShowOnePay(true);
-    }
-    if (isFriendOption.length > 0) {
-      setShowFriend(true);
-    }
-    if (isPriorKnowledgeOption.length > 0) {
-      setShowPriorKnowledge(true);
-    }
+    setShowOnePay(!!isOnePayOption);
+    setShowFriend(!!isFriendOption);
+    setShowPriorKnowledge(!!isPriorKnowledgeOption);
+    // if (isOnePayOption.length > 0) {
+    //   setShowOnePay(true);
+    // }
+    // if (isFriendOption.length > 0) {
+    //   setShowFriend(true);
+    // }
+    // if (isPriorKnowledgeOption.length > 0) {
+    //   setShowPriorKnowledge(true);
+    // }
   }, []);
 
   useEffect(() => {

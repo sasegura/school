@@ -74,7 +74,7 @@ const PopupMenu = () => {
                               <ul className="sub-menu">
                                 {links.subItems.map((subLinks, index) => (
                                   <li key={index}>
-                                    <Link href={subLinks.url}>
+                                    <Link href={subLinks.url+"?id="+subLinks.id}>
                                       <a>{subLinks.name}</a>
                                     </Link>
                                   </li>
