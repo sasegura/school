@@ -12,6 +12,7 @@ const Layout = ({ PageTitle, children }) => {
   const { searchStatus } = useContext(SearchContext);
   const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
+  const [origin, setOrigin] = useState("");
 
   const handleScrollTop = () => {
     if (window.scrollY > 70) {
@@ -28,9 +29,9 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
-  // const getUrl = () => {
-  //   return window.location.href;
-  // }
+  useEffect( () => {
+    setOrigin(window.location.origin);
+  }, []);
 
   return (
     <Fragment>
@@ -38,9 +39,9 @@ const Layout = ({ PageTitle, children }) => {
         <title>{PageTitle} - Coder Crack </title>
         <meta name="description" content="escuela europea de programación web"/>
         <meta property="og:title" content="Coder Crack School" />
-        <meta property="og:url" content={"https://codercrack.es/"} />
+        <meta property="og:url" content={origin} />
         <meta property="og:description" content="escuela europea de programación web" />
-        <meta property="og:image" content={"/_next/static/images/LogoFb.jpg"} />
+        <meta property="og:image" content={origin+"/_next/static/images/logo.png"} />
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
