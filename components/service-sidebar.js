@@ -15,13 +15,13 @@ const ServiceSidebar = ({ data }) => {
 
   useEffect(() => {
     const isOnePayOption = data?.discounts?.find(
-      (discount) => discount == "onePay"
+      (discount) => discount === "onePay"
     );
     const isFriendOption = data?.discounts?.find(
-      (discount) => discount == "friend"
+      (discount) => discount === "friend"
     );
     const isPriorKnowledgeOption = data?.discounts?.find(
-      (discount) => discount == "priorKnowledge"
+      (discount) => discount === "priorKnowledge"
     );
 
     setShowOnePay(!!isOnePayOption);
@@ -46,7 +46,7 @@ const ServiceSidebar = ({ data }) => {
   }, [data?.price]);
 
   const percent = (condition, discount) => {
-    let count = counter;
+    let count;
     if (condition) {
       count = counter + (data?.price * discount) / 100;
     } else {
@@ -134,8 +134,13 @@ const ServiceSidebar = ({ data }) => {
             Precio:
             <CountUp end={counter} />€
           </h1>
-              <span className={'red'}>Contáctanos ahora, contamos con BECAS personalizadas.</span>
-              <p></p>
+          <p>
+            No necesitas hacer un pago único.
+            Puedes realizar el pago inicial de la matrícula y luego, cuando comience el curso,
+            efectuar los siguientes pagos mensualmente.
+          </p>
+          <span className={'red'}> Contáctanos ahora, contamos con BECAS personalizadas.</span>
+          <p/>
           <button className={`width100 common_btn red_bg`} onClick={() => navigate()}>
             <span>Aplicar</span>
           </button>
