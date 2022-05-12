@@ -1472,6 +1472,7 @@ License URI:
   -moz-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
   border-color: transparent;
+  cursor: pointer;
 }
 .icon_box_2:hover:after {
   visibility: visible;
