@@ -15,7 +15,7 @@ const ServicePage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Cursos">
           <HeaderOne />
-          <CustomPageBanner title="Services" name="Services" image={imageBanner}/>
+          <CustomPageBanner title="Cursos" name="Cursos" image={imageBanner}/>
           <ServiceTwo />
           <PortfolioOne />
           {/* <ServiceOne /> */}

@@ -17,7 +17,7 @@ export const NavLinks = [
   },
   {
     name: "Cursos",
-    url: "/service",
+    url: "/courses",
     subItems: [
       {
         name: "Máster en desarrollo de aplicaciones web Full Stack",
@@ -667,7 +667,6 @@ export const ClientCarouselData = {
 
 import aboutOne01 from "@/images/about/1.jpg";
 import aboutOne02 from "@/images/about/2.jpg";
-import aboutOne03 from "@/images/about/3.jpg";
 import aboutOne04 from "@/images/about/5.jpg";
 import aboutOne05 from "@/images/about/6.jpg";
 import aboutOne06 from "@/images/about/7.jpg";
