@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiHost = 'https://coder-crack-api-lvhtf.ondigitalocean.app';
+const apiHost = 'https://codercrackapi-dqzba.ondigitalocean.app/';
 
 const axiosWrapper = () => {
 	const defaultOptions = {

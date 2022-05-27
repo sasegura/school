@@ -1,12 +1,12 @@
 import React from "react";
-import { ApplyFormTitle } from "@/data";
+import {ApplyFormTitle} from "@/data";
 import useApplyForm from "./useApplyForm";
 
 const ApplyForm = ({courseList, editionList, course, edition}) => {
-  
-  const {selectedCourse, setSelectedCourse, selectedEdition, setSelectedEdition, handleSubmit, control,onSubmit}=useApplyForm({course, edition})
 
-  const { subTitle, title, description } = ApplyFormTitle;
+  const {selectedCourse, selectedEdition, handleSubmit, register, onSubmit} = useApplyForm({course, edition})
+
+  const {subTitle, title, description} = ApplyFormTitle;
   return (
     <section className="commonSection ContactPage">
       <div className="container">
@@ -15,7 +15,7 @@ const ApplyForm = ({courseList, editionList, course, edition}) => {
             <h4 className="sub_title">{subTitle}</h4>
             <h2 className="sec_title">{title}</h2>
             <p className="white-space">{description}</p>
-            
+
             {/*<h3 className="">Seleccione un curso</h3>*/}
             {/*<div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">*/}
             {/*  <select name="select" className="input-form">*/}
@@ -26,75 +26,70 @@ const ApplyForm = ({courseList, editionList, course, edition}) => {
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
-            <form
-              action="#"
-              method="post"
-              className="contactFrom"
-              id="contactForm"
+            <form onSubmit={handleSubmit(onSubmit)}
+                  className="contactFrom"
+                  id="contactForm"
             >
               <div className="row">
                 <div className="col-lg-8 col-sm-12">
                   {/*<h6 className="">Seleccione un curso</h6>*/}
                   {/*<div className="input-form required">*/}
-                    <select name="select" className="input-form required" >
-                      <option value="" disabled selected> Seleccione un Curso </option>
-                      {courseList.map((cour)=><option value={cour?.id} selected={cour?.id === selectedCourse?.id}>{cour?.name}</option>)}
-                    </select>
+                  <select className="input-form" {...register("course", {required: true})}>
+                    <option value="" disabled selected> Seleccione un Curso</option>
+                    {courseList.map((cour) => <option value={cour?.id}
+                                                      selected={cour?.id === selectedCourse?.id}>{cour?.name}</option>)}
+                  </select>
                   {/*</div>*/}
                 </div>
                 <div className="col-lg-4 col-sm-12">
                   {/*<h6 className="">Edición</h6>*/}
                   {/*<div className="input-form required">*/}
-                    <select name="select" className="input-form required">
-                      <option value="" disabled selected> Edición </option>
-                      {editionList.map((edit)=><option value={edit?.id} selected={edit?.id === selectedEdition?.id}>{edit?.name}</option>)}
-                    </select>
+                  <select className="input-form" {...register("edition", {required: true})}>
+                    <option value="" disabled selected> Edición </option>
+                    {editionList.map((edit) => <option value={edit?.id}
+                                                       selected={edit?.id === selectedEdition?.id}>{edit?.name}</option>)}
+                  </select>
                   {/*</div>*/}
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="text"
-                    name="f_name"
-                    id="f_name"
-                    placeholder="Nombre"
+                  <input {...register("name", {required: true})}
+                         className="input-form required"
+                         type="text"
+                         id="f_name"
+                         placeholder="Nombre"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="text"
-                    name="l_name"
-                    id="l_name"
-                    placeholder="Apellidos"
+                  <input {...register("lastname", {required: true})}
+                         className="input-form required"
+                         type="text"
+                         id="l_name"
+                         placeholder="Apellidos"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form required"
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
+                  <input {...register("email", {required: true})}
+                         className="input-form required"
+                         type="email"
+                         id="email"
+                         placeholder="Email"
                   />
                 </div>
                 <div className="col-lg-6 col-sm-6">
-                  <input
-                    className="input-form"
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    placeholder="Teléfono"
+                  <input {...register("phone", {required: true})}
+                         className="input-form"
+                         type="text"
+                         id="phone"
+                         placeholder="Teléfono"
                   />
                 </div>
                 <div className="col-lg-12 col-sm-12">
-                  <textarea
-                    className="input-form required"
-                    name="con_message"
-                    id="con_message"
-                    placeholder="Escribe un mensaje"
-                  ></textarea>
+                  <textarea {...register("message", {required: true})}
+                            className="input-form required"
+                            id="con_message"
+                            placeholder="Escribe un mensaje"
+                  />
                 </div>
               </div>
               <button
