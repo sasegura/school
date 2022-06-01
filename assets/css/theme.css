@@ -2680,6 +2680,14 @@ textarea.input-form:focus {
   border-right: 4px solid rgba(80, 172, 235, 1);
   background: #fff;
 }
+
+input.input-form.error,
+select.input-form.error,
+textarea.input-form.error {
+  border: red solid 1px;
+  /*border-right-width: 4px;*/
+}
+
 .sidebar .widget {
   position: relative;
   margin-bottom: 30px;
