@@ -32,9 +32,7 @@ const Footer = () => {
                 Madrid, España
               </p>
               <p>+34 {coderCrackInfo.phoneLabel}</p>
-              <p>
-                <a href="#">codercrack@gmail.com</a>
-              </p>
+              <p> codercrackschool@gmail.com </p>
             </aside>
           </div>
           {/* <div className="col-lg-3 col-sm-3 col-md-3 col-4">
