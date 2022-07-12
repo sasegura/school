@@ -1,5 +1,5 @@
 import AxiosWrapper from "./AxiosWrapper";
-import { sendMessageUrl } from "./urls";
+import { sendMessageUrl, emailSubUrl } from "./urls";
 
 
 export function ApiException(message) {
@@ -18,4 +18,16 @@ export async function sendMessage({ payload}) {
 		}
 	}
 	
+}
+
+export async function sendEmailSubscription({ payload}) {
+	const url = emailSubUrl();
+	try {
+		return await AxiosWrapper.post(url, JSON.stringify(payload));
+	} catch (e) {
+		if (e?.message) {
+			throw new ApiException(e?.message);
+		}
+	}
+
 }
