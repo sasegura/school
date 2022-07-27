@@ -3854,9 +3854,9 @@ textarea.input-form.error {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
+  /*position: fixed;*/
+  /*bottom: 50px;*/
+  /*right: 50px;*/
   border-radius: 50%;
   user-select: none;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
