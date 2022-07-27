@@ -16,7 +16,7 @@ import BlogHome from "@/components/blog-home";
 import GoogleMap from "@/components/google-map";
 import CallToActionTwo from "@/components/call-to-action-two";
 import ContactInfos from "@/components/contact-infos";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import HeaderOne from "@/components/header-one";
 import SliderThree from "@/components/slider-three";
@@ -24,7 +24,7 @@ import SliderThree from "@/components/slider-three";
 const HomeThree = () => {
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Home Three">
           <HeaderOne />
           <SliderThree />
@@ -45,7 +45,7 @@ const HomeThree = () => {
           <ContactInfos />
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };

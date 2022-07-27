@@ -1,18 +1,18 @@
 import React, { useState, useEffect, useContext } from "react";
 import { LogoImage, NavLinks } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
-import { SearchContext } from "@/context/search-context";
+// import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
 import Link from "next/link";
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
-  const { searchStatus, updateSearchStatus } = useContext(SearchContext);
+  // const { searchStatus, updateSearchStatus } = useContext(SearchContext);
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
-  const handleSearchClick = (e) => {
-    e.preventDefault();
-    updateSearchStatus(!searchStatus);
-  };
+  // const handleSearchClick = (e) => {
+  //   e.preventDefault();
+  //   updateSearchStatus(!searchStatus);
+  // };
   const handleMenuClick = (e) => {
     e.preventDefault();
     updateMenuStatus(!menuStatus);
@@ -91,13 +91,13 @@ const HeaderOne = () => {
           </Col>
           <Col lg={2} md={2} sm={4} className="col-6">
             <div className="navigator text-right">
-              <a
-                className="search searchToggler"
-                href="#"
-                onClick={handleSearchClick}
-              >
-                <i className="mei-magnifying-glass"></i>
-              </a>
+              {/*<a*/}
+              {/*  className="search searchToggler"*/}
+              {/*  href="#"*/}
+              {/*  onClick={handleSearchClick}*/}
+              {/*>*/}
+              {/*  <i className="mei-magnifying-glass"></i>*/}
+              {/*</a>*/}
               <a
                 href="#"
                 className="menu mobilemenu d-none d-md-none d-lg-none"

@@ -10,7 +10,7 @@ import SubscribeForm from "@/components/subscribe-form";
 import ServiceTwo from "@/components/service-two";
 import VideoTwo from "@/components/video-two";
 import HeaderOne from "@/components/header-one";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
@@ -19,7 +19,7 @@ import ServiceHomeTwo from "@/components/service-home-two";
 const HomeOne = () => {
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Inicio">
           <HeaderOne />
           <SliderOne />
@@ -43,7 +43,7 @@ const HomeOne = () => {
 
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };

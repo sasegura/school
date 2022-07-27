@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "@/components/footer";
 import Layout from "@/components/layout";
 import HeaderOne from "@/components/header-one";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import { CoursesList } from "@/courses";
 import ApplyForm from "@/components/apply-form";
@@ -20,14 +20,14 @@ const ApplyPage = () => {
 
   return (
     <MenuContextProvider>
-    <SearchContextProvider>
+    {/*<SearchContextProvider>*/}
       <Layout PageTitle="Aplicar">
         <HeaderOne />
         <CustomPageBanner title="Aplicar" name="Contáctanos" image={imageBanner}/>
         <ApplyForm course={course} edition={edition} courseList={courses} editionList={editions}/>
         <Footer />
       </Layout>
-    </SearchContextProvider>
+    {/*</SearchContextProvider>*/}
   </MenuContextProvider>
   );
 };

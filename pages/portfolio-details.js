@@ -5,13 +5,13 @@ import PageBanner from "@/components/page-banner";
 import ProtfolioDetails from "@/components/protfolio-details";
 import RelatedPortfolio from "@/components/related-portfolio";
 import MenuContextProvider from "context/menu-context";
-import SearchContextProvider from "context/search-context";
+// import SearchContextProvider from "context/search-context";
 import HeaderOne from "@/components/header-one";
 
 const PortfolioDetailsPage = () => {
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Portfolio Details Page">
           <HeaderOne />
           <PageBanner title="Portfolio Details" name="Portfolio" />
@@ -19,7 +19,7 @@ const PortfolioDetailsPage = () => {
           <RelatedPortfolio />
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };

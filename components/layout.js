@@ -1,14 +1,14 @@
 import React, { Fragment, useContext, useState, useEffect } from "react";
 import Head from "next/head";
-import { SearchContext } from "@/context/search-context";
+// import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
-import SearchPopup from "@/components/search-popup";
+// import SearchPopup from "@/components/search-popup";
 import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
 import WhatsUp from "./whatsUp";
 
 const Layout = ({ PageTitle, children }) => {
-  const { searchStatus } = useContext(SearchContext);
+  // const { searchStatus } = useContext(SearchContext);
   const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
   const [origin, setOrigin] = useState("");
@@ -44,7 +44,7 @@ const Layout = ({ PageTitle, children }) => {
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
-      {true === searchStatus ? <SearchPopup /> : null}
+      {/*{true === searchStatus ? <SearchPopup /> : null}*/}
       {true === menuStatus ? <PopupMenu /> : null}
 
       {scrollTop === true ? (

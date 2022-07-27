@@ -9,7 +9,7 @@ import SubscribeForm from "@/components/subscribe-form";
 import TestimonialsOneCarousel from "@/components/testimonials-carousel";
 import FeatureTabOne from "@/components/feature-tab-1";
 import HeaderOne from "@/components/header-one";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import CustomPageBanner from "@/components/custom-page-banner";
 import imageBanner from "@/images/bg/about_banner.jpg";
@@ -18,7 +18,7 @@ import ImageGalleries from "@/components/gallery-image";
 const AboutPage = () => {
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Conócenos">
           <HeaderOne />
           <CustomPageBanner title="" name="Conocenos" image={imageBanner} />
@@ -33,7 +33,7 @@ const AboutPage = () => {
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };

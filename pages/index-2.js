@@ -13,7 +13,7 @@ import PortfolioHome from "@/components/portfolio-home";
 import FeatureTabOne from "@/components/feature-tab-1";
 import CallToActionTwo from "@/components/call-to-action-two";
 import FeatureTwo from "@/components/feature-two";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import HeaderTwo from "@/components/header-two";
 import SliderTwo from "@/components/slider-two";
@@ -21,7 +21,7 @@ import SliderTwo from "@/components/slider-two";
 const HomeTwo = () => {
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Home Two">
           <HeaderTwo />
           <SliderTwo />
@@ -38,7 +38,7 @@ const HomeTwo = () => {
           <ContactInfos />
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };

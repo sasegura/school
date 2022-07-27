@@ -4,7 +4,7 @@ import Layout from "@/components/layout";
 import ServiceDetails from "@/components/service-details";
 import CallToActionOne from "@/components/call-to-action-one";
 import MenuContextProvider from "@/context/menu-context";
-import SearchContextProvider from "@/context/search-context";
+// import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
 import FeatureTabCourse from "@/components/feature-tab-course";
 import { CoursesList } from "@/courses";
@@ -17,7 +17,7 @@ const ServiceDetailsPage = ({ id }) => {
   const course = courses.find((courseItem) => courseItem.id == id);
   return (
     <MenuContextProvider>
-      <SearchContextProvider>
+      {/*<SearchContextProvider>*/}
         <Layout PageTitle={`Curso-${course?.name}`}>
           <HeaderOne />
           <CustomPageBanner
@@ -36,7 +36,7 @@ const ServiceDetailsPage = ({ id }) => {
           <CallToActionOne extraClassName="ready" />
           <Footer />
         </Layout>
-      </SearchContextProvider>
+      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };
