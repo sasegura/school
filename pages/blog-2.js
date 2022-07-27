@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "@/components/footer";
 import Layout from "@/components/layout";
-import PageBanner from "@/components/page-banner";
+// import PageBanner from "@/components/page-banner";
 import BlogTwo from "@/components/blog-two";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
@@ -15,7 +15,7 @@ const BlogTwoPage = () => {
       <SearchContextProvider>
         <Layout PageTitle="Blog">
           <HeaderOne />
-          <CustomPageBanner title="Blogs" name="Blog" image={imageBanner}/>
+          <CustomPageBanner title="Blog" name="Blog" image={imageBanner}/>
           <BlogTwo />
           <Footer />
         </Layout>
