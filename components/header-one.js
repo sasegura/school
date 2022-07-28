@@ -89,7 +89,7 @@ const HeaderOne = () => {
               </ul>
             </nav>
           </Col>
-          <Col lg={2} md={2} sm={4} className="col-6">
+          <Col lg={2} md={2} sm={4} className="col-6 d-lg-none">
             <div className="navigator text-right">
               {/*<a*/}
               {/*  className="search searchToggler"*/}
@@ -98,19 +98,19 @@ const HeaderOne = () => {
               {/*>*/}
               {/*  <i className="mei-magnifying-glass"></i>*/}
               {/*</a>*/}
-              <a
-                href="#"
-                className="menu mobilemenu d-none d-md-none d-lg-none"
-              >
-                <i className="mei-menu"></i>
-              </a>
+              {/*<a*/}
+              {/*  href="#"*/}
+              {/*  className="menu mobilemenu d-none d-md-none d-lg-none"*/}
+              {/*>*/}
+              {/*  <i className="mei-menu"></i>*/}
+              {/*</a>*/}
               <a
                 id="open-overlay-nav"
                 className="menu hamburger"
                 onClick={handleMenuClick}
                 href="#"
               >
-                <i className="mei-menu"></i>
+                <i className="mei-menu"/>
               </a>
             </div>
           </Col>
