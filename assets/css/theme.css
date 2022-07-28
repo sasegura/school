@@ -2059,6 +2059,14 @@ License URI:
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: calc(65vh) !important;
 }
+.image-gallery:fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:fullscreen .image-gallery-content .image-gallery-slide .image-gallery-image {
+  cursor: auto;
+}
 .sub_title_about {
   font-size: 20px;
   margin-top: 30px;
