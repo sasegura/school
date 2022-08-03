@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, {Fragment, useRef, useState} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import { VideoOneData } from "@/data";
@@ -14,6 +14,11 @@ const VideoOne = () => {
     original: image,
     thumbnail: image,
   }));
+  const galleryRef = useRef();
+
+  const onGalleryClick = () => {
+    galleryRef.current.fullScreen();
+  }
   return (
     <Fragment>
       <section className="commonSection our_work">
@@ -41,6 +46,8 @@ const VideoOne = () => {
               showIndex={false}
               autoPlay={true}
               items={images}
+              ref={galleryRef}
+              onClick={onGalleryClick}
             />
           </Col>
           <Col lg={6} sm={12} className="ab_detail_wrap_col">
