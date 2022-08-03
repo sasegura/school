@@ -1,5 +1,6 @@
 import React, { Fragment, useContext, useState, useEffect } from "react";
 import Head from "next/head";
+import Script from "next/experimental-script";
 // import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
 // import SearchPopup from "@/components/search-popup";
@@ -32,6 +33,8 @@ const Layout = ({ PageTitle, children }) => {
     setOrigin(window.location.origin);
   }, []);
 
+  // const metriCoolTracker = () => beTracker.t({hash:"70b0b6774357eac3e22ac543ae794c66"});
+
   return (
     <Fragment>
       <Head>
@@ -55,9 +58,23 @@ const Layout = ({ PageTitle, children }) => {
           id="backToTop"
           className="scroll-to-top showit"
         >
-          <i className="fa fa-angle-double-up"></i>
+          <i className="fa fa-angle-double-up"/>
         </ScrollLink>
       ) : null}
+      <Script>
+        {
+          `function loadScript(a){
+          let b=document.getElementsByTagName("head")[0],c=document.createElement("script");
+          c.type="text/javascript";
+          c.src="https://tracker.metricool.com/resources/be.js";
+          c.onreadystatechange=a;
+          c.onload=a;
+          b.appendChild(c);
+          }
+          loadScript(function(){beTracker.t({hash:"70b0b6774357eac3e22ac543ae794c66"})});
+          `
+        }
+      </Script>
     </Fragment>
   );
 };
