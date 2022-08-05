@@ -75,7 +75,7 @@ const PopupMenu = () => {
                                 {links.subItems.map((subLinks, index) => (
                                   <li key={index}>
                                     <Link href={subLinks.url+"?id="+subLinks.id}>
-                                      <a>{subLinks.name}</a>
+                                      <a style={{display: 'inline'}}>{subLinks.name}</a>
                                     </Link>
                                   </li>
                                 ))}
