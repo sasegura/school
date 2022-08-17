@@ -17,12 +17,12 @@ export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) 
   const onSubmit = async data => {
     try {
       const response = await sendMessage({ payload: data });
-      setMessage(`Mensaje enviado correctamente al correo ${data.email}.`);
+      setMessage(`Mensaje enviado correctamente ${data.name}.`);
       myTimeout()
       reset();
       if (200 <= response.status < 300)  console.log(data);
     } catch (e) {
-      setMessage(`Error al enviar el mensaje al correo ${data.email}, vuelva a intentarlo más tarde.`);
+      setMessage(`Error al enviar el mensaje, vuelva a intentarlo más tarde.`);
       myTimeout()
       console.log(e.message)
     }
