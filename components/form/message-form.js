@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {sendMessage} from "../../connection/Api";
 
 
@@ -10,18 +10,24 @@ export const errorClass = (error) => {
 export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) => {
 
   const {subTitle, title, description} = formTitle;
+  const [message, setMessage]=useState('')
+
+  const myTimeout = ()=>setTimeout(()=>setMessage(''), 6000);
 
   const onSubmit = async data => {
-    console.log(data);
     try {
       const response = await sendMessage({ payload: data });
-      console.log(response);
+      setMessage(`Mensaje enviado correctamente al correo ${data.email}.`);
+      myTimeout()
       reset();
       if (200 <= response.status < 300)  console.log(data);
     } catch (e) {
+      setMessage(`Error al enviar el mensaje al correo ${data.email}, vuelva a intentarlo más tarde.`);
+      myTimeout()
       console.log(e.message)
     }
   };
+  
 
   return (
     <section className="commonSection ContactPage">
@@ -49,7 +55,7 @@ export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) 
                   </div> : null
                 }
               </div>
-
+              <p>{message || ''}</p>
               <button
                 className="common_btn red_bg"
                 type="submit"

@@ -1,1 +1,1 @@
-## Meipaly NextJS
+## Coder Crack School NextJS
