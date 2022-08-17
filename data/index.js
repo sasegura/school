@@ -51,28 +51,10 @@ export const NavLinks = [
   //   url: "/portfolio",
 
   // },
-  {
-    name: "Blog",
-    url: "/blog-2",
-    // subItems: [
-    //   {
-    //     name: "Blog 01",
-    //     url: "/blog"
-    //   },
-    //   {
-    //     name: "Blog 02",
-    //     url: "/blog-2"
-    //   },
-    //   {
-    //     name: "Blog 03",
-    //     url: "/blog-3"
-    //   },
-    //   {
-    //     name: "Blog Details",
-    //     url: "/blog-single"
-    //   }
-    // ]
-  },
+  // {
+  //   name: "Blog",
+  //   url: "/blog-2",
+  // },
   {
     name: "Contáctanos",
     url: "/contact",

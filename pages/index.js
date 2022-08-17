@@ -35,7 +35,7 @@ const HomeOne = () => {
           {/*<TrustedClient />*/}
 
           <ParallaxOne />
-          <BlogHome />
+          {/* <BlogHome /> */}
           <ServiceHomeTwo />
 
           <CallToActionOne extraClassName="ready" />
