@@ -14,10 +14,6 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                {/* Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium. */}
                 Bienvenidos a nuestra escuela de desarrollo de aplicaciones web.
                 Podrás desarrollarte en un mundo lleno de nuevas oportunidades.
               </p>
@@ -34,38 +30,8 @@ const Footer = () => {
               <p>+34 {coderCrackInfo.phoneLabel}</p>
               <p> codercrackschool@gmail.com </p>
             </aside>
-          </div>
-          {/* <div className="col-lg-3 col-sm-3 col-md-3 col-4">
-            <aside className="widget social_widget">
-              <h3 className="widget_title">social</h3>
-              <ul>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-facebook-square"></i>Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-youtube-play"></i>Youtube
-                  </a>
-                </li>
-              </ul>
-            </aside>
-          </div> */}
-        </div>
-        {/* <div className="row">
-          <div className="col-lg-12 col-sm-12 text-center">
-            <div className="copyright">
-              © copyright {new Date().getFullYear()} by{" "}
-              <a href="#">Layerdrops.com</a>
-            </div>
-          </div>
-        </div> */}
+          </div>          
+        </div>        
       </div>
     </footer>
   );

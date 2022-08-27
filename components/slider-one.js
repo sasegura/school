@@ -52,27 +52,9 @@ const SliderOne = () => {
               className="image-layer"
               style={{backgroundImage: `url(${image})`}}
             />
-            {/*<Container>*/}
-            {/*  <Row>*/}
-            {/*    <Col lg={12} className="text-center">*/}
-            {/*      <p className={ "main-slider__subtext" + (animate ? " main-slider__subtext-animate" : "")}>{subTitle}</p>*/}
-            {/*      <h3 className={ "main-slider__title" + (animate ? " main-slider__title-animate" : "")}>{title}</h3>*/}
-            {/*      <Link href={button.url}>*/}
-            {/*        <a className={ "common_btn" + (animate ? " common_btn-animate" : "")}>*/}
-            {/*          <span>{button.label}</span>*/}
-            {/*        </a>*/}
-            {/*      </Link>*/}
-            {/*    </Col>*/}
-            {/*  </Row>*/}
-            {/*</Container>*/}
           </SwiperSlide>
         ))}
-        <div className="swiper-button-prev" id="main-slider-prev">
-          <i className="fa fa-angle-left"></i>
-        </div>
-        <div className="swiper-button-next" id="main-slider-next">
-          <i className="fa fa-angle-right"></i>
-        </div>
+        
       </Swiper>
     </section>
   );
