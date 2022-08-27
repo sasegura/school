@@ -4,8 +4,8 @@ import { VideoTwoData } from "@/data";
 import SectionTitle from "@/components/section-title";
 //import "react-modal-video/css/modal-video.min.css";
 import { Col, Container, Row } from "react-bootstrap";
-import video02 from "@/images/home_1/3.gif";
-import video03 from "@/images/home_1/3aa.gif";
+import video02 from "@/images/home_1/3.jpg";
+import video03 from "@/images/home_1/3.jpg";
 import Link from "next/link";
 
 const VideoTwo = () => {
