@@ -12,21 +12,13 @@ import CustomPageBanner from "@/components/custom-page-banner";
 const ServicePage = () => {
   return (
     <MenuContextProvider>
-      {/*<SearchContextProvider>*/}
         <Layout PageTitle="Cursos">
           <HeaderOne />
           <CustomPageBanner title="Cursos" name="Cursos" image={imageBanner}/>
           <ServiceTwo />
           <PortfolioOne />
-          {/* <ServiceOne /> */}
-          
-          {/* <ServiceThree /> */}
-          {/* <FunfactOne /> */}
-          {/* <TrustedClient extraClassName="pb_120" /> */}
-          {/* <ClientCarouselOne /> */}
           <Footer />
         </Layout>
-      {/*</SearchContextProvider>*/}
     </MenuContextProvider>
   );
 };
