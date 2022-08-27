@@ -9,8 +9,7 @@ import video03 from "@/images/home_1/3aa.gif";
 import Link from "next/link";
 
 const VideoTwo = () => {
-  const [isOpen, setOpen] = useState(false);
-  const [video, setVideo] = useState(false);
+  const [video, setVideo] = useState(video02);
 
   const { sectionContent } = VideoTwoData;
 

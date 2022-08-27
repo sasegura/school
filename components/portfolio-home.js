@@ -21,7 +21,7 @@ const PortfolioHome = () => {
               {PortfolioData.map((post, index) => (
                 <VisibilitySensor
                   key={index}
-                  onChange={() => console.log(8)}
+                  // onChange={() => console.log(8)}
                   offset={{ top: 10 }}
                   delayedCall
                 >
