@@ -22,18 +22,13 @@ const HomeOne = () => {
           <SliderOne />
           <ServiceTwo />
           <FeatureTwo />
-
           <PortfolioHome />
           <VideoTwo />
           <SubscribeForm />
           <TeamCarousel />
-
-
           <ParallaxOne />
           <ServiceHomeTwo />
-
           <CallToActionOne extraClassName="ready" />
-
           <Footer />
         </Layout>
     </MenuContextProvider>
