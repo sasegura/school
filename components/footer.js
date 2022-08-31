@@ -2,6 +2,7 @@ import React from "react";
 import { LogoImage } from "../data";
 import { coderCrackInfo } from "../data/information";
 import Image  from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const { light } = LogoImage;
@@ -11,9 +12,9 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-5 col-sm-5 col-md-5">
             <aside className="widget aboutwidget">
-              <a href="/">
+              <Link href="/"><a >
                 <Image src={light} alt="" />
-              </a>
+              </a></Link>
               <p>
                 Bienvenidos a nuestra escuela de desarrollo de aplicaciones web.
                 Podrás desarrollarte en un mundo lleno de nuevas oportunidades.

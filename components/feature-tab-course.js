@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "../components/section-title";
@@ -61,7 +62,7 @@ const FeatureTabCourse = ({course}) => {
                     </Col>
                     <Col lg={5}>
                       <div className="chose_img">
-                        <img src={post.image} alt={`chose_img-${index}`} />
+                        <Image src={post.image} alt={`chose_img-${index}`} />
                       </div>
                     </Col>
                   </Row>

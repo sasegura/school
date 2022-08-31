@@ -36,6 +36,8 @@ const ServiceSidebar = ({ data }) => {
     // if (isPriorKnowledgeOption.length > 0) {
     //   setShowPriorKnowledge(true);
     // }
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
