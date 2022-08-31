@@ -5,7 +5,7 @@ const ServiceCardOne = ({data}) => {
   const {title, text, iconName, url1, url2, url3} = data;
   const linkRef = useRef();
   return <>
-    <a href={url1} target={"_blank"} hidden ref={linkRef}/>
+    <a href={url1} target={"_blank"} rel='noreferrer' hidden ref={linkRef}/>
     <div className="icon_box_2 text-center" onClick={
       () => {
         linkRef.current.click();

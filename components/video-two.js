@@ -47,9 +47,11 @@ const VideoTwo = () => {
                     {/* <Image src={video} alt="" /> */}
                   </a>
                 </Link>
-                <a href="/about" className={`common_btn imageGif`}>
+                <Link href="/about">
+                <a  className={`common_btn imageGif`}>
                   <span>Saber más</span>
                 </a>
+                </Link>
                 {/* <div className="play_video">
                   <a
                     className="video_popup"

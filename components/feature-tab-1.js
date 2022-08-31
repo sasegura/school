@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "../components/section-title";
 import { FeatureTabData } from "../data";
 import {useRouter} from "next/router";
+import Image from "next/image";
 
 const FeatureTabOne = () => {
   const router = useRouter();
@@ -69,7 +70,7 @@ const FeatureTabOne = () => {
                     </Col>
                     <Col lg={5}>
                       <div className="chose_img">
-                        <img src={post.image} alt={`chose_img-${index}`} />
+                        <Image src={post.image} alt={`chose_img-${index}`} />
                       </div>
                     </Col>
                   </Row>
