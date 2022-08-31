@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { coderCrackInfo } from "@/information";
+import { coderCrackInfo } from "../data/information";
 import CountUp from "react-countup";
 import { useRouter } from "next/router";
 

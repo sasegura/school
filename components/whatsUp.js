@@ -1,4 +1,4 @@
-import { coderCrackInfo } from "@/information";
+import { coderCrackInfo } from "../data/information";
 import React, { Fragment } from "react";
 
 const WhatsUp = () => {

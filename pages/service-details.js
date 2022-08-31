@@ -1,16 +1,16 @@
 import React from "react";
-import Footer from "@/components/footer";
-import Layout from "@/components/layout";
-import ServiceDetails from "@/components/service-details";
-import CallToActionOne from "@/components/call-to-action-one";
-import MenuContextProvider from "@/context/menu-context";
+import Footer from "../components/footer";
+import Layout from "../components/layout";
+import ServiceDetails from "../components/service-details";
+import CallToActionOne from "../components/call-to-action-one";
+import MenuContextProvider from "../context/menu-context";
 // import SearchContextProvider from "@/context/search-context";
-import HeaderOne from "@/components/header-one";
-import FeatureTabCourse from "@/components/feature-tab-course";
-import { CoursesList } from "@/courses";
-import ServiceTwo from "@/components/service-two";
-import PortfolioHome from "@/components/portfolio-home";
-import CustomPageBanner from "@/components/custom-page-banner";
+import HeaderOne from "../components/header-one";
+import FeatureTabCourse from "../components/feature-tab-course";
+import { CoursesList } from "../data/courses";
+import ServiceTwo from "../components/service-two";
+import PortfolioHome from "../components/portfolio-home";
+import CustomPageBanner from "../components/custom-page-banner";
 
 const ServiceDetailsPage = ({ id }) => {
   const courses = CoursesList?.courses;

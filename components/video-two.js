@@ -1,12 +1,13 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { VideoTwoData } from "@/data";
+import { VideoTwoData } from "../data";
 //import ModalVideo from "react-modal-video";
-import SectionTitle from "@/components/section-title";
+import SectionTitle from "../components/section-title";
 //import "react-modal-video/css/modal-video.min.css";
 import { Col, Container, Row } from "react-bootstrap";
-import video02 from "@/images/home_1/3.jpg";
-import video03 from "@/images/home_1/3.jpg";
+import video02 from "../assets/images/home_1/3.webm";
+import video03 from "../assets/images/home_1/3aa.webm";
 import Link from "next/link";
+import Image from "next/image";
 
 const VideoTwo = () => {
   const [video, setVideo] = useState(video02);
@@ -42,7 +43,8 @@ const VideoTwo = () => {
               <div className="videoWrap mb-0">
                 <Link href="/about">
                   <a>
-                    <img src={video} alt="" />
+                  <video src={video} width='100%'/>
+                    {/* <Image src={video} alt="" /> */}
                   </a>
                 </Link>
                 <a href="/about" className={`common_btn imageGif`}>

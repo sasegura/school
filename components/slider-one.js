@@ -3,7 +3,9 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation, EffectFade } from "swiper";
 import { Col, Container, Row } from "react-bootstrap";
-import { SliderOneData } from "@/data";
+import { SliderOneData } from "../data";
+import Image  from "next/image";
+
 SwiperCore.use([Autoplay, Navigation, EffectFade]);
 const SliderOne = () => {
   const [animate, setAnimate] = useState(false);
@@ -48,10 +50,8 @@ const SliderOne = () => {
         </div>
         {SliderOneData.map(({image}, index) => (
           <SwiperSlide key={index}>
-            <div
-              className="image-layer"
-              style={{backgroundImage: `url(${image})`}}
-            />
+            <span width='initial'>
+            <Image src={image}  layout="fill"/></span>
           </SwiperSlide>
         ))}
         

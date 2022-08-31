@@ -1,5 +1,5 @@
-import logoLight from "@/images/logo.png";
-import logoDark from "@/images/logo2.png";
+import logoLight from "../assets/images/logo.png";
+import logoDark from "../assets/images/logo2.png";
 
 export const LogoImage = {
   light: logoLight,
@@ -61,8 +61,8 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/1_1.jpg";
-import sliderOne02 from "@/images/slider/1_2.jpg";
+import sliderOne01 from "../assets/images/slider/1_1.jpg";
+import sliderOne02 from "../assets/images/slider/1_2.jpg";
 
 export const SliderOneData = [
   {
@@ -85,9 +85,9 @@ export const SliderOneData = [
   },
 ];
 
-import sliderTwo01 from "@/images/slider/2_1.jpg";
-import sliderTwo02 from "@/images/slider/2_2.jpg";
-import sliderTwo03 from "@/images/slider/2_3.jpg";
+import sliderTwo01 from "../assets/images/slider/2_1.jpg";
+import sliderTwo02 from "../assets/images/slider/2_2.jpg";
+import sliderTwo03 from "../assets/images/slider/2_3.jpg";
 
 export const SliderTwoData = [
   {
@@ -119,8 +119,8 @@ export const SliderTwoData = [
   },
 ];
 
-import sliderThree01 from "@/images/slider/3_1.jpg";
-import sliderThree02 from "@/images/slider/3_2.jpg";
+import sliderThree01 from "../assets/images/slider/3_1.jpg";
+import sliderThree02 from "../assets/images/slider/3_2.jpg";
 
 export const SliderThreeData = [
   {
@@ -223,12 +223,12 @@ export const ApplyFormTitle = {
     "Recibiremos tu información y pondremos a un asesor \n      a tu disposición ",
 };
 
-import blogImage1 from "@/images/blog/1.jpg";
-import blogImage2 from "@/images/blog/2.jpg";
-import blogImage3 from "@/images/blog/3.jpg";
-import blogImage4 from "@/images/blog/4.jpg";
-import blogImage5 from "@/images/blog/5.jpg";
-import blogImage6 from "@/images/blog/6.jpg";
+import blogImage1 from "../assets/images/blog/1.jpg";
+import blogImage2 from "../assets/images/blog/2.jpg";
+import blogImage3 from "../assets/images/blog/3.jpg";
+import blogImage4 from "../assets/images/blog/4.jpg";
+import blogImage5 from "../assets/images/blog/5.jpg";
+import blogImage6 from "../assets/images/blog/6.jpg";
 
 export const BlogData = [
   {
@@ -269,8 +269,8 @@ export const BlogData = [
   },
 ];
 
-import blogImageTwo1 from "@/images/blog/14.jpg";
-import blogImageTwo2 from "@/images/blog/15.jpg";
+import blogImageTwo1 from "../assets/images/blog/14.jpg";
+import blogImageTwo2 from "../assets/images/blog/15.jpg";
 
 export const BlogTwoData = [
   {
@@ -325,9 +325,9 @@ export const BlogHomeSection = {
   text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
 };
 
-import blogS1 from "@/images/blog/11.jpg";
-import blogS2 from "@/images/blog/12.jpg";
-import blogS3 from "@/images/blog/13.jpg";
+import blogS1 from "../assets/images/blog/11.jpg";
+import blogS2 from "../assets/images/blog/12.jpg";
+import blogS3 from "../assets/images/blog/13.jpg";
 
 export const BlogSidebarPost = [
   {
@@ -347,8 +347,8 @@ export const BlogSidebarPost = [
   },
 ];
 
-import commentImage1 from "@/images/blog/9.jpg";
-import commentImage2 from "@/images/blog/10.jpg";
+import commentImage1 from "../assets/images/blog/9.jpg";
+import commentImage2 from "../assets/images/blog/10.jpg";
 
 export const BlogComments = [
   {
@@ -367,12 +367,12 @@ export const BlogComments = [
   },
 ];
 
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import portfolio06 from "@/images/portfolio/6.jpg";
+import portfolio01 from "../assets/images/portfolio/1.jpg";
+import portfolio02 from "../assets/images/portfolio/2.jpg";
+import portfolio03 from "../assets/images/portfolio/3.jpg";
+import portfolio04 from "../assets/images/portfolio/4.jpg";
+import portfolio05 from "../assets/images/portfolio/5.jpg";
+import portfolio06 from "../assets/images/portfolio/6.jpg";
 
 const apply_url = "/apply";
 export const PortfolioData = [
@@ -440,8 +440,8 @@ export const PortfolioFilters = [
   { name: "logos" },
 ];
 
-import portfolioD01 from "@/images/portfolio/7.jpg";
-import portfolioD02 from "@/images/portfolio/8.jpg";
+import portfolioD01 from "../assets/images/portfolio/7.jpg";
+import portfolioD02 from "../assets/images/portfolio/8.jpg";
 
 export const PortfolioDetailsData = {
   gallery: [{ image: portfolioD01 }, { image: portfolioD02 }],
@@ -554,9 +554,9 @@ export const ServicePostTwoData = {
   ],
 };
 
-import serviceOne01 from "@/images/home_1/6.jpg";
-import serviceOne02 from "@/images/home_1/7.jpg";
-import serviceOne03 from "@/images/home_1/8.jpg";
+import serviceOne01 from "../assets/images/home_1/6.jpg";
+import serviceOne02 from "../assets/images/home_1/7.jpg";
+import serviceOne03 from "../assets/images/home_1/8.jpg";
 
 export const ServicePostThreeData = {
   sectionContent: {
@@ -602,7 +602,7 @@ export const FunfactData = [
   },
 ];
 
-import trustClient01 from "@/images/home_1/4.jpg";
+import trustClient01 from "../assets/images/home_1/4.jpg";
 
 export const TrustClientData = {
   image: trustClient01,
@@ -611,11 +611,11 @@ export const TrustClientData = {
   url: "/about",
 };
 
-import ClientCarousel01 from "@/images/client/1.png";
-import ClientCarousel02 from "@/images/client/2.png";
-import ClientCarousel03 from "@/images/client/3.png";
-import ClientCarousel04 from "@/images/client/4.png";
-import ClientCarousel05 from "@/images/client/5.png";
+import ClientCarousel01 from "../assets/images/client/1.png";
+import ClientCarousel02 from "../assets/images/client/2.png";
+import ClientCarousel03 from "../assets/images/client/3.png";
+import ClientCarousel04 from "../assets/images/client/4.png";
+import ClientCarousel05 from "../assets/images/client/5.png";
 
 export const ClientCarouselData = {
   sectionContent: {
@@ -647,25 +647,25 @@ export const ClientCarouselData = {
   ],
 };
 
-import aboutOne01 from "@/images/about/1.jpg";
-import aboutOne02 from "@/images/about/2.jpg";
-import aboutOne04 from "@/images/about/5.jpg";
-import aboutOne05 from "@/images/about/6.jpg";
-import aboutOne06 from "@/images/about/7.jpg";
-import aboutOne07 from "@/images/about/8.jpg";
-import aboutOne08 from "@/images/about/9.jpg";
-import aboutOne09 from "@/images/about/10.jpg";
-import aboutOne10 from "@/images/about/11.jpg";
-import aboutOne11 from "@/images/about/12.jpg";
-import aboutOne12 from "@/images/about/13.jpg";
-import aboutOne13 from "@/images/about/14.jpg";
-import aboutOne14 from "@/images/about/15.jpg";
-import aboutOne15 from "@/images/about/16.jpg";
-import aboutOne16 from "@/images/about/17.jpg";
-import aboutOne17 from "@/images/about/18.jpg";
-import aboutOne18 from "@/images/about/19.jpg";
-import aboutOne19 from "@/images/about/20.jpg";
-import aboutOne20 from "@/images/about/21.jpg";
+import aboutOne01 from "../assets/images/about/1.jpg";
+import aboutOne02 from "../assets/images/about/2.jpg";
+import aboutOne04 from "../assets/images/about/5.jpg";
+import aboutOne05 from "../assets/images/about/6.jpg";
+import aboutOne06 from "../assets/images/about/7.jpg";
+import aboutOne07 from "../assets/images/about/8.jpg";
+import aboutOne08 from "../assets/images/about/9.jpg";
+import aboutOne09 from "../assets/images/about/10.jpg";
+import aboutOne10 from "../assets/images/about/11.jpg";
+import aboutOne11 from "../assets/images/about/12.jpg";
+import aboutOne12 from "../assets/images/about/13.jpg";
+import aboutOne13 from "../assets/images/about/14.jpg";
+import aboutOne14 from "../assets/images/about/15.jpg";
+import aboutOne15 from "../assets/images/about/16.jpg";
+import aboutOne16 from "../assets/images/about/17.jpg";
+import aboutOne17 from "../assets/images/about/18.jpg";
+import aboutOne18 from "../assets/images/about/19.jpg";
+import aboutOne19 from "../assets/images/about/20.jpg";
+import aboutOne20 from "../assets/images/about/21.jpg";
 
 export const AboutOneData = {
   sectionContent: {
@@ -700,11 +700,11 @@ export const AboutOneData = {
   },
 };
 
-import team01 from "@/images/team/1.jpg";
-import team02 from "@/images/team/2.jpg";
-import team03 from "@/images/team/3.jpg";
-import team04 from "@/images/team/4.jpg";
-import team05 from "@/images/team/5.jpg";
+import team01 from "../assets/images/team/1.jpg";
+import team02 from "../assets/images/team/2.jpg";
+import team03 from "../assets/images/team/3.jpg";
+import team04 from "../assets/images/team/4.jpg";
+import team05 from "../assets/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
@@ -816,7 +816,7 @@ export const TeamOneData = {
   ],
 };
 
-import video01 from "@/images/about/3.jpg";
+import video01 from "../assets/images/about/3.jpg";
 
 export const VideoOneData = {
   sectionContent: {
@@ -859,9 +859,9 @@ export const SubscribeFormData = {
   },
 };
 
-import testimonial01 from "@/images/home_1/t1.jpg";
-import testimonial02 from "@/images/home_1/t2.jpg";
-import testimonial03 from "@/images/home_1/t3.jpg";
+import testimonial01 from "../assets/images/home_1/t1.jpg";
+import testimonial02 from "../assets/images/home_1/t2.jpg";
+import testimonial03 from "../assets/images/home_1/t3.jpg";
 
 export const TestimonialsOneData = {
   sectionContent: {
@@ -944,9 +944,9 @@ export const TestimonialsOneData = {
   ],
 };
 
-import featureTab01 from "@/images/home_1/c1.jpg";
-import featureTab02 from "@/images/home_1/c2.jpg";
-import featureTab03 from "@/images/home_1/c3.jpg";
+import featureTab01 from "../assets/images/home_1/c1.jpg";
+import featureTab02 from "../assets/images/home_1/c2.jpg";
+import featureTab03 from "../assets/images/home_1/c3.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
@@ -1052,7 +1052,7 @@ export const PortfolioHomeData = {
   },
 };
 
-import video02 from "@/images/home_1/3.gif";
+import video02 from "../assets/images/home_1/3.gif";
 
 export const VideoTwoData = {
   sectionContent: {
@@ -1068,8 +1068,8 @@ export const VideoTwoData = {
   },
 };
 
-import aboutTwo01 from "@/images/home_1/2.jpg";
-import aboutTwo02 from "@/images/home_1/1.jpg";
+import aboutTwo01 from "../assets/images/home_1/2.jpg";
+import aboutTwo02 from "../assets/images/home_1/1.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
@@ -1084,7 +1084,7 @@ export const AboutTwoData = {
   gallery: [aboutTwo01, aboutTwo02],
 };
 
-import featureTwo01 from "@/images/home_1/5.jpg";
+import featureTwo01 from "../assets/images/home_1/5.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {

@@ -1,38 +1,39 @@
 import React, { useRef } from "react";
 // import dynamic from 'next/dynamic'
 // import { Suspense } from 'react'
-import Layout from "@/components/layout";
-import CallToActionOne from "@/components/call-to-action-one";
-import Footer from "@/components/footer";
-import ParallaxOne from "@/components/parallax-1";
-import TeamCarousel from "@/components/team-carousel";
-import PortfolioHome from "@/components/portfolio-home";
-import SubscribeForm from "@/components/subscribe-form";
-import ServiceTwo from "@/components/service-two";
-import VideoTwo from "@/components/video-two";
-import HeaderOne from "@/components/header-one";
-// const TeamCarousel = dynamic(() => import("@/components/team-carousel"), {
+// import Layout from "../components/layout";
+import CallToActionOne from "../components/call-to-action-one";
+import Footer from "../components/footer";
+import ParallaxOne from "../components/parallax-1";
+import TeamCarousel from "../components/team-carousel";
+import PortfolioHome from "../components/portfolio-home";
+import SubscribeForm from "../components/subscribe-form";
+import ServiceTwo from "../components/service-two";
+import VideoTwo from "../components/video-two";
+import HeaderOne from "../components/header-one";
+// const TeamCarousel = dynamic(() => import("../components/team-carousel"), {
 //   suspense: true,
 // })
-import MenuContextProvider from "@/context/menu-context";
-// const PortfolioHome = dynamic(() => import("@/components/portfolio-home"), {
+import MenuContextProvider from "../context/menu-context";
+// const PortfolioHome = dynamic(() => import("../components/portfolio-home"), {
 //   suspense: true,
 // })
-import SliderOne from "@/components/slider-one";
-// const CallToActionOne = dynamic(() => import("@/components/call-to-action-one"), {
+import SliderOne from "../components/slider-one";
+// const CallToActionOne = dynamic(() => import("../components/call-to-action-one"), {
 //   suspense: true,
 // })
-import FeatureTwo from "@/components/feature-two";
-// const ParallaxOne = dynamic(() => import("@/components/parallax-1"), {
+import FeatureTwo from "../components/feature-two";
+// const ParallaxOne = dynamic(() => import("../components/parallax-1"), {
 //   suspense: true,
 // })
-// const ServiceHomeTwo = dynamic(() => import("@/components/service-home-two"), {
+// const ServiceHomeTwo = dynamic(() => import("../components/service-home-two"), {
 //   suspense: true,
 // })
-import ServiceHomeTwo from "@/components/service-home-two";
+import ServiceHomeTwo from "../components/service-home-two";
 
 
 import { useState, useEffect } from "react";
+import Layout from "../components/layout";
 const useOnScreen = (ref) => {
     const [isIntersecting, setIntersecting] = useState(false);
     useEffect(() => {
@@ -132,38 +133,43 @@ const HomeOne = () => {
             <SliderOne />
             <ServiceTwo />
            
-            
-            <LazyLoadComponent 
+            <FeatureTwo />
+            {/* <LazyLoadComponent 
               component={<FeatureTwo />} 
               reference={featureTwoRef} 
               show={featureTwoRefValue}
-            />
+            /> */}
 
-            <LazyLoadComponent 
+            <PortfolioHome />
+            {/* <LazyLoadComponent 
               component={<PortfolioHome />} 
               reference={portfolioHomeRef} 
               show={portfolioHomeRefValue}
-            />
-
-            <LazyLoadComponent 
+            /> */}
+            <VideoTwo />
+            {/* <LazyLoadComponent 
               component={<VideoTwo />} 
               reference={videoTwoRef} 
               show={videoTwoRefValue}
-            />
-            <LazyLoadComponent 
+            /> */}
+            <SubscribeForm />
+            {/* <LazyLoadComponent 
               component={<SubscribeForm />} 
               reference={subscribeFormRef} 
               show={subscribeFormRefValue}
-            />
-
-            <LazyLoadComponent 
+            /> */}
+            <TeamCarousel />
+            {/* <LazyLoadComponent 
               component={<TeamCarousel />} 
               reference={teamCarouselRef} 
               show={teamCarouselRefValue}
-            />
-            <LazyLoadComponent component={<ParallaxOne />} reference={child3Ref} show={child3RefValue}/>
-            <LazyLoadComponent component={<ServiceHomeTwo />} reference={serviceHomeTwoRef} show={serviceHomeTwoRefValue}/>
-            <LazyLoadComponent component={<CallToActionOne extraClassName="ready" />} reference={callToActionOneRef} show={callToActionOneRefValue}/>
+            /> */}
+            <ParallaxOne />
+            {/* <LazyLoadComponent component={<ParallaxOne />} reference={child3Ref} show={child3RefValue}/> */}
+            <ServiceHomeTwo />
+            {/* <LazyLoadComponent component={<ServiceHomeTwo />} reference={serviceHomeTwoRef} show={serviceHomeTwoRefValue}/> */}
+            <CallToActionOne extraClassName="ready" />
+            {/* <LazyLoadComponent component={<CallToActionOne extraClassName="ready" />} reference={callToActionOneRef} show={callToActionOneRefValue}/> */}
             
             <Footer />
           </Layout>

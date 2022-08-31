@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {SubscribeFormData} from "@/data";
+import {SubscribeFormData} from "../data";
 import {sendEmailSubscription} from "../connection/Api";
 import {useForm} from "react-hook-form";
 

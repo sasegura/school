@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "@/components/footer";
-import Layout from "@/components/layout";
-import ContactForm from "@/components/contact-form";
-import MenuContextProvider from "context/menu-context";
-import HeaderOne from "@/components/header-one";
-import imageBanner from "@/images/bg/contact_banner.jpg";
-import CustomPageBanner from "@/components/custom-page-banner";
+import Footer from "../components/footer";
+import Layout from "../components/layout";
+import ContactForm from "../components/contact-form";
+import MenuContextProvider from "../context/menu-context";
+import HeaderOne from "../components/header-one";
+import imageBanner from "../assets/images/bg/contact_banner.jpg";
+import CustomPageBanner from "../components/custom-page-banner";
 
 const ContactPage = () => {
   return (
