@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import SectionTitle from "@/components/section-title";
-import { TeamOneData } from "@/data";
+import SectionTitle from "../components/section-title";
+import { TeamOneData } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TeamCard from "@/components/team-card";
+import TeamCard from "../components/team-card";
 import "swiper/swiper-bundle.min.css";
 
 import SwiperCore, { Pagination } from "swiper";

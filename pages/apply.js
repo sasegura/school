@@ -1,12 +1,12 @@
 import React from "react";
-import Footer from "@/components/footer";
-import Layout from "@/components/layout";
-import HeaderOne from "@/components/header-one";
-import MenuContextProvider from "@/context/menu-context";
-import { CoursesList } from "@/courses";
-import ApplyForm from "@/components/apply-form";
-import CustomPageBanner from "@/components/custom-page-banner";
-import imageBanner from "@/images/bg/apply_banner.jpg";
+import Footer from "../components/footer";
+import Layout from "../components/layout";
+import HeaderOne from "../components/header-one";
+import MenuContextProvider from "../context/menu-context";
+import { CoursesList } from "../data/courses";
+import ApplyForm from "../components/apply-form";
+import CustomPageBanner from "../components/custom-page-banner";
+import imageBanner from "../assets/images/bg/apply_banner.jpg";
 import {useRouter} from "next/router";
 
 const ApplyPage = () => {

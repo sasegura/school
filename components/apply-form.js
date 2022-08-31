@@ -1,8 +1,8 @@
 import React from "react";
-import {ApplyFormTitle} from "@/data";
+import {ApplyFormTitle} from "../data";
 import {useForm} from "react-hook-form";
-import {errorClass, MessageForm} from "@/components/form/message-form";
-import ApplyFields from "@/components/form/apply-fields";
+import {errorClass, MessageForm} from "../components/form/message-form";
+import ApplyFields from "./form/apply-fields";
 
 
 const ApplyForm = ({courseList, editionList, course, edition}) => {

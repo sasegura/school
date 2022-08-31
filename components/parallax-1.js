@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ParallaxOneData } from "@/data";
+import { ParallaxOneData } from "../data";
 
 const ParallaxOne = () => {
   const { iconName, title, specialText, text } = ParallaxOneData;

@@ -1,13 +1,13 @@
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import bannerImg1 from "@/images/bg/course1.jpg";
-import bannerImg2 from "@/images/bg/course2.jpg";
-import bannerImg3 from "@/images/bg/course3.jpg";
-import bannerImg4 from "@/images/bg/course4.jpg";
-import bannerImg5 from "@/images/bg/course5.jpg";
+import portfolio01 from "../assets/images/portfolio/1.jpg";
+import portfolio02 from "../assets/images/portfolio/2.jpg";
+import portfolio03 from "../assets/images/portfolio/3.jpg";
+import portfolio04 from "../assets/images/portfolio/4.jpg";
+import portfolio05 from "../assets/images/portfolio/5.jpg";
+import bannerImg1 from "../assets/images/bg/course1.jpg";
+import bannerImg2 from "../assets/images/bg/course2.jpg";
+import bannerImg3 from "../assets/images/bg/course3.jpg";
+import bannerImg4 from "../assets/images/bg/course4.jpg";
+import bannerImg5 from "../assets/images/bg/course5.jpg";
 
 export const requirements = [
   "Ordenador portátil",

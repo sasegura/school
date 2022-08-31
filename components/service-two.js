@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ServicePostTwoData } from "@/data";
-import ServiceCardTwo from "@/components/service-card-two";
+import { ServicePostTwoData } from "../data";
+import ServiceCardTwo from "../components/service-card-two";
 
 const ServiceTwo = (props) => {
   const { sectionContent, posts } = ServicePostTwoData;

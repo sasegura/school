@@ -1,8 +1,10 @@
 import React, { useContext, Fragment, useRef } from "react";
 import Link from "next/link";
-import { MenuContext } from "@/context/menu-context";
-import { LogoImage, NavLinks } from "@/data";
-import { coderCrackInfo } from "@/information";
+import { MenuContext } from "../context/menu-context";
+import { LogoImage, NavLinks } from "../data";
+import { coderCrackInfo } from "../data/information";
+import Image from "next/image";
+// import { coderCrackInfo } from "..data/information";
 
 const PopupMenu = () => {
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
@@ -26,7 +28,7 @@ const PopupMenu = () => {
               <div className="logo2">
                 <Link href="/">
                   <a>
-                    <img src={LogoImage.light} alt="" />
+                    <Image src={LogoImage.light} alt="" />
                   </a>
                 </Link>
               </div>
