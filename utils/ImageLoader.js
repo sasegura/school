@@ -1,5 +1,15 @@
-function imageLoader({ src }) {
-  return src; // REPLACE WITH YOUR IMAGE DIRECTORY
+import NextImage from "next/image";
+
+// opt-out of image optimization, no-op
+const customLoader = ({ src }) => {
+  return src
 }
 
-module.exports = imageLoader;
+export default function Image(props) {
+  return (
+    <NextImage
+      {...props}
+      loader={customLoader}
+    />
+  );
+}
