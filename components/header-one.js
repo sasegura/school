@@ -3,8 +3,8 @@ import { LogoImage, NavLinks } from "../data";
 import { Col, Container, Row } from "react-bootstrap";
 import { MenuContext } from "../context/menu-context";
 import Link from "next/link";
-import Image  from "next/image";
-import imageLoader from "../utils/ImageLoader";
+// import Image  from "next/image";
+import Image from "../utils/ImageLoader";
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
@@ -43,7 +43,7 @@ const HeaderOne = () => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <Image loader={imageLoader} src={LogoImage.light} alt="" />
+                  <Image src={LogoImage.light} alt="" />
                 </a>
               </Link>
             </div>

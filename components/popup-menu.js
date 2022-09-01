@@ -3,8 +3,8 @@ import Link from "next/link";
 import { MenuContext } from "../context/menu-context";
 import { LogoImage, NavLinks } from "../data";
 import { coderCrackInfo } from "../data/information";
-import Image from "next/image";
-import imageLoader from "../utils/ImageLoader";
+// import Image from "next/image";
+import Image from "../utils/ImageLoader";
 // import { coderCrackInfo } from "..data/information";
 
 const PopupMenu = () => {
@@ -29,7 +29,7 @@ const PopupMenu = () => {
               <div className="logo2">
                 <Link href="/">
                   <a>
-                    <Image loader={imageLoader} src={LogoImage.light} alt="" />
+                    <Image  src={LogoImage.light} alt="" />
                   </a>
                 </Link>
               </div>
