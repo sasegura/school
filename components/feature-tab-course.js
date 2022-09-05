@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "../components/section-title";
 import { FeatureTabData } from "../data";
 import { CoursesList } from "../data/courses";
+import imageLoader from "../utils/ImageLoader";
 
 const FeatureTabCourse = ({course}) => {
   const {tabs}=CoursesList
@@ -62,7 +63,7 @@ const FeatureTabCourse = ({course}) => {
                     </Col>
                     <Col lg={5}>
                       <div className="chose_img">
-                        <Image src={post.image} alt={`chose_img-${index}`} />
+                        <Image loader={imageLoader} src={post.image} alt={`chose_img-${index}`} />
                       </div>
                     </Col>
                   </Row>
