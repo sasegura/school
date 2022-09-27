@@ -1,14 +1,7 @@
 /** @type {import('next').NextConfig} */
-
-
 const withVideos = require('next-videos')
 
 module.exports = withVideos({
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    unoptimized: true
-  },
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }
@@ -21,5 +14,10 @@ module.exports = withVideos({
       '/courses': { page: '/courses' },
       '/service': { page: '/service' },
     }
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    unoptimized: true
   }
 })
