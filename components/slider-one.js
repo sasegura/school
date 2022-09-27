@@ -51,7 +51,7 @@ const SliderOne = () => {
         {SliderOneData.map(({image}, index) => (
           <SwiperSlide key={index}>
             <span width='initial'>
-            <Image src={image} alt='asd' layout="fill"/></span>
+            <Image src={image}  layout="fill"/></span>
           </SwiperSlide>
         ))}
         

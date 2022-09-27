@@ -58,7 +58,7 @@ const Layout = ({ PageTitle, children }) => {
           <i className="fa fa-angle-double-up"/>
         </ScrollLink>
       ) : null} */}
-      <Script id="gtm-script">
+      <Script>
         {
           `function loadScript(a){
           let b=document.getElementsByTagName("head")[0],c=document.createElement("script");
