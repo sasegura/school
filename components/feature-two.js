@@ -3,7 +3,6 @@ import { FeatureTwoData } from "../data";
 import SectionTitle from "./section-title";
 import Link from "next/link";
 import Image  from "next/image";
-import imageLoader from "../utils/ImageLoader";
 
 const FeatureTwo = () => {
   const { sectionContent, posts, image } = FeatureTwoData;
@@ -42,7 +41,7 @@ const FeatureTwo = () => {
           </div>
           <div className="col-lg-7 col-sm-12 col-md-12 noPaddingRight">
             <div className="features_img">
-              <Image loader={imageLoader} src={image.path} alt="" />
+              <Image src={image.path} alt="" />
               <div className="img_details">
                 <h4>{image.text}</h4>
               </div>

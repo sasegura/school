@@ -2,7 +2,6 @@ import React from "react";
 import { AboutOneData } from "../data";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Image from "next/image";
-import imageLoader from "../utils/ImageLoader";
 
 const AboutOne = () => {
   const { sectionContent, gallery, carrousel } = AboutOneData;
@@ -19,12 +18,12 @@ const AboutOne = () => {
           </div>
           <div className="col-lg-6 col-sm-12 col-md-6">
             <div className="agency_img1">
-              <Image loader={imageLoader} src={gallery[0]} alt="" />
+              <Image src={gallery[0]} alt="" />
             </div>
           </div>
           <div className="col-lg-12 col-sm-12">
             <div className="agency_img2">
-              <Image loader={imageLoader} src={gallery[1]} alt="" />
+              <Image src={gallery[1]} alt="" />
             </div>
             <div className="compay_date">
               {/* <h5>{counter.title}</h5>
