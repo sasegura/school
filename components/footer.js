@@ -3,7 +3,6 @@ import { LogoImage } from "../data";
 import { coderCrackInfo } from "../data/information";
 import Image  from "next/image";
 import Link from "next/link";
-import imageLoader from "../utils/ImageLoader";
 
 const Footer = () => {
   const { light } = LogoImage;
@@ -14,7 +13,7 @@ const Footer = () => {
           <div className="col-lg-5 col-sm-5 col-md-5">
             <aside className="widget aboutwidget">
               <Link href="/"><a >
-                <Image loader={imageLoader} src={light} alt="" />
+                <Image src={light} alt="" />
               </a></Link>
               <p>
                 Bienvenidos a nuestra escuela de desarrollo de aplicaciones web.

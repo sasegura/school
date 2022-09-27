@@ -1,11 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import imageLoader from "../utils/ImageLoader";
 
 const CustomPageBanner = ({ title, image }) => {
   return (
     <section className="customPageBanner" style={{ background: `url(${image}) no-repeat center center / cover`, position: 'relative',  minHeight: '465px',paddingTop: '224px'}}>
-      <Image loader={imageLoader} src={image} layout='fill' alt='asda'/><div className="container">
+      <Image src={image} layout='fill' alt='asda'/><div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="banner_content text-center">

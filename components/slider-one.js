@@ -5,7 +5,6 @@ import SwiperCore, { Autoplay, Navigation, EffectFade } from "swiper";
 import { Col, Container, Row } from "react-bootstrap";
 import { SliderOneData } from "../data";
 import Image  from "next/image";
-import imageLoader from "../utils/ImageLoader";
 
 SwiperCore.use([Autoplay, Navigation, EffectFade]);
 const SliderOne = () => {
@@ -52,7 +51,7 @@ const SliderOne = () => {
         {SliderOneData.map(({image}, index) => (
           <SwiperSlide key={index}>
             <span width='initial'>
-            <Image loader={imageLoader} src={image} alt='asd' layout="fill"/></span>
+            <Image src={image} alt='asd' layout="fill"/></span>
           </SwiperSlide>
         ))}
         
