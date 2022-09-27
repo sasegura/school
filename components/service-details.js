@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ServiceSidebar from "../components/service-sidebar";
-import ServiceDetailsContent from "../components/service-details-content";
+import ServiceSidebar from "@/components/service-sidebar";
+import ServiceDetailsContent from "@/components/service-details-content";
 import Link from "react-scroll/modules/components/Link";
 
 const ServiceDetails = ({data}) => {

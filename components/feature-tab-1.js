@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import SectionTitle from "../components/section-title";
-import { FeatureTabData } from "../data";
+import SectionTitle from "@/components/section-title";
+import { FeatureTabData } from "@/data";
 import {useRouter} from "next/router";
 
 const FeatureTabOne = () => {

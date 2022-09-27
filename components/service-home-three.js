@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ServiceCardOne from "@/components/service-card-one";
-import { ServicePostData, ServiceHomeTwoData } from "@/data";
+import { ServicePostData, ServiceHomeThreeData } from "@/data";
 import SectionTitle from "./section-title";
 
-const ServiceHomeTwo = () => {
+const ServiceHomeThree = () => {
   return (
     <section className="service_section_2 commonSection">
       <Container>
         <Row>
           <Col md={12} className="text-center">
-            <SectionTitle data={ServiceHomeTwoData} />
+            <SectionTitle data={ServiceHomeThreeData} />
           </Col>
         </Row>
         <Row>
@@ -25,4 +25,4 @@ const ServiceHomeTwo = () => {
   );
 };
 
-export default ServiceHomeTwo;
+export default ServiceHomeThree;

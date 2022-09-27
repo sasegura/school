@@ -1,6 +1,6 @@
-import home_1 from "../assets/images/home_1/1.jpg";
-import home_2 from "../assets/images/home_1/1.jpg";
-import home_3 from "../assets/images/home_1/1.jpg";
+import home_1 from "@/images/home_1/1.jpg";
+import home_2 from "@/images/home_1/1.jpg";
+import home_3 from "@/images/home_1/1.jpg";
 
 export const coderCrackInfo = {
   name: "Coder Crack",

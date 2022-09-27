@@ -1,8 +1,7 @@
 import React from "react";
-import { FeatureTwoData } from "../data";
+import { FeatureTwoData } from "@/data";
 import SectionTitle from "./section-title";
 import Link from "next/link";
-import Image  from "next/image";
 
 const FeatureTwo = () => {
   const { sectionContent, posts, image } = FeatureTwoData;
@@ -41,7 +40,7 @@ const FeatureTwo = () => {
           </div>
           <div className="col-lg-7 col-sm-12 col-md-12 noPaddingRight">
             <div className="features_img">
-              <Image src={image.path} alt="" />
+              <img src={image.path} alt="" />
               <div className="img_details">
                 <h4>{image.text}</h4>
               </div>

@@ -1,8 +1,8 @@
-import blog1 from "../assets/images/blog/blog1.jpg";
-import blog1Banner from "../assets/images/blog/blog1-banner.jpg";
-import blog2 from "../assets/images/blog/blog2.jpg";
-import blog2Banner from "../assets/images/blog/blog2-banner.jpg";
-import blog3 from "../assets/images/blog/blog3.jpg";
+import blog1 from "@/images/blog/blog1.jpg";
+import blog1Banner from "@/images/blog/blog1-banner.jpg";
+import blog2 from "@/images/blog/blog2.jpg";
+import blog2Banner from "@/images/blog/blog2-banner.jpg";
+import blog3 from "@/images/blog/blog3.jpg";
 
 export const BlogHomeSection = {
   //subTitle: "últimas noticias y blogs",

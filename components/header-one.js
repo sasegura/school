@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
-import { LogoImage, NavLinks } from "../data";
+import { LogoImage, NavLinks } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
-import { MenuContext } from "../context/menu-context";
+import { MenuContext } from "@/context/menu-context";
 import Link from "next/link";
-import Image  from "next/image";
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
@@ -42,7 +41,7 @@ const HeaderOne = () => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <Image src={LogoImage.light} alt="" />
+                  <img src={LogoImage.light} alt="" />
                 </a>
               </Link>
             </div>

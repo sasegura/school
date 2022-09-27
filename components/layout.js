@@ -1,31 +1,30 @@
 import React, { Fragment, useContext, useState, useEffect } from "react";
 import Head from "next/head";
-import Script from "next/script";
-// import { MenuContext } from "@/context/menu-context";
-import PopupMenu from "../components/popup-menu";
+import Script from "next/experimental-script";
+import { MenuContext } from "@/context/menu-context";
+import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
-import WhatsUp from "../components/whatsUp";
-import { MenuContext } from "../context/menu-context";
+import WhatsUp from "./whatsUp";
 
 const Layout = ({ PageTitle, children }) => {
   const { menuStatus } = useContext(MenuContext);
-  // const [scrollTop, setScrollTop] = useState(false);
+  const [scrollTop, setScrollTop] = useState(false);
   const [origin, setOrigin] = useState("");
 
-  // const handleScrollTop = () => {
-  //   if (window.scrollY > 70) {
-  //     setScrollTop(true);
-  //   } else if (window.scrollY < 70) {
-  //     setScrollTop(false);
-  //   }
-  // };
+  const handleScrollTop = () => {
+    if (window.scrollY > 70) {
+      setScrollTop(true);
+    } else if (window.scrollY < 70) {
+      setScrollTop(false);
+    }
+  };
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScrollTop);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScrollTop);
-  //   };
-  // }, [scrollTop]);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScrollTop);
+    return () => {
+      window.removeEventListener("scroll", handleScrollTop);
+    };
+  }, [scrollTop]);
 
   useEffect( () => {
     setOrigin(window.location.origin);
@@ -47,7 +46,7 @@ const Layout = ({ PageTitle, children }) => {
       <WhatsUp />
       {true === menuStatus ? <PopupMenu /> : null}
 
-      {/* {scrollTop === true ? (
+      {scrollTop === true ? (
         <ScrollLink
           to="wrapper"
           smooth={true}
@@ -57,7 +56,7 @@ const Layout = ({ PageTitle, children }) => {
         >
           <i className="fa fa-angle-double-up"/>
         </ScrollLink>
-      ) : null} */}
+      ) : null}
       <Script>
         {
           `function loadScript(a){

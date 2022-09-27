@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import { AboutOneData } from "../data";
+import { AboutOneData } from "@/data";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 

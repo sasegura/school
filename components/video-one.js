@@ -1,7 +1,7 @@
 import React, {Fragment, useRef, useState} from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import SectionTitle from "../components/section-title";
-import { VideoOneData } from "../data";
+import SectionTitle from "@/components/section-title";
+import { VideoOneData } from "@/data";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 //import ModalVideo from "react-modal-video";

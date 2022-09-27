@@ -1,5 +1,5 @@
 import React from "react";
-import ContactFields from "./contact-fields";
+import ContactFields from "@/components/form/contact-fields";
 
 
 const ApplyFields = ({courseList, editionList, course, edition, register, errorClass, errors}) => {
