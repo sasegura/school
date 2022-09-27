@@ -1,12 +1,11 @@
 import React from "react";
-import Image  from "next/image";
 
 const TeamCard = ({ data }) => {
   const { image, name, designation, url, socials } = data;
   return (
     <div className="singleTM">
       <div className="tm_img">
-        <Image src={image} alt={name} />
+        <img src={image} alt={name} />
         {/* <div className="tm_overlay">
           <div className="team_social">
             {socials.map(({ name, url }, index) => (

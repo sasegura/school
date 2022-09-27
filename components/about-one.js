@@ -1,7 +1,6 @@
 import React from "react";
-import { AboutOneData } from "../data";
+import { AboutOneData } from "@/data";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Image from "next/image";
 
 const AboutOne = () => {
   const { sectionContent, gallery, carrousel } = AboutOneData;
@@ -18,12 +17,12 @@ const AboutOne = () => {
           </div>
           <div className="col-lg-6 col-sm-12 col-md-6">
             <div className="agency_img1">
-              <Image src={gallery[0]} alt="" />
+              <img src={gallery[0]} alt="" />
             </div>
           </div>
           <div className="col-lg-12 col-sm-12">
             <div className="agency_img2">
-              <Image src={gallery[1]} alt="" />
+              <img src={gallery[1]} alt="" />
             </div>
             <div className="compay_date">
               {/* <h5>{counter.title}</h5>

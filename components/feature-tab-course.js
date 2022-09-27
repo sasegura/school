@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import SectionTitle from "../components/section-title";
-import { FeatureTabData } from "../data";
-import { CoursesList } from "../data/courses";
+import SectionTitle from "@/components/section-title";
+import { FeatureTabData } from "@/data";
+import { CoursesList } from "@/courses";
 
 const FeatureTabCourse = ({course}) => {
   const {tabs}=CoursesList

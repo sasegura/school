@@ -3840,7 +3840,7 @@ textarea.input-form.error {
   }
 }
 .botonWhatsUp {
-  background: url("../images/whatsapp/wapp3.png") no-repeat center/70%;
+  background: url("assets/images/whatsapp/wapp3.png") no-repeat center/70%;
   z-index: 450;
   width: 60px;
   height: 60px;

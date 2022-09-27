@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { PortfolioData } from "../data";
-import PortfolioCard from "../components/portfolio-card";
+import { PortfolioData } from "@/data";
+import PortfolioCard from "@/components/portfolio-card";
 
 const PortfolioOne = () => {
   return (

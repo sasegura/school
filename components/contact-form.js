@@ -1,8 +1,8 @@
 import React from "react";
-import { ContactFormTitle } from "../data";
+import { ContactFormTitle } from "@/data";
 import { useForm } from 'react-hook-form';
-import {errorClass, MessageForm} from "../components/form/message-form";
-import ContactFields from "../components/form/contact-fields";
+import {errorClass, MessageForm} from "@/components/form/message-form";
+import ContactFields from "@/components/form/contact-fields";
 
 
 const ContactForm = () => {
