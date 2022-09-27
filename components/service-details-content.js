@@ -1,10 +1,9 @@
-// import Image from "next/image";
+import Image from "next/image";
 import React from "react";
 import serviceS1 from "../assets/images/s1.jpg";
 import serviceS2 from "../assets/images/s2.jpg";
-import Image from "../utils/ImageLoader";
+import imageLoader from "../utils/ImageLoader";
 import FeatureTabCourse from "./feature-tab-course";
-
 const ServiceDetailsContent = ({data}) => {
   return (
     <div className="serviceArea">
@@ -14,7 +13,7 @@ const ServiceDetailsContent = ({data}) => {
       </p>
       <div className="row gaping">
         <div className="col-lg-6 col-sm-12 col-md-6">
-          <Image src={data?.image} alt="" />
+          <Image loader={imageLoader} src={data?.image} alt="" />
         </div>
         <div className="col-lg-6 col-sm-12 col-md-6">
           <h4>Requisitos de acceso y material necesario.</h4>
