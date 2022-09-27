@@ -43,7 +43,6 @@ const useOnScreen = (ref) => {
        if (ref.current) {
            observer.observe(ref.current);
         }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     return isIntersecting;
 }
@@ -63,69 +62,69 @@ const LazyLoadComponent=({component,reference,show})=>(
 
 const HomeOne = () => {
 
-  // const teamCarouselRef = useRef();
-  // const teamCarouselRefValue = useOnScreen(teamCarouselRef);
-  // const [isTeamCarouselRef, setIsTeamCarouselRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isTeamCarouselRef)
-  //   setIsTeamCarouselRef(teamCarouselRefValue);
-  // }, [teamCarouselRef])
+  const teamCarouselRef = useRef();
+  const teamCarouselRefValue = useOnScreen(teamCarouselRef);
+  const [isTeamCarouselRef, setIsTeamCarouselRef] =  useState(false);
+  useEffect(() => {
+    if (!isTeamCarouselRef)
+    setIsTeamCarouselRef(teamCarouselRefValue);
+  }, [teamCarouselRef])
 
-  // const child3Ref = useRef();
-  // const child3RefValue = useOnScreen(child3Ref);
-  // const [isChild3Ref, setIsChild3Ref] =  useState(false);
-  // useEffect(() => {
-  //   if (!isChild3Ref)
-  //       setIsChild3Ref(child3RefValue);
-  // }, [child3RefValue])
+  const child3Ref = useRef();
+  const child3RefValue = useOnScreen(child3Ref);
+  const [isChild3Ref, setIsChild3Ref] =  useState(false);
+  useEffect(() => {
+    if (!isChild3Ref)
+        setIsChild3Ref(child3RefValue);
+  }, [child3RefValue])
 
-  // const serviceHomeTwoRef = useRef();
-  // const serviceHomeTwoRefValue = useOnScreen(serviceHomeTwoRef);
-  // const [isServiceHomeTwoRef, setIsServiceHomeTwoRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isServiceHomeTwoRef)
-  //   setIsServiceHomeTwoRef(serviceHomeTwoRefValue);
-  // }, [serviceHomeTwoRef])
+  const serviceHomeTwoRef = useRef();
+  const serviceHomeTwoRefValue = useOnScreen(serviceHomeTwoRef);
+  const [isServiceHomeTwoRef, setIsServiceHomeTwoRef] =  useState(false);
+  useEffect(() => {
+    if (!isServiceHomeTwoRef)
+    setIsServiceHomeTwoRef(serviceHomeTwoRefValue);
+  }, [serviceHomeTwoRef])
 
-  // const callToActionOneRef = useRef();
-  // const callToActionOneRefValue = useOnScreen(callToActionOneRef);
-  // const [isCallToActionOneRef, setIsCallToActionOneRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isCallToActionOneRef)
-  //   setIsCallToActionOneRef(callToActionOneRefValue);
-  // }, [callToActionOneRef])
+  const callToActionOneRef = useRef();
+  const callToActionOneRefValue = useOnScreen(callToActionOneRef);
+  const [isCallToActionOneRef, setIsCallToActionOneRef] =  useState(false);
+  useEffect(() => {
+    if (!isCallToActionOneRef)
+    setIsCallToActionOneRef(callToActionOneRefValue);
+  }, [callToActionOneRef])
 
-  // const subscribeFormRef = useRef();
-  // const subscribeFormRefValue = useOnScreen(subscribeFormRef);
-  // const [isSubscribeFormRef, setIsSubscribeFormRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isSubscribeFormRef)
-  //   setIsSubscribeFormRef(subscribeFormRefValue);
-  // }, [subscribeFormRef])
+  const subscribeFormRef = useRef();
+  const subscribeFormRefValue = useOnScreen(subscribeFormRef);
+  const [isSubscribeFormRef, setIsSubscribeFormRef] =  useState(false);
+  useEffect(() => {
+    if (!isSubscribeFormRef)
+    setIsSubscribeFormRef(subscribeFormRefValue);
+  }, [subscribeFormRef])
  
-  // const videoTwoRef = useRef();
-  // const videoTwoRefValue = useOnScreen(videoTwoRef);
-  // const [isVideoTwoRef, setIsVideoTwoRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isVideoTwoRef)
-  //   setIsVideoTwoRef(videoTwoRefValue);
-  // }, [videoTwoRef])
+  const videoTwoRef = useRef();
+  const videoTwoRefValue = useOnScreen(videoTwoRef);
+  const [isVideoTwoRef, setIsVideoTwoRef] =  useState(false);
+  useEffect(() => {
+    if (!isVideoTwoRef)
+    setIsVideoTwoRef(videoTwoRefValue);
+  }, [videoTwoRef])
 
-  // const portfolioHomeRef = useRef();
-  // const portfolioHomeRefValue = useOnScreen(portfolioHomeRef);
-  // const [isPortfolioHomeRef, setIsPortfolioHomeRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isPortfolioHomeRef)
-  //   setIsPortfolioHomeRef(portfolioHomeRefValue);
-  // }, [portfolioHomeRef])
+  const portfolioHomeRef = useRef();
+  const portfolioHomeRefValue = useOnScreen(portfolioHomeRef);
+  const [isPortfolioHomeRef, setIsPortfolioHomeRef] =  useState(false);
+  useEffect(() => {
+    if (!isPortfolioHomeRef)
+    setIsPortfolioHomeRef(portfolioHomeRefValue);
+  }, [portfolioHomeRef])
 
-  // const featureTwoRef = useRef();
-  // const featureTwoRefValue = useOnScreen(featureTwoRef);
-  // const [isFeatureTwoRef, setIsFeatureTwoRef] =  useState(false);
-  // useEffect(() => {
-  //   if (!isFeatureTwoRef)
-  //   setIsFeatureTwoRef(featureTwoRefValue);
-  // }, [featureTwoRef])
+  const featureTwoRef = useRef();
+  const featureTwoRefValue = useOnScreen(featureTwoRef);
+  const [isFeatureTwoRef, setIsFeatureTwoRef] =  useState(false);
+  useEffect(() => {
+    if (!isFeatureTwoRef)
+    setIsFeatureTwoRef(featureTwoRefValue);
+  }, [featureTwoRef])
 
   return (
       <MenuContextProvider>
