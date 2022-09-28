@@ -74,8 +74,12 @@ const PopupMenu = () => {
                               <ul className="sub-menu">
                                 {links.subItems.map((subLinks, index) => (
                                   <li key={index}>
-                                    <Link href={subLinks.url+"?id="+subLinks.id}>
-                                      <a style={{display: 'inline'}}>{subLinks.name}</a>
+                                    <Link
+                                      href={subLinks.url + "?id=" + subLinks.id}
+                                    >
+                                      <a style={{ display: "inline" }}>
+                                        {subLinks.name}
+                                      </a>
                                     </Link>
                                   </li>
                                 ))}
@@ -94,12 +98,12 @@ const PopupMenu = () => {
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
                 <li>Teléfono: +34 {coderCrackInfo.phoneLabel}</li>
-                <li>Email: codercrack@gmail.com</li>
+                <li>Email: admision@codercrack.es</li>
                 <li>Dirección: Avenida de la Albufera 321, Madrid, España</li>
               </ul>
             </div>
             <div className="col-lg-6 col-sm-12">
-              <div className="popUp_social text-center text-md-right">
+              <div className="popUp_social .popUp_social_pos text-center text-md-right">
                 <ul>
                   <li>
                     <a href="#">
@@ -111,9 +115,14 @@ const PopupMenu = () => {
                       <i className="fa fa-facebook-square"></i>Facebook
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">
                       <i className="fa fa-youtube-play"></i>Youtube
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-instagram"></i>Instagram
                     </a>
                   </li>
                 </ul>

@@ -28,10 +28,36 @@ const Footer = () => {
                 Madrid, España
               </p>
               <p>+34 {coderCrackInfo.phoneLabel}</p>
-              <p> codercrackschool@gmail.com </p>
+              <p> admision@codercrack.es </p>
             </aside>
-          </div>          
-        </div>        
+          </div>
+          <div className="col-lg-2 col-sm-2">
+            <div className="popUp_social">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-twitter"></i>Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-facebook-square"></i>Facebook
+                  </a>
+                </li>
+                {/* <li>
+                    <a href="#">
+                      <i className="fa fa-youtube-play"></i>Youtube
+                    </a>
+                  </li> */}
+                <li>
+                  <a href="#">
+                    <i className="fa fa-instagram"></i>Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );

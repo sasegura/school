@@ -666,6 +666,10 @@ import aboutOne17 from "@/images/about/18.jpg";
 import aboutOne18 from "@/images/about/19.jpg";
 import aboutOne19 from "@/images/about/20.jpg";
 import aboutOne20 from "@/images/about/21.jpg";
+import aboutOne21 from "@/images/about/22.jpg";
+import aboutOne22 from "@/images/about/23.jpg";
+import aboutOne23 from "@/images/about/24.jpg";
+import aboutOne24 from "@/images/about/25.jpg";
 
 export const AboutOneData = {
   sectionContent: {
@@ -682,13 +686,13 @@ export const AboutOneData = {
     aboutOne07,
     aboutOne08,
     aboutOne09,
-    aboutOne10,
+    // aboutOne10,
     aboutOne11,
-    aboutOne12,
+    // aboutOne12,
     aboutOne13,
     aboutOne14,
     aboutOne15,
-    aboutOne16,
+    // aboutOne16,
     aboutOne17,
     aboutOne18,
     aboutOne19,
@@ -830,23 +834,13 @@ export const VideoOneData = {
     title: "Watch Video",
   },
   carrousel: [
-    aboutOne04,
-    aboutOne05,
-    aboutOne06,
-    aboutOne07,
-    aboutOne08,
-    aboutOne09,
     aboutOne10,
-    aboutOne11,
     aboutOne12,
-    aboutOne13,
-    aboutOne14,
-    aboutOne15,
     aboutOne16,
-    aboutOne17,
-    aboutOne18,
-    aboutOne19,
-    aboutOne20,
+    aboutOne21,
+    aboutOne22,
+    aboutOne23,
+    aboutOne24,
   ],
 };
 
@@ -1052,7 +1046,7 @@ export const PortfolioHomeData = {
   },
 };
 
-import video02 from "@/images/home_1/3.gif";
+import video02 from "@/images/home_1/3.jpg";
 
 export const VideoTwoData = {
   sectionContent: {

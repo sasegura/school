@@ -1,4 +1,4 @@
-import React, {Fragment, useRef, useState} from "react";
+import React, { Fragment, useRef, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import { VideoOneData } from "@/data";
@@ -18,7 +18,7 @@ const VideoOne = () => {
 
   const onGalleryClick = () => {
     galleryRef.current.fullScreen();
-  }
+  };
   return (
     <Fragment>
       <section className="commonSection our_work">

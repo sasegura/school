@@ -26,7 +26,7 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
 
-  useEffect( () => {
+  useEffect(() => {
     setOrigin(window.location.origin);
   }, []);
 
@@ -36,11 +36,22 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>{PageTitle} - Coder Crack </title>
-        <meta name="description" content="escuela europea de programación web"/>
+        <meta
+          name="description"
+          content="escuela europea de programación web"
+        />
         <meta property="og:title" content="Coder Crack School" />
         <meta property="og:url" content={origin} />
-        <meta property="og:description" content="escuela europea de programación web" />
-        <meta property="og:image" content={"https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png"} />
+        <meta
+          property="og:description"
+          content="escuela europea de programación web"
+        />
+        <meta
+          property="og:image"
+          content={
+            "https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png"
+          }
+        />
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
@@ -54,12 +65,11 @@ const Layout = ({ PageTitle, children }) => {
           id="backToTop"
           className="scroll-to-top showit"
         >
-          <i className="fa fa-angle-double-up"/>
+          <i className="fa fa-angle-double-up" />
         </ScrollLink>
       ) : null}
       <Script>
-        {
-          `function loadScript(a){
+        {`function loadScript(a){
           let b=document.getElementsByTagName("head")[0],c=document.createElement("script");
           c.type="text/javascript";
           c.src="https://tracker.metricool.com/resources/be.js";
@@ -68,8 +78,7 @@ const Layout = ({ PageTitle, children }) => {
           b.appendChild(c);
           }
           loadScript(function(){beTracker.t({hash:"70b0b6774357eac3e22ac543ae794c66"})});
-          `
-        }
+          `}
       </Script>
     </Fragment>
   );
