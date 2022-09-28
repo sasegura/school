@@ -26,7 +26,7 @@ export const CoursesList = {
       id: 1,
       image: portfolio01,
       format: "Presencial Full/Part Time",
-      price: 7000,
+      price: 5500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg1,
@@ -50,10 +50,7 @@ export const CoursesList = {
         <li>Programador Front-End</li>,
         <li>Programador Back-End</li>,
         <br />,
-        
-        
-       
-        
+
         <p>
           Al finalizar tendrás un perfil diferencial que potenciará tu inserción
           en el mercado laboral de forma cualificada y competente.
@@ -63,8 +60,7 @@ export const CoursesList = {
         <li>Desarrollo Front - End</li>,
         <li>Desarrollo Back - End</li>,
         <li>Proyectos en ambiente laboral</li>,
-        <li>Mentoring profesional</li>
-
+        <li>Mentoring profesional</li>,
       ],
     },
     {
@@ -73,37 +69,36 @@ export const CoursesList = {
       id: 2,
       format: "Presencial Full/Part Time",
       image: portfolio02,
-      price: 5000,
+      price: 3500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg2,
       description:
         "Con el máster en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este máster, el alumno podrá desarrollar toda clase de software para dispositivos web.",
       secondDescription: [
-       
         <p>
           Un desarrollador web siempre será necesario en esta época, en la que
           lo digital es la regla. Con este máster, el profesional desarrollará
           y/ó reforzará sus conocimientos en el desarrollo web.
         </p>,
         <p>
-        Nuestro curso de desarrollador web front-end se basa principalmente en
-        la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,
-        HTML, JavaScript y otras tecnologías y frameworks modernos como React
-        o NodeJS. Tratamos todos los conocimientos fundamentales y habilidades
-        necesarias para que te conviertas en un experto del desarrollo web
-        front-end. Al final del curso, podrás diseñar fantásticas aplicaciones
-        web y fáciles de usar. Nuestros programas incluyen ejercicios reales.
-        Adquirirás rápidamente los conceptos básicos del desarrollo web
-        front-end para que puedas comenzar en tu primer trabajo y destacar.
-        Nuestros horarios también son flexibles, hay opciones de formación
-        disponibles entre semana y los fines de semana.
-      </p>,
+          Nuestro curso de desarrollador web front-end se basa principalmente en
+          la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,
+          HTML, JavaScript y otras tecnologías y frameworks modernos como React
+          o NodeJS. Tratamos todos los conocimientos fundamentales y habilidades
+          necesarias para que te conviertas en un experto del desarrollo web
+          front-end. Al final del curso, podrás diseñar fantásticas aplicaciones
+          web y fáciles de usar. Nuestros programas incluyen ejercicios reales.
+          Adquirirás rápidamente los conceptos básicos del desarrollo web
+          front-end para que puedas comenzar en tu primer trabajo y destacar.
+          Nuestros horarios también son flexibles, hay opciones de formación
+          disponibles entre semana y los fines de semana.
+        </p>,
         <h5>Bloques principales que conforman este master</h5>,
         <li>Fundamentos de la programación</li>,
         <li>Desarrollo Front - End</li>,
         <li>Proyectos en ambiente laboral</li>,
-        <li>Mentoring profesional</li>
+        <li>Mentoring profesional</li>,
       ],
     },
     {
@@ -112,7 +107,7 @@ export const CoursesList = {
       id: 3,
       format: "Presencial Full/Part Time",
       image: portfolio03,
-      price: 5000,
+      price: 3500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg3,
@@ -126,8 +121,8 @@ export const CoursesList = {
           sofisticadas de forma ágil y eficaz.
         </p>,
         <p>
-          El objetivo de este curso es que aprendas a
-          desarrollar aplicaciones web sofisticadas de forma ágil y eficaz.
+          El objetivo de este curso es que aprendas a desarrollar aplicaciones
+          web sofisticadas de forma ágil y eficaz.
         </p>,
         <p>
           Pero nuestro principal objetivo es la empleabilidad, haciéndote
@@ -153,7 +148,7 @@ export const CoursesList = {
         <li>Fundamentos de la programación</li>,
         <li>Desarrollo Back - End</li>,
         <li>Proyectos en ambiente laboral</li>,
-        <li>Mentoring profesional</li>
+        <li>Mentoring profesional</li>,
       ],
     },
     {
@@ -162,14 +157,13 @@ export const CoursesList = {
       id: 4,
       format: "Presencial Full/Part Time",
       image: portfolio04,
-      price: 3000,
+      price: 2500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg4,
       description:
         "Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.",
       secondDescription: [
-        
         <p>
           Coder Crack School ofrece un curso de desarrollo web front-end actual
           y diseñado para enseñarte rápidamente a programar o a cambiar de
@@ -183,7 +177,7 @@ export const CoursesList = {
           programación de este curso sea muy flexible junto con precios
           competitivos y múltiples opciones de pago.
         </p>,
-        
+
         // <p>
         //   Obtén más información sobre nuestro curso de desarrollo web front-end.
         //   ¡Si te inscribes hoy, te convertirás inmediatamente en parte de
@@ -212,7 +206,7 @@ export const CoursesList = {
       id: 5,
       format: "Presencial Full/Part Time",
       image: portfolio05,
-      price: 3000,
+      price: 2500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg5,
@@ -241,9 +235,9 @@ export const CoursesList = {
     },
   ],
   editions: [
-    {id: 1, name: "Octubre 2022",},
-    {id: 2, name: "Enero 2023",},
-    {id: 3, name: "Marzo 2023",},
+    { id: 1, name: "Octubre 2022" },
+    { id: 2, name: "Enero 2023" },
+    { id: 3, name: "Marzo 2023" },
   ],
   tabs: [
     { name: "información" },
