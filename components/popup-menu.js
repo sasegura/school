@@ -106,12 +106,15 @@ const PopupMenu = () => {
               <div className="popUp_social .popUp_social_pos text-center text-md-right">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a Target="_blank" href="https://twitter.com/coder_crack">
                       <i className="fa fa-twitter"></i>Twitter
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a
+                      Target="_blank"
+                      href="https://www.facebook.com/codercrackschool"
+                    >
                       <i className="fa fa-facebook-square"></i>Facebook
                     </a>
                   </li>
@@ -121,7 +124,10 @@ const PopupMenu = () => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="#">
+                    <a
+                      Target="_blank"
+                      href="https://instagram.com/codercrack_school?igshid=YmMyMTA2M2Y="
+                    >
                       <i className="fa fa-instagram"></i>Instagram
                     </a>
                   </li>
