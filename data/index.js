@@ -71,7 +71,7 @@ export const SliderOneData = [
     title: "ESCUELA EUROPEA \n DE PROGRAMACIÓN WEB",
     button: {
       label: "SABER MÁS",
-      url: "/about",
+      url: "/contact",
     },
   },
   {
