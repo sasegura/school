@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    TagManager.initialize({ gtmId: "GTM-NQVLV6F" });
+    TagManager.initialize({ gtmId: "GTM-WKQW932" });
   }, []);
   return <Component {...pageProps} />;
 }
