@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { SubscribeFormData } from "@/data";
 import { sendEmailSubscription } from "../connection/Api";
 import { useForm } from "react-hook-form";
+import TagManager from "react-gtm-module";
 
 const SubscribeForm = () => {
   const { sectionContent } = SubscribeFormData;
@@ -16,6 +17,7 @@ const SubscribeForm = () => {
   } = useForm();
   const onSubmit = async (data) => {
     try {
+      TagManager.dataLayer({ dataLayer: { event: "suscribeEvent" } });
       setSubscription(true);
       const response = await sendEmailSubscription({ payload: data });
       reset();
