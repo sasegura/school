@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import TagManager from "react-gtm-module";
 import { sendMessage } from "../../connection/Api";
 
 export const errorClass = (error) => {
@@ -11,6 +10,7 @@ export const MessageForm = ({
   handleSubmit,
   reset,
   errors,
+  tagManagerAction,
   children,
 }) => {
   const { subTitle, title, description } = formTitle;
@@ -20,7 +20,7 @@ export const MessageForm = ({
 
   const onSubmit = async (data) => {
     try {
-      TagManager.dataLayer({ dataLayer: { event: "sendContactForm" } });
+      tagManagerAction();
       const response = await sendMessage({ payload: data });
       setMessage(`Mensaje enviado correctamente ${data.name}.`);
       myTimeout();
