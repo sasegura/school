@@ -19,11 +19,8 @@ const SubscribeForm = () => {
     try {
       TagManager.dataLayer({ dataLayer: { event: "suscribeEvent" } });
       setSubscription(true);
-      const response = await sendEmailSubscription({ payload: data });
+      await sendEmailSubscription({ payload: data });
       reset();
-      // if (200 <= response.status < 300) {
-      //   console.log(data);
-      // }
     } catch (e) {
       console.log(e.message);
       reset();

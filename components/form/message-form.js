@@ -1,33 +1,37 @@
 import React, { useState } from "react";
-import {sendMessage} from "../../connection/Api";
-
+import TagManager from "react-gtm-module";
+import { sendMessage } from "../../connection/Api";
 
 export const errorClass = (error) => {
-  return (!!error ? " error": "");
-}
+  return !!error ? " error" : "";
+};
 
+export const MessageForm = ({
+  formTitle,
+  handleSubmit,
+  reset,
+  errors,
+  children,
+}) => {
+  const { subTitle, title, description } = formTitle;
+  const [message, setMessage] = useState("");
 
-export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) => {
+  const myTimeout = () => setTimeout(() => setMessage(""), 6000);
 
-  const {subTitle, title, description} = formTitle;
-  const [message, setMessage]=useState('')
-
-  const myTimeout = ()=>setTimeout(()=>setMessage(''), 6000);
-
-  const onSubmit = async data => {
+  const onSubmit = async (data) => {
     try {
+      TagManager.dataLayer({ dataLayer: { event: "sendContactForm" } });
       const response = await sendMessage({ payload: data });
       setMessage(`Mensaje enviado correctamente ${data.name}.`);
-      myTimeout()
+      myTimeout();
       reset();
-      if (200 <= response.status < 300)  console.log(data);
+      if (200 <= response.status < 300) console.log(data);
     } catch (e) {
       setMessage(`Error al enviar el mensaje, vuelva a intentarlo más tarde.`);
-      myTimeout()
-      console.log(e.message)
+      myTimeout();
+      console.log(e.message);
     }
   };
-  
 
   return (
     <section className="commonSection ContactPage">
@@ -41,21 +45,23 @@ export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) 
         </div>
         <div className="row">
           <div className="col-lg-8 offset-lg-2 col-sm-12 col-md-10 offset-md-1">
-            <form onSubmit={handleSubmit(onSubmit)}
-                  className="contactFrom"
-                  id="contactForm"
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="contactFrom"
+              id="contactForm"
             >
               <div className="row">
                 {children}
-                {Object.keys(errors).length !== 0 ?
+                {Object.keys(errors).length !== 0 ? (
                   <div className="col-lg-12 col-sm-12">
-                    <p style={{color: "red"}}>
-                      Por favor verifique que no existen campos vacíos o con errores.
+                    <p style={{ color: "red" }}>
+                      Por favor verifique que no existen campos vacíos o con
+                      errores.
                     </p>
-                  </div> : null
-                }
+                  </div>
+                ) : null}
               </div>
-              <p>{message || ''}</p>
+              <p>{message || ""}</p>
               <button
                 className="common_btn red_bg"
                 type="submit"
@@ -70,4 +76,3 @@ export const MessageForm = ({formTitle, handleSubmit, reset, errors, children}) 
     </section>
   );
 };
-
