@@ -21,7 +21,7 @@ export const CoursesList = {
   url: "/service-details",
   courses: [
     {
-      name: "Máster en desarrollo de aplicaciones web Full Stack",
+      name: "Programa Superior en desarrollo de aplicaciones web Full Stack",
       url: "/service-details",
       id: 1,
       image: portfolio01,
@@ -31,7 +31,7 @@ export const CoursesList = {
       discounts: discounts,
       bannerImg: bannerImg1,
       description:
-        "Este Máster en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.",
+        "Este Programa Superior en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.",
       secondDescription: [
         <p>
           El enfoque práctico de la metodología utilizada durante el curso, te
@@ -45,7 +45,7 @@ export const CoursesList = {
           estudiantes graduarse con una preparación que cumple con las
           exigencias del mercado laboral actual.
         </p>,
-        "Tras cursar nuestro máster saldrás con la preparación adecuada para desempeñarte una de las profesiones más demandadas en la actualidad ocupando perfiles como:",
+        "Tras cursar nuestro Programa Superior saldrás con la preparación adecuada para desempeñarte una de las profesiones más demandadas en la actualidad ocupando perfiles como:",
         <li className="">Programador Full-Stack</li>,
         <li>Programador Front-End</li>,
         <li>Programador Back-End</li>,
@@ -55,7 +55,7 @@ export const CoursesList = {
           Al finalizar tendrás un perfil diferencial que potenciará tu inserción
           en el mercado laboral de forma cualificada y competente.
         </p>,
-        <h5>Bloques principales que conforman este master</h5>,
+        <h5>Bloques principales que conforman esta formación</h5>,
         <li>Fundamentos de la programación</li>,
         <li>Desarrollo Front - End</li>,
         <li>Desarrollo Back - End</li>,
@@ -64,7 +64,7 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Máster en desarrollo de aplicaciones web Front-end",
+      name: "Programa Superior en desarrollo de aplicaciones web Front-end",
       url: "/service-details",
       id: 2,
       format: "Presencial Full/Part Time",
@@ -74,12 +74,12 @@ export const CoursesList = {
       discounts: discounts,
       bannerImg: bannerImg2,
       description:
-        "Con el máster en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este máster, el alumno podrá desarrollar toda clase de software para dispositivos web.",
+        "Con el Programa Superior en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Programa Superior, el alumno podrá desarrollar toda clase de software para dispositivos web.",
       secondDescription: [
         <p>
           Un desarrollador web siempre será necesario en esta época, en la que
-          lo digital es la regla. Con este máster, el profesional desarrollará
-          y/ó reforzará sus conocimientos en el desarrollo web.
+          lo digital es la regla. Con este Programa Superior, el profesional
+          desarrollará y/ó reforzará sus conocimientos en el desarrollo web.
         </p>,
         <p>
           Nuestro curso de desarrollador web front-end se basa principalmente en
@@ -94,7 +94,7 @@ export const CoursesList = {
           Nuestros horarios también son flexibles, hay opciones de formación
           disponibles entre semana y los fines de semana.
         </p>,
-        <h5>Bloques principales que conforman este master</h5>,
+        <h5>Bloques principales que conforman esta formación</h5>,
         <li>Fundamentos de la programación</li>,
         <li>Desarrollo Front - End</li>,
         <li>Proyectos en ambiente laboral</li>,
@@ -102,7 +102,7 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Máster en desarrollo de aplicaciones web Back-end",
+      name: "Programa Superior en desarrollo de aplicaciones web Back-end",
       url: "/service-details",
       id: 3,
       format: "Presencial Full/Part Time",
@@ -144,7 +144,7 @@ export const CoursesList = {
           encuentren entre los que más rápidamente crecen pues para captar
           talento muchas compañías recurren a aumentos salariales.
         </p>,
-        <h5>Bloques principales que conforman este master</h5>,
+        <h5>Bloques principales que conforman esta formación</h5>,
         <li>Fundamentos de la programación</li>,
         <li>Desarrollo Back - End</li>,
         <li>Proyectos en ambiente laboral</li>,

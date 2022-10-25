@@ -20,17 +20,17 @@ export const NavLinks = [
     url: "/courses",
     subItems: [
       {
-        name: "Máster en desarrollo de aplicaciones web Full Stack",
+        name: "Programa Superior en desarrollo de aplicaciones web Full Stack",
         url: "/service-details",
         id: 1,
       },
       {
-        name: "Máster en desarrollo de aplicaciones web Front-end",
+        name: "Programa Superior en desarrollo de aplicaciones web Front-end",
         url: "/service-details",
         id: 2,
       },
       {
-        name: "Máster en desarrollo de aplicaciones web Back-end",
+        name: "Programa Superior en desarrollo de aplicaciones web Back-end",
         url: "/service-details",
         id: 3,
       },
@@ -377,7 +377,7 @@ import portfolio06 from "@/images/portfolio/6.jpg";
 const apply_url = "/apply";
 export const PortfolioData = [
   {
-    title: "Máster en desarrollo de aplicaciones web \n Full Stack",
+    title: "Programa Superior en desarrollo de aplicaciones web \n Full Stack",
     categories: ["Octubre 2022"],
     image: portfolio01,
     url: apply_url,
@@ -385,7 +385,7 @@ export const PortfolioData = [
     edition: 1,
   },
   {
-    title: "Máster en desarrollo de aplicaciones web \n Front-end",
+    title: "Programa Superior en desarrollo de aplicaciones web \n Front-end",
     categories: ["Octubre 2022"],
     image: portfolio02,
     url: apply_url,
@@ -393,7 +393,7 @@ export const PortfolioData = [
     edition: 1,
   },
   {
-    title: "Máster en desarrollo de aplicaciones web \n Back-end",
+    title: "Programa Superior en desarrollo de aplicaciones web \n Back-end",
     categories: ["Octubre 2022"],
     image: portfolio03,
     url: apply_url,
@@ -417,7 +417,7 @@ export const PortfolioData = [
     edition: 3,
   },
   {
-    title: "Máster en desarrollo de aplicaciones web \n Full Stack",
+    title: "Programa Superior en desarrollo de aplicaciones web \n Full Stack",
     categories: ["Marzo 2023"],
     image: portfolio06,
     url: apply_url,
@@ -522,19 +522,20 @@ export const ServicePostTwoData = {
   },
   posts: [
     {
-      title: "Máster en desarrollo de aplicaciones web \n Full Stack",
+      title:
+        "Programa Superior en desarrollo de aplicaciones web \n Full Stack",
       iconName: "mei-development-1",
       url: "/service-details",
       id: 1,
     },
     {
-      title: "Máster en desarrollo de aplicaciones web \n Front-end",
+      title: "Programa Superior en desarrollo de aplicaciones web \n Front-end",
       iconName: "mei-computer-graphic",
       url: "/service-details",
       id: 2,
     },
     {
-      title: "Máster en desarrollo de aplicaciones web \n Back-end",
+      title: "Programa Superior en desarrollo de aplicaciones web \n Back-end",
       iconName: "mei-web-design",
       url: "/service-details",
       id: 3,
@@ -1050,7 +1051,7 @@ import video02 from "@/images/home_1/3.jpg";
 
 export const VideoTwoData = {
   sectionContent: {
-    subTitle: `En CODERCRACK buscamos que nuestros cursos y master sean una experiencia única y completa. \n 
+    subTitle: `En CODERCRACK buscamos que nuestros cursos sean una experiencia única y completa. \n 
       Somos conscientes de que cada persona tiene un talento y unas metas diferentes, por eso nos adaptamos a ti para ayudarte a conseguir tus objetivos"`,
     //title: "¿Cómo es nuestra escuela?",
     //text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
