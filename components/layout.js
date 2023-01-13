@@ -1,15 +1,17 @@
-import React, { Fragment, useContext, useState, useEffect } from "react";
-import Head from "next/head";
-import Script from "next/experimental-script";
-import { MenuContext } from "@/context/menu-context";
-import PopupMenu from "@/components/popup-menu";
-import { Link as ScrollLink } from "react-scroll";
-import WhatsUp from "./whatsUp";
+import React, { Fragment, useContext, useState, useEffect } from 'react';
+import Head from 'next/head';
+import Script from 'next/experimental-script';
+import { MenuContext } from '@/context/menu-context';
+import PopupMenu from '@/components/popup-menu';
+import { Link as ScrollLink } from 'react-scroll';
+import WhatsUp from './whatsUp';
+import { AppContext } from '@/context/app-context';
 
-const Layout = ({ PageTitle, children }) => {
+const Layout = ({ children }) => {
+  const { layoutTitle } = useContext(AppContext);
   const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
-  const [origin, setOrigin] = useState("");
+  const [origin, setOrigin] = useState('');
 
   const handleScrollTop = () => {
     if (window.scrollY > 70) {
@@ -20,9 +22,9 @@ const Layout = ({ PageTitle, children }) => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScrollTop);
+    window.addEventListener('scroll', handleScrollTop);
     return () => {
-      window.removeEventListener("scroll", handleScrollTop);
+      window.removeEventListener('scroll', handleScrollTop);
     };
   }, [scrollTop]);
 
@@ -35,7 +37,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Head>
-        <title>{PageTitle} - Coder Crack </title>
+        <title>Coder Crack{layoutTitle ? `-${layoutTitle}` : null}</title>
         <meta
           name="description"
           content="escuela europea de programación web"
@@ -49,7 +51,7 @@ const Layout = ({ PageTitle, children }) => {
         <meta
           property="og:image"
           content={
-            "https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png"
+            'https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png'
           }
         />
       </Head>

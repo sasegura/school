@@ -1,23 +1,25 @@
-import React from 'react';
-import Footer from '@/components/footer';
-import Layout from '@/components/layout';
+import React, { Fragment, useContext, useEffect } from 'react';
 import ContactForm from '@/components/contact-form';
-import HeaderOne from '@/components/header-one';
 import imageBanner from '@/images/bg/contact_banner.jpg';
 import CustomPageBanner from '@/components/custom-page-banner';
+import { AppContext } from '@/context/app-context';
 
 const ContactPage = () => {
+  const { setLayoutTitle } = useContext(AppContext);
+
+  useEffect(() => {
+    setLayoutTitle('Contáctanos');
+  }, []);
+
   return (
-    <Layout PageTitle="Contáctanos">
-      <HeaderOne />
+    <Fragment>
       <CustomPageBanner
         title="Contáctanos"
         name="Contáctanos"
         image={imageBanner}
       />
       <ContactForm />
-      <Footer />
-    </Layout>
+    </Fragment>
   );
 };
 

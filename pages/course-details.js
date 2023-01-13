@@ -1,20 +1,23 @@
-import React from 'react';
-import Footer from '@/components/footer';
-import Layout from '@/components/layout';
+import React, { Fragment, useContext, useEffect } from 'react';
 import ServiceDetails from '@/components/course-details';
 import CallToActionOne from '@/components/call-to-action-one';
 // import SearchContextProvider from "@/context/search-context";
-import HeaderOne from '@/components/header-one';
 import { CoursesList } from '@/courses';
 import ServiceTwo from '@/components/service-two';
 import CustomPageBanner from '@/components/custom-page-banner';
+import { AppContext } from '@/context/app-context';
 
 const ServiceDetailsPage = ({ id }) => {
   const courses = CoursesList?.courses;
   const course = courses.find((courseItem) => courseItem.id == id);
+  const { setLayoutTitle } = useContext(AppContext);
+
+  useEffect(() => {
+    setLayoutTitle(`Curso-${course?.name}`);
+  }, []);
+
   return (
-    <Layout PageTitle={`Curso-${course?.name}`}>
-      <HeaderOne />
+    <Fragment>
       <CustomPageBanner
         title={`${course?.name}`}
         name="Curso"
@@ -25,8 +28,7 @@ const ServiceDetailsPage = ({ id }) => {
 
       <ServiceTwo colorWhite={true} />
       <CallToActionOne extraClassName="ready" />
-      <Footer />
-    </Layout>
+    </Fragment>
   );
 };
 

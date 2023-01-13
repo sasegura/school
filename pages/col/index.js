@@ -9,12 +9,15 @@ import VideoTwo from '@/components/video-two';
 import SliderOne from '@/components/slider-one';
 import FeatureTwo from '@/components/feature-two';
 import ServiceHomeTwo from '@/components/service-home-two';
+import { LocationContext } from '@/context/app-location-context';
 import { AppContext } from '@/context/app-context';
 
 const HomeOne = () => {
+  const { location, updateLocation } = useContext(LocationContext);
   const { setLayoutTitle } = useContext(AppContext);
 
   useEffect(() => {
+    updateLocation('col');
     setLayoutTitle('Inicio');
   }, []);
 
