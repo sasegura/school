@@ -21,27 +21,27 @@ export const NavLinks = [
     subItems: [
       {
         name: 'Programa Superior en desarrollo de aplicaciones web Full Stack',
-        url: '/service-details',
+        url: '/course-details',
         id: 1,
       },
       {
         name: 'Programa Superior en desarrollo de aplicaciones web Front-end',
-        url: '/service-details',
+        url: '/course-details',
         id: 2,
       },
       {
         name: 'Programa Superior en desarrollo de aplicaciones web Back-end',
-        url: '/service-details',
+        url: '/course-details',
         id: 3,
       },
       {
         name: 'Curso de desarrollo de aplicaciones web Front-end',
-        url: '/service-details',
+        url: '/course-details',
         id: 4,
       },
       {
         name: 'Curso de desarrollo de aplicaciones web Back-end',
-        url: '/service-details',
+        url: '/course-details',
         id: 5,
       },
     ],
@@ -525,31 +525,31 @@ export const ServicePostTwoData = {
       title:
         'Programa Superior en desarrollo de aplicaciones web \n Full Stack',
       iconName: 'mei-development-1',
-      url: '/service-details',
+      url: '/course-details',
       id: 1,
     },
     {
       title: 'Programa Superior en desarrollo de aplicaciones web \n Front-end',
       iconName: 'mei-computer-graphic',
-      url: '/service-details',
+      url: '/course-details',
       id: 2,
     },
     {
       title: 'Programa Superior en desarrollo de aplicaciones web \n Back-end',
       iconName: 'mei-web-design',
-      url: '/service-details',
+      url: '/course-details',
       id: 3,
     },
     {
       title: 'Curso de desarrollo de aplicaciones web \n Front-end',
       iconName: 'mei-app-development',
-      url: '/service-details',
+      url: '/course-details',
       id: 4,
     },
     {
       title: 'Curso de desarrollo de aplicaciones web \n Back-end',
       iconName: 'mei-development',
-      url: '/service-details',
+      url: '/course-details',
       id: 5,
     },
   ],
@@ -569,17 +569,17 @@ export const ServicePostThreeData = {
     {
       title: 'web development',
       image: serviceOne01,
-      url: '/service-details',
+      url: '/course-details',
     },
     {
       title: 'digital marketing',
       image: serviceOne02,
-      url: '/service-details',
+      url: '/course-details',
     },
     {
       title: 'product branding',
       image: serviceOne03,
-      url: '/service-details',
+      url: '/course-details',
     },
   ],
 };

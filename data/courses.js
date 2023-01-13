@@ -18,11 +18,11 @@ export const discounts = ['friend', 'onePay', 'priorKnowledge'];
 
 export const CoursesList = {
   name: 'Cursos',
-  url: '/service-details',
+  url: '/course-details',
   courses: [
     {
       name: 'Programa Superior en desarrollo de aplicaciones web Full Stack',
-      url: '/service-details',
+      url: '/course-details',
       id: 1,
       image: portfolio01,
       format: 'Presencial Full/Part Time',
@@ -65,7 +65,7 @@ export const CoursesList = {
     },
     {
       name: 'Programa Superior en desarrollo de aplicaciones web Front-end',
-      url: '/service-details',
+      url: '/course-details',
       id: 2,
       format: 'Presencial Full/Part Time',
       image: portfolio02,
@@ -103,7 +103,7 @@ export const CoursesList = {
     },
     {
       name: 'Programa Superior en desarrollo de aplicaciones web Back-end',
-      url: '/service-details',
+      url: '/course-details',
       id: 3,
       format: 'Presencial Full/Part Time',
       image: portfolio03,
@@ -153,7 +153,7 @@ export const CoursesList = {
     },
     {
       name: 'Curso de desarrollo de aplicaciones web Front-end',
-      url: '/service-details',
+      url: '/course-details',
       id: 4,
       format: 'Presencial Full/Part Time',
       image: portfolio04,
@@ -202,7 +202,7 @@ export const CoursesList = {
     },
     {
       name: 'Curso de desarrollo de aplicaciones web Back-end',
-      url: '/service-details',
+      url: '/course-details',
       id: 5,
       format: 'Presencial Full/Part Time',
       image: portfolio05,
