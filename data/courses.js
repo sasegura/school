@@ -1,37 +1,37 @@
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import bannerImg1 from "@/images/bg/course1.jpg";
-import bannerImg2 from "@/images/bg/course2.jpg";
-import bannerImg3 from "@/images/bg/course3.jpg";
-import bannerImg4 from "@/images/bg/course4.jpg";
-import bannerImg5 from "@/images/bg/course5.jpg";
+import portfolio01 from '@/images/portfolio/1.jpg';
+import portfolio02 from '@/images/portfolio/2.jpg';
+import portfolio03 from '@/images/portfolio/3.jpg';
+import portfolio04 from '@/images/portfolio/4.jpg';
+import portfolio05 from '@/images/portfolio/5.jpg';
+import bannerImg1 from '@/images/bg/course1.jpg';
+import bannerImg2 from '@/images/bg/course2.jpg';
+import bannerImg3 from '@/images/bg/course3.jpg';
+import bannerImg4 from '@/images/bg/course4.jpg';
+import bannerImg5 from '@/images/bg/course5.jpg';
 
 export const requirements = [
-  "Ordenador portátil",
-  "Conocimientos básicos de ofimática.",
-  "Entrevista personal",
+  'Ordenador portátil',
+  'Conocimientos básicos de ofimática.',
+  'Entrevista personal',
 ];
-export const discounts = ["friend", "onePay", "priorKnowledge"];
+export const discounts = ['friend', 'onePay', 'priorKnowledge'];
 
 export const CoursesList = {
-  name: "Cursos",
-  url: "/service-details",
+  name: 'Cursos',
+  url: '/service-details',
   courses: [
     {
-      name: "Programa Superior en desarrollo de aplicaciones web Full Stack",
-      url: "/service-details",
+      name: 'Programa Superior en desarrollo de aplicaciones web Full Stack',
+      url: '/service-details',
       id: 1,
       image: portfolio01,
-      format: "Presencial Full/Part Time",
+      format: 'Presencial Full/Part Time',
       price: 5500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg1,
       description:
-        "Este Programa Superior en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.",
+        'Este Programa Superior en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.',
       secondDescription: [
         <p>
           El enfoque práctico de la metodología utilizada durante el curso, te
@@ -45,7 +45,7 @@ export const CoursesList = {
           estudiantes graduarse con una preparación que cumple con las
           exigencias del mercado laboral actual.
         </p>,
-        "Tras cursar nuestro Programa Superior saldrás con la preparación adecuada para desempeñarte una de las profesiones más demandadas en la actualidad ocupando perfiles como:",
+        'Tras cursar nuestro Programa Superior saldrás con la preparación adecuada para desempeñarte una de las profesiones más demandadas en la actualidad ocupando perfiles como:',
         <li className="">Programador Full-Stack</li>,
         <li>Programador Front-End</li>,
         <li>Programador Back-End</li>,
@@ -64,17 +64,17 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Programa Superior en desarrollo de aplicaciones web Front-end",
-      url: "/service-details",
+      name: 'Programa Superior en desarrollo de aplicaciones web Front-end',
+      url: '/service-details',
       id: 2,
-      format: "Presencial Full/Part Time",
+      format: 'Presencial Full/Part Time',
       image: portfolio02,
       price: 3500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg2,
       description:
-        "Con el Programa Superior en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Programa Superior, el alumno podrá desarrollar toda clase de software para dispositivos web.",
+        'Con el Programa Superior en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Programa Superior, el alumno podrá desarrollar toda clase de software para dispositivos web.',
       secondDescription: [
         <p>
           Un desarrollador web siempre será necesario en esta época, en la que
@@ -102,17 +102,17 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Programa Superior en desarrollo de aplicaciones web Back-end",
-      url: "/service-details",
+      name: 'Programa Superior en desarrollo de aplicaciones web Back-end',
+      url: '/service-details',
       id: 3,
-      format: "Presencial Full/Part Time",
+      format: 'Presencial Full/Part Time',
       image: portfolio03,
       price: 3500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg3,
       description:
-        "Un desarrollador Backend se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Por lo tanto, un desarrollador Backend es responsable de la programación del sitio en todos sus componentes.",
+        'Un desarrollador Backend se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Por lo tanto, un desarrollador Backend es responsable de la programación del sitio en todos sus componentes.',
       secondDescription: [
         <p>
           Curso que permite introducirse en el mundo del desarrollo web en el
@@ -152,17 +152,17 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Curso de desarrollo de aplicaciones web Front-end",
-      url: "/service-details",
+      name: 'Curso de desarrollo de aplicaciones web Front-end',
+      url: '/service-details',
       id: 4,
-      format: "Presencial Full/Part Time",
+      format: 'Presencial Full/Part Time',
       image: portfolio04,
       price: 2500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg4,
       description:
-        "Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.",
+        'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
       secondDescription: [
         <p>
           Coder Crack School ofrece un curso de desarrollo web front-end actual
@@ -201,17 +201,17 @@ export const CoursesList = {
       ],
     },
     {
-      name: "Curso de desarrollo de aplicaciones web Back-end",
-      url: "/service-details",
+      name: 'Curso de desarrollo de aplicaciones web Back-end',
+      url: '/service-details',
       id: 5,
-      format: "Presencial Full/Part Time",
+      format: 'Presencial Full/Part Time',
       image: portfolio05,
       price: 2500,
       requirements: requirements,
       discounts: discounts,
       bannerImg: bannerImg5,
       description:
-        "Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?",
+        'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
       secondDescription: [
         <p>
           En el Curso en desarrollo de aplicaciones web Back-End, el alumno
@@ -235,13 +235,12 @@ export const CoursesList = {
     },
   ],
   editions: [
-    { id: 1, name: "Octubre 2022" },
-    { id: 2, name: "Enero 2023" },
-    { id: 3, name: "Marzo 2023" },
+    { id: 1, name: 'Septiembre 2023' },
+    { id: 2, name: 'Marzo 2024' },
   ],
   tabs: [
-    { name: "información" },
-    { name: "información" },
-    { name: "Matricúlate" },
+    { name: 'información' },
+    { name: 'información' },
+    { name: 'Matricúlate' },
   ],
 };
