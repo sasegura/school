@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '@/components/footer';
 import Layout from '@/components/layout';
 import HeaderOne from '@/components/header-one';
-import MenuContextProvider from '@/context/menu-context';
 import { CoursesList } from '@/courses';
 import ApplyForm from '@/components/apply-form';
 import CustomPageBanner from '@/components/custom-page-banner';
@@ -18,23 +17,21 @@ const ApplyPage = () => {
   const edition = editions.find((editionItem) => editionItem.id == eid);
 
   return (
-    <MenuContextProvider>
-      <Layout PageTitle="Aplicar">
-        <HeaderOne />
-        <CustomPageBanner
-          title="Aplicar"
-          name="Contáctanos"
-          image={imageBanner}
-        />
-        <ApplyForm
-          course={course}
-          edition={edition}
-          courseList={courses}
-          editionList={editions}
-        />
-        <Footer />
-      </Layout>
-    </MenuContextProvider>
+    <Layout PageTitle="Aplicar">
+      <HeaderOne />
+      <CustomPageBanner
+        title="Aplicar"
+        name="Contáctanos"
+        image={imageBanner}
+      />
+      <ApplyForm
+        course={course}
+        edition={edition}
+        courseList={courses}
+        editionList={editions}
+      />
+      <Footer />
+    </Layout>
   );
 };
 export default ApplyPage;

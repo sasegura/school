@@ -9,29 +9,26 @@ import SubscribeForm from '@/components/subscribe-form';
 import ServiceTwo from '@/components/service-two';
 import VideoTwo from '@/components/video-two';
 import HeaderOne from '@/components/header-one';
-import MenuContextProvider from '@/context/menu-context';
 import SliderOne from '@/components/slider-one';
 import FeatureTwo from '@/components/feature-two';
 import ServiceHomeTwo from '@/components/service-home-two';
 
 const HomeOne = () => {
   return (
-    <MenuContextProvider>
-      <Layout PageTitle="Inicio">
-        <HeaderOne />
-        <SliderOne />
-        <ServiceTwo />
-        <FeatureTwo />
-        <PortfolioHome />
-        <VideoTwo />
-        <SubscribeForm />
-        <TeamCarousel />
-        <ParallaxOne />
-        <ServiceHomeTwo />
-        <CallToActionOne extraClassName="ready" />
-        <Footer />
-      </Layout>
-    </MenuContextProvider>
+    <Layout PageTitle="Inicio">
+      <HeaderOne />
+      <SliderOne />
+      <ServiceTwo />
+      <FeatureTwo />
+      <PortfolioHome />
+      <VideoTwo />
+      <SubscribeForm />
+      <TeamCarousel />
+      <ParallaxOne />
+      <ServiceHomeTwo />
+      <CallToActionOne extraClassName="ready" />
+      <Footer />
+    </Layout>
   );
 };
 
