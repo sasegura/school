@@ -414,15 +414,15 @@ export const PortfolioData = [
     image: portfolio05,
     url: apply_url,
     id: 5,
-    edition: 3,
+    edition: 2,
   },
   {
     title: 'Programa Superior en desarrollo de aplicaciones web \n Full Stack',
     categories: ['Marzo 2024'],
     image: portfolio06,
     url: apply_url,
-    id: 1,
-    edition: 3,
+    id: 6,
+    edition: 2,
   },
   // {
   //   title: "Design Styles",

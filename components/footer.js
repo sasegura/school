@@ -1,6 +1,6 @@
-import React from "react";
-import { LogoImage } from "@/data";
-import { coderCrackInfo } from "@/information";
+import React from 'react';
+import { LogoImage } from '@/data';
+import { coderCrackInfo } from '@/information';
 
 const Footer = () => {
   const { light } = LogoImage;
@@ -35,13 +35,13 @@ const Footer = () => {
             <div className="popUp_social">
               <ul>
                 <li>
-                  <a Target="_blank" href="https://twitter.com/coder_crack">
+                  <a target="_blank" href="https://twitter.com/coder_crack">
                     <i className="fa fa-twitter"></i>Twitter
                   </a>
                 </li>
                 <li>
                   <a
-                    Target="_blank"
+                    target="_blank"
                     href="https://www.facebook.com/codercrackschool"
                   >
                     <i className="fa fa-facebook-square"></i>Facebook
@@ -54,7 +54,7 @@ const Footer = () => {
                   </li> */}
                 <li>
                   <a
-                    Target="_blank"
+                    target="_blank"
                     href="https://instagram.com/codercrack_school?igshid=YmMyMTA2M2Y="
                   >
                     <i className="fa fa-instagram"></i>Instagram

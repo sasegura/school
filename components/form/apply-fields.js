@@ -14,20 +14,12 @@ const ApplyFields = ({
     <>
       <div className="col-lg-8 col-sm-12">
         <select
+          value={course?.id}
           className={'input-form' + errorClass(errors.course)}
           {...register('course', { required: true })}
         >
-          <option value="" disabled>
-            {' '}
-            Seleccione un Curso
-          </option>
           {courseList.map((cour) => (
-            <option
-              key={cour.id}
-              value={cour?.id}
-              selected={cour?.id === course?.id}
-              id={cour.name}
-            >
+            <option key={cour.id} value={cour?.id} id={cour.name}>
               {cour?.name}
             </option>
           ))}
@@ -35,16 +27,12 @@ const ApplyFields = ({
       </div>
       <div className="col-lg-4 col-sm-12">
         <select
+          value={edition?.id}
           className={'input-form' + errorClass(errors.edition)}
           {...register('edition', { required: true })}
         >
           {editionList.map((edit) => (
-            <option
-              value={edit?.id}
-              key={edit?.id}
-              selected={edit?.id === edition?.id}
-              id={edit.name}
-            >
+            <option value={edit?.id} key={edit?.id} id={edit.name}>
               {edit?.name}
             </option>
           ))}
