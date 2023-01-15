@@ -1,9 +1,16 @@
+import useLocation from 'hooks/useLocation';
 import React, { createContext, useEffect, useState } from 'react';
 
 export const LocationContext = createContext();
 
 const LocationContextProvider = ({ children }) => {
-  const [location, setLocation] = useState('es');
+  const [location, setLocation] = useState({});
+  const locationFromFetch = useLocation();
+
+  useEffect(() => {
+    setLocation(locationFromFetch);
+    localStorage.setItem('location', locationFromFetch);
+  }, [locationFromFetch]);
 
   useEffect(() => {
     const locationFromStorage = localStorage.getItem('location');

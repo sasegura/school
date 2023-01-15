@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useContext } from "react";
-import { LogoImage, NavLinks } from "@/data";
-import { Col, Container, Row } from "react-bootstrap";
-import { MenuContext } from "@/context/menu-context";
-import Link from "next/link";
+import React, { useState, useEffect, useContext } from 'react';
+import { LogoImage, NavLinks } from '@/data';
+import { Col, Container, Row } from 'react-bootstrap';
+import { MenuContext } from '@/context/menu-context';
+import Link from 'next/link';
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
-  
+
   const handleMenuClick = (e) => {
     e.preventDefault();
     updateMenuStatus(!menuStatus);
@@ -22,16 +22,16 @@ const HeaderOne = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [sticky]);
 
   return (
     <header
       className={`header_01 ${
-        true === sticky ? "fixedHeader animated flipInX" : null
+        true === sticky ? 'fixedHeader animated flipInX' : null
       }`}
       id="header"
     >
@@ -55,8 +55,8 @@ const HeaderOne = () => {
                       key={index}
                       className={`${
                         undefined !== links.subItems
-                          ? "menu-item-has-children"
-                          : ""
+                          ? 'menu-item-has-children'
+                          : ''
                       }`}
                     >
                       <Link href={links.url}>
@@ -92,7 +92,7 @@ const HeaderOne = () => {
                 onClick={handleMenuClick}
                 href="#"
               >
-                <i className="mei-menu"/>
+                <i className="mei-menu" />
               </a>
             </div>
           </Col>
