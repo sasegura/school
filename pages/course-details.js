@@ -3,7 +3,7 @@ import ServiceDetails from '@/components/course-details';
 import CallToActionOne from '@/components/call-to-action-one';
 // import SearchContextProvider from "@/context/search-context";
 import { CoursesList } from '@/courses';
-import ServiceTwo from '@/components/service-two';
+import Courses from 'containers/courses';
 import CustomPageBanner from '@/components/custom-page-banner';
 import { AppContext } from '@/context/app-context';
 
@@ -23,10 +23,8 @@ const ServiceDetailsPage = ({ id }) => {
         name="Curso"
         image={course?.bannerImg}
       />
-
       <ServiceDetails data={course} />
-
-      <ServiceTwo colorWhite={true} />
+      <Courses colorWhite={true} />
       <CallToActionOne extraClassName="ready" />
     </Fragment>
   );

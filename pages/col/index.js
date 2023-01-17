@@ -2,14 +2,14 @@ import React, { Fragment, useContext, useEffect } from 'react';
 
 import CallToActionOne from '@/components/call-to-action-one';
 import ParallaxOne from '@/components/parallax-1';
-import TeamCarousel from '@/components/team-carousel';
-import PortfolioHome from '@/components/portfolio-home';
+import TeamCarousel from 'containers/team-carousel';
+import PortfolioHome from 'containers/portfolio-home';
 import SubscribeForm from '@/components/subscribe-form';
-import ServiceTwo from '@/components/service-two';
-import VideoTwo from '@/components/video-two';
+import Courses from 'containers/courses';
+import AboutUsIndex from 'containers/about-us-index';
 import SliderOne from '@/components/slider-one';
-import FeatureTwo from '@/components/feature-two';
-import ServiceHomeTwo from '@/components/service-home-two';
+import WhyUs from 'containers/why-us';
+import JobOffers from '@/components/job-offers';
 import { AppContext } from '@/context/app-context';
 
 const HomeOne = () => {
@@ -22,14 +22,14 @@ const HomeOne = () => {
   return (
     <Fragment>
       <SliderOne />
-      <ServiceTwo />
-      <FeatureTwo />
+      <Courses />
+      <WhyUs />
       <PortfolioHome />
-      <VideoTwo />
+      <AboutUsIndex />
       <SubscribeForm />
       <TeamCarousel />
       <ParallaxOne />
-      <ServiceHomeTwo />
+      <JobOffers />
       <CallToActionOne extraClassName="ready" />
     </Fragment>
   );

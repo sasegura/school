@@ -1,10 +1,10 @@
 import React, { Fragment, useContext, useEffect } from 'react';
 import AboutOne from '@/components/about-one';
 import CallToActionOne from '@/components/call-to-action-one';
-import TeamCarousel from '@/components/team-carousel';
-import VideoOne from '@/components/video-one';
+import TeamCarousel from 'containers/team-carousel';
+import ImageCarousel from '@/components/image-carousel';
 import SubscribeForm from '@/components/subscribe-form';
-import FeatureTabOne from '@/components/feature-tab-1';
+import FeatureTabOne from '@/components/feature-tab';
 // import SearchContextProvider from "@/context/search-context";
 import CustomPageBanner from '@/components/custom-page-banner';
 import imageBanner from '@/images/bg/about_banner.jpg';
@@ -25,7 +25,7 @@ const AboutPage = () => {
       <ImageGalleries />
       <TeamCarousel />
       <SubscribeForm />
-      <VideoOne />
+      <ImageCarousel />
       <FeatureTabOne />
       <CallToActionOne extraClassName="ready" />
     </Fragment>

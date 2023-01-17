@@ -1,5 +1,5 @@
 import React, { Fragment, useContext, useEffect } from 'react';
-import ServiceTwo from '@/components/service-two';
+import Courses from 'containers/courses';
 // import SearchContextProvider from "@/context/search-context";
 import HeaderOne from '@/components/header-one';
 import PortfolioOne from '@/components/portfolio-one';
@@ -17,7 +17,7 @@ const ServicePage = () => {
   return (
     <Fragment>
       <CustomPageBanner title="Cursos" name="Cursos" image={imageBanner} />
-      <ServiceTwo />
+      <Courses />
       <PortfolioOne />
     </Fragment>
   );

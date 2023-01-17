@@ -1,9 +1,9 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import SectionTitle from "./section-title";
-import PortfolioCard from "@/components/portfolio-card";
-import { PortfolioHomeData, PortfolioData } from "@/data";
-import VisibilitySensor from "react-visibility-sensor";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import SectionTitle from '../components/section-title';
+import PortfolioCard from '@/components/portfolio-card';
+import { PortfolioHomeData, PortfolioData } from '@/data';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const PortfolioHome = () => {
   const { sectionContent } = PortfolioHomeData;

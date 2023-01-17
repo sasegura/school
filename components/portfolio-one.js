@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { PortfolioData } from "@/data";
-import PortfolioCard from "@/components/portfolio-card";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { PortfolioData } from '@/data';
+import PortfolioCard from '@/components/portfolio-card';
 
 const PortfolioOne = () => {
   return (
@@ -18,13 +18,6 @@ const PortfolioOne = () => {
             </Row>
           </div>
         </Row>
-        {/* <Row>
-          <Col lg={12} className="text-center">
-            <a className="common_btn red_bg" href="#">
-              <span>Load More</span>
-            </a>
-          </Col>
-        </Row> */}
       </Container>
     </section>
   );

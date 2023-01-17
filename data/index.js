@@ -70,9 +70,11 @@ export const SliderOneData = [
     subTitle: 'CON NOSOTROS CAMBIA TU FUTURO',
     title: 'ESCUELA EUROPEA \n DE PROGRAMACIÓN WEB',
     button: {
-      label: 'SABER MÁS',
+      label: 'MÁS INFORMACIÓN',
       url: '/contact',
     },
+    subTitle2: 'Abieta la convocatoria de septiembre 2023',
+    subTitle3: '¡Date prisa y no te quedes sin tu plaza!',
   },
   {
     image: sliderOne02,

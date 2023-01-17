@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect } from 'react';
 import { CoursesList } from '@/courses';
-import ApplyForm from '@/components/apply-form';
+import ApplyForm from '@/components/form/apply-form';
 import CustomPageBanner from '@/components/custom-page-banner';
 import imageBanner from '@/images/bg/apply_banner.jpg';
 import { useRouter } from 'next/router';

@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ServiceCardOne from "@/components/service-card-one";
-import { ServicePostData, ServiceHomeTwoData } from "@/data";
-import SectionTitle from "./section-title";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ServiceCardOne from '@/components/service-card-one';
+import { ServicePostData, ServiceHomeTwoData } from '@/data';
+import SectionTitle from './section-title';
 
-const ServiceHomeTwo = () => {
+const JobOffers = () => {
   return (
     <section className="service_section_2 commonSection">
       <Container>
@@ -25,4 +25,4 @@ const ServiceHomeTwo = () => {
   );
 };
 
-export default ServiceHomeTwo;
+export default JobOffers;

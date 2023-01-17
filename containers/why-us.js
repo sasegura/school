@@ -1,16 +1,16 @@
-import React from "react";
-import { FeatureTwoData } from "@/data";
-import SectionTitle from "./section-title";
-import Link from "next/link";
+import React from 'react';
+import { FeatureTwoData } from '@/data';
+import SectionTitle from '../components/section-title';
+import Link from 'next/link';
 
-const FeatureTwo = () => {
+const WhyUs = () => {
   const { sectionContent, posts, image } = FeatureTwoData;
   const zeroPad = (num, numZeros) => {
     var n = Math.abs(num);
     var zeros = Math.max(0, numZeros - Math.floor(n).toString().length);
     var zeroString = Math.pow(10, zeros).toString().substr(1);
     if (num < 0) {
-      zeroString = "-" + zeroString;
+      zeroString = '-' + zeroString;
     }
 
     return zeroString + n;
@@ -29,8 +29,8 @@ const FeatureTwo = () => {
                     <h3>{title}</h3>
                     <p className="featureText">
                       {text}
-                      <Link href={"/about?tab=" + index + "#why_us"}>
-                        <a className={"read-more learnM"}>ver más</a>
+                      <Link href={'/about?tab=' + index + '#why_us'}>
+                        <a className={'read-more learnM'}>ver más</a>
                       </Link>
                     </p>
                   </div>
@@ -52,4 +52,4 @@ const FeatureTwo = () => {
   );
 };
 
-export default FeatureTwo;
+export default WhyUs;
