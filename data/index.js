@@ -20,17 +20,17 @@ export const NavLinks = [
     url: '/courses',
     subItems: [
       {
-        name: 'Programa Superior en desarrollo de aplicaciones web Full Stack',
+        name: 'Máster en desarrollo de aplicaciones web Full Stack',
         url: '/course-details',
         id: 1,
       },
       {
-        name: 'Programa Superior en desarrollo de aplicaciones web Front-end',
+        name: 'Máster en desarrollo de aplicaciones web Front-end',
         url: '/course-details',
         id: 2,
       },
       {
-        name: 'Programa Superior en desarrollo de aplicaciones web Back-end',
+        name: 'Máster en desarrollo de aplicaciones web Back-end',
         url: '/course-details',
         id: 3,
       },
@@ -379,7 +379,7 @@ import portfolio06 from '@/images/portfolio/6.jpg';
 const apply_url = '/apply';
 export const PortfolioData = [
   {
-    title: 'Programa Superior en desarrollo de aplicaciones web \n Full Stack',
+    title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
     categories: ['Septiembre 2023'],
     image: portfolio01,
     url: apply_url,
@@ -387,7 +387,7 @@ export const PortfolioData = [
     edition: 1,
   },
   {
-    title: 'Programa Superior en desarrollo de aplicaciones web \n Front-end',
+    title: 'Máster en desarrollo de aplicaciones web \n Front-end',
     categories: ['Septiembre 2023'],
     image: portfolio02,
     url: apply_url,
@@ -395,7 +395,7 @@ export const PortfolioData = [
     edition: 1,
   },
   {
-    title: 'Programa Superior en desarrollo de aplicaciones web \n Back-end',
+    title: 'Máster en desarrollo de aplicaciones web \n Back-end',
     categories: ['Septiembre 2023'],
     image: portfolio03,
     url: apply_url,
@@ -419,7 +419,7 @@ export const PortfolioData = [
     edition: 2,
   },
   {
-    title: 'Programa Superior en desarrollo de aplicaciones web \n Full Stack',
+    title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
     categories: ['Marzo 2024'],
     image: portfolio06,
     url: apply_url,
@@ -524,20 +524,19 @@ export const ServicePostTwoData = {
   },
   posts: [
     {
-      title:
-        'Programa Superior en desarrollo de aplicaciones web \n Full Stack',
+      title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
       iconName: 'mei-development-1',
       url: '/course-details',
       id: 1,
     },
     {
-      title: 'Programa Superior en desarrollo de aplicaciones web \n Front-end',
+      title: 'Máster en desarrollo de aplicaciones web \n Front-end',
       iconName: 'mei-computer-graphic',
       url: '/course-details',
       id: 2,
     },
     {
-      title: 'Programa Superior en desarrollo de aplicaciones web \n Back-end',
+      title: 'Máster en desarrollo de aplicaciones web \n Back-end',
       iconName: 'mei-web-design',
       url: '/course-details',
       id: 3,
