@@ -54,6 +54,7 @@ const Layout = ({ children }) => {
             'https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png'
           }
         />
+        
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />

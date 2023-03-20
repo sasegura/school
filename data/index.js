@@ -73,7 +73,7 @@ export const SliderOneData = [
       label: 'MÁS INFORMACIÓN',
       url: '/contact',
     },
-    subTitle2: 'Abieta la convocatoria de septiembre 2023',
+    subTitle2: 'Abierta la convocatoria de septiembre 2023',
     subTitle3: '¡Date prisa y no te quedes sin tu plaza!',
   },
   {
