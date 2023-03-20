@@ -40,10 +40,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/codercrackschool"
-                  >
+                  <a target="_blank" href="https://www.facebook.com/Codercrack">
                     <i className="fa fa-facebook-square"></i>Facebook
                   </a>
                 </li>
