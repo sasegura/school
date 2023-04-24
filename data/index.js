@@ -759,26 +759,26 @@ export const TeamOneData = {
         },
       ],
     },
-    {
-      image: team02,
-      name: 'Andrés González Carmenates',
-      designation: '',
-      url: '',
-      socials: [
-        {
-          name: 'Facebook',
-          url: 'https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0',
-        },
-        {
-          name: 'Twitter',
-          url: 'https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas',
-        },
-        {
-          name: 'Linkedin',
-          url: 'https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc',
-        },
-      ],
-    },
+    // {
+    //   image: team02,
+    //   name: 'Andrés González Carmenates',
+    //   designation: '',
+    //   url: '',
+    //   socials: [
+    //     {
+    //       name: 'Facebook',
+    //       url: 'https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0',
+    //     },
+    //     {
+    //       name: 'Twitter',
+    //       url: 'https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas',
+    //     },
+    //     {
+    //       name: 'Linkedin',
+    //       url: 'https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc',
+    //     },
+    //   ],
+    // },
     {
       image: team03,
       name: 'Liset Bichili Hernández',
