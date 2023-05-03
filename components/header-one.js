@@ -72,7 +72,7 @@ const HeaderOne = () => {
                                   query: { id: subLinks.id },
                                 }}
                               >
-                                <a>{subLinks.name}</a>
+                                <a>{subLinks.title}</a>
                               </Link>
                             </li>
                           ))}

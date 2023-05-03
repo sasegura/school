@@ -6,6 +6,39 @@ export const LogoImage = {
   dark: logoDark,
 };
 
+export const CoursesData = [
+  {
+    title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
+    iconName: 'mei-development-1',
+    url: '/course-details',
+    id: 1,
+  },
+  {
+    title: 'Formación profesional en desarrollo web \n Front-end',
+    iconName: 'mei-computer-graphic',
+    url: '/course-details',
+    id: 2,
+  },
+  {
+    title: 'Formación profesional en desarrollo web \n Back-end',
+    iconName: 'mei-web-design',
+    url: '/course-details',
+    id: 3,
+  },
+  {
+    title: 'Bootcamp en desarrollo  de aplicaciones web \n Front-end',
+    iconName: 'mei-app-development',
+    url: '/course-details',
+    id: 4,
+  },
+  {
+    title: 'Bootcamp en desarrollo de aplicaciones web \n Back-end',
+    iconName: 'mei-development',
+    url: '/course-details',
+    id: 5,
+  },
+];
+
 export const NavLinks = [
   {
     name: 'Inicio',
@@ -18,33 +51,7 @@ export const NavLinks = [
   {
     name: 'Cursos',
     url: '/courses',
-    subItems: [
-      {
-        name: 'Máster en desarrollo de aplicaciones web Full Stack',
-        url: '/course-details',
-        id: 1,
-      },
-      {
-        name: 'Máster en desarrollo de aplicaciones web Front-end',
-        url: '/course-details',
-        id: 2,
-      },
-      {
-        name: 'Máster en desarrollo de aplicaciones web Back-end',
-        url: '/course-details',
-        id: 3,
-      },
-      {
-        name: 'Curso de desarrollo de aplicaciones web Front-end',
-        url: '/course-details',
-        id: 4,
-      },
-      {
-        name: 'Curso de desarrollo de aplicaciones web Back-end',
-        url: '/course-details',
-        id: 5,
-      },
-    ],
+    subItems: CoursesData,
   },
   // {
   //   name: "Próximas Ediciones",
@@ -522,38 +529,7 @@ export const ServicePostTwoData = {
     title: 'Cursos 2023-2024',
     text: 'Te ofrecemos la oportunidad de aprender una de las profesiones más demandadas del mercado laboral',
   },
-  posts: [
-    {
-      title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
-      iconName: 'mei-development-1',
-      url: '/course-details',
-      id: 1,
-    },
-    {
-      title: 'Máster en desarrollo de aplicaciones web \n Front-end',
-      iconName: 'mei-computer-graphic',
-      url: '/course-details',
-      id: 2,
-    },
-    {
-      title: 'Máster en desarrollo de aplicaciones web \n Back-end',
-      iconName: 'mei-web-design',
-      url: '/course-details',
-      id: 3,
-    },
-    {
-      title: 'Curso de desarrollo de aplicaciones web \n Front-end',
-      iconName: 'mei-app-development',
-      url: '/course-details',
-      id: 4,
-    },
-    {
-      title: 'Curso de desarrollo de aplicaciones web \n Back-end',
-      iconName: 'mei-development',
-      url: '/course-details',
-      id: 5,
-    },
-  ],
+  posts: CoursesData,
 };
 
 import serviceOne01 from '@/images/home_1/6.jpg';

@@ -3,9 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Link from 'next/link';
 
 import { ServicePostTwoData } from '@/data';
+import { CoursesList } from '@/courses';
 
 const Courses = (props) => {
   const { sectionContent, posts } = ServicePostTwoData;
+  const { courses } = CoursesList;
   const { title, subTitle, text } = sectionContent;
   const { colorWhite } = props;
 
@@ -26,7 +28,7 @@ const Courses = (props) => {
           </Row>
         )}
         <Row className="custom_column">
-          {posts.map(({ url, iconName, title, id } = data, index) => (
+          {courses.map(({ url, iconName, title, id } = data, index) => (
             <Col key={index} lg={3} md={6} sm={12}>
               <Link href={{ pathname: url, query: { id: id } }}>
                 <a className="icon_box_1 text-center">

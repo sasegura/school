@@ -3,6 +3,7 @@ import portfolio02 from '@/images/portfolio/2.jpg';
 import portfolio03 from '@/images/portfolio/3.jpg';
 import portfolio04 from '@/images/portfolio/4.jpg';
 import portfolio05 from '@/images/portfolio/5.jpg';
+import portfolio06 from '@/images/portfolio/6.jpg';
 import bannerImg1 from '@/images/bg/course1.jpg';
 import bannerImg2 from '@/images/bg/course2.jpg';
 import bannerImg3 from '@/images/bg/course3.jpg';
@@ -22,8 +23,10 @@ export const CoursesList = {
   courses: [
     {
       name: 'Máster en desarrollo de aplicaciones web Full Stack',
+      title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
       url: '/course-details',
       id: 1,
+      iconName: 'mei-development-1',
       image: portfolio01,
       format: 'Presencial Full/Part Time',
       price: 5500,
@@ -64,9 +67,11 @@ export const CoursesList = {
       ],
     },
     {
-      name: 'Máster en desarrollo de aplicaciones web Front-end',
+      name: 'Formación profesional en desarrollo web Front-end',
+      title: 'Formación profesional en desarrollo web \n Front-end',
       url: '/course-details',
       id: 2,
+      iconName: 'mei-computer-graphic',
       format: 'Presencial Full/Part Time',
       image: portfolio02,
       price: 3500,
@@ -74,7 +79,7 @@ export const CoursesList = {
       discounts: discounts,
       bannerImg: bannerImg2,
       description:
-        'Con el Máster en desarrollo de aplicaciones web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Máster, el alumno podrá desarrollar toda clase de software para dispositivos web.',
+        'Con la Formación profesional en desarrollo web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Máster, el alumno podrá desarrollar toda clase de software para dispositivos web.',
       secondDescription: [
         <p>
           Un desarrollador web siempre será necesario en esta época, en la que
@@ -102,9 +107,11 @@ export const CoursesList = {
       ],
     },
     {
-      name: 'Máster en desarrollo de aplicaciones web Back-end',
+      name: 'Formación profesional en desarrollo web Back-end',
+      title: 'Formación profesional en desarrollo web \n Back-end',
       url: '/course-details',
       id: 3,
+      iconName: 'mei-web-design',
       format: 'Presencial Full/Part Time',
       image: portfolio03,
       price: 3500,
@@ -152,9 +159,11 @@ export const CoursesList = {
       ],
     },
     {
-      name: 'Curso de desarrollo de aplicaciones web Front-end',
+      name: 'Bootcamp en desarrollo de aplicaciones web Front-end',
+      title: 'Bootcamp en desarrollo de aplicaciones web \n Front-end',
       url: '/course-details',
       id: 4,
+      iconName: 'mei-app-development',
       format: 'Presencial Full/Part Time',
       image: portfolio04,
       price: 2500,
@@ -201,9 +210,11 @@ export const CoursesList = {
       ],
     },
     {
-      name: 'Curso de desarrollo de aplicaciones web Back-end',
+      name: 'Bootcamp en desarrollo de aplicaciones web Back-end',
+      title: 'Bootcamp en desarrollo de aplicaciones web \n Back-end',
       url: '/course-details',
       id: 5,
+      iconName: 'mei-development',
       format: 'Presencial Full/Part Time',
       image: portfolio05,
       price: 2500,
@@ -244,3 +255,61 @@ export const CoursesList = {
     { name: 'Matricúlate' },
   ],
 };
+
+const apply_url = '/apply';
+export const PortfolioData = [
+  {
+    title: CoursesList.courses[0].title,
+    categories: ['Septiembre 2023'],
+    image: portfolio01,
+    url: apply_url,
+    id: 1,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[1].title,
+    categories: ['Septiembre 2023'],
+    image: portfolio02,
+    url: apply_url,
+    id: 2,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[2].title,
+    categories: ['Septiembre 2023'],
+    image: portfolio03,
+    url: apply_url,
+    id: 3,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[3].title,
+    categories: ['Marzo 2024'],
+    image: portfolio04,
+    url: apply_url,
+    id: 4,
+    edition: 2,
+  },
+  {
+    title: CoursesList.courses[4].title,
+    categories: ['Marzo 2024'],
+    image: portfolio05,
+    url: apply_url,
+    id: 5,
+    edition: 2,
+  },
+  {
+    title: CoursesList.courses[0].title,
+    categories: ['Marzo 2024'],
+    image: portfolio06,
+    url: apply_url,
+    id: 6,
+    edition: 2,
+  },
+  // {
+  //   title: "Design Styles",
+  //   categories: ["all", "graphic"],
+  //   image: portfolio06,
+  //   url: "/portfolio-details"
+  // }
+];
