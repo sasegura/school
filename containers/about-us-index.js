@@ -2,8 +2,8 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { VideoTwoData } from '@/data';
 import SectionTitle from '@/components/section-title';
 import { Col, Container, Row } from 'react-bootstrap';
-import image02 from '@/images/home_1/3.jpg';
-import image03 from '@/images/home_1/3.jpg';
+import image02 from '@/images/home_1/3.svg';
+import image03 from '@/images/home_1/3.svg';
 import Link from 'next/link';
 
 const AboutUsIndex = () => {

@@ -4,13 +4,8 @@ import Link from "next/link";
 const ServiceCardOne = ({data}) => {
   const {title, text, iconName, url1, url2, url3} = data;
   const linkRef = useRef();
-  return <>
-    <a href={url1} target={"_blank"} hidden ref={linkRef}/>
-    <div className="icon_box_2 text-center" onClick={
-      () => {
-        linkRef.current.click();
-      }
-    }>
+  return <>    
+    <div className="icon_box_2 text-center" >
       <h3>{title}</h3>
       <p>{text}</p>
       <div className="iconWrap">

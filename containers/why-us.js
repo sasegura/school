@@ -27,12 +27,12 @@ const WhyUs = () => {
                   <div className="singleFeature" key={index}>
                     <div className="f_count">{zeroPad(index + 1, 2)}</div>
                     <h3>{title}</h3>
-                    <p className="featureText">
+                    {/* <p className="featureText">
                       {text}
                       <Link href={'/about?tab=' + index + '#why_us'}>
                         <a className={'read-more learnM'}>ver más</a>
                       </Link>
-                    </p>
+                    </p> */}
                   </div>
                 );
               })}

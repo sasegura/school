@@ -1,14 +1,14 @@
-import portfolio01 from '@/images/portfolio/1.jpg';
-import portfolio02 from '@/images/portfolio/2.jpg';
-import portfolio03 from '@/images/portfolio/3.jpg';
-import portfolio04 from '@/images/portfolio/4.jpg';
-import portfolio05 from '@/images/portfolio/5.jpg';
-import portfolio06 from '@/images/portfolio/6.jpg';
-import bannerImg1 from '@/images/bg/course1.jpg';
-import bannerImg2 from '@/images/bg/course2.jpg';
-import bannerImg3 from '@/images/bg/course3.jpg';
-import bannerImg4 from '@/images/bg/course4.jpg';
-import bannerImg5 from '@/images/bg/course5.jpg';
+import portfolio01 from '@/images/portfolio/1.svg';
+import portfolio02 from '@/images/portfolio/2.svg';
+import portfolio03 from '@/images/portfolio/3.svg';
+import portfolio04 from '@/images/portfolio/4.svg';
+import portfolio05 from '@/images/portfolio/5.svg';
+import portfolio06 from '@/images/portfolio/6.svg';
+import bannerImg1 from '@/images/bg/course1.svg';
+import bannerImg2 from '@/images/bg/course2.svg';
+import bannerImg3 from '@/images/bg/course3.svg';
+import bannerImg4 from '@/images/bg/course4.svg';
+import bannerImg5 from '@/images/bg/course5.svg';
 
 export const requirements = [
   'Ordenador portátil',
@@ -174,7 +174,7 @@ export const CoursesList = {
         'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
       secondDescription: [
         <p>
-          Coder Crack School ofrece un curso de desarrollo web front-end actual
+          Codercrack ofrece un curso de desarrollo web front-end actual
           y diseñado para enseñarte rápidamente a programar o a cambiar de
           carrera. Obtendrás todas las habilidades necesarias para conseguir tu
           primer trabajo como web developer front-end. No se requiere
@@ -190,7 +190,7 @@ export const CoursesList = {
         // <p>
         //   Obtén más información sobre nuestro curso de desarrollo web front-end.
         //   ¡Si te inscribes hoy, te convertirás inmediatamente en parte de
-        //   nuestra familia Coder Crack y te ayudaremos a alcanzar todas tus metas
+        //   nuestra familia Codercrack y te ayudaremos a alcanzar todas tus metas
         //   profesionales! Elija entre realizar el curso en un campus de manera
         //   presencial o de forma remota, según tus necesidades.
         // </p>,
@@ -257,10 +257,27 @@ export const CoursesList = {
 };
 
 const apply_url = '/apply';
+
 export const PortfolioData = [
   {
-    title: CoursesList.courses[0].title,
+    title: CoursesList.courses[3].title,
     categories: ['Septiembre 2023'],
+    image: portfolio04,
+    url: apply_url,
+    id: 4,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[4].title,
+    categories: ['Octubre 2023'],
+    image: portfolio05,
+    url: apply_url,
+    id: 5,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[0].title,
+    categories: ['Marzo 2024'],
     image: portfolio01,
     url: apply_url,
     id: 1,
@@ -268,7 +285,7 @@ export const PortfolioData = [
   },
   {
     title: CoursesList.courses[1].title,
-    categories: ['Septiembre 2023'],
+    categories: ['Marzo 2024'],
     image: portfolio02,
     url: apply_url,
     id: 2,
@@ -276,40 +293,19 @@ export const PortfolioData = [
   },
   {
     title: CoursesList.courses[2].title,
-    categories: ['Septiembre 2023'],
+    categories: ['Abril 2024'],
     image: portfolio03,
     url: apply_url,
     id: 3,
     edition: 1,
   },
-  {
-    title: CoursesList.courses[3].title,
-    categories: ['Marzo 2024'],
-    image: portfolio04,
-    url: apply_url,
-    id: 4,
-    edition: 2,
-  },
-  {
-    title: CoursesList.courses[4].title,
-    categories: ['Marzo 2024'],
-    image: portfolio05,
-    url: apply_url,
-    id: 5,
-    edition: 2,
-  },
+
   {
     title: CoursesList.courses[0].title,
-    categories: ['Marzo 2024'],
+    categories: ['Abril 2024'],
     image: portfolio06,
     url: apply_url,
     id: 6,
     edition: 2,
-  },
-  // {
-  //   title: "Design Styles",
-  //   categories: ["all", "graphic"],
-  //   image: portfolio06,
-  //   url: "/portfolio-details"
-  // }
+  }
 ];

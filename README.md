@@ -1,3 +1,3 @@
-## Coder Crack School NextJS
+## Codercrack School NextJS
 
 ## Node version 16.18.1

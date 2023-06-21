@@ -191,9 +191,12 @@ ul li {
 }
 
 .red {
-  color: red;
+  color: red;  
 }
-
+.centerBlock{
+  text-align: center;  
+  display: block;
+}
 
 .sec_desc {
   margin: 0 0 54px;

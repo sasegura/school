@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect } from 'react';
 import ContactForm from '@/components/form/contact-form';
-import imageBanner from '@/images/bg/contact_banner.jpg';
+import imageBanner from '@/images/bg/4.svg';
 import CustomPageBanner from '@/components/custom-page-banner';
 import { AppContext } from '@/context/app-context';
 

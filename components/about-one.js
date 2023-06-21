@@ -7,20 +7,21 @@ const AboutOne = () => {
 
   return (
     <section className="commonSection">
-      <div className="container">
+      <div className="container imagenSquare">
         <div className="row">
           <div className="col-lg-6 col-sm-12 col-md-6">
+            <h2 className="sec_title title_about">{sectionContent.title}</h2>
             <h4 className="sub_title sub_title_about">
               {sectionContent.subTitle}
             </h4>
-            <h2 className="sec_title title_about">{sectionContent.title}</h2>
+
           </div>
-          <div className="col-lg-6 col-sm-12 col-md-6">
+          <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6">
             <div className="agency_img1">
               <img src={gallery[0]} alt="" />
             </div>
           </div>
-          <div className="col-lg-12 col-sm-12">
+          <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6">
             <div className="agency_img2">
               <img src={gallery[1]} alt="" />
             </div>

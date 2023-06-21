@@ -1,22 +1,17 @@
 import React from "react";
-import Link from "next/link";
+import FormularioCRM from "./formularioCRM";
 
-const CallToActionOne = ({ extraClassName, buttonClass }) => {
+const CallToActionOne = ({ extraClassName }) => {
   return (
-    <section className={`commonSection ${extraClassName}`}>
+    <section className={`${extraClassName}`}>
       <div className="container">
-        <div className="row">
-          <div className="col-lg-9 col-sm-8 col-md-9">
-            <h2 className="sec_title white">Pongamos en marcha tu destino!</h2>
-          </div>
-          <div className="col-lg-3  col-sm-4 col-md-3 text-right">
-            <Link href="/contact">
-              <a className={`common_btn ${buttonClass}`}>
-                <span>Contáctanos</span>
-              </a>
-            </Link>
-          </div>
+        <div className="text-center col-lg-12">
+          <h4 className="sub_title"></h4>
+          <h2 className="sec_title">Pongamos en marcha tu destino! Escríbenos!</h2>
+          <p className="sec_desc">Ponte en contacto con nosotros, da el primer paso para iniciar en este nuevo mundo</p>
         </div>
+        <FormularioCRM />
+
       </div>
     </section>
   );

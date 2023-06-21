@@ -485,7 +485,7 @@ License URI:
 .what_wedo {
   position: relative;
   border-bottom: 1px solid #e7e7e7;
-  padding-bottom: 72px;
+  padding-bottom: 28px;
   padding-top: 72px;
 }
 .what_wedo h4 {
@@ -496,7 +496,7 @@ License URI:
   left: 0;
   top: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
   content: "";
   background: #f4f4f4;
 }
@@ -589,6 +589,10 @@ License URI:
   overflow: hidden;
   margin: 0 0 30px;
 }
+.singlefolio:hover {
+  cursor: pointer;
+}
+
 .singlefolio img {
   display: block;
   width: 100%;
@@ -1143,7 +1147,7 @@ License URI:
 / 11. Testimonail Section
 ------------------------------------------------------*/
 .testimonial {
-  background: url(../images/bg/3.jpg) no-repeat fixed center / cover;
+  background: url(../images/bg/3.svg) no-repeat fixed center / cover;
   padding-bottom: 113px;
 }
 .testimonial_content {
@@ -1171,9 +1175,7 @@ License URI:
   color: #fff;
   margin: 0 0 44px;
 }
-.testimonial_content h2 span {
-  color: rgba(80, 172, 235, 1);
-}
+
 .testimonial_content p {
   font-size: 20px;
   color: #fff;
@@ -1276,7 +1278,11 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-  background: url(../images/bg/4.jpg) no-repeat center center / cover;
+  background: url(../images/bg/4b.svg) no-repeat center center / cover;
+}
+.ready1 div.container{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .ready .sec_title {
   margin: 0;
@@ -1302,7 +1308,7 @@ License URI:
 .footer_1 {
   position: relative;
   padding: 130px 0 0;
-  background: url(../images/bg/5.jpg) no-repeat center center / cover;
+  background: url(../images/bg/5.png) no-repeat center center / cover;
 }
 .footer_1 .widget {
   position: relative;
@@ -1329,16 +1335,16 @@ License URI:
 .footer_1 .aboutwidget p {
   font-size: 14px;
   letter-spacing: 0.56px;
-  color: #aaaaaa;
+  color: #fff;
   margin: 0;
 }
 .footer_1 .contact_widgets {
   padding-left: 60px;
 }
 .footer_1 .contact_widgets p {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.56px;
-  color: #aaaaaa;
+  color: #fff;
   margin: 0;
 }
 .footer_1 .copyright a,
@@ -1457,7 +1463,7 @@ License URI:
 }
 .icon_box_2 a {
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1.2px;
   color: #000;
   line-height: 0.8;
@@ -1483,6 +1489,15 @@ License URI:
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-size: 3rem;
+
+}
+
+.timerPrice1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
 }
 
 /*----------------------------------------------------
@@ -1911,7 +1926,7 @@ License URI:
 .pageBanner {
   position: relative;
   min-height: 465px;
-  background: url(../images/bg/8.jpg) no-repeat center center / cover;
+  background: url(../images/bg/6.jpg) no-repeat center center / cover;
   padding-top: 224px;
 }
 
@@ -1948,6 +1963,10 @@ License URI:
   color: #fff;
   text-transform: uppercase;
 }
+.imagenSquare {
+  overflow: hidden;
+  padding: 50px;
+}
 .agency_img1 {
   position: relative;
   text-align: right;
@@ -1969,6 +1988,7 @@ License URI:
   z-index: 4;
   margin-top: -184px;
   cursor: pointer;
+  transform: translate(341px, 20px);
 }
 .agency_img2 img,
 .agency_img1 img {
@@ -2115,6 +2135,9 @@ License URI:
 }
 .serviceArea .gaping img {
   margin-bottom: 52px;
+}
+.serviceArea .gaping .singlefolio {
+  height: 250px;
 }
 .serviceArea ul {
   margin: 0;
@@ -3094,7 +3117,7 @@ textarea.input-form.error {
 .popUp_social ul li a {
   font-size: 14px;
   letter-spacing: 0.56px;
-  color: #aaaaaa;
+  color: #fff;
   margin: 0;
   display: block;
   text-align: left;
@@ -3150,6 +3173,10 @@ textarea.input-form.error {
   transform: translateY(-100%);
   transition: all 0.6s 1000ms cubic-bezier(0.7, 0, 0.3, 1);
   width: 100%;
+}
+
+.popupMenuList {
+  height: 90%;
 }
 .show-popup .popup-inner,
 .show-overlay-nav .popup-inner {
@@ -3563,7 +3590,7 @@ textarea.input-form.error {
   width: 40px;
   z-index: 99;
   cursor: pointer;
-  right: 42px;
+  right: 30px;
   bottom: 100px;
 }
 .showit:hover {
@@ -3849,7 +3876,7 @@ textarea.input-form.error {
   align-items: center;
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  left: 2rem;
   cursor: pointer;
   border-radius: 50%;
   user-select: none;
@@ -3943,4 +3970,18 @@ textarea.input-form.error {
 
 .sectionPadding-120 {
   margin-top: -120px;
+}
+
+.timeline {
+  position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+        padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+        border-radius: 8px; will-change: transform;
+}
+
+.timeLineIframe{
+  position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;
+}
+
+.steps img{
+  width: 100%;
 }

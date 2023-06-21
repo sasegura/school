@@ -12,7 +12,7 @@ const ApplyFields = ({
 }) => {
   return (
     <>
-      <div className="col-lg-8 col-sm-12">
+      {/* <div className="col-lg-8 col-sm-12">
         <select
           value={course?.id}
           className={'input-form' + errorClass(errors.course)}
@@ -37,7 +37,7 @@ const ApplyFields = ({
             </option>
           ))}
         </select>
-      </div>
+      </div> */}
       <ContactFields
         register={register}
         errorClass={errorClass}

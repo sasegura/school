@@ -472,10 +472,14 @@ License URI:
     margin-top: 45px;
   }
   .agency_img2 {
-    margin: 30px 0 40px;
+    transform: translate(-108px, 183px);
+    width: 285px
   }
   .agency_img1:after {
-    display: none;
+    width: 289px;
+    height: 166px;
+    transform: translate(235px, -29px);
+    border: 6px solid rgba(80, 172, 235, 1);
   }
   .compay_date {
     position: relative;
@@ -503,13 +507,13 @@ License URI:
 
   .botonWhatsUp {
     bottom: 9px;
-    right: 9px;
+    left: 9px;
   }
 
   .botonWhatsUpBack {
     bottom: 20px;
-    right: 20px;
-  }
+    left: 20px;
+  }  
 }
 
 /*------------------------------------------------------------------------------------
@@ -743,14 +747,17 @@ License URI:
     margin-bottom: 15px;
   }
   .agency_img2 {
-    margin-top: -20px;
-    margin-right: 180px;
+    transform: translate(285px, 27px);
+    margin-bottom: 76px;
+    width: 361px;
   }
   .agency_img1:after {
-    width: 380px;
-    height: 400px;
-    top: 30px;
-    right: 30px;
+    width: 296px;
+    height: 314px;
+    top: 48px;
+    right: 17px;
+    border: 8px solid rgba(80, 172, 235, 1);
+
   }
   .compay_date {
     right: 15px;
@@ -792,7 +799,7 @@ License URI:
   }
   .team_slider .swiper-wrapper {
     justify-content: left !important;
-  }
+  }  
 }
 
 /*-------------------------------------------------------------------------
@@ -859,6 +866,7 @@ License URI:
   .ready .common_btn {
     padding: 28px 38.5px;
   }
+  
   .footer_1 .aboutwidget {
     padding-right: 0;
   }
@@ -926,11 +934,14 @@ License URI:
     left: 50px;
   }
   .agency_img1:after {
-    width: 450px;
+    width: 399px;
+    height: 399px;
+    right: 51px;
   }
   .agency_img2 {
-    margin-top: -160px;
-    margin-right: 140px;
+    
+    transform: translate(360px, 73px);
+    margin-bottom: 76px;
   }
   .compay_date {
     right: 10px;
@@ -952,7 +963,7 @@ License URI:
   }
   .videoWrap_2 .play_video h2 {
     font-size: 40px;
-  }
+  }  
 }
 /*---------------------------------------------------------------------------------------------------------
 / 4. Responsive For large Device. like: laptop and other large screen those have minimum 1200px resolution
@@ -980,3 +991,47 @@ License URI:
     bottom: 78px !important;
   }
 }
+
+@media (max-width: 575px){
+  .col-xs-6 {
+      -moz-box-flex: 0;
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+
+  .agency_img2 {
+    transform: translate(-102px, 209px);
+    width: 232px;
+  }
+  .agency_img1 {
+    transform: translate(-14px, 30px);
+    width: 201px;
+  }
+  .agency_img1:after {
+    display: none;
+  }  
+}
+
+@media (max-width: 990px) {
+  .ordenadorStep{
+    display: none;
+  }
+  .movilStep{
+    display: block;
+    margin-top: 39px;
+  }
+}
+
+@media (min-width: 991px){
+  .ordenadorStep{
+    display: block;
+  }
+  .movilStep{
+    display: none;
+  }
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+  @media (min-width: 768px) and (max-width: 990px) {
+    @media (min-width: 991px) and (max-width: 1199px) {
+      @media (min-width: 1200px) { */

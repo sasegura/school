@@ -3,6 +3,7 @@ import { LogoImage, NavLinks } from '@/data';
 import { Col, Container, Row } from 'react-bootstrap';
 import { MenuContext } from '@/context/menu-context';
 import Link from 'next/link';
+import PopupMenu from './popup-menu';
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
@@ -30,9 +31,8 @@ const HeaderOne = () => {
 
   return (
     <header
-      className={`header_01 ${
-        true === sticky ? 'fixedHeader animated flipInX' : null
-      }`}
+      className={`header_01 ${true === sticky ? 'fixedHeader animated flipInX' : null
+        }`}
       id="header"
     >
       <Container fluid>
@@ -53,11 +53,10 @@ const HeaderOne = () => {
                   return (
                     <li
                       key={index}
-                      className={`${
-                        undefined !== links.subItems
-                          ? 'menu-item-has-children'
-                          : ''
-                      }`}
+                      className={`${undefined !== links.subItems
+                        ? 'menu-item-has-children'
+                        : ''
+                        }`}
                     >
                       <Link href={links.url}>
                         <a>{links.name}</a>
@@ -98,6 +97,7 @@ const HeaderOne = () => {
           </Col>
         </Row>
       </Container>
+      {menuStatus && <PopupMenu />}
     </header>
   );
 };

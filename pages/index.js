@@ -10,6 +10,11 @@ import SliderOne from '@/components/slider-one';
 import WhyUs from 'containers/why-us';
 import JobOffers from '@/components/job-offers';
 import { AppContext } from '@/context/app-context';
+import Comments from '@/components/comments';
+import RelatedPortfolio from '@/components/related-portfolio';
+import PortfolioOne from '@/components/portfolio-one';
+import CommentCard from '@/components/comment-card';
+import Steps from '@/components/steps';
 
 const HomeOne = () => {
   const { setLayoutTitle } = useContext(AppContext);
@@ -24,12 +29,14 @@ const HomeOne = () => {
       <Courses />
       <WhyUs />
       <PortfolioHome />
+      <CallToActionOne extraClassName="ready" />
       <AboutUsIndex />
+      <Steps />
       <SubscribeForm />
       <TeamCarousel />
       <ParallaxOne />
       <JobOffers />
-      <CallToActionOne extraClassName="ready" />
+
     </Fragment>
   );
 };

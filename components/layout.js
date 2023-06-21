@@ -2,14 +2,12 @@ import React, { Fragment, useContext, useState, useEffect } from 'react';
 import Head from 'next/head';
 import Script from 'next/experimental-script';
 import { MenuContext } from '@/context/menu-context';
-import PopupMenu from '@/components/popup-menu';
 import { Link as ScrollLink } from 'react-scroll';
 import WhatsUp from './whatsUp';
 import { AppContext } from '@/context/app-context';
 
 const Layout = ({ children }) => {
   const { layoutTitle } = useContext(AppContext);
-  const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
   const [origin, setOrigin] = useState('');
 
@@ -37,12 +35,12 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Coder Crack{layoutTitle ? `-${layoutTitle}` : null}</title>
+        <title>Codercrack{layoutTitle ? `-${layoutTitle}` : null}</title>
         <meta
           name="description"
           content="escuela europea de programación web"
         />
-        <meta property="og:title" content="Coder Crack School" />
+        <meta property="og:title" content="Codercrack School" />
         <meta property="og:url" content={origin} />
         <meta
           property="og:description"
@@ -54,11 +52,14 @@ const Layout = ({ children }) => {
             'https://codercrack.es/_next/static/images/logo-60df911614296378c21a24998a7aeb41.png'
           }
         />
-        
+
       </Head>
       <div id="wrapper">{children}</div>
       <WhatsUp />
-      {true === menuStatus ? <PopupMenu /> : null}
+
+
+
+      <div data-chat-widget data-style="--chat-widget-primary-color: #50AECB; --chat-widget-active-color:#50AECB ;--chat-widget-bubble-color: #50ACEB" data-location-id="qwR3u9giuIEhhsIA5z4r" data-heading="¿Tienes alguna duda o pregunta?" data-sub-heading="Cuéntanos, escríbenos un mensaje y pronto nos pondremos en contacto contigo" data-prompt-msg="Hola, tienes alguna pregunta? Puedo ayudarte a resolver tus dudas" data-legal-msg="Al enviar el formulario, acepta recibir SMS o correos electrónicos por el canal indicado." data-use-email-field="true" data-revisit-prompt-msg="Bienvenido nuevamente ${name}, en qué puedo ayudarte?" data-support-contact="Codercrack" data-success-msg="Alguno de nuestros asesores se pondrá en contacto contigo" data-thank-you-msg="Muchas gracias!" data-prompt-avatar="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FqwR3u9giuIEhhsIA5z4r%2Fchat-widget-person?alt=media&token=5788f5b9-f436-48de-89d7-c6b475adff59" data-agency-name="CDP" data-agency-website="" ></div> <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" > </script>
 
       {scrollTop === true ? (
         <ScrollLink

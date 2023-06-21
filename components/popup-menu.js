@@ -6,16 +6,16 @@ import { coderCrackInfo } from "@/information";
 
 const PopupMenu = () => {
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
+
   const menuEl = useRef(null);
   const handleMenuClick = (e) => {
-    e.preventDefault();
     updateMenuStatus(!menuStatus);
   };
   return (
     <div className="show-overlay-nav">
       <div className="popup popup__menu">
         <a
-          href=""
+          href="#"
           id="close-popup"
           onClick={handleMenuClick}
           className="close-popup"
@@ -32,7 +32,7 @@ const PopupMenu = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row popupMenuList">
             <div className="col-lg-12">
               <div className="popup-inner">
                 <nav
@@ -44,16 +44,15 @@ const PopupMenu = () => {
                       return (
                         <li
                           key={index}
-                          className={`${
-                            undefined !== links.subItems
-                              ? "menu-item-has-children"
-                              : ""
-                          }`}
+                          className={`${undefined !== links.subItems
+                            ? "menu-item-has-children"
+                            : ""
+                            }`}
                         >
-                          <Link href={links.url}>
-                            <a>{links.name}</a>
+                          <Link href={links.url} >
+                            <a onClick={handleMenuClick}>{links.name}</a>
                           </Link>
-                          {undefined !== links.subItems ? (
+                          {/* {undefined !== links.subItems ? (
                             <Fragment>
                               <button
                                 onClick={(e) => {
@@ -78,14 +77,14 @@ const PopupMenu = () => {
                                       href={subLinks.url + "?id=" + subLinks.id}
                                     >
                                       <a style={{ display: "inline" }}>
-                                        {subLinks.name}
+                                        {subLinks.title}
                                       </a>
                                     </Link>
                                   </li>
                                 ))}
                               </ul>
                             </Fragment>
-                          ) : null}
+                          ) : null} */}
                         </li>
                       );
                     })}
@@ -97,23 +96,23 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Teléfono: +34 {coderCrackInfo.phoneLabel}</li>
-                <li>Email: admision@codercrack.es</li>
-                <li>Dirección: Avenida de la Albufera 321, Madrid, España</li>
+                <li>+34 {coderCrackInfo.phoneLabel}</li>
+                <li>{coderCrackInfo.email}</li>
+                <li>{coderCrackInfo.fullAddress}</li>
               </ul>
             </div>
             <div className="col-lg-6 col-sm-12">
               <div className="popUp_social .popUp_social_pos text-center text-md-right">
                 <ul>
                   <li>
-                    <a Target="_blank" href="https://twitter.com/coder_crack">
+                    <a target="_blank" href={coderCrackInfo.twitter}>
                       <i className="fa fa-twitter"></i>Twitter
                     </a>
                   </li>
                   <li>
                     <a
-                      Target="_blank"
-                      href="https://www.facebook.com/codercrackschool"
+                      target="_blank"
+                      href={coderCrackInfo.facebook}
                     >
                       <i className="fa fa-facebook-square"></i>Facebook
                     </a>
@@ -125,8 +124,8 @@ const PopupMenu = () => {
                   </li> */}
                   <li>
                     <a
-                      Target="_blank"
-                      href="https://instagram.com/codercrack_school?igshid=YmMyMTA2M2Y="
+                      target="_blank"
+                      href={coderCrackInfo.instagram}
                     >
                       <i className="fa fa-instagram"></i>Instagram
                     </a>

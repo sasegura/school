@@ -23,24 +23,24 @@ const Footer = () => {
             <aside className="widget contact_widgets">
               <h3 className="widget_title">Contáctanos</h3>
               <p>
-                Avenida de la ALbufera 321, Vallecas
+                Avenida de la Albufera 321, Vallecas
                 <br />
                 Madrid, España
               </p>
               <p>+34 {coderCrackInfo.phoneLabel}</p>
-              <p> admision@codercrack.es </p>
+              <p> {coderCrackInfo.email} </p>
             </aside>
           </div>
           <div className="col-lg-2 col-sm-2">
             <div className="popUp_social">
               <ul>
                 <li>
-                  <a target="_blank" href="https://twitter.com/coder_crack">
+                  <a target="_blank" href={coderCrackInfo.twitter}>
                     <i className="fa fa-twitter"></i>Twitter
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://www.facebook.com/Codercrack">
+                  <a target="_blank" href={coderCrackInfo.facebook}>
                     <i className="fa fa-facebook-square"></i>Facebook
                   </a>
                 </li>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <li>
                   <a
                     target="_blank"
-                    href="https://instagram.com/codercrack_school?igshid=YmMyMTA2M2Y="
+                    href={coderCrackInfo.instagram}
                   >
                     <i className="fa fa-instagram"></i>Instagram
                   </a>

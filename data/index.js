@@ -68,8 +68,8 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from '@/images/slider/1_1.jpg';
-import sliderOne02 from '@/images/slider/1_2.jpg';
+import sliderOne01 from '@/images/slider/1.svg';
+import sliderOne02 from '@/images/slider/2.svg';
 
 export const SliderOneData = [
   {
@@ -86,7 +86,7 @@ export const SliderOneData = [
   {
     image: sliderOne02,
     // subTitle: "BIENVENIDOS A LA ESCUELA DE PROGRAMACIÓN EUROPEA",
-    // title: "CODER CRACK",
+    // title: "CODERCRACK",
     // button: {
     //   label: "SABER MÁS",
     //   url: "/about",
@@ -376,12 +376,12 @@ export const BlogComments = [
   },
 ];
 
-import portfolio01 from '@/images/portfolio/1.jpg';
-import portfolio02 from '@/images/portfolio/2.jpg';
-import portfolio03 from '@/images/portfolio/3.jpg';
-import portfolio04 from '@/images/portfolio/4.jpg';
-import portfolio05 from '@/images/portfolio/5.jpg';
-import portfolio06 from '@/images/portfolio/6.jpg';
+import portfolio01 from '@/images/portfolio/1.svg';
+import portfolio02 from '@/images/portfolio/2.svg';
+import portfolio03 from '@/images/portfolio/3.svg';
+import portfolio04 from '@/images/portfolio/4.svg';
+import portfolio05 from '@/images/portfolio/5.svg';
+import portfolio06 from '@/images/portfolio/6.svg';
 
 const apply_url = '/apply';
 export const PortfolioData = [
@@ -514,7 +514,7 @@ export const ServicePostData = [
 export const ServiceHomeTwoData = {
   //subTitle: "Conoce tu futuro empleo",
   title: 'OFERTAS DE EMPLEO PARA DESARROLLADORES',
-  text: 'Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Coder Crack',
+  text: 'Descubre las ofertas de empleo que existen en el mercado a las cuales \n podrás optar al culminar tus estudios en Codercrack',
 };
 
 export const ServiceHomeThreeData = {
@@ -682,11 +682,11 @@ export const AboutOneData = {
   },
 };
 
-import team01 from '@/images/team/1.jpg';
-import team02 from '@/images/team/2.jpg';
-import team03 from '@/images/team/3.jpg';
-import team04 from '@/images/team/4.jpg';
-import team05 from '@/images/team/5.jpg';
+import team01 from '@/images/team/isabel.svg';
+import team02 from '@/images/team/sergio.svg';
+import team03 from '@/images/team/andres.svg';
+import team04 from '@/images/team/liset.svg';
+import team05 from '@/images/team/goyo.svg';
 
 export const TeamOneData = {
   sectionContent: {
@@ -716,7 +716,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team05,
+      image: team02,
       name: 'Sergio Segura Fernández',
       designation: '',
       url: '#',
@@ -735,29 +735,9 @@ export const TeamOneData = {
         },
       ],
     },
-    // {
-    //   image: team02,
-    //   name: 'Andrés González Carmenates',
-    //   designation: '',
-    //   url: '',
-    //   socials: [
-    //     {
-    //       name: 'Facebook',
-    //       url: 'https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0',
-    //     },
-    //     {
-    //       name: 'Twitter',
-    //       url: 'https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas',
-    //     },
-    //     {
-    //       name: 'Linkedin',
-    //       url: 'https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc',
-    //     },
-    //   ],
-    // },
     {
       image: team03,
-      name: 'Liset Bichili Hernández',
+      name: 'Andrés González Carmenates',
       designation: '',
       url: '',
       socials: [
@@ -777,6 +757,26 @@ export const TeamOneData = {
     },
     {
       image: team04,
+      name: 'Liset Bichili Hernández',
+      designation: '',
+      url: '',
+      socials: [
+        {
+          name: 'Facebook',
+          url: 'https://www.linkedin.com/jobs/search?keywords=full%20stack&location=Espa%C3%B1a&geoId=105646813&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0',
+        },
+        {
+          name: 'Twitter',
+          url: 'https://www.tecnoempleo.com/busqueda-empleo.php?te=full+stack&pr=#buscador-ofertas',
+        },
+        {
+          name: 'Linkedin',
+          url: 'https://es.indeed.com/jobs?q=full%20stack&l=Espa%C3%B1a&vjk=78127819f3d04cbc',
+        },
+      ],
+    },
+    {
+      image: team05,
       name: 'Juan Gregorio Lombardo Fernández',
       designation: '',
       url: '',
@@ -804,7 +804,7 @@ export const VideoOneData = {
   sectionContent: {
     title: 'Comunidad y objetivos de CODERCRACK',
     //subTitle: "the only design you need",
-    text: 'En nuestra escuela encontrarás personas con edades y orígenes diferentes, tanto si quieres trabajar en España como si quieres volver a tu país, te damos las herramientas necesarias para que tengas éxito en tu futuro profesional.Te acompañamos en todas las facetas: académica, alojamiento, inmigración. Con nuestra ayuda te será más fácil tu estancia en España y  conseguir tus objetivos',
+    text: 'En la comunidad de CodeCrackers encontrarás personas con edades y orígenes diferentes. ¡Despierta tu pasión por la programación! Nuestros cursos te brindan un entorno estimulante, mentores expertos y un currículo actualizado para que te conviertas en un profesional sobresaliente',
   },
   video: {
     image: video01,
@@ -1013,23 +1013,23 @@ export const ParallaxOneData = {
   iconName: 'mei-team',
   title: 'Las personas y el trabajo en equipo:',
   specialText: ' son las fuerzas impulsoras detrás de cada negocio exitoso.',
-  text: 'Te acompañamos en todas las facetas: académica, alojamiento, extranjería e inmigración \n Con nuestra ayuda te será más fácil tu estancia en España y conseguir tus objetivos',
+  text: 'En Codercrack creemos que la programación web puede ser accesible para todos. Nuestros cursos te guiará paso a paso, sin importar tu nivel de experiencia. ¡Únete y descubre tu talento oculto!',
 };
 
 export const PortfolioHomeData = {
   sectionContent: {
     title: 'Próximas ediciones',
-    //subTitle: "¿Cuándo comienzan los cursos en Coder Crack?",
+    //subTitle: "¿Cuándo comienzan los cursos en Codercrack?",
     text: 'Inscríbete en la edición que más te guste, si no encuentras una fecha contáctanos y te ayudamos',
   },
 };
 
-import video02 from '@/images/home_1/3.jpg';
+import video02 from '@/images/home_1/3.svg';
 
 export const VideoTwoData = {
   sectionContent: {
     subTitle: `En CODERCRACK buscamos que nuestros cursos sean una experiencia única y completa. \n 
-      Somos conscientes de que cada persona tiene un talento y unas metas diferentes, por eso nos adaptamos a ti para ayudarte a conseguir tus objetivos"`,
+      Somos conscientes de que cada persona tiene un talento y unas metas diferentes, por eso, nos adaptamos a ti para ayudarte a conseguir tus objetivos`,
     //title: "¿Cómo es nuestra escuela?",
     //text: "We are committed to providing our customers with exceptional service while\n offering our employees the best training.",
   },
@@ -1056,12 +1056,12 @@ export const AboutTwoData = {
   gallery: [aboutTwo01, aboutTwo02],
 };
 
-import featureTwo01 from '@/images/home_1/5.jpg';
+import featureTwo01 from '@/images/home_1/5.svg';
 
 export const FeatureTwoData = {
   sectionContent: {
     //subTitle: "our core features",
-    title: '¿Por qué estudiar en Coder Crack?',
+    title: '¿Por qué estudiar en CoderCrack?',
     //text: "fddfg",
   },
   posts: [
@@ -1070,17 +1070,22 @@ export const FeatureTwoData = {
       text: 'Se trata de un sector en el que la demanda es muy alta y la oferta es más bien baja. Aproximadamente el 60% de las empresas se quedan sin cubrir todos los puestos tecnológicos que necesitaban y esto no hace más que crecer con el desarrollo de nuevas aplicaciones enlazadas en todos los procesos empresariales.',
     },
     {
+      title:
+        'Puedes estudiar primero y pagar cuando encuentres trabajo',
+      text: 'Descubre las becas ISA y asegura tu futuro sin preocupaciones financieras. Estudia primero y paga después, una vez que hayas alcanzado tus metas profesionales.',
+    },
+    {
+      title: "Un Desarrollador Web en Madrid gana desde 24.000€ al año"
+    },
+    {
       title: 'No necesitas conocimientos previos en programación web',
       text: 'La escuela está diseñada para brindar acceso a alumnos que provengan de otras especialidades, ya que cuenta con un curso preparatorio.',
     },
-    {
-      title:
-        'TE AYUDAMOS CON TUS TRÁMITES PARA VENIR A MADRID Y DURANTE TUS ESTUDIOS',
-      text: 'Asesoramiento basado en experiencias personales para los trámites, tanto en la solicitud de visado como los trámites de residencia por prácticas una vez en España. (Tarjeta de Identificación de extranjero TIE, Padrón Municipal, Contratación en Prácticas Profesionales, Certificado Digital, Tarjeta y Abono Individual del Transporte Público, etc).',
-    },
+
+
   ],
   image: {
-    text: 'Oportunidades \n al alcance de todos',
+    text: 'Conviértete en un Codecracker',
     path: featureTwo01,
   },
 };

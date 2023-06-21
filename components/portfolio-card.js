@@ -1,23 +1,29 @@
 import React from "react";
 import Link from "next/link";
+
 const PortfolioCard = ({ data }) => {
-  const { image, title, categories, url, id, edition } = data;
+  const { image, title, categories, url } = data;
 
   return (
-    <div className={`singlefolio`}>
-      <img src={image} alt={title} />
-      <div className="folioHover">
-        <p className="cate" href="#">
-          {categories.map((cat) => cat + "")}
-        </p>
-        <h4>
-          <Link href={`${url}?course=${id}&edition=${edition}`}>
+    <Link href={`${url}`}>
+      <div className={`singlefolio`} >
+        <img src={image} alt={title} />
+        <div className="folioHover">
+          <p className="cate" href="#">
+            {categories?.map((cat) => cat + "")}
+          </p>
+          <h4>
             <a>{title}</a>
-          </Link>
-        </h4>
+          </h4>
+        </div>
+
+
       </div>
-    </div>
+    </Link>
   );
 };
+
+
+
 
 export default PortfolioCard;

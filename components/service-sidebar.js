@@ -12,6 +12,8 @@ const ServiceSidebar = ({ data }) => {
   const [showOnePay, setShowOnePay] = useState(false);
   const [showFriend, setShowFriend] = useState(false);
   const [showPriorKnowledge, setShowPriorKnowledge] = useState(false);
+  const [checkedOnline, setcheckedOnline] = useState(false);
+
 
   useEffect(() => {
     const isOnePayOption = data?.discounts?.find(
@@ -43,33 +45,35 @@ const ServiceSidebar = ({ data }) => {
     setCheckedOnePay(false);
     setCheckedFriend(false);
     setCheckedPriorKnowledge(false);
+    setcheckedOnline(false);
+
   }, [data?.price]);
 
-  const percent = (condition, discount) => {
+  const percent = (condition, discount, total) => {
     let count;
     if (condition) {
-      count = counter + (data?.price * discount) / 100;
+      count = counter + (total * discount) / 100;
     } else {
-      count = counter - (data?.price * discount) / 100;
+      count = counter - (total * discount) / 100;
     }
     return count;
   };
 
   const onChangeOnePay = () => {
-    setCounter(() => percent(checkedOnePay, 10));
+    setCounter(() => percent(checkedOnePay, 10, data?.price));
     setCheckedOnePay(!checkedOnePay);
   };
 
   const onChangeFriend = () => {
-    setCounter(() => percent(checkedFriend, 5));
+    setCounter(() => percent(checkedFriend, 5, data?.price));
     setCheckedFriend(!checkedFriend);
   };
 
   const setonChangePriorKnowledge = () => {
-    setCounter(() => percent(checkedPriorKnowledge, 10));
+    setCounter(() => percent(checkedPriorKnowledge, 10, data?.price));
     setCheckedPriorKnowledge(!checkedPriorKnowledge);
   };
-
+  
   const router = useRouter();
 
   async function navigate() {
@@ -129,17 +133,19 @@ const ServiceSidebar = ({ data }) => {
                 </label>
               </li>
             )}
+            
           </ul>
-          <h1 className="timerPrice">
-            Precio:
+          <h1 className="timerPrice">            
             <CountUp end={counter} />€
           </h1>
-          <p>
-            No necesitas hacer un pago único.
-            Puedes realizar el pago inicial de la matrícula y luego, cuando comience el curso,
-            efectuar los siguientes pagos mensualmente.
+          <h1 className="timerPrice1">
+            Online:&nbsp;
+            <CountUp end={counter*0.6} />€
+          </h1>
+          <p className={'centerBlock'}>
+            Contamos con opciones de financiación
           </p>
-          <span className={'red'}> Contáctanos ahora, contamos con BECAS personalizadas.</span>
+          {/* <span className={'red centerBlock'}> Paga cuando encuentres trabajo, contáctanos y te contamos cómo funciona.</span> */}
           <p/>
           <button className={`width100 common_btn red_bg`} onClick={() => navigate()}>
             <span>Aplicar</span>
@@ -158,8 +164,21 @@ const ServiceSidebar = ({ data }) => {
             Si prefieres hablar con personas antes de llenar el formulario
             puedes contactarnos y un miembro de nuestro equipo te ayudará.
           </p>
-          <h2>{`${coderCrackInfo?.phoneCountryCode} ${coderCrackInfo?.phone}`}</h2>
-          <p> {`${coderCrackInfo?.email}`}</p>
+          <h2>
+            <a
+              style={{color:"white"}}
+              href={`https://api.whatsapp.com/send?phone=+34${coderCrackInfo.phone}&text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20Coder%20Crack`}
+              target={"_blank"}
+            >
+              {`${coderCrackInfo?.phoneCountryCode} ${coderCrackInfo?.phone}`}
+            </a> 
+          </h2> 
+          
+          <p><a
+              style={{color:"#aaaaaa"}}
+              href={`mailto:admision@codercrack.es`}
+              target={"_blank"}
+            >{`${coderCrackInfo?.email}`}</a></p>
         </div>
       </aside>
     </Fragment>
