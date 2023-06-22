@@ -291,7 +291,7 @@ License URI:
 / 3. Services Section
 ------------------------------------------------------*/
 .service_section {
-  background: url(../images/bg/1.jpg) no-repeat center center / cover;
+  background: #000;
 }
 .icon_box_1 {
   display: inline-block;
@@ -328,7 +328,6 @@ License URI:
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
-  /*color: #aaaaaa;*/
   margin: 0;
   transition: all ease 400ms;
   -moz-transition: all ease 400ms;
@@ -684,10 +683,6 @@ License URI:
 /*----------------------------------------------------
 / 7. Fun Fact Section
 ------------------------------------------------------*/
-.funfact {
-  background: url(../images/bg/2.jpg) no-repeat center center / cover;
-  padding: 0 0 330px;
-}
 .BR {
   border-right: 1px solid #1a1a1a;
 }
@@ -1278,7 +1273,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-  background: url(../images/bg/4b.svg) no-repeat center center / cover;
+  background: url(../images/bg/2.svg) no-repeat center center / cover;
 }
 .ready1 div.container{
   margin-top: 100px;
@@ -1290,25 +1285,13 @@ License URI:
 .ready .common_btn {
   padding: 28px 42.5px;
 }
-.ready_2 {
-  background: url(../images/bg/6.jpg) no-repeat center center / cover;
-}
-.ready_2 .sec_title {
-  margin: 0;
-}
-.ready_2 .common_btn {
-  padding: 28px 42.5px;
-  background: #fff;
-  color: #000;
-}
-
 /*----------------------------------------------------
 / 14. Footer Section
 ------------------------------------------------------*/
 .footer_1 {
   position: relative;
   padding: 130px 0 0;
-  background: url(../images/bg/5.png) no-repeat center center / cover;
+  background: url(../images/bg/5.webp) no-repeat center center / cover;
 }
 .footer_1 .widget {
   position: relative;
@@ -1599,9 +1582,6 @@ License URI:
 /*----------------------------------------------------
 / 17. Tesimonial 02 Section
 ------------------------------------------------------*/
-.testimonial_2 {
-  background: url(../images/bg/7.jpg) no-repeat center center / cover;
-}
 .testimoniTab {
   position: relative;
 }
@@ -1922,12 +1902,6 @@ License URI:
 /*----------------------------------------------------
 / 21. About Page
 ------------------------------------------------------*/
-.pageBanner {
-  position: relative;
-  min-height: 465px;
-  background: url(../images/bg/6.jpg) no-repeat center center / cover;
-  padding-top: 224px;
-}
 
 .customPageBanner {
   position: relative;

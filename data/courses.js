@@ -4,11 +4,8 @@ import portfolio03 from '@/images/portfolio/3.svg';
 import portfolio04 from '@/images/portfolio/4.svg';
 import portfolio05 from '@/images/portfolio/5.svg';
 import portfolio06 from '@/images/portfolio/6.svg';
-import bannerImg1 from '@/images/bg/course1.svg';
-import bannerImg2 from '@/images/bg/course2.svg';
-import bannerImg3 from '@/images/bg/course3.svg';
-import bannerImg4 from '@/images/bg/course4.svg';
-import bannerImg5 from '@/images/bg/course5.svg';
+import bannerImg from '@/images/bg/4.svg';
+
 
 export const requirements = [
   'Ordenador portátil',
@@ -32,7 +29,7 @@ export const CoursesList = {
       price: 5500,
       requirements: requirements,
       discounts: discounts,
-      bannerImg: bannerImg1,
+      bannerImg: bannerImg,
       description:
         'Este Máster en Desarrollo Web te ofrece una formación completa y adaptada a las necesidades demandadas por el mercado laboral, con un plan de estudio diseñado poniendo el foco en la formación de un perfil de Web Full Stack, capaz de desarrollar aplicaciones web tanto ‘front-end’ como ‘back-end’ y gestionar proyectos web. Se trata de uno de los perfiles profesionales más demandados por empresas y organizaciones por su versatilidad y proyección.',
       secondDescription: [
@@ -77,7 +74,7 @@ export const CoursesList = {
       price: 3500,
       requirements: requirements,
       discounts: discounts,
-      bannerImg: bannerImg2,
+      bannerImg: bannerImg,
       description:
         'Con la Formación profesional en desarrollo web Front-End, el estudiante podrá dominar las nuevas técnicas, para diferentes plataformas, y desarrollar webs que marquen tendencia en el mercado. Con este Máster, el alumno podrá desarrollar toda clase de software para dispositivos web.',
       secondDescription: [
@@ -117,7 +114,7 @@ export const CoursesList = {
       price: 3500,
       requirements: requirements,
       discounts: discounts,
-      bannerImg: bannerImg3,
+      bannerImg: bannerImg,
       description:
         'Un desarrollador Backend se encarga de diseñar la lógica y las soluciones para que todas las acciones solicitadas en una página web sean ejecutadas de manera correcta. Por lo tanto, un desarrollador Backend es responsable de la programación del sitio en todos sus componentes.',
       secondDescription: [
@@ -169,7 +166,7 @@ export const CoursesList = {
       price: 2500,
       requirements: requirements,
       discounts: discounts,
-      bannerImg: bannerImg4,
+      bannerImg: bannerImg,
       description:
         'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
       secondDescription: [
@@ -220,7 +217,7 @@ export const CoursesList = {
       price: 2500,
       requirements: requirements,
       discounts: discounts,
-      bannerImg: bannerImg5,
+      bannerImg: bannerImg,
       description:
         'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
       secondDescription: [

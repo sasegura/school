@@ -5,7 +5,6 @@ import CustomPageBanner from '@/components/custom-page-banner';
 import imageBanner from '@/images/bg/4.svg';
 import { useRouter } from 'next/router';
 import { AppContext } from '@/context/app-context';
-import CallToActionOne from '@/components/call-to-action-one';
 
 const ApplyPage = () => {
   const router = useRouter();
@@ -33,8 +32,8 @@ const ApplyPage = () => {
         edition={edition}
         courseList={courses}
         editionList={editions}
-      />            
-      
+      />
+
     </Fragment>
   );
 };

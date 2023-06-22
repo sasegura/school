@@ -232,149 +232,11 @@ export const ApplyFormTitle = {
     'Recibiremos tu información y pondremos a un asesor \n      a tu disposición ',
 };
 
-import blogImage1 from '@/images/blog/1.jpg';
-import blogImage2 from '@/images/blog/2.jpg';
-import blogImage3 from '@/images/blog/3.jpg';
-import blogImage4 from '@/images/blog/4.jpg';
-import blogImage5 from '@/images/blog/5.jpg';
-import blogImage6 from '@/images/blog/6.jpg';
-
-export const BlogData = [
-  {
-    title: 'basic rules of running web agency business',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage1,
-  },
-  {
-    title: 'Become the best sale marketer',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage2,
-  },
-  {
-    title: 'Introducing latest mopaly features',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage3,
-  },
-  {
-    title: 'a deep understanding of our audience',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage4,
-  },
-  {
-    title: 'We build and activate brands insight',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage5,
-  },
-  {
-    title: 'experiences that connect with people',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage6,
-  },
-];
-
-import blogImageTwo1 from '@/images/blog/14.jpg';
-import blogImageTwo2 from '@/images/blog/15.jpg';
-
-export const BlogTwoData = [
-  {
-    title:
-      'Dynamically procrastinate unique vortals with global best practices.',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImageTwo1,
-  },
-  {
-    title: 'Become the best sale marketer',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage2,
-  },
-  {
-    title: 'Introducing latest mopaly features',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage3,
-  },
-  {
-    title: 'a deep understanding of our audience',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage4,
-  },
-  {
-    title: 'We build and activate brands insight',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage5,
-  },
-  {
-    title:
-      'Holisticly conceptualize backend scenarios via accurate technologies.',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImageTwo2,
-  },
-  {
-    title: 'experiences that connect with people',
-    date: '20 nov',
-    url: '/blog-single',
-    image: blogImage6,
-  },
-];
-
 export const BlogHomeSection = {
   subTitle: 'our news & articles',
   title: 'latest blog posts',
   text: 'We are committed to providing our customers with exceptional service while\n offering our employees the best training.',
 };
-
-import blogS1 from '@/images/blog/11.jpg';
-import blogS2 from '@/images/blog/12.jpg';
-import blogS3 from '@/images/blog/13.jpg';
-
-export const BlogSidebarPost = [
-  {
-    title: 'basic rules of running web agency',
-    image: blogS1,
-    url: '/blog-single',
-  },
-  {
-    title: 'basic rules of running web agency',
-    image: blogS2,
-    url: '/blog-single',
-  },
-  {
-    title: 'basic rules of running web agency',
-    image: blogS3,
-    url: '/blog-single',
-  },
-];
-
-import commentImage1 from '@/images/blog/9.jpg';
-import commentImage2 from '@/images/blog/10.jpg';
-
-export const BlogComments = [
-  {
-    image: commentImage1,
-    name: 'David Martin',
-    data: '20 Nov, 2018 - 4:00 pm',
-    content:
-      'Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.',
-  },
-  {
-    image: commentImage2,
-    name: 'Jessica Brown',
-    data: '20 Nov, 2018 - 4:00 pm',
-    content:
-      'Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.',
-  },
-];
 
 import portfolio01 from '@/images/portfolio/1.svg';
 import portfolio02 from '@/images/portfolio/2.svg';
@@ -625,29 +487,29 @@ export const ClientCarouselData = {
   ],
 };
 
-import aboutOne01 from '@/images/about/1.jpg';
-import aboutOne02 from '@/images/about/2.jpg';
-import aboutOne04 from '@/images/about/5.jpg';
-import aboutOne05 from '@/images/about/6.jpg';
-import aboutOne06 from '@/images/about/7.jpg';
-import aboutOne07 from '@/images/about/8.jpg';
-import aboutOne08 from '@/images/about/9.jpg';
-import aboutOne09 from '@/images/about/10.jpg';
-import aboutOne10 from '@/images/about/11.jpg';
-import aboutOne11 from '@/images/about/12.jpg';
-import aboutOne12 from '@/images/about/13.jpg';
-import aboutOne13 from '@/images/about/14.jpg';
-import aboutOne14 from '@/images/about/15.jpg';
-import aboutOne15 from '@/images/about/16.jpg';
-import aboutOne16 from '@/images/about/17.jpg';
-import aboutOne17 from '@/images/about/18.jpg';
-import aboutOne18 from '@/images/about/19.jpg';
-import aboutOne19 from '@/images/about/20.jpg';
-import aboutOne20 from '@/images/about/21.jpg';
-import aboutOne21 from '@/images/about/22.jpg';
-import aboutOne22 from '@/images/about/23.jpg';
-import aboutOne23 from '@/images/about/24.jpg';
-import aboutOne24 from '@/images/about/25.jpg';
+import aboutOne01 from '@/images/about/1.webp';
+import aboutOne02 from '@/images/about/2.webp';
+import aboutOne04 from '@/images/about/5.webp';
+import aboutOne05 from '@/images/about/6.webp';
+import aboutOne06 from '@/images/about/7.webp';
+import aboutOne07 from '@/images/about/8.webp';
+import aboutOne08 from '@/images/about/9.webp';
+import aboutOne09 from '@/images/about/10.webp';
+import aboutOne10 from '@/images/about/11.webp';
+import aboutOne11 from '@/images/about/12.webp';
+import aboutOne12 from '@/images/about/13.webp';
+import aboutOne13 from '@/images/about/14.webp';
+import aboutOne14 from '@/images/about/15.webp';
+import aboutOne15 from '@/images/about/16.webp';
+import aboutOne16 from '@/images/about/17.webp';
+import aboutOne17 from '@/images/about/18.webp';
+import aboutOne18 from '@/images/about/19.webp';
+import aboutOne19 from '@/images/about/20.webp';
+import aboutOne20 from '@/images/about/21.webp';
+import aboutOne21 from '@/images/about/22.webp';
+import aboutOne22 from '@/images/about/23.webp';
+import aboutOne23 from '@/images/about/24.webp';
+import aboutOne24 from '@/images/about/25.webp';
 
 export const AboutOneData = {
   sectionContent: {
@@ -798,16 +660,13 @@ export const TeamOneData = {
   ],
 };
 
-import video01 from '@/images/about/3.jpg';
-
 export const VideoOneData = {
   sectionContent: {
     title: 'Comunidad y objetivos de CODERCRACK',
-    //subTitle: "the only design you need",
     text: 'En la comunidad de CodeCrackers encontrarás personas con edades y orígenes diferentes. ¡Despierta tu pasión por la programación! Nuestros cursos te brindan un entorno estimulante, mentores expertos y un currículo actualizado para que te conviertas en un profesional sobresaliente',
   },
   video: {
-    image: video01,
+    image: team01,
     ID: 'y2Eqx6ys1hQ',
     title: 'Watch Video',
   },
