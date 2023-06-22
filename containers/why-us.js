@@ -1,7 +1,7 @@
 import React from 'react';
 import { FeatureTwoData } from '@/data';
 import SectionTitle from '../components/section-title';
-import Link from 'next/link';
+import Image from 'next/image';
 
 const WhyUs = () => {
   const { sectionContent, posts, image } = FeatureTwoData;
@@ -27,23 +27,16 @@ const WhyUs = () => {
                   <div className="singleFeature" key={index}>
                     <div className="f_count">{zeroPad(index + 1, 2)}</div>
                     <h3>{title}</h3>
-                    {/* <p className="featureText">
-                      {text}
-                      <Link href={'/about?tab=' + index + '#why_us'}>
-                        <a className={'read-more learnM'}>ver más</a>
-                      </Link>
-                    </p> */}
                   </div>
                 );
               })}
             </div>
           </div>
-          <div className="col-lg-7 col-sm-12 col-md-12 noPaddingRight">
-            <div className="features_img">
-              <img src={image.path} alt="" />
-              <div className="img_details">
-                <h4>{image.text}</h4>
-              </div>
+          <div className="col-lg-7 col-sm-12 col-md-12 noPaddingRight whyContainer">
+
+            <Image src={image.path} alt="" width={822} height={639} />
+            <div className="img_details">
+              <h4>{image.text}</h4>
             </div>
           </div>
         </div>

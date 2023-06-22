@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MenuContext } from "@/context/menu-context";
 import { LogoImage, NavLinks } from "@/data";
 import { coderCrackInfo } from "@/information";
+import Image from "next/image";
 
 const PopupMenu = () => {
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
@@ -26,7 +27,7 @@ const PopupMenu = () => {
               <div className="logo2">
                 <Link href="/">
                   <a>
-                    <img src={LogoImage.light} alt="" />
+                    <Image width={280} height={84} src={LogoImage.light} alt="" />
                   </a>
                 </Link>
               </div>

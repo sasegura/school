@@ -1011,27 +1011,3 @@ License URI:
     display: none;
   }  
 }
-
-@media (max-width: 990px) {
-  .ordenadorStep{
-    display: none;
-  }
-  .movilStep{
-    display: block;
-    margin-top: 39px;
-  }
-}
-
-@media (min-width: 991px){
-  .ordenadorStep{
-    display: block;
-  }
-  .movilStep{
-    display: none;
-  }
-}
-
-/* @media (min-width: 481px) and (max-width: 767px) {
-  @media (min-width: 768px) and (max-width: 990px) {
-    @media (min-width: 991px) and (max-width: 1199px) {
-      @media (min-width: 1200px) { */

@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionTitle from "@/components/section-title";
 import { FeatureTabData } from "@/data";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 const FeatureTabOne = () => {
   const router = useRouter();
-  const {tab} = router.query;
+  const { tab } = router.query;
   let tabI = parseInt(tab) || 0;
-  if ( tabI < 0 || tabI > 2) tabI = 0;
+  if (tabI < 0 || tabI > 2) tabI = 0;
   const [active, setActive] = useState(tabI);
   const { sectionContent, posts } = FeatureTabData;
   return (
@@ -51,9 +52,8 @@ const FeatureTabOne = () => {
                   key={index}
                 >
                   <Row
-                    className={`${
-                      0 === index % 2 ? " " : "flex-lg-row-reverse"
-                    }`}
+                    className={`${0 === index % 2 ? " " : "flex-lg-row-reverse"
+                      }`}
                   >
                     <Col lg={7}>
                       <div className="wh_choose">
@@ -69,7 +69,7 @@ const FeatureTabOne = () => {
                     </Col>
                     <Col lg={5}>
                       <div className="chose_img">
-                        <img src={post.image} alt={`chose_img-${index}`} />
+                        <Image src={post.image} alt={`chose_img-${index}`} width={470} height={364} />
                       </div>
                     </Col>
                   </Row>

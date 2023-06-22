@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { MenuContext } from '@/context/menu-context';
 import Link from 'next/link';
 import PopupMenu from './popup-menu';
+import Image from 'next/image';
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
@@ -41,7 +42,7 @@ const HeaderOne = () => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src={LogoImage.light} alt="" />
+                  <Image width={230} height={69} src={LogoImage.light} alt="" />
                 </a>
               </Link>
             </div>

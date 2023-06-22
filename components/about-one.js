@@ -1,6 +1,7 @@
 import React from "react";
 import { AboutOneData } from "@/data";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Image from 'next/image'
 
 const AboutOne = () => {
   const { sectionContent, gallery, carrousel } = AboutOneData;
@@ -18,12 +19,18 @@ const AboutOne = () => {
           </div>
           <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6">
             <div className="agency_img1">
-              <img src={gallery[0]} alt="" />
+              <Image src={gallery[0]}
+                width={530}
+                height={464}
+                alt="Picture of the author" />
             </div>
           </div>
           <div className="col-lg-6 col-sm-6 col-md-6 col-xs-6">
             <div className="agency_img2">
-              <img src={gallery[1]} alt="" />
+              <Image src={gallery[1]}
+                width={535}
+                height={310}
+                alt="Picture of the author" />
             </div>
             <div className="compay_date">
               {/* <h5>{counter.title}</h5>

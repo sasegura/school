@@ -10,10 +10,6 @@ import SliderOne from '@/components/slider-one';
 import WhyUs from 'containers/why-us';
 import JobOffers from '@/components/job-offers';
 import { AppContext } from '@/context/app-context';
-import Comments from '@/components/comments';
-import RelatedPortfolio from '@/components/related-portfolio';
-import PortfolioOne from '@/components/portfolio-one';
-import CommentCard from '@/components/comment-card';
 import Steps from '@/components/steps';
 
 const HomeOne = () => {

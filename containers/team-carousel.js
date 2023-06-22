@@ -54,15 +54,17 @@ const TeamCarousel = () => {
           </Col>
         </Row>
       </Container>
-      <Swiper className="team_slider" {...carouselOptions}>
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}
+      <Container>
+        <Swiper className="team_slider" {...carouselOptions}>
+          {posts.map((post, index) => (
+            <SwiperSlide key={index}>
+              <TeamCard data={post} />
+            </SwiperSlide>
+          ))}
 
-        <div className="swiper-pagination" id="team-carousel-pagination"></div>
-      </Swiper>
+          <div className="swiper-pagination" id="team-carousel-pagination"></div>
+        </Swiper>
+      </Container>
     </section>
   );
 };

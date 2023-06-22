@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import image02 from '@/images/home_1/3.svg';
 import image03 from '@/images/home_1/3.svg';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const AboutUsIndex = () => {
   const [image, setImage] = useState(image02);
@@ -40,7 +41,7 @@ const AboutUsIndex = () => {
               <div className="videoWrap mb-0">
                 <Link href="/about">
                   <a>
-                    <img src={image} alt="" />
+                    <Image width={1170} height={551} src={image} alt="" />
                   </a>
                 </Link>
                 <a href="/about" className={`common_btn imageGif`}>
