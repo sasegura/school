@@ -2,19 +2,30 @@ import React from "react";
 import { PortfolioData } from '@/courses';
 import PortfolioCard from "./portfolio-card";
 import VisibilitySensor from 'react-visibility-sensor';
+import Image from "next/dist/client/image";
 
 const ServiceDetailsContent = ({ data }) => {
-  console.log(data)
-  console.log(PortfolioData)
+
   data.url = "/apply"
   return (
     <div className="serviceArea">
+      {(data?.specifications.length > 0) && <div className="specificationCourse">
+        {data?.specifications?.map((specification, index) => (
+          <div key={index} className="specificationCourseCard">
+            <div className="logoSpec"><img src={specification.img} alt={"title"} /></div>
+            <p className="titleSpec">{specification.title}</p>
 
+            <span>{specification.text}</span>
+          </div>
+        ))}
+
+      </div>
+      }
       <p>
         {data?.description}
       </p>
       <div className="row gaping">
-        <div className="col-lg-6 col-sm-12 col-md-6">
+        {/* <div className="col-lg-6 col-sm-12 col-md-6">
           <VisibilitySensor
             key={data?.id}
             offset={{ top: 10 }}
@@ -23,7 +34,7 @@ const ServiceDetailsContent = ({ data }) => {
 
             <PortfolioCard data={data} />
           </VisibilitySensor>
-        </div>
+        </div> */}
         <div className="col-lg-6 col-sm-12 col-md-6">
           <h4>Requisitos de acceso y material necesario.</h4>
           <ul>

@@ -24,8 +24,9 @@ const ServiceDetailsPage = ({ id }) => {
         image={course?.bannerImg}
       />
       <ServiceDetails data={course} />
-      <Courses colorWhite={true} />
+
       <CallToActionOne extraClassName="ready" />
+      <Courses colorWhite={true} />
     </Fragment>
   );
 };

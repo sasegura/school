@@ -8,35 +8,36 @@ export const LogoImage = {
 
 export const CoursesData = [
   {
-    title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
-    iconName: 'mei-development-1',
-    url: '/course-details',
-    id: 1,
-  },
-  {
-    title: 'Formación profesional en desarrollo web \n Front-end',
-    iconName: 'mei-computer-graphic',
-    url: '/course-details',
-    id: 2,
-  },
-  {
-    title: 'Formación profesional en desarrollo web \n Back-end',
-    iconName: 'mei-web-design',
-    url: '/course-details',
-    id: 3,
-  },
-  {
-    title: 'Bootcamp en desarrollo  de aplicaciones web \n Front-end',
+    title: 'Bootcamp en desarrollo de aplicaciones web \n Front-end',
     iconName: 'mei-app-development',
     url: '/course-details',
-    id: 4,
+    id: 1,
   },
   {
     title: 'Bootcamp en desarrollo de aplicaciones web \n Back-end',
     iconName: 'mei-development',
     url: '/course-details',
+    id: 2,
+  },
+  {
+    title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
+    iconName: 'mei-development-1',
+    url: '/course-details',
+    id: 3,
+  },
+  {
+    title: 'Formación profesional en desarrollo web \n Front-end',
+    iconName: 'mei-computer-graphic',
+    url: '/course-details',
+    id: 4,
+  },
+  {
+    title: 'Formación profesional en desarrollo web \n Back-end',
+    iconName: 'mei-web-design',
+    url: '/course-details',
     id: 5,
   },
+
 ];
 
 export const NavLinks = [

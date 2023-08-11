@@ -5,7 +5,49 @@ import portfolio04 from '@/images/portfolio/4.svg';
 import portfolio05 from '@/images/portfolio/5.svg';
 import portfolio06 from '@/images/portfolio/6.svg';
 import bannerImg from '@/images/bg/4.svg';
+import durationSpec from '@/images/icons/CourseSpecifications/1.svg';
+import modalidadSpec from '@/images/icons/CourseSpecifications/2.svg';
+import horarioSpec from '@/images/icons/CourseSpecifications/3.svg';
+import fechaISpec from '@/images/icons/CourseSpecifications/4.svg';
+import fechaESpec from '@/images/icons/CourseSpecifications/5.svg';
+import priceSpec from '@/images/icons/CourseSpecifications/6.svg';
 
+export const specificationsMasterFull = [];
+export const specificationsMasterFront = [];
+export const specificationsMasterBack = [];
+export const specificationsBootcampFront = [
+  {
+    img: durationSpec,
+    title: "Duración",
+    text: "20 semanas"
+  },
+  {
+    img: modalidadSpec,
+    title: "Modalidad",
+    text: "Presencial"
+  },
+  {
+    img: fechaISpec,
+    title: "Fecha inicio",
+    text: "15/09/2024"
+  },
+  {
+    img: fechaESpec,
+    title: "Fecha final",
+    text: "27/01/25"
+  },
+  {
+    img: horarioSpec,
+    title: "Horario",
+    text: "18:30 a 21:30"
+  },
+  {
+    img: priceSpec,
+    title: "Precio",
+    text: "2500"
+  }
+];
+export const specificationsBootcampBack = [];
 
 export const requirements = [
   'Ordenador portátil',
@@ -19,15 +61,96 @@ export const CoursesList = {
   url: '/course-details',
   courses: [
     {
+      name: 'Bootcamp en desarrollo de aplicaciones web Front-end',
+      title: 'Bootcamp en desarrollo de aplicaciones web \n Front-end',
+      url: '/course-details',
+      id: 1,
+      iconName: 'mei-app-development',
+      format: 'Presencial Full/Part Time',
+      image: portfolio04,
+      price: 2500,
+      requirements: requirements,
+      specifications: specificationsBootcampFront,
+      discounts: discounts,
+      bannerImg: bannerImg,
+      description:
+        'Un Bootcamp es un curso intensivo que te permitirá adquirir todos los conocimientos técnicos y experiencia práctica necesaria para empezar a trabajar en este sector sin necesidad de conocimientos previos. Durante el curso aprenderás a programar proyectos y aplicaciones Web utilizando HTML, CSS, Javascript...',
+      secondDescription: [
+        <p>
+          Codercrack ofrece un curso de desarrollo web front-end actual
+          y diseñado para enseñarte rápidamente a programar o a cambiar de
+          carrera. Obtendrás todas las habilidades necesarias para conseguir tu
+          primer trabajo como web developer front-end. No se requiere
+          experiencia en absoluto, puedes empezar hoy.
+        </p>,
+        <p>
+          Al adquirir nuevas habilidades, sabemos que la idoneidad y el coste de
+          la formación son importantes para ti. Por lo que hemos hecho que la
+          programación de este curso sea muy flexible junto con precios
+          competitivos y múltiples opciones de pago.
+        </p>,
+        <p>
+          Nuestro curso de desarrollador web front-end se basa principalmente en
+          la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,
+          HTML, JavaScript y otras tecnologías y frameworks modernos como React
+          o NodeJS. Tratamos todos los conocimientos fundamentales y habilidades
+          necesarias para que te conviertas en un experto del desarrollo web
+          front-end. Al final del curso, podrás diseñar fantásticas aplicaciones
+          web y fáciles de usar. Nuestros programas incluyen ejercicios reales.
+          Adquirirás rápidamente los conceptos básicos del desarrollo web
+          front-end para que puedas comenzar en tu primer trabajo y destacar.
+          Nuestros horarios también son flexibles, hay opciones de formación
+          disponibles entre semana y los fines de semana.
+        </p>,
+      ],
+    },
+    {
+      name: 'Bootcamp en desarrollo de aplicaciones web Back-end',
+      title: 'Bootcamp en desarrollo de aplicaciones web \n Back-end',
+      url: '/course-details',
+      id: 2,
+      iconName: 'mei-development',
+      format: 'Presencial Full/Part Time',
+      image: portfolio05,
+      price: 2500,
+      requirements: requirements,
+      specifications: specificationsBootcampBack,
+      discounts: discounts,
+      bannerImg: bannerImg,
+      description:
+        'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
+      secondDescription: [
+        <p>
+          En el Curso en desarrollo de aplicaciones web Back-End, el alumno
+          aprenderá a crear aplicaciones en tiempo real, desde cero y paso a
+          paso, desarrollando varios proyectos reales que nos permitirán aplicar
+          los conocimientos obtenidos durante las clases. Además, el programa
+          del Curso de Desarrollo Back-end está diseñado para que los alumnos
+          descubran la bases y fundamentos del desarrollo en el lado del
+          servidor y adquieran las capacidades necesarias para automatizar
+          tareas del día a día como la minificación y el testing. Los alumnos
+          aprenderán, también, todos los conceptos fundamentales del desarrollo
+          con APIs modernas para compartir datos con otros de una manera
+          eficiente (AJAX server-side), el uso de la terminal y la asincronía
+        </p>,
+        <h4>A quién va dirigido</h4>,
+        <p>
+          El curso está dirigido a cualquier persona interesada en el mundo de
+          la programación del lado del servidor, Back-end.
+        </p>,
+      ],
+    },
+    {
       name: 'Máster en desarrollo de aplicaciones web Full Stack',
       title: 'Máster en desarrollo de aplicaciones web \n Full Stack',
       url: '/course-details',
-      id: 1,
+      id: 3,
       iconName: 'mei-development-1',
       image: portfolio01,
       format: 'Presencial Full/Part Time',
       price: 5500,
       requirements: requirements,
+      specifications: specificationsMasterFull,
       discounts: discounts,
       bannerImg: bannerImg,
       description:
@@ -67,12 +190,13 @@ export const CoursesList = {
       name: 'Formación profesional en desarrollo web Front-end',
       title: 'Formación profesional en desarrollo web \n Front-end',
       url: '/course-details',
-      id: 2,
+      id: 4,
       iconName: 'mei-computer-graphic',
       format: 'Presencial Full/Part Time',
       image: portfolio02,
       price: 3500,
       requirements: requirements,
+      specifications: specificationsMasterFront,
       discounts: discounts,
       bannerImg: bannerImg,
       description:
@@ -107,12 +231,13 @@ export const CoursesList = {
       name: 'Formación profesional en desarrollo web Back-end',
       title: 'Formación profesional en desarrollo web \n Back-end',
       url: '/course-details',
-      id: 3,
+      id: 5,
       iconName: 'mei-web-design',
       format: 'Presencial Full/Part Time',
       image: portfolio03,
       price: 3500,
       requirements: requirements,
+      specifications: specificationsMasterBack,
       discounts: discounts,
       bannerImg: bannerImg,
       description:
@@ -155,92 +280,7 @@ export const CoursesList = {
         <li>Mentoring profesional</li>,
       ],
     },
-    {
-      name: 'Bootcamp en desarrollo de aplicaciones web Front-end',
-      title: 'Bootcamp en desarrollo de aplicaciones web \n Front-end',
-      url: '/course-details',
-      id: 4,
-      iconName: 'mei-app-development',
-      format: 'Presencial Full/Part Time',
-      image: portfolio04,
-      price: 2500,
-      requirements: requirements,
-      discounts: discounts,
-      bannerImg: bannerImg,
-      description:
-        'Ser el responsable del aspecto de las aplicaciones y las funcionalidades con las cuales interactúa el usuario es un gran reto, nosotros te ayudamos a que lo tengas bajo control.',
-      secondDescription: [
-        <p>
-          Codercrack ofrece un curso de desarrollo web front-end actual
-          y diseñado para enseñarte rápidamente a programar o a cambiar de
-          carrera. Obtendrás todas las habilidades necesarias para conseguir tu
-          primer trabajo como web developer front-end. No se requiere
-          experiencia en absoluto, puedes empezar hoy.
-        </p>,
-        <p>
-          Al adquirir nuevas habilidades, sabemos que la idoneidad y el coste de
-          la formación son importantes para ti. Por lo que hemos hecho que la
-          programación de este curso sea muy flexible junto con precios
-          competitivos y múltiples opciones de pago.
-        </p>,
 
-        // <p>
-        //   Obtén más información sobre nuestro curso de desarrollo web front-end.
-        //   ¡Si te inscribes hoy, te convertirás inmediatamente en parte de
-        //   nuestra familia Codercrack y te ayudaremos a alcanzar todas tus metas
-        //   profesionales! Elija entre realizar el curso en un campus de manera
-        //   presencial o de forma remota, según tus necesidades.
-        // </p>,
-        <p>
-          Nuestro curso de desarrollador web front-end se basa principalmente en
-          la práctica. Aprenderás a desarrollar sitios web interactivos con CSS,
-          HTML, JavaScript y otras tecnologías y frameworks modernos como React
-          o NodeJS. Tratamos todos los conocimientos fundamentales y habilidades
-          necesarias para que te conviertas en un experto del desarrollo web
-          front-end. Al final del curso, podrás diseñar fantásticas aplicaciones
-          web y fáciles de usar. Nuestros programas incluyen ejercicios reales.
-          Adquirirás rápidamente los conceptos básicos del desarrollo web
-          front-end para que puedas comenzar en tu primer trabajo y destacar.
-          Nuestros horarios también son flexibles, hay opciones de formación
-          disponibles entre semana y los fines de semana.
-        </p>,
-      ],
-    },
-    {
-      name: 'Bootcamp en desarrollo de aplicaciones web Back-end',
-      title: 'Bootcamp en desarrollo de aplicaciones web \n Back-end',
-      url: '/course-details',
-      id: 5,
-      iconName: 'mei-development',
-      format: 'Presencial Full/Part Time',
-      image: portfolio05,
-      price: 2500,
-      requirements: requirements,
-      discounts: discounts,
-      bannerImg: bannerImg,
-      description:
-        'Procesar datos recopilados en una interfaz, gestionar bases de datos, etc. son funciones propias del Back-End, es decir, del cerebro dentro de un proyecto web. ¿Quieres ser la pieza clave dentro del desarrollo web?',
-      secondDescription: [
-        <p>
-          En el Curso en desarrollo de aplicaciones web Back-End, el alumno
-          aprenderá a crear aplicaciones en tiempo real, desde cero y paso a
-          paso, desarrollando varios proyectos reales que nos permitirán aplicar
-          los conocimientos obtenidos durante las clases. Además, el programa
-          del Curso de Desarrollo Back-end está diseñado para que los alumnos
-          descubran la bases y fundamentos del desarrollo en el lado del
-          servidor y adquieran las capacidades necesarias para automatizar
-          tareas del día a día como la minificación y el testing. Los alumnos
-          aprenderán, también, todos los conceptos fundamentales del desarrollo
-          con APIs modernas para compartir datos con otros de una manera
-          eficiente (AJAX server-side), el uso de la terminal y la asincronía
-        </p>,
-        <h4>A quién va dirigido</h4>,
-        <p>
-          El curso está dirigido a cualquier persona interesada en el mundo de
-          la programación del lado del servidor, Back-end.
-        </p>,
-      ],
-    },
   ],
   editions: [
     { id: 1, name: 'Septiembre 2023' },
@@ -257,43 +297,43 @@ const apply_url = '/apply';
 
 export const PortfolioData = [
   {
-    title: CoursesList.courses[3].title,
+    title: CoursesList.courses[0].title,
     categories: ['Septiembre 2023'],
     image: portfolio04,
-    url: apply_url,
-    id: 4,
-    edition: 1,
-  },
-  {
-    title: CoursesList.courses[4].title,
-    categories: ['Octubre 2023'],
-    image: portfolio05,
-    url: apply_url,
-    id: 5,
-    edition: 1,
-  },
-  {
-    title: CoursesList.courses[0].title,
-    categories: ['Marzo 2024'],
-    image: portfolio01,
     url: apply_url,
     id: 1,
     edition: 1,
   },
   {
     title: CoursesList.courses[1].title,
-    categories: ['Marzo 2024'],
-    image: portfolio02,
+    categories: ['Abril 2024'],
+    image: portfolio05,
     url: apply_url,
     id: 2,
     edition: 1,
   },
   {
     title: CoursesList.courses[2].title,
-    categories: ['Abril 2024'],
-    image: portfolio03,
+    categories: ['Enero 2025'],
+    image: portfolio01,
     url: apply_url,
     id: 3,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[3].title,
+    categories: ['Enero 2025'],
+    image: portfolio02,
+    url: apply_url,
+    id: 4,
+    edition: 1,
+  },
+  {
+    title: CoursesList.courses[0].title,
+    categories: ['Abril 2025'],
+    image: portfolio03,
+    url: apply_url,
+    id: 4,
     edition: 1,
   },
 
@@ -302,7 +342,7 @@ export const PortfolioData = [
     categories: ['Abril 2024'],
     image: portfolio06,
     url: apply_url,
-    id: 6,
+    id: 5,
     edition: 2,
   }
 ];

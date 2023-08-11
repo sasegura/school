@@ -587,6 +587,8 @@ License URI:
   position: relative;
   overflow: hidden;
   margin: 0 0 30px;
+  justify-content: center;
+  display: flex;
 }
 .singlefolio:hover {
   cursor: pointer;
@@ -600,16 +602,16 @@ License URI:
   transition: all 0.4s ease-out; */
 }
 .folioHover {
-  visibility: visible;
   opacity: 1;
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 30px;
+  top: 112px;
   z-index: 3;
   transition: all ease 900ms;
   -moz-transition: all ease 900ms;
   -webkit-transition: all ease 900ms;
   -o-transition: all ease 900ms;
+
 }
 .singlefolio:after {
   position: absolute;
@@ -679,6 +681,46 @@ License URI:
 .singlefolio .folioHover h4 a:hover {
   color: #000;
 } */
+
+.specificationCourse{
+  width: 100%;
+  /*height: 80px;*/
+  margin-bottom: 40px;
+  background-color: #50aceb;
+  display: flex;
+  overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.specificationCourseCard{
+  /*border-left: 1px solid hsl(0deg 0% 99.21% / 30.2%);*/
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  flex: 1;
+  min-width: 110px;
+}
+
+.specificationCourseCard img{
+  margin-bottom: 0 !important;
+  max-width: 70px;
+}
+
+.logoSpec{
+  height: 70px;
+}
+
+.specificationCourseCard {
+  text-align: center;
+}
+
+.titleSpec{
+  color: #021b38;
+  margin: 0 !important;
+}
 
 /*----------------------------------------------------
 / 7. Fun Fact Section
@@ -1928,7 +1970,7 @@ License URI:
   color: #000;
 }
 .banner_content h2 {
-  font-size: 70px;
+  font-size: 65px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2.8px;
@@ -2072,9 +2114,6 @@ License URI:
 /*----------------------------------------------------
 / 22. Service Page
 ------------------------------------------------------*/
-.service_detail {
-  padding-bottom: 0px;
-}
 .serviceArea {
   position: relative;
 }

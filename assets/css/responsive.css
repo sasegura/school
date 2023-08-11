@@ -513,6 +513,22 @@ License URI:
     bottom: 20px;
     left: 20px;
   }  
+  .folioHover {
+    opacity: 1;
+    position: absolute;
+    left: 130px;
+    top: 112px;
+    z-index: 3;
+    transition: top ease 900ms;
+    -moz-transition: all ease 900ms;
+    -webkit-transition: all ease 900ms;
+    -o-transition: all ease 900ms;
+  
+  }
+  .folioHover {
+    left: 150px;
+  }
+  
 }
 
 /*------------------------------------------------------------------------------------
@@ -674,7 +690,7 @@ License URI:
     padding: 51px 0;
   }
   .banner_content h2 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .sidebar .widget_title {
     padding-left: 13px;
@@ -962,6 +978,10 @@ License URI:
   .videoWrap_2 .play_video h2 {
     font-size: 40px;
   }  
+  .folioHover {
+    left: 10px;
+    top: 95px;
+  }
 }
 /*---------------------------------------------------------------------------------------------------------
 / 4. Responsive For large Device. like: laptop and other large screen those have minimum 1200px resolution

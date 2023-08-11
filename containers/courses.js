@@ -13,9 +13,8 @@ const Courses = (props) => {
 
   return (
     <section
-      className={`commonSection ${
-        colorWhite ? 'courseWhiteSection' : 'service_section'
-      } `}
+      className={`commonSection ${colorWhite ? 'courseWhiteSection' : 'service_section'
+        } `}
     >
       <Container>
         {!colorWhite && (
@@ -28,24 +27,27 @@ const Courses = (props) => {
           </Row>
         )}
         <Row className="custom_column">
-          {courses.map(({ url, iconName, title, id } = data, index) => (
-            <Col key={index} lg={3} md={6} sm={12}>
-              <Link href={{ pathname: url, query: { id: id } }}>
-                <a className="icon_box_1 text-center">
-                  <div className="flipper">
-                    <div className={`front ${colorWhite && 'frontBlue'}`}>
-                      <i className={iconName}></i>
-                      <h3>{title}</h3>
+          {courses.map(({ url, iconName, title, id } = data, index) => {
+            console.log(url)
+            return (
+              <Col key={index} lg={3} md={6} sm={12}>
+                <Link href={{ pathname: url, query: { id: id } }}>
+                  <a className="icon_box_1 text-center">
+                    <div className="flipper">
+                      <div className={`front ${colorWhite && 'frontBlue'}`}>
+                        <i className={iconName}></i>
+                        <h3>{title}</h3>
+                      </div>
+                      <div className="back">
+                        <i className={iconName}></i>
+                        <h3>{title}</h3>
+                      </div>
                     </div>
-                    <div className="back">
-                      <i className={iconName}></i>
-                      <h3>{title}</h3>
-                    </div>
-                  </div>
-                </a>
-              </Link>
-            </Col>
-          ))}
+                  </a>
+                </Link>
+              </Col>
+            )
+          })}
         </Row>
       </Container>
     </section>
